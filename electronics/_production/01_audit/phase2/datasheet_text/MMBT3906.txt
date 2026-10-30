@@ -1,0 +1,565 @@
+                                                                       ON Semiconductor
+
+                                                                                            Is Now
+
+
+
+
+                            To learn more about onsemi™, please visit our website at
+                                              www.onsemi.com
+
+
+
+
+onsemi and                   and other names, marks, and brands are registered and/or common law trademarks of Semiconductor Components Industries, LLC dba “onsemi” or its affiliates and/or
+subsidiaries in the United States and/or other countries. onsemi owns the rights to a number of patents, trademarks, copyrights, trade secrets, and other intellectual property. A listing of onsemi
+product/patent coverage may be accessed at www.onsemi.com/site/pdf/Patent-Marking.pdf. onsemi reserves the right to make changes at any time to any products or information herein, without
+notice. The information herein is provided “as-is” and onsemi makes no warranty, representation or guarantee regarding the accuracy of the information, product features, availability, functionality,
+or suitability of its products for any particular purpose, nor does onsemi assume any liability arising out of the application or use of any product or circuit, and specifically disclaims any and all
+liability, including without limitation special, consequential or incidental damages. Buyer is responsible for its products and applications using onsemi products, including compliance with all laws,
+regulations and safety requirements or standards, regardless of any support or applications information provided by onsemi. “Typical” parameters which may be provided in onsemi data sheets and/
+or specifications can and do vary in different applications and actual performance may vary over time. All operating parameters, including “Typicals” must be validated for each customer application
+by customer’s technical experts. onsemi does not convey any license under any of its intellectual property rights nor the rights of others. onsemi products are not designed, intended, or authorized
+for use as a critical component in life support systems or any FDA Class 3 medical devices or medical devices with a same or similar classification in a foreign jurisdiction or any devices intended for
+implantation in the human body. Should Buyer purchase or use onsemi products for any such unintended or unauthorized application, Buyer shall indemnify and hold onsemi and its officers, employees,
+subsidiaries, affiliates, and distributors harmless against all claims, costs, damages, and expenses, and reasonable attorney fees arising out of, directly or indirectly, any claim of personal injury or death
+associated with such unintended or unauthorized use, even if such claim alleges that onsemi was negligent regarding the design or manufacture of the part. onsemi is an Equal Opportunity/Affirmative
+Action Employer. This literature is subject to all applicable copyright laws and is not for resale in any manner. Other names and brands may be claimed as the property of others.
+                                                                                                                                2N3906 / MMBT3906 / PZT3906 — PNP General-Purpose Amplifier
+    2N3906 / MMBT3906 / PZT3906
+    PNP General-Purpose Amplifier
+
+    Description
+    This device is designed for general-purpose amplifier
+    and switching applications at collector currents of 10 mA
+    to 100 mA.
+
+
+
+
+                          2N3906                         MMBT3906                          PZT3906
+                                                                                       C
+                                                         C
+
+
+                                                                                                          E
+                                                                      E
+                                                                                                     C
+                                     TO-92           SOT-23     B                     SOT-223   B
+                                                     Mark:2A
+                   EBC
+
+
+
+
+    Ordering Information
+         Part Number                    Marking           Package         Packing Method        Pack Quantity
+            2N3906BU                     2N3906           TO-92 3L             Bulk                   10000
+            2N3906TA                     2N3906           TO-92 3L            Ammo                       2000
+           2N3906TAR                     2N3906           TO-92 3L            Ammo                       2000
+            2N3906TF                     2N3906           TO-92 3L         Tape and Reel                 2000
+           2N3906TFR                     2N3906           TO-92 3L         Tape and Reel                 2000
+           MMBT3906                          2A          SOT-23 3L         Tape and Reel                 3000
+             PZT3906                       3906          SOT-223 4L        Tape and Reel                 2500
+
+
+
+
+© 2010 Semiconductor Components Industries, LLC.                                                    Publication Order Number:
+October-2017, Rev. 2                                                                                               PZT3906/D
+                                                                                                                      2N3906 / MMBT3906 / PZT3906 — PNP General-Purpose Amplifier
+Absolute Maximum Ratings(1)
+Stresses exceeding the absolute maximum ratings may damage the device. The device may not function or be opera-
+ble above the recommended operating conditions and stressing the parts to these levels is not recommended. In addi-
+tion, extended exposure to stresses above the recommended operating conditions may affect device reliability. The
+absolute maximum ratings are stress ratings only. Values are at TA = 25°C unless otherwise noted.
+
+  Symbol                                   Parameter                                      Value               Unit
+    VCEO      Collector-Emitter Voltage                                                     -40                V
+    VCBO      Collector-Base Voltage                                                        -40                V
+    VEBO      Emitter-Base Voltage                                                         -5.0                V
+     IC       Collector Current - Continuous                                               -200                mA
+  TJ, TSTG    Operating and Storage Junction Temperature Range                          -55 to +150            °C
+
+Note:
+1. These ratings are based on a maximum junction temperature of 150°C.
+   These are steady-state limits. ON Semiconductor should be consulted on applications involving pulsed or
+   low-duty cycle operations.
+
+
+Thermal Characteristics
+Values are at TA = 25°C unless otherwise noted.
+
+                                                                           Maximum
+   Symbol                      Parameter                                                                     Unit
+                                                             2N3906(3)    MMBT3906(2)      PZT3906(3)
+                Total Device Dissipation                           625         350            1,000           mW
+      PD
+                Derate Above 25°C                                  5.0          2.8               8.0        mW/°C
+     RθJC       Thermal Resistance, Junction to Case           83.3                                          °C/W
+     RθJA       Thermal Resistance, Junction to Ambient            200         357             125           °C/W
+
+Notes:
+2. Device is mounted on FR-4 PCB 1.6 inch X 1.6 inch X 0.06 inch.
+3. PCB size: FR-4, 76 mm x 114 mm x 1.57 mm (3.0 inch x 4.5 inch x 0.062 inch) with minimum land pattern size.
+
+
+
+
+                                                  www.onsemi.com
+                                                        2
+                                                                                                        2N3906 / MMBT3906 / PZT3906 — PNP General-Purpose Amplifier
+Electrical Characteristics
+Values are at TA = 25°C unless otherwise noted.
+
+  Symbol                  Parameter                         Conditions           Min.    Max.    Unit
+OFF CHARACTERISTICS
+              Collector-Emitter Breakdown
+  V(BR)CEO                                         IC = -1.0 mA, IB = 0          -40              V
+              Voltage(4)
+  V(BR)CBO    Collector-Base Breakdown Voltage IC = -10 μA, IE = 0               -40              V
+  V(BR)EBO    Emitter-Base Breakdown Voltage       IE = -10 μA, IC = 0           -5.0             V
+     IBL      Base Cut-Off Current                 VCE = -30 V, VBE = 3.0 V              -50     nA
+    ICEX      Collector Cut-Off Current            VCE = -30 V, VBE = 3.0 V              -50     nA
+ON CHARACTERISTICS
+                                                   IC = -0.1 mA, VCE = -1.0 V     60
+                                                   IC = -1.0 mA, VCE = -1.0 V     80
+     hFE      DC Current Gain(4)                   IC = -10 mA, VCE = -1.0 V     100     300
+                                                   IC = -50 mA, VCE = -1.0 V      60
+                                                   IC = -100 mA, VCE = -1.0V      30
+              Collector-Emitter Saturation         IC = -10 mA, IB = -1.0 mA             -0.25
+  VCE(sat)                                                                                        V
+              Voltage                              IC = -50 mA, IB = -5.0 mA             -0.40
+                                                   IC = -10 mA, IB = -1.0 mA     -0.65   -0.85
+  VBE(sat)    Base-Emitter Saturation Voltage                                                     V
+                                                   IC = -50 mA, IB = -5.0 mA             -0.95
+SMALL SIGNAL CHARACTERISTICS
+                                                   IC = -10 mA, VCE = -20 V,
+      fT      Current Gain - Bandwidth Product                                   250             MHz
+                                                   f = 100 MHz
+                                                   VCB = -5.0 V, IE = 0,
+    Cobo      Output Capacitance                                                         4.5     pF
+                                                   f = 100 kHz
+                                                   VEB = -0.5 V, IC = 0,
+    Cibo      Input Capacitance                                                          10.0    pF
+                                                   f = 100 kHz
+                                                   IC = -100 μA, VCE = -5.0 V,
+     NF       Noise Figure                         RS = 1.0 kΩ,                          4.0     dB
+                                                   f = 10 Hz to 15.7 kHz
+SWITCHING CHARACTERISTICS
+      td      Delay Time                           VCC = -3.0 V, VBE = -0.5 V             35      ns
+      tr      Rise Time                            IC = -10 mA, IB1 = -1.0 mA             35      ns
+      ts      Storage Time                         VCC = -3.0 V, IC = -10 mA,            225      ns
+      tf      Fall Time                            IB1 = IB2 = -1.0 mA                    75      ns
+
+Note:
+4. Pulse test: pulse width ≤ 300 μs, duty cycle ≤ 2.0%.
+
+
+
+
+                                                   www.onsemi.com
+                                                         3
+                                                                                                                                                                                                                                                            2N3906 / MMBT3906 / PZT3906 — PNP General-Purpose Amplifier
+Typical Performance Characteristics
+
+
+
+
+                                                                                                                                 V CESAT - COLLECTOR EMITTER VOLTAGE (V)
+             h F E - TYPICAL PULSED CURRENT GAIN
+                                                   250                                                                                                                           0.3
+                                                                                                     V CE = 1 .0V                                                                            β = 10
+                                                                     125 °C                                                                                            0.25
+                                                   200
+                                                                                                                                                                                 0.2
+
+                                                   150                                                                                                                 0.15                                                25 °C
+                                                                         25 °C
+                                                                                                                                                                                 0.1
+                                                   100                                                                                                                                                     125°C
+                                                                     - 40 °C
+                                                                                                                                                                       0.05
+                                                                                                                                                                                                                             - 40 °C
+
+                                                      50                                                                                                                             0
+                                                        0.1        0.2        0.5 1     2    5  10 20        50     100                                                                  1                   10               100                     200
+                                                                           I C - COLLECTOR CURRE NT (mA)                                                                                         I C - COLLECTOR CURRENT (mA)
+
+
+ Figure 1. Typical Pulsed Current Gain vs. Collector                                                                           Figure 2. Collector-Emitter Saturation Voltage vs.
+                       Current                                                                                                                 Collector Current
+
+
+
+
+              V BESAT - BASE EM ITTE R VOLTAGE (V)                                                                                       VBE( ON)- BASE EMITTER ON VOLTAGE (V)
+                                                                                                                                                                                  1
+                                                      1        β = 10
+                                                                                 - 40 °C
+                                                                                                                                                                             0.8
+                                                     0.8                                                                                                                                         - 40 °C
+                                                                                           25 °C
+                                                                                                   125 °C                                                                    0.6                                   25 °C
+                                                     0.6
+                                                                                                                                                                                                                                   125 °C
+                                                     0.4                                                                                                                     0.4
+
+                                                                                                                                                                                                                                       V CE = 1V
+                                                     0.2                                                                                                                     0.2
+
+
+                                                      0                                                                                                                           0
+                                                           1                          10                100         200                                                            0.1                       1              10                         25
+                                                                          I C - COLLECTOR CURRE NT (mA)                                                                                          I C - COLLECTOR CURRENT (mA)
+
+                                                     Figure 3. Base-Emitter Saturation Voltage                                                                                    Figure 4. Base-Emitter On Voltage vs.
+                                                                vs. Collector Current                                                                                                       Collector Current
+
+
+                                                   100
+
+
+
+
+   I CBO - COLLE CTOR CURRENT (nA)
+                                                               V     = 25V                                                                                                 10
+                                                               CB                                                                                                                                     C obo
+                                                      10                                                                                                                         8
+
+
+
+
+                                                                                                                                    CAPACITANCE (pF)
+                                                                                                                                                                                 6
+                                                       1
+                                                                                                                                                                                 4                                                                 C ibo
+
+                                                     0.1
+                                                                                                                                                                                 2
+
+                                                                                                                                                                                 0
+                                        0.01                                                                                                                                      0.1                            1                                     10
+                                            25                                50         75        100              125
+                                                                                                                                                                                                      REVERSE BIAS VOLTAGE (V)
+                                                                          TA - AMBIE NT TEMP ERATURE (° C)
+
+
+                                                       Figure 5. Collector Cut-Off Current vs.                               Figure 6. Common-Base Open Circuit Input and Out-
+                                                               Ambient Temperature                                                put Capacitance vs. Reverse Bias Voltage
+
+
+
+
+                                                                                                                    www.onsemi.com
+                                                                                                                          4
+                                                                                                                                                                                                                    2N3906 / MMBT3906 / PZT3906 — PNP General-Purpose Amplifier
+Typical Performance Characteristics (Continued)
+
+
+                                     6                                                                                                          12
+                                                                                       V CE = 5.0V                                                                                           V CE = 5.0V
+                                                                                                                                                                                             f = 1.0 kHz
+                                     5                                                                                                          10
+
+
+
+
+            NF - NOISE FIGURE (dB)                                                                                     NF - NOISE FIGURE (dB)
+                                                                                                                                                                      I C = 1.0 mA
+                                     4                                                                                                          8
+
+                                     3                                       I C = 100 μA, R S = 200Ω                                           6
+
+                                     2                                                                                                          4
+                                                                             I C = 1.0 mA, R S = 200Ω                                                                                          I C = 100 μA
+
+                                     1                                                                                                          2
+                                                                             I C = 100 μA, R S = 2.0 kΩ
+
+                                     0                                                                                                          0
+                                      0.1                        1             10                       100                                      0.1                         1            10                  100
+                                                               f - FREQUENCY (kHz)                                                                                    R S - SOURCE RESISTANCE ( kΩ )
+
+                                             Figure 7. Noise Figure vs. Frequency                                      Figure 8. Noise Figure vs. Source Resistance
+
+                                500                                                                                                   500
+
+
+                                                                                          ts                                                                                                    t off
+                                100                                                                                                   100
+
+
+
+   TIME (nS)                                                                                                        TIME (nS)
+                                                                                                                                                                        Ic
+                                                                                                                                                         t on I
+                                                                                           tf                                                                      B1 = 10
+                                                                                                                                                                                                t on
+
+                                                                                                                                                           VBE(OFF) = 0.5V
+                                     10                                                                                                         10
+                                                                                           tr
+                                                                   Ic                                                                                                          Ic
+                                                   I B1 = I B2 =                                                                                         t off I
+                                                                   10                                                                                              B1 = I B2 = 10
+                                                                                           td
+
+                                         1                                                                                                       1
+                                             1                      10                                  100                                          1                              10                        100
+                                                      I C - COLLECTOR CURRENT (mA)                                                                                   I    - COLLECTOR CURRENT (mA)
+
+  Figure 9. Switching Times vs. Collector Current                                                                                     Figure 10. Turn-On and Turn-Off Times vs.
+                                                                                                                                                   Collector Current
+
+                                         1
+
+
+
+
+   PD - POWER DISSIPATION (W)
+                                                                        SOT-223
+                                0.75
+                                                 TO-92
+
+                                     0.5
+                                                 SOT-23
+
+                                0.25
+
+
+
+                                         0
+                                             0        25           50    75     100         125           150
+                                                                   TEMPERATURE (o C)
+
+                                                 Figure 11. Power Dissipation vs.
+                                                      Ambient Temperature
+
+
+
+
+                                                                                                        www.onsemi.com
+                                                                                                              5
+                                                                                                                                                                                                             2N3906 / MMBT3906 / PZT3906 — PNP General-Purpose Amplifier
+Typical Performance Characteristics (Continued)
+
+                 )
+       _ 4
+                                                      100                                                                                           10
+
+
+
+
+                 h re - VOLTAGE FEEDBACK RATIO (x10
+                                                                                                                                                                                          VCE = 10 V
+                                                                                                                                                                                          f = 1.0 kHz
+
+
+
+
+                                                                                                                     h ie - INPUT IMPEDANCE (k Ω)
+                                                      10                                                                                             1
+
+
+
+
+                                                       1                                                                                            0.1
+                                                        0.1                      1                        10                                           0.1                    1                         10
+                                                                   I C - COLLECTOR CURRENT (mA)                                                                 I C - COLLECTOR CURRENT (mA)
+
+                                                            Figure 12. Voltage Feedback Ratio                                                                Figure 13. Input Impedance
+
+                                             1000                                                                                             1000
+
+
+
+
+  h oe - OUTPUT ADMITTANCE ( μmhos)
+                                                                                            V CE = 10 V                                                                                  V CE = 10 V
+                                                                                            f = 1.0 kHz                                                                                  f = 1.0 kHz
+                                                                                                                                                    500
+
+
+
+
+                                                                                                                       h fe - CURRENT GAIN
+                                                                                                                                                    200
+
+                                                      100                                                                                           100
+
+                                                                                                                                                     50
+
+
+                                                                                                                                                     20
+
+                                                       10                                                                                            10
+                                                         0.1                     1                    10                                               0.1                    1                    10
+                                                                   I C - COLLECTOR CURRENT (mA)                                                                 I C - COLLECTOR CURRENT (mA)
+
+                                                               Figure 14. Output Admittance                                                                   Figure 15. Current Gain
+
+
+
+
+                                                                                                          www.onsemi.com
+                                                                                                                6
+                                                                                                                                      2N3906 / MMBT3906 / PZT3906 — PNP General-Purpose Amplifier
+Physical Dimensions
+
+
+
+                                                   TO-92 (Bulk)
+
+
+
+
+                                                                                   D
+
+
+
+
+  Figure 16. 3-LEAD, TO92, JEDEC TO-92 COMPLIANT STRAIGHT LEAD CONFIGURATION (OLD TO92AM3)
+Package drawings are provided as a service to customers considering ON Semiconductor components. Drawings may change in
+any manner without notice. Please note the revision and/or date on the drawing and contact a ON Semiconductor representative to
+verify or obtain the most recent revision. Package specifications do not expand the terms of ON Semiconductor’s worldwide terms and
+conditions, specifically the warranty therein, which covers ON Semiconductor products.
+
+
+
+
+                                                       www.onsemi.com
+                                                             7
+                                                                                                                                      2N3906 / MMBT3906 / PZT3906 — PNP General-Purpose Amplifier
+Physical Dimensions (Continued)
+
+
+
+                               TO-92 (Ammo, Tape and Reel)
+
+
+
+
+             Figure 17. 3-LEAD, TO92, MOLDED 0.200 IN LINE SPACING LEAD FORM (J61Z OPTION)
+Package drawings are provided as a service to customers considering ON Semiconductor components. Drawings may change in
+any manner without notice. Please note the revision and/or date on the drawing and contact a ON Semiconductor representative to
+verify or obtain the most recent revision. Package specifications do not expand the terms of ON Semiconductor’s worldwide terms and
+conditions, specifically the warranty therein, which covers ON Semiconductor products.
+
+
+
+
+                                                        www.onsemi.com
+                                                              8
+                                                                                                                                      2N3906 / MMBT3906 / PZT3906 — PNP General-Purpose Amplifier
+Physical Dimensions (Continued)
+
+
+
+                                                         SOT-23
+
+                                       2.92±0.20                                            0.95
+
+                                                3
+                                                                                  1.40
+
+
+                                                              1.30+0.20
+                                                                  -0.15                                        2.20
+
+
+
+                                      1                  2
+                     (0.29)                                  0.60
+                                      0.95                   0.37
+                                                                    0.20      A B                              1.00
+                                          1.90                                                 1.90
+                                                                                           LAND PATTERN
+                                                                                         RECOMMENDATION
+
+                         1.20 MAX                                    SEE DETAIL A
+
+
+                         (0.93)                                     0.10
+                                                                    0.00
+                                                                           0.10     C
+                     C                                                                             2.40±0.30
+
+                                                                      NOTES: UNLESS OTHERWISE SPECIFIED
+                          GAGE PLANE
+                                                                           A) REFERENCE JEDEC REGISTRATION
+                                                                              TO-236, VARIATION AB, ISSUE H.
+                              0.23                                         B) ALL DIMENSIONS ARE IN MILLIMETERS.
+                              0.08                                         C) DIMENSIONS ARE INCLUSIVE OF BURRS,
+                                                             0.25            MOLD FLASH AND TIE BAR EXTRUSIONS.
+                                                                           D) DIMENSIONING AND TOLERANCING PER
+                                                                             ASME Y14.5M - 1994.
+                          0.20 MIN                       SEATING           E) DRAWING FILE NAME: MA03DREV10
+                                       (0.55)            PLANE
+
+
+
+                                             SCALE: 2X
+
+
+
+                                  Figure 18. 3-LEAD, SOT23, JEDEC TO-236, LOW PROFILE
+Package drawings are provided as a service to customers considering ON Semiconductor components. Drawings may change in
+any manner without notice. Please note the revision and/or date on the drawing and contact a ON Semiconductor representative to
+verify or obtain the most recent revision. Package specifications do not expand the terms of ON Semiconductor's worldwide terms and
+conditions, specifically the warranty therein, which covers ON Semiconductor products.
+
+
+
+
+                                                             www.onsemi.com
+                                                                   9
+                                                                                                                                      2N3906 / MMBT3906 / PZT3906 — PNP General-Purpose Amplifier
+Physical Dimensions (Continued)
+
+
+
+                                                    SOT-223 4L
+
+
+
+
+                                    Figure 19. MOLDED PACKAGE, SOT-223, 4-LEAD
+Package drawings are provided as a service to customers considering ON Semiconductor components. Drawings may change in
+any manner without notice. Please note the revision and/or date on the drawing and contact a ON Semiconductor representative to
+verify or obtain the most recent revision. Package specifications do not expand the terms of ON Semiconductor's worldwide terms and
+conditions, specifically the warranty therein, which covers ON Semiconductor products.
+
+
+
+
+                                                       www.onsemi.com
+                                                             10
+  ON Semiconductor and            are trademarks of Semiconductor Components Industries, LLC dba ON Semiconductor or its subsidiaries in the United States and/or other countries.
+  ON Semiconductor owns the rights to a number of patents, trademarks, copyrights, trade secrets, and other intellectual property. A listing of ON Semiconductor’s product/patent
+  coverage may be accessed at www.onsemi.com/site/pdf/Patent−Marking.pdf. ON Semiconductor reserves the right to make changes without further notice to any products herein.
+  ON Semiconductor makes no warranty, representation or guarantee regarding the suitability of its products for any particular purpose, nor does ON Semiconductor assume any liability
+  arising out of the application or use of any product or circuit, and specifically disclaims any and all liability, including without limitation special, consequential or incidental damages.
+  Buyer is responsible for its products and applications using ON Semiconductor products, including compliance with all laws, regulations and safety requirements or standards,
+  regardless of any support or applications information provided by ON Semiconductor. “Typical” parameters which may be provided in ON Semiconductor data sheets and/or
+  specifications can and do vary in different applications and actual performance may vary over time. All operating parameters, including “Typicals” must be validated for each customer
+  application by customer’s technical experts. ON Semiconductor does not convey any license under its patent rights nor the rights of others. ON Semiconductor products are not
+  designed, intended, or authorized for use as a critical component in life support systems or any FDA Class 3 medical devices or medical devices with a same or similar classification
+  in a foreign jurisdiction or any devices intended for implantation in the human body. Should Buyer purchase or use ON Semiconductor products for any such unintended or unauthorized
+  application, Buyer shall indemnify and hold ON Semiconductor and its officers, employees, subsidiaries, affiliates, and distributors harmless against all claims, costs, damages, and
+  expenses, and reasonable attorney fees arising out of, directly or indirectly, any claim of personal injury or death associated with such unintended or unauthorized use, even if such
+  claim alleges that ON Semiconductor was negligent regarding the design or manufacture of the part. ON Semiconductor is an Equal Opportunity/Affirmative Action Employer. This
+  literature is subject to all applicable copyright laws and is not for resale in any manner.
+
+
+PUBLICATION ORDERING INFORMATION
+LITERATURE FULFILLMENT:                                                  N. American Technical Support: 800−282−9855 Toll Free              ON Semiconductor Website: www.onsemi.com
+ Literature Distribution Center for ON Semiconductor                      USA/Canada
+ 19521 E. 32nd Pkwy, Aurora, Colorado 80011 USA                          Europe, Middle East and Africa Technical Support:                  Order Literature: http://www.onsemi.com/orderlit
+ Phone: 303−675−2175 or 800−344−3860 Toll Free USA/Canada                 Phone: 421 33 790 2910
+ Fax: 303−675−2176 or 800−344−3867 Toll Free USA/Canada                  Japan Customer Focus Center                                        For additional information, please contact your local
+ Email: orderlit@onsemi.com                                               Phone: 81−3−5817−1050                                             Sales Representative
+
+
+❖ © Semiconductor Components Industries, LLC                                                                                                                               www.onsemi.com
+

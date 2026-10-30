@@ -1,0 +1,45 @@
+{
+  "checked_date": "2026-10-29",
+  "source_tools": [
+    "mcp__kicad__kicad_get_version",
+    "mcp__kicad__kicad_get_server_info",
+    "mcp__kicad__kicad_get_project_info"
+  ],
+  "version_response": {
+    "result": "# KiCad MCP Pro Server v4.4.0\nCLI path: /usr/bin/kicad-cli\nCLI version: unavailable\nIPC connection: unavailable\n\nUse `kicad_set_project()` to configure an active project."
+  },
+  "project_response": {
+    "result": "Current project configuration:\n- Project directory: /home/pooo/.codex/.chatgpt-projects/g-p-6ad4d797e17c8191863adbe1f58db299/output/smart-go-validation/grid3x3\n- Project file: /home/pooo/.codex/.chatgpt-projects/g-p-6ad4d797e17c8191863adbe1f58db299/output/smart-go-validation/grid3x3/grid3x3.kicad_pro\n- Resolved project: /home/pooo/.codex/.chatgpt-projects/g-p-6ad4d797e17c8191863adbe1f58db299/output/smart-go-validation/grid3x3/grid3x3.kicad_pro\n- PCB file: /home/pooo/.codex/.chatgpt-projects/g-p-6ad4d797e17c8191863adbe1f58db299/output/smart-go-validation/grid3x3/grid3x3.kicad_pcb\n- Schematic file: /home/pooo/.codex/.chatgpt-projects/g-p-6ad4d797e17c8191863adbe1f58db299/output/smart-go-validation/grid3x3/grid3x3.kicad_sch\n- Output directory: /home/pooo/.codex/.chatgpt-projects/g-p-6ad4d797e17c8191863adbe1f58db299/output/smart-go-validation/grid3x3/output\n- KiCad CLI: /usr/bin/kicad-cli (missing)\n- Server profile: review\n- Experimental tools: False"
+  },
+  "server": "kicad-mcp-pro",
+  "version": "4.4.0",
+  "kicad": {
+    "cliFound": false,
+    "cliPath": "/usr/bin/kicad-cli",
+    "cliVersion": null,
+    "ipcAvailable": false,
+    "ipcVersion": null,
+    "ipcApiVersion": null,
+    "ipcMajorVersion": null,
+    "ipcEndpointSource": "default",
+    "livePcbContext": false,
+    "liveSchematicContext": false,
+    "headlessIpcRequested": false,
+    "headlessIpcAvailable": false,
+    "ipcDocumentLoaded": false
+  },
+  "operating_mode": "readonly",
+  "capabilities": {
+    "fileBackedDrc": false,
+    "fileBackedErc": false,
+    "fileBackedExports": false,
+    "livePcbRead": false,
+    "livePcbWrite": false,
+    "liveSchematicRead": false,
+    "liveSchematicWrite": false
+  },
+  "diagnostics": [
+    "KiCad CLI is unavailable; file-backed DRC/ERC/export operations are disabled.",
+    "KiCad IPC is unavailable: Failed to connect to KiCad IPC: Failed to connect to KiCad: Connection refused"
+  ]
+}

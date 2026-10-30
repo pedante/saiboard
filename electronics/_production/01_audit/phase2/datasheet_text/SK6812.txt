@@ -1,0 +1,265 @@
+LED COLOR
+    SK6812
+                                                    Technical Data Sheet
+
+
+
+  Product Overview
+    SK6812 is a set of smart control circuit and a light emitting circuit in
+  one of the controlled LED source. The outer type is the same with a
+  5050LED chip, each element is a pixel. Pixels contained within the
+  intelligent digital interface data latch signal shaping amplification circuit,
+  power supply circuit, a built-in constant current circuit, high precision
+  RC oscillator, the output is driven by the patented PWM technology,
+  effectively guarantee the pixels in the color of the light high consistency.
+    Data protocol using unipolar NRZ communication mode, the pixel is
+  reset after the end of DIN, accept the data transmitted from the
+  controller to the 24bit, the first to send data by the first pixel to pixel
+  extraction, internal data latch, the remaining data after the internal
+  plastic the processing circuit after shaping amplification through the
+  DO port output began to turn to the next cascade of pixels, each pixel
+  through a transmission signal, reduce. Pixel using automatic shaping
+  forwarding technology, makes the number of cascade without signal
+  transmission limit of the pixel, only limited signal transmission speed.
+  The
+    LED has a low driving voltage, environmental protection and energy
+  saving, high brightness, scattering angle, good consistency, low power,
+  long life and so on. The control circuit is integrated in the LED above,
+  more simple circuit, small volume, easy installation.
+  Main Application Field:
+  ● Full color LED string light, LED full color module, LED super hard
+  and soft lights, LED guardrail tube, LED appearance / scene lighting
+  ● LED point light, LED pixel screen, LED shaped screen, a variety of
+  electronic products, electrical equipment etc..
+
+
+     1/7                                  Document No.: SPC / SK6812   Rev. No.: 01
+
+
+
+                                                      www.szledcolor.com
+LED COLOR
+     SK6812
+                                                    Technical Data Sheet
+
+
+  Description:
+  ● Top SMD internal integrated high quality external control line serial
+  cascade constant current IC;
+  ● control circuit and the RGB chip in SMD 5050 components, to form a
+  complete control of pixel, color mixing uniformity and consistency;
+  ●built-in data shaping circuit, a pixel signal is received after wave
+  shaping and output waveform distortion will not guarantee a line;
+  ●The built-in power on reset and reset circuit, the power does not work;
+  ●gray level adjusting circuit (256 level gray scale adjustable);
+  ● red drive special treatment, color balance;
+  ● line data transmission;
+  ● plastic forward strengthening technology, the transmission distance
+  between two points over 10M;
+  ●data transmission frequency up to 800Kbps, when the refresh rate of 30
+  frames per second, a cascade of not less than 1024;
+  ● built-in powerpolarity protection module, powerpolarity will not damage.
+
+ Mechanical Product Size (unit mm):
+
+
+
+
+       2/7                                Document No.: SPC / SK6812   Rev. No.: 01
+
+
+
+                                                                 www.szledcolor.com
+LED COLOR
+    SK6812
+                                                      Technical Data Sheet
+
+ Mechanical Size and Pin Map (unit mm):
+
+
+
+
+ Pin Function:
+  Item       Symbol     Pin Name                   Function description
+
+    1          VSS         Ground     The signal and power supply and
+                                                 grounding
+    2          DIN      Data Input             control signal input data
+    3          VDD         Power                       power supply pin
+    4         DOUT          Data              control signal output data
+                           Output
+ The electrical parameters (limit parameters, Ta=25 C, VSS=0V):
+            Parameter               Symbol                      Range                   Unit
+           Input voltage             VIN                           +5                    V
+
+    Logic input voltage               VI              -0.5～VDD+5.5                       V
+   Working temperature               Topt                     -40~+85                   ℃
+
+   Storage temperature               Tstg                    -50~+150                   ℃
+        EST pressure                 VESD                           4K                   V
+
+     3/7                                    Document No.: SPC / SK6812   Rev. No.: 01
+
+
+
+                                                               www.szledcolor.com
+LED COLOR
+     SK6812
+                                                               Technical Data Sheet
+
+  The electrical parameters (such as no special instructions, TA=-
+  20 ~ +70 ~ 5.5V C, VDD=4.5, VSS=0V):
+                                                     Typic                                          Test
+     Parmeter          Symbol            Min                      Max             Unit
+                                                       al                                         conditions
+  The chip supply
+                            VDD          ---          5.2                           V                 ---
+      voltage
+    R/G/B port        VDS,MA
+                                         ---          ---           26             V                  ---
+     pressure           X
+                                                                                                 DOUT conect
+                                                                                                  ground, the
+                        IDOH             ---          49             ---          mA
+                                                                                                   maximum
+    DOUT drive                                                                                   drive current
+    capability
+                                                                                                 DOUT conect
+                            IDOL         ---          -50            ---          mA             +, the largest
+                                                                                                     current
+
+  The signal input          VIH          ---          3.4           ---
+                                                                                                  VDD=5.0V
+   flip threshold           VIL          ---          1.6           ---
+   The frequency
+                        FPWM             ---          1.2            ---          KHZ                 ---
+      of PWM
+   Static power
+                            IDD          ---           1             ---          mA                  ---
+   consumption
+
+ The dynamic parameters (Ta=25 C):
+                     Symb                  Typic
+   Parameter                       Min                     Max             Unit            Test conditions
+                       ol                    al
+  The speed of
+                                                                                         The duty ratio of
+       data          fDIN          ---         800          ---            KHZ
+                                                                                           67% (data 1)
+   transmission
+     DOUT            TPLZ          ---         ---          500            ns
+  transmission                                                                                   DIN→DOUT
+     delay           TPLZ          ---         ---          500            ns
+      4/7                                            Document No.: SPC / SK6812   Rev. No.: 01
+
+
+
+                                                                        www.szledcolor.com
+LED COLOR
+    SK6812
+                                                   Technical Data Sheet
+
+
+
+
+ RGB chip characteristic parameters:
+
+                                       Luminous                                   Working
+   Color    Wavelength(nm)
+                                    intensity(mcd)                               voltage(v)
+
+   Red           620-625                    700-1000                                 2.0-2.2
+
+  Green         522.5-525                  1500-2200                                 3.0-3.3
+
+   Blue         467.5-470                   700-1000                                 3.0-3.3
+
+ The data transmission time (TH+TL=1.25µs±600ns):
+
+     T0H       0 code, high level time             0.3µs                       ±0.15µs
+
+     T1H       1 code, high level time             0.6µs                       ±0.15µs
+
+     T0L       0 code, low level time              0.9µs                       ±0.15µs
+
+               1 code, low level time
+     T1L                                           0.6µs                       ±0.15µs
+
+     Trst    Reset code，low level time             80µs
+
+
+     5/7                                 Document No.: SPC / SK6812   Rev. No.: 01
+
+
+
+
+                                                       www.szledcolor.com
+LED COLOR
+     SK6812
+                                                                       Technical Data Sheet
+
+
+  Timing waveform:
+   Input code:                                                Connection mode:
+
+                                                             D1                 D2                   D3              D4
+                                                                     DIN DO               DIN DO           DIN DO
+
+                                                                      PIX1                PIX2             PIX3
+
+
+
+
+  The method of data transmission:
+                                                       reset code
+                                                        >=50us                                                reset
+                                                                                                              code
+
+                  Data refresh cycle 1                             Data refresh cycle 2
+                               seco n d                                           seco n d
+              first 2 4 b it               th ird 2 4 b it     first 2 4 b it                      th ird 2 4 b it
+   D1                           2 4 b it                                           2 4 b it
+
+
+
+                               seco n d                                           seco n d
+                                           th ird 2 4 b it                                         th ird 2 4 b it
+   D2                           2 4 b it                                           2 4 b it
+
+
+
+
+                                           th ird 2 4 b it                                        th ird 2 4 b it
+   D3
+
+
+
+   D4
+
+  Note: the D1 sends data for MCU, D2, D3, D4 for data forwarding
+  automatic shaping cascade circuit.
+  The data structure of 24bit:
+   G7 G6 G5 G4 G3 G2 G1 G0 R7                                                                   R6         R5        R4
+
+   R3          R2        R1        R0        B7         B6   B5        B4          B3           B2         B1        B0
+  Note: high starting, in order to send data (G7 - G6 - ...... ..B0)
+        6/7                                                  Document No.: SPC / SK6812    Rev. No.: 01
+
+
+
+                                                                             www.szledcolor.com
+LED COLOR
+   SK6812
+                                        Technical Data Sheet
+
+ The typical application circuit:
+
+
+
+
+    7/7                       Document No.: SPC / SK6812   Rev. No.: 01
+
+
+
+                                             www.szledcolor.com
+

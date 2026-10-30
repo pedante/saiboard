@@ -1,0 +1,21 @@
+{
+  "mode": "baseline",
+  "design": "8x8",
+  "kind": "netlist",
+  "command": [
+    "/usr/bin/flatpak",
+    "run",
+    "--command=kicad-cli",
+    "org.kicad.KiCad",
+    "sch",
+    "export",
+    "netlist",
+    "-o",
+    "/home/pooo/Desktop/sailboard boards/saiboard-main/electronics/_production/01_audit/phase2/native/baseline/8x8/netlist.net",
+    "/home/pooo/Desktop/sailboard boards/saiboard-main/electronics/_production/01_audit/phase2/copies/baseline/8x8/8x8.kicad_sch"
+  ],
+  "returncode": 0,
+  "seconds": 0.47,
+  "stdout": "",
+  "stderr": ""
+}

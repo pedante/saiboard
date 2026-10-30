@@ -1,0 +1,3598 @@
+{
+  "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm": {
+    "example": "11x3/D1",
+    "props": {
+      "Reference": "D1",
+      "Value": "SKC6812RGBW-WS",
+      "Footprint": "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm",
+      "Datasheet": "https://datasheet.lcsc.com/datasheet/pdf/f73fcb028ddf7140b2dbd34804e8ce40.pdf?productCode=C5378724",
+      "Manufacturer": "OPSCO Optoelectronics",
+      "MPN": "SKC6812RGBW-WS",
+      "LCSC": "C5378724",
+      "AssemblyStatus": "Applied-provisional - CHG-004; Phase 3 verification required"
+    },
+    "pads": [
+      {
+        "n": "1",
+        "shape": "rect",
+        "at": [
+          "2.45",
+          "1.6",
+          "180"
+        ],
+        "size": [
+          "1.5",
+          "1"
+        ],
+        "drill": [],
+        "function": [
+          "VSS"
+        ],
+        "net": [
+          "10",
+          "GND"
+        ]
+      },
+      {
+        "n": "2",
+        "shape": "rect",
+        "at": [
+          "2.45",
+          "-1.6",
+          "180"
+        ],
+        "size": [
+          "1.5",
+          "1"
+        ],
+        "drill": [],
+        "function": [
+          "DIN"
+        ],
+        "net": [
+          "6",
+          "Net-(D1-Pad2)"
+        ]
+      },
+      {
+        "n": "3",
+        "shape": "rect",
+        "at": [
+          "-2.45",
+          "-1.6",
+          "180"
+        ],
+        "size": [
+          "1.5",
+          "1"
+        ],
+        "drill": [],
+        "function": [
+          "VDD"
+        ],
+        "net": [
+          "1",
+          "P"
+        ]
+      },
+      {
+        "n": "4",
+        "shape": "rect",
+        "at": [
+          "-2.45",
+          "1.6",
+          "180"
+        ],
+        "size": [
+          "1.5",
+          "1"
+        ],
+        "drill": [],
+        "function": [
+          "DOUT"
+        ],
+        "net": [
+          "3",
+          "Net-(D1-Pad4)"
+        ]
+      }
+    ],
+    "symbol_pins": [
+      [
+        "1",
+        "VSS"
+      ],
+      [
+        "2",
+        "DIN"
+      ],
+      [
+        "3",
+        "VDD"
+      ],
+      [
+        "4",
+        "DOUT"
+      ]
+    ]
+  },
+  "Package_TO_SOT_SMD:SOT-23": {
+    "example": "11x3/U1",
+    "props": {
+      "Reference": "U1",
+      "Value": "AH49E",
+      "Footprint": "Package_TO_SOT_SMD:SOT-23",
+      "Datasheet": "https://www.diodes.com/assets/Datasheets/AH49E.pdf"
+    },
+    "pads": [
+      {
+        "n": "1",
+        "shape": "rect",
+        "at": [
+          "-1",
+          "-0.95",
+          "90"
+        ],
+        "size": [
+          "0.9",
+          "0.8"
+        ],
+        "drill": [],
+        "function": [
+          "VCC"
+        ],
+        "net": [
+          "42",
+          "PQ1"
+        ]
+      },
+      {
+        "n": "2",
+        "shape": "rect",
+        "at": [
+          "-1",
+          "0.95",
+          "90"
+        ],
+        "size": [
+          "0.9",
+          "0.8"
+        ],
+        "drill": [],
+        "function": [
+          "OUT"
+        ],
+        "net": [
+          "50",
+          "HallOut1"
+        ]
+      },
+      {
+        "n": "3",
+        "shape": "rect",
+        "at": [
+          "1",
+          "0",
+          "90"
+        ],
+        "size": [
+          "0.9",
+          "0.8"
+        ],
+        "drill": [],
+        "function": [
+          "GND"
+        ],
+        "net": [
+          "58",
+          "AGND"
+        ]
+      }
+    ],
+    "symbol_pins": [
+      [
+        "1",
+        "VCC"
+      ],
+      [
+        "2",
+        "OUT"
+      ],
+      [
+        "3",
+        "GND"
+      ]
+    ]
+  },
+  "Capacitor_SMD:C_1206_3216Metric": {
+    "example": "11x3/C1",
+    "props": {
+      "Reference": "C1",
+      "Value": "C104",
+      "Footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "Datasheet": "~"
+    },
+    "pads": [
+      {
+        "n": "1",
+        "shape": "roundrect",
+        "at": [
+          "-1.475",
+          "0",
+          "180"
+        ],
+        "size": [
+          "1.15",
+          "1.8"
+        ],
+        "drill": [],
+        "function": [],
+        "net": [
+          "1",
+          "P"
+        ]
+      },
+      {
+        "n": "2",
+        "shape": "roundrect",
+        "at": [
+          "1.475",
+          "0",
+          "180"
+        ],
+        "size": [
+          "1.15",
+          "1.8"
+        ],
+        "drill": [],
+        "function": [],
+        "net": [
+          "10",
+          "GND"
+        ]
+      }
+    ],
+    "symbol_pins": [
+      [
+        "1",
+        "~"
+      ],
+      [
+        "2",
+        "~"
+      ]
+    ]
+  },
+  "MountingHole:MountingHole_3mm": {
+    "example": "11x3/M6",
+    "props": {},
+    "pads": [
+      {
+        "n": "",
+        "shape": "circle",
+        "at": [
+          "0",
+          "0"
+        ],
+        "size": [
+          "3",
+          "3"
+        ],
+        "drill": [
+          "3"
+        ],
+        "function": [],
+        "net": []
+      }
+    ],
+    "symbol_pins": []
+  },
+  "Resistor_SMD:R_1206_3216Metric": {
+    "example": "11x3/R9",
+    "props": {
+      "Reference": "R9",
+      "Value": "330",
+      "Footprint": "Resistor_SMD:R_1206_3216Metric",
+      "Datasheet": "~"
+    },
+    "pads": [
+      {
+        "n": "1",
+        "shape": "roundrect",
+        "at": [
+          "-1.4625",
+          "0",
+          "270"
+        ],
+        "size": [
+          "1.125",
+          "1.75"
+        ],
+        "drill": [],
+        "function": [],
+        "net": [
+          "101",
+          "Q9"
+        ]
+      },
+      {
+        "n": "2",
+        "shape": "roundrect",
+        "at": [
+          "1.4625",
+          "0",
+          "270"
+        ],
+        "size": [
+          "1.125",
+          "1.75"
+        ],
+        "drill": [],
+        "function": [],
+        "net": [
+          "98",
+          "Net-(Q9-Pad1)"
+        ]
+      }
+    ],
+    "symbol_pins": [
+      [
+        "1",
+        "~"
+      ],
+      [
+        "2",
+        "~"
+      ]
+    ]
+  },
+  "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal_SMD": {
+    "example": "11x3/J26",
+    "props": {
+      "Reference": "J26",
+      "Value": "PQ_bottom_side_b",
+      "Footprint": "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal_SMD",
+      "Datasheet": "~"
+    },
+    "pads": [
+      {
+        "n": "1",
+        "shape": "rect",
+        "at": [
+          "-4.78",
+          "-2.59"
+        ],
+        "size": [
+          "3.2",
+          "1.02"
+        ],
+        "drill": [],
+        "function": [
+          "Pin_1"
+        ],
+        "net": [
+          "76",
+          "PQ9"
+        ]
+      },
+      {
+        "n": "2",
+        "shape": "rect",
+        "at": [
+          "-4.78",
+          "-0.05"
+        ],
+        "size": [
+          "3.2",
+          "1.02"
+        ],
+        "drill": [],
+        "function": [
+          "Pin_2"
+        ],
+        "net": [
+          "75",
+          "PQ10"
+        ]
+      },
+      {
+        "n": "3",
+        "shape": "rect",
+        "at": [
+          "-4.78",
+          "2.49"
+        ],
+        "size": [
+          "3.2",
+          "1.02"
+        ],
+        "drill": [],
+        "function": [
+          "Pin_3"
+        ],
+        "net": [
+          "74",
+          "PQ11"
+        ]
+      }
+    ],
+    "symbol_pins": [
+      [
+        "1",
+        "Pin_1"
+      ],
+      [
+        "2",
+        "Pin_2"
+      ],
+      [
+        "3",
+        "Pin_3"
+      ]
+    ]
+  },
+  "Capacitor_SMD:CP_Elec_10x10.5": {
+    "example": "11x3/CP1",
+    "props": {
+      "Reference": "CP1",
+      "Value": "1000 \u00b5F",
+      "Footprint": "Capacitor_SMD:CP_Elec_10x10.5",
+      "Datasheet": "~"
+    },
+    "pads": [
+      {
+        "n": "1",
+        "shape": "roundrect",
+        "at": [
+          "-4.2",
+          "0"
+        ],
+        "size": [
+          "4.4",
+          "2.5"
+        ],
+        "drill": [],
+        "function": [],
+        "net": [
+          "1",
+          "P"
+        ]
+      },
+      {
+        "n": "2",
+        "shape": "roundrect",
+        "at": [
+          "4.2",
+          "0"
+        ],
+        "size": [
+          "4.4",
+          "2.5"
+        ],
+        "drill": [],
+        "function": [],
+        "net": [
+          "10",
+          "GND"
+        ]
+      }
+    ],
+    "symbol_pins": [
+      [
+        "1",
+        "~"
+      ],
+      [
+        "2",
+        "~"
+      ]
+    ]
+  },
+  "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal_SMD": {
+    "example": "11x3/J22",
+    "props": {
+      "Reference": "J22",
+      "Value": "Touch_side_b",
+      "Footprint": "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal_SMD",
+      "Datasheet": "~"
+    },
+    "pads": [
+      {
+        "n": "1",
+        "shape": "rect",
+        "at": [
+          "-4.78",
+          "-1.27"
+        ],
+        "size": [
+          "3.2",
+          "1.02"
+        ],
+        "drill": [],
+        "function": [
+          "Pin_1"
+        ],
+        "net": [
+          "86",
+          "unconnected-(J22-Pad1)"
+        ]
+      },
+      {
+        "n": "2",
+        "shape": "rect",
+        "at": [
+          "-4.78",
+          "1.27"
+        ],
+        "size": [
+          "3.2",
+          "1.02"
+        ],
+        "drill": [],
+        "function": [
+          "Pin_2"
+        ],
+        "net": [
+          "58",
+          "AGND"
+        ]
+      }
+    ],
+    "symbol_pins": [
+      [
+        "1",
+        "Pin_1"
+      ],
+      [
+        "2",
+        "Pin_2"
+      ]
+    ]
+  },
+  "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Horizontal_SMD": {
+    "example": "11x3/J2",
+    "props": {
+      "Reference": "J2",
+      "Value": "IC_top_1",
+      "Footprint": "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Horizontal_SMD",
+      "Datasheet": ""
+    },
+    "pads": [
+      {
+        "n": "1",
+        "shape": "rect",
+        "at": [
+          "4.78",
+          "1.24",
+          "270"
+        ],
+        "size": [
+          "2.6",
+          "1.02"
+        ],
+        "drill": [],
+        "function": [
+          "Pin_1"
+        ],
+        "net": [
+          "35",
+          "E"
+        ]
+      },
+      {
+        "n": "2",
+        "shape": "rect",
+        "at": [
+          "4.78",
+          "-1.3",
+          "270"
+        ],
+        "size": [
+          "2.6",
+          "1.02"
+        ],
+        "drill": [],
+        "function": [
+          "Pin_2"
+        ],
+        "net": [
+          "34",
+          "A2"
+        ]
+      }
+    ],
+    "symbol_pins": [
+      [
+        "1",
+        "Pin_1"
+      ],
+      [
+        "2",
+        "Pin_2"
+      ]
+    ]
+  },
+  "Package_TO_SOT_SMD:SOT-23-5": {
+    "example": "11x3/UI3",
+    "props": {
+      "Reference": "UI3",
+      "Value": "SN74LV1T34",
+      "Footprint": "Package_TO_SOT_SMD:SOT-23-5",
+      "Datasheet": "https://www.ti.com/lit/ds/symlink/sn74lv1t34.pdf"
+    },
+    "pads": [
+      {
+        "n": "1",
+        "shape": "roundrect",
+        "at": [
+          "-1.1375",
+          "0.95",
+          "90"
+        ],
+        "size": [
+          "1.325",
+          "0.6"
+        ],
+        "drill": [],
+        "function": [
+          "NC"
+        ],
+        "net": [
+          "109",
+          "unconnected-(UI3-Pad1)"
+        ]
+      },
+      {
+        "n": "2",
+        "shape": "roundrect",
+        "at": [
+          "-1.1375",
+          "0",
+          "90"
+        ],
+        "size": [
+          "1.325",
+          "0.6"
+        ],
+        "drill": [],
+        "function": [
+          "A"
+        ],
+        "net": [
+          "92",
+          "First_LedIn_3V"
+        ]
+      },
+      {
+        "n": "3",
+        "shape": "roundrect",
+        "at": [
+          "-1.1375",
+          "-0.95",
+          "90"
+        ],
+        "size": [
+          "1.325",
+          "0.6"
+        ],
+        "drill": [],
+        "function": [
+          "GND"
+        ],
+        "net": [
+          "10",
+          "GND"
+        ]
+      },
+      {
+        "n": "4",
+        "shape": "roundrect",
+        "at": [
+          "1.1375",
+          "-0.95",
+          "90"
+        ],
+        "size": [
+          "1.325",
+          "0.6"
+        ],
+        "drill": [],
+        "function": [
+          "Y"
+        ],
+        "net": [
+          "110",
+          "Net-(RI1-Pad1)"
+        ]
+      },
+      {
+        "n": "5",
+        "shape": "roundrect",
+        "at": [
+          "1.1375",
+          "0.95",
+          "90"
+        ],
+        "size": [
+          "1.325",
+          "0.6"
+        ],
+        "drill": [],
+        "function": [
+          "VCC"
+        ],
+        "net": [
+          "1",
+          "P"
+        ]
+      }
+    ],
+    "symbol_pins": [
+      [
+        "1",
+        "NC"
+      ],
+      [
+        "2",
+        "A"
+      ],
+      [
+        "3",
+        "GND"
+      ],
+      [
+        "4",
+        "Y"
+      ],
+      [
+        "5",
+        "VCC"
+      ]
+    ]
+  },
+  "TerminalBlock_WAGO:Wago_2601-602": {
+    "example": "11x3/J32",
+    "props": {
+      "Reference": "J32",
+      "Value": "Power_Terminal",
+      "Footprint": "TerminalBlock_WAGO:Wago_2601-602",
+      "Datasheet": "https://cdn-reichelt.de/documents/datenblatt/C160/WAGO_2061-6_DB.pdf~"
+    },
+    "pads": [
+      {
+        "n": "1",
+        "shape": "rect",
+        "at": [
+          "5.5",
+          "0",
+          "90"
+        ],
+        "size": [
+          "4.5",
+          "2.4"
+        ],
+        "drill": [],
+        "function": [
+          "Pin_1"
+        ],
+        "net": [
+          "1",
+          "P"
+        ]
+      },
+      {
+        "n": "1",
+        "shape": "rect",
+        "at": [
+          "-6",
+          "0",
+          "90"
+        ],
+        "size": [
+          "6.5",
+          "2.1"
+        ],
+        "drill": [],
+        "function": [
+          "Pin_1"
+        ],
+        "net": [
+          "1",
+          "P"
+        ]
+      },
+      {
+        "n": "2",
+        "shape": "rect",
+        "at": [
+          "5.5",
+          "6",
+          "90"
+        ],
+        "size": [
+          "4.5",
+          "2.4"
+        ],
+        "drill": [],
+        "function": [
+          "Pin_2"
+        ],
+        "net": [
+          "10",
+          "GND"
+        ]
+      },
+      {
+        "n": "2",
+        "shape": "rect",
+        "at": [
+          "-6",
+          "6",
+          "90"
+        ],
+        "size": [
+          "6.5",
+          "2.1"
+        ],
+        "drill": [],
+        "function": [
+          "Pin_2"
+        ],
+        "net": [
+          "10",
+          "GND"
+        ]
+      }
+    ],
+    "symbol_pins": [
+      [
+        "1",
+        "Pin_1"
+      ],
+      [
+        "2",
+        "Pin_2"
+      ]
+    ]
+  },
+  "Connector_PinSocket_2.54mm:PinSocket_2x22_P2.54mm_Vertical_SMD": {
+    "example": "11x3/J31",
+    "props": {
+      "Reference": "J31",
+      "Value": "esp32s3right",
+      "Footprint": "Connector_PinSocket_2.54mm:PinSocket_2x22_P2.54mm_Vertical_SMD",
+      "Datasheet": "~"
+    },
+    "pads": [
+      {
+        "n": "1",
+        "shape": "rect",
+        "at": [
+          "2.52",
+          "26.67",
+          "180"
+        ],
+        "size": [
+          "3",
+          "1"
+        ],
+        "drill": [],
+        "function": [
+          "Pin_1"
+        ],
+        "net": [
+          "115",
+          "Additional13"
+        ]
+      },
+      {
+        "n": "2",
+        "shape": "rect",
+        "at": [
+          "-2.52",
+          "26.67",
+          "180"
+        ],
+        "size": [
+          "3",
+          "1"
+        ],
+        "drill": [],
+        "function": [
+          "Pin_2"
+        ],
+        "net": [
+          "115",
+          "Additional13"
+        ]
+      },
+      {
+        "n": "3",
+        "shape": "rect",
+        "at": [
+          "2.52",
+          "24.13",
+          "180"
+        ],
+        "size": [
+          "3",
+          "1"
+        ],
+        "drill": [],
+        "function": [
+          "Pin_3"
+        ],
+        "net": [
+          "116",
+          "Additional14"
+        ]
+      },
+      {
+        "n": "4",
+        "shape": "rect",
+        "at": [
+          "-2.52",
+          "24.13",
+          "180"
+        ],
+        "size": [
+          "3",
+          "1"
+        ],
+        "drill": [],
+        "function": [
+          "Pin_4"
+        ],
+        "net": [
+          "116",
+          "Additional14"
+        ]
+      },
+      {
+        "n": "5",
+        "shape": "rect",
+        "at": [
+          "2.52",
+          "21.59",
+          "180"
+        ],
+        "size": [
+          "3",
+          "1"
+        ],
+        "drill": [],
+        "function": [
+          "Pin_5"
+        ],
+        "net": [
+          "117",
+          "Additional15"
+        ]
+      },
+      {
+        "n": "6",
+        "shape": "rect",
+        "at": [
+          "-2.52",
+          "21.59",
+          "180"
+        ],
+        "size": [
+          "3",
+          "1"
+        ],
+        "drill": [],
+        "function": [
+          "Pin_6"
+        ],
+        "net": [
+          "117",
+          "Additional15"
+        ]
+      },
+      {
+        "n": "7",
+        "shape": "rect",
+        "at": [
+          "2.52",
+          "19.05",
+          "180"
+        ],
+        "size": [
+          "3",
+          "1"
+        ],
+        "drill": [],
+        "function": [
+          "Pin_7"
+        ],
+        "net": [
+          "50",
+          "HallOut1"
+        ]
+      },
+      {
+        "n": "8",
+        "shape": "rect",
+        "at": [
+          "-2.52",
+          "19.05",
+          "180"
+        ],
+        "size": [
+          "3",
+          "1"
+        ],
+        "drill": [],
+        "function": [
+          "Pin_8"
+        ],
+        "net": [
+          "50",
+          "HallOut1"
+        ]
+      },
+      {
+        "n": "9",
+        "shape": "rect",
+        "at": [
+          "2.52",
+          "16.51",
+          "180"
+        ],
+        "size": [
+          "3",
+          "1"
+        ],
+        "drill": [],
+        "function": [
+          "Pin_9"
+        ],
+        "net": [
+          "51",
+          "HallOut2"
+        ]
+      },
+      {
+        "n": "10",
+        "shape": "rect",
+        "at": [
+          "-2.52",
+          "16.51",
+          "180"
+        ],
+        "size": [
+          "3",
+          "1"
+        ],
+        "drill": [],
+        "function": [
+          "Pin_10"
+        ],
+        "net": [
+          "51",
+          "HallOut2"
+        ]
+      },
+      {
+        "n": "11",
+        "shape": "rect",
+        "at": [
+          "2.52",
+          "13.97",
+          "180"
+        ],
+        "size": [
+          "3",
+          "1"
+        ],
+        "drill": [],
+        "function": [
+          "Pin_11"
+        ],
+        "net": [
+          "118",
+          "Additional16"
+        ]
+      },
+      {
+        "n": "12",
+        "shape": "rect",
+        "at": [
+          "-2.52",
+          "13.97",
+          "180"
+        ],
+        "size": [
+          "3",
+          "1"
+        ],
+        "drill": [],
+        "function": [
+          "Pin_12"
+        ],
+        "net": [
+          "118",
+          "Additional16"
+        ]
+      },
+      {
+        "n": "13",
+        "shape": "rect",
+        "at": [
+          "2.52",
+          "11.43",
+          "180"
+        ],
+        "size": [
+          "3",
+          "1"
+        ],
+        "drill": [],
+        "function": [
+          "Pin_13"
+        ],
+        "net": [
+          "36",
+          "A0"
+        ]
+      },
+      {
+        "n": "14",
+        "shape": "rect",
+        "at": [
+          "-2.52",
+          "11.43",
+          "180"
+        ],
+        "size": [
+          "3",
+          "1"
+        ],
+        "drill": [],
+        "function": [
+          "Pin_14"
+        ],
+        "net": [
+          "36",
+          "A0"
+        ]
+      },
+      {
+        "n": "15",
+        "shape": "rect",
+        "at": [
+          "2.52",
+          "8.89",
+          "180"
+        ],
+        "size": [
+          "3",
+          "1"
+        ],
+        "drill": [],
+        "function": [
+          "Pin_15"
+        ],
+        "net": [
+          "37",
+          "A1"
+        ]
+      },
+      {
+        "n": "16",
+        "shape": "rect",
+        "at": [
+          "-2.52",
+          "8.89",
+          "180"
+        ],
+        "size": [
+          "3",
+          "1"
+        ],
+        "drill": [],
+        "function": [
+          "Pin_16"
+        ],
+        "net": [
+          "37",
+          "A1"
+        ]
+      },
+      {
+        "n": "17",
+        "shape": "rect",
+        "at": [
+          "2.52",
+          "6.35",
+          "180"
+        ],
+        "size": [
+          "3",
+          "1"
+        ],
+        "drill": [],
+        "function": [
+          "Pin_17"
+        ],
+        "net": [
+          "34",
+          "A2"
+        ]
+      },
+      {
+        "n": "18",
+        "shape": "rect",
+        "at": [
+          "-2.52",
+          "6.35",
+          "180"
+        ],
+        "size": [
+          "3",
+          "1"
+        ],
+        "drill": [],
+        "function": [
+          "Pin_18"
+        ],
+        "net": [
+          "34",
+          "A2"
+        ]
+      },
+      {
+        "n": "19",
+        "shape": "rect",
+        "at": [
+          "2.52",
+          "3.81",
+          "180"
+        ],
+        "size": [
+          "3",
+          "1"
+        ],
+        "drill": [],
+        "function": [
+          "Pin_19"
+        ],
+        "net": [
+          "93",
+          "A3"
+        ]
+      },
+      {
+        "n": "20",
+        "shape": "rect",
+        "at": [
+          "-2.52",
+          "3.81",
+          "180"
+        ],
+        "size": [
+          "3",
+          "1"
+        ],
+        "drill": [],
+        "function": [
+          "Pin_20"
+        ],
+        "net": [
+          "93",
+          "A3"
+        ]
+      },
+      {
+        "n": "21",
+        "shape": "rect",
+        "at": [
+          "2.52",
+          "1.27",
+          "180"
+        ],
+        "size": [
+          "3",
+          "1"
+        ],
+        "drill": [],
+        "function": [
+          "Pin_21"
+        ],
+        "net": [
+          "35",
+          "E"
+        ]
+      },
+      {
+        "n": "22",
+        "shape": "rect",
+        "at": [
+          "-2.52",
+          "1.27",
+          "180"
+        ],
+        "size": [
+          "3",
+          "1"
+        ],
+        "drill": [],
+        "function": [
+          "Pin_22"
+        ],
+        "net": [
+          "35",
+          "E"
+        ]
+      },
+      {
+        "n": "23",
+        "shape": "rect",
+        "at": [
+          "2.52",
+          "-1.27",
+          "180"
+        ],
+        "size": [
+          "3",
+          "1"
+        ],
+        "drill": [],
+        "function": [
+          "Pin_23"
+        ],
+        "net": [
+          "119",
+          "Additional17"
+        ]
+      },
+      {
+        "n": "24",
+        "shape": "rect",
+        "at": [
+          "-2.52",
+          "-1.27",
+          "180"
+        ],
+        "size": [
+          "3",
+          "1"
+        ],
+        "drill": [],
+        "function": [
+          "Pin_24"
+        ],
+        "net": [
+          "119",
+          "Additional17"
+        ]
+      },
+      {
+        "n": "25",
+        "shape": "rect",
+        "at": [
+          "2.52",
+          "-3.81",
+          "180"
+        ],
+        "size": [
+          "3",
+          "1"
+        ],
+        "drill": [],
+        "function": [
+          "Pin_25"
+        ],
+        "net": [
+          "120",
+          "Additional18"
+        ]
+      },
+      {
+        "n": "26",
+        "shape": "rect",
+        "at": [
+          "-2.52",
+          "-3.81",
+          "180"
+        ],
+        "size": [
+          "3",
+          "1"
+        ],
+        "drill": [],
+        "function": [
+          "Pin_26"
+        ],
+        "net": [
+          "120",
+          "Additional18"
+        ]
+      },
+      {
+        "n": "27",
+        "shape": "rect",
+        "at": [
+          "2.52",
+          "-6.35",
+          "180"
+        ],
+        "size": [
+          "3",
+          "1"
+        ],
+        "drill": [],
+        "function": [
+          "Pin_27"
+        ],
+        "net": [
+          "121",
+          "Additional19"
+        ]
+      },
+      {
+        "n": "28",
+        "shape": "rect",
+        "at": [
+          "-2.52",
+          "-6.35",
+          "180"
+        ],
+        "size": [
+          "3",
+          "1"
+        ],
+        "drill": [],
+        "function": [
+          "Pin_28"
+        ],
+        "net": [
+          "121",
+          "Additional19"
+        ]
+      },
+      {
+        "n": "29",
+        "shape": "rect",
+        "at": [
+          "2.52",
+          "-8.89",
+          "180"
+        ],
+        "size": [
+          "3",
+          "1"
+        ],
+        "drill": [],
+        "function": [
+          "Pin_29"
+        ],
+        "net": [
+          "122",
+          "Additional20"
+        ]
+      },
+      {
+        "n": "30",
+        "shape": "rect",
+        "at": [
+          "-2.52",
+          "-8.89",
+          "180"
+        ],
+        "size": [
+          "3",
+          "1"
+        ],
+        "drill": [],
+        "function": [
+          "Pin_30"
+        ],
+        "net": [
+          "122",
+          "Additional20"
+        ]
+      },
+      {
+        "n": "31",
+        "shape": "rect",
+        "at": [
+          "2.52",
+          "-11.43",
+          "180"
+        ],
+        "size": [
+          "3",
+          "1"
+        ],
+        "drill": [],
+        "function": [
+          "Pin_31"
+        ],
+        "net": [
+          "123",
+          "Additional21"
+        ]
+      },
+      {
+        "n": "32",
+        "shape": "rect",
+        "at": [
+          "-2.52",
+          "-11.43",
+          "180"
+        ],
+        "size": [
+          "3",
+          "1"
+        ],
+        "drill": [],
+        "function": [
+          "Pin_32"
+        ],
+        "net": [
+          "123",
+          "Additional21"
+        ]
+      },
+      {
+        "n": "33",
+        "shape": "rect",
+        "at": [
+          "2.52",
+          "-13.97",
+          "180"
+        ],
+        "size": [
+          "3",
+          "1"
+        ],
+        "drill": [],
+        "function": [
+          "Pin_33"
+        ],
+        "net": [
+          "124",
+          "Additional22"
+        ]
+      },
+      {
+        "n": "34",
+        "shape": "rect",
+        "at": [
+          "-2.52",
+          "-13.97",
+          "180"
+        ],
+        "size": [
+          "3",
+          "1"
+        ],
+        "drill": [],
+        "function": [
+          "Pin_34"
+        ],
+        "net": [
+          "124",
+          "Additional22"
+        ]
+      },
+      {
+        "n": "35",
+        "shape": "rect",
+        "at": [
+          "2.52",
+          "-16.51",
+          "180"
+        ],
+        "size": [
+          "3",
+          "1"
+        ],
+        "drill": [],
+        "function": [
+          "Pin_35"
+        ],
+        "net": [
+          "125",
+          "Additional23"
+        ]
+      },
+      {
+        "n": "36",
+        "shape": "rect",
+        "at": [
+          "-2.52",
+          "-16.51",
+          "180"
+        ],
+        "size": [
+          "3",
+          "1"
+        ],
+        "drill": [],
+        "function": [
+          "Pin_36"
+        ],
+        "net": [
+          "125",
+          "Additional23"
+        ]
+      },
+      {
+        "n": "37",
+        "shape": "rect",
+        "at": [
+          "2.52",
+          "-19.05",
+          "180"
+        ],
+        "size": [
+          "3",
+          "1"
+        ],
+        "drill": [],
+        "function": [
+          "Pin_37"
+        ],
+        "net": [
+          "126",
+          "Additional24"
+        ]
+      },
+      {
+        "n": "38",
+        "shape": "rect",
+        "at": [
+          "-2.52",
+          "-19.05",
+          "180"
+        ],
+        "size": [
+          "3",
+          "1"
+        ],
+        "drill": [],
+        "function": [
+          "Pin_38"
+        ],
+        "net": [
+          "126",
+          "Additional24"
+        ]
+      },
+      {
+        "n": "39",
+        "shape": "rect",
+        "at": [
+          "2.52",
+          "-21.59",
+          "180"
+        ],
+        "size": [
+          "3",
+          "1"
+        ],
+        "drill": [],
+        "function": [
+          "Pin_39"
+        ],
+        "net": [
+          "127",
+          "Additional25"
+        ]
+      },
+      {
+        "n": "40",
+        "shape": "rect",
+        "at": [
+          "-2.52",
+          "-21.59",
+          "180"
+        ],
+        "size": [
+          "3",
+          "1"
+        ],
+        "drill": [],
+        "function": [
+          "Pin_40"
+        ],
+        "net": [
+          "127",
+          "Additional25"
+        ]
+      },
+      {
+        "n": "41",
+        "shape": "rect",
+        "at": [
+          "2.52",
+          "-24.13",
+          "180"
+        ],
+        "size": [
+          "3",
+          "1"
+        ],
+        "drill": [],
+        "function": [
+          "Pin_41"
+        ],
+        "net": [
+          "128",
+          "Additional26"
+        ]
+      },
+      {
+        "n": "42",
+        "shape": "rect",
+        "at": [
+          "-2.52",
+          "-24.13",
+          "180"
+        ],
+        "size": [
+          "3",
+          "1"
+        ],
+        "drill": [],
+        "function": [
+          "Pin_42"
+        ],
+        "net": [
+          "128",
+          "Additional26"
+        ]
+      },
+      {
+        "n": "43",
+        "shape": "rect",
+        "at": [
+          "2.52",
+          "-26.67",
+          "180"
+        ],
+        "size": [
+          "3",
+          "1"
+        ],
+        "drill": [],
+        "function": [
+          "Pin_43"
+        ],
+        "net": [
+          "58",
+          "AGND"
+        ]
+      },
+      {
+        "n": "44",
+        "shape": "rect",
+        "at": [
+          "-2.52",
+          "-26.67",
+          "180"
+        ],
+        "size": [
+          "3",
+          "1"
+        ],
+        "drill": [],
+        "function": [
+          "Pin_44"
+        ],
+        "net": [
+          "58",
+          "AGND"
+        ]
+      }
+    ],
+    "symbol_pins": [
+      [
+        "1",
+        "Pin_1"
+      ],
+      [
+        "10",
+        "Pin_10"
+      ],
+      [
+        "11",
+        "Pin_11"
+      ],
+      [
+        "12",
+        "Pin_12"
+      ],
+      [
+        "13",
+        "Pin_13"
+      ],
+      [
+        "14",
+        "Pin_14"
+      ],
+      [
+        "15",
+        "Pin_15"
+      ],
+      [
+        "16",
+        "Pin_16"
+      ],
+      [
+        "17",
+        "Pin_17"
+      ],
+      [
+        "18",
+        "Pin_18"
+      ],
+      [
+        "19",
+        "Pin_19"
+      ],
+      [
+        "2",
+        "Pin_2"
+      ],
+      [
+        "20",
+        "Pin_20"
+      ],
+      [
+        "21",
+        "Pin_21"
+      ],
+      [
+        "22",
+        "Pin_22"
+      ],
+      [
+        "23",
+        "Pin_23"
+      ],
+      [
+        "24",
+        "Pin_24"
+      ],
+      [
+        "25",
+        "Pin_25"
+      ],
+      [
+        "26",
+        "Pin_26"
+      ],
+      [
+        "27",
+        "Pin_27"
+      ],
+      [
+        "28",
+        "Pin_28"
+      ],
+      [
+        "29",
+        "Pin_29"
+      ],
+      [
+        "3",
+        "Pin_3"
+      ],
+      [
+        "30",
+        "Pin_30"
+      ],
+      [
+        "31",
+        "Pin_31"
+      ],
+      [
+        "32",
+        "Pin_32"
+      ],
+      [
+        "33",
+        "Pin_33"
+      ],
+      [
+        "34",
+        "Pin_34"
+      ],
+      [
+        "35",
+        "Pin_35"
+      ],
+      [
+        "36",
+        "Pin_36"
+      ],
+      [
+        "37",
+        "Pin_37"
+      ],
+      [
+        "38",
+        "Pin_38"
+      ],
+      [
+        "39",
+        "Pin_39"
+      ],
+      [
+        "4",
+        "Pin_4"
+      ],
+      [
+        "40",
+        "Pin_40"
+      ],
+      [
+        "41",
+        "Pin_41"
+      ],
+      [
+        "42",
+        "Pin_42"
+      ],
+      [
+        "43",
+        "Pin_43"
+      ],
+      [
+        "44",
+        "Pin_44"
+      ],
+      [
+        "5",
+        "Pin_5"
+      ],
+      [
+        "6",
+        "Pin_6"
+      ],
+      [
+        "7",
+        "Pin_7"
+      ],
+      [
+        "8",
+        "Pin_8"
+      ],
+      [
+        "9",
+        "Pin_9"
+      ]
+    ]
+  },
+  "Package_SO:SOP-24_7.5x15.4mm_P1.27mm": {
+    "example": "11x3/UI1",
+    "props": {
+      "Reference": "UI1",
+      "Value": "74HCT154D",
+      "Footprint": "Package_SO:SOP-24_7.5x15.4mm_P1.27mm",
+      "Datasheet": "https://datasheet.octopart.com/74HCT154N-Nexperia-datasheet-127175.pdf"
+    },
+    "pads": [
+      {
+        "n": "1",
+        "shape": "roundrect",
+        "at": [
+          "-4.65",
+          "6.985",
+          "180"
+        ],
+        "size": [
+          "2",
+          "0.55"
+        ],
+        "drill": [],
+        "function": [
+          "Y0"
+        ],
+        "net": [
+          "66",
+          "Q8"
+        ]
+      },
+      {
+        "n": "2",
+        "shape": "roundrect",
+        "at": [
+          "-4.65",
+          "5.715",
+          "180"
+        ],
+        "size": [
+          "2",
+          "0.55"
+        ],
+        "drill": [],
+        "function": [
+          "Y1"
+        ],
+        "net": [
+          "65",
+          "Q7"
+        ]
+      },
+      {
+        "n": "3",
+        "shape": "roundrect",
+        "at": [
+          "-4.65",
+          "4.445",
+          "180"
+        ],
+        "size": [
+          "2",
+          "0.55"
+        ],
+        "drill": [],
+        "function": [
+          "Y2"
+        ],
+        "net": [
+          "64",
+          "Q6"
+        ]
+      },
+      {
+        "n": "4",
+        "shape": "roundrect",
+        "at": [
+          "-4.65",
+          "3.175",
+          "180"
+        ],
+        "size": [
+          "2",
+          "0.55"
+        ],
+        "drill": [],
+        "function": [
+          "Y3"
+        ],
+        "net": [
+          "63",
+          "Q5"
+        ]
+      },
+      {
+        "n": "5",
+        "shape": "roundrect",
+        "at": [
+          "-4.65",
+          "1.905",
+          "180"
+        ],
+        "size": [
+          "2",
+          "0.55"
+        ],
+        "drill": [],
+        "function": [
+          "Y4"
+        ],
+        "net": [
+          "62",
+          "Q4"
+        ]
+      },
+      {
+        "n": "6",
+        "shape": "roundrect",
+        "at": [
+          "-4.65",
+          "0.635",
+          "180"
+        ],
+        "size": [
+          "2",
+          "0.55"
+        ],
+        "drill": [],
+        "function": [
+          "Y5"
+        ],
+        "net": [
+          "61",
+          "Q3"
+        ]
+      },
+      {
+        "n": "7",
+        "shape": "roundrect",
+        "at": [
+          "-4.65",
+          "-0.635",
+          "180"
+        ],
+        "size": [
+          "2",
+          "0.55"
+        ],
+        "drill": [],
+        "function": [
+          "Y6"
+        ],
+        "net": [
+          "60",
+          "Q2"
+        ]
+      },
+      {
+        "n": "8",
+        "shape": "roundrect",
+        "at": [
+          "-4.65",
+          "-1.905",
+          "180"
+        ],
+        "size": [
+          "2",
+          "0.55"
+        ],
+        "drill": [],
+        "function": [
+          "Y7"
+        ],
+        "net": [
+          "59",
+          "Q1"
+        ]
+      },
+      {
+        "n": "9",
+        "shape": "roundrect",
+        "at": [
+          "-4.65",
+          "-3.175",
+          "180"
+        ],
+        "size": [
+          "2",
+          "0.55"
+        ],
+        "drill": [],
+        "function": [
+          "Y8"
+        ],
+        "net": [
+          "103",
+          "Q11"
+        ]
+      },
+      {
+        "n": "10",
+        "shape": "roundrect",
+        "at": [
+          "-4.65",
+          "-4.445",
+          "180"
+        ],
+        "size": [
+          "2",
+          "0.55"
+        ],
+        "drill": [],
+        "function": [
+          "Y9"
+        ],
+        "net": [
+          "102",
+          "Q10"
+        ]
+      },
+      {
+        "n": "11",
+        "shape": "roundrect",
+        "at": [
+          "-4.65",
+          "-5.715",
+          "180"
+        ],
+        "size": [
+          "2",
+          "0.55"
+        ],
+        "drill": [],
+        "function": [
+          "Y10"
+        ],
+        "net": [
+          "101",
+          "Q9"
+        ]
+      },
+      {
+        "n": "12",
+        "shape": "roundrect",
+        "at": [
+          "-4.65",
+          "-6.985",
+          "180"
+        ],
+        "size": [
+          "2",
+          "0.55"
+        ],
+        "drill": [],
+        "function": [
+          "GND"
+        ],
+        "net": [
+          "10",
+          "GND"
+        ]
+      },
+      {
+        "n": "13",
+        "shape": "roundrect",
+        "at": [
+          "4.65",
+          "-6.985",
+          "180"
+        ],
+        "size": [
+          "2",
+          "0.55"
+        ],
+        "drill": [],
+        "function": [
+          "Y11"
+        ],
+        "net": [
+          "104",
+          "unconnected-(UI1-Pad13)"
+        ]
+      },
+      {
+        "n": "14",
+        "shape": "roundrect",
+        "at": [
+          "4.65",
+          "-5.715",
+          "180"
+        ],
+        "size": [
+          "2",
+          "0.55"
+        ],
+        "drill": [],
+        "function": [
+          "Y12"
+        ],
+        "net": [
+          "105",
+          "unconnected-(UI1-Pad14)"
+        ]
+      },
+      {
+        "n": "15",
+        "shape": "roundrect",
+        "at": [
+          "4.65",
+          "-4.445",
+          "180"
+        ],
+        "size": [
+          "2",
+          "0.55"
+        ],
+        "drill": [],
+        "function": [
+          "Y13"
+        ],
+        "net": [
+          "106",
+          "unconnected-(UI1-Pad15)"
+        ]
+      },
+      {
+        "n": "16",
+        "shape": "roundrect",
+        "at": [
+          "4.65",
+          "-3.175",
+          "180"
+        ],
+        "size": [
+          "2",
+          "0.55"
+        ],
+        "drill": [],
+        "function": [
+          "Y14"
+        ],
+        "net": [
+          "107",
+          "unconnected-(UI1-Pad16)"
+        ]
+      },
+      {
+        "n": "17",
+        "shape": "roundrect",
+        "at": [
+          "4.65",
+          "-1.905",
+          "180"
+        ],
+        "size": [
+          "2",
+          "0.55"
+        ],
+        "drill": [],
+        "function": [
+          "Y15"
+        ],
+        "net": [
+          "108",
+          "unconnected-(UI1-Pad17)"
+        ]
+      },
+      {
+        "n": "18",
+        "shape": "roundrect",
+        "at": [
+          "4.65",
+          "-0.635",
+          "180"
+        ],
+        "size": [
+          "2",
+          "0.55"
+        ],
+        "drill": [],
+        "function": [
+          "E0"
+        ],
+        "net": [
+          "35",
+          "E"
+        ]
+      },
+      {
+        "n": "19",
+        "shape": "roundrect",
+        "at": [
+          "4.65",
+          "0.635",
+          "180"
+        ],
+        "size": [
+          "2",
+          "0.55"
+        ],
+        "drill": [],
+        "function": [
+          "E1"
+        ],
+        "net": [
+          "35",
+          "E"
+        ]
+      },
+      {
+        "n": "20",
+        "shape": "roundrect",
+        "at": [
+          "4.65",
+          "1.905",
+          "180"
+        ],
+        "size": [
+          "2",
+          "0.55"
+        ],
+        "drill": [],
+        "function": [
+          "A3"
+        ],
+        "net": [
+          "93",
+          "A3"
+        ]
+      },
+      {
+        "n": "21",
+        "shape": "roundrect",
+        "at": [
+          "4.65",
+          "3.175",
+          "180"
+        ],
+        "size": [
+          "2",
+          "0.55"
+        ],
+        "drill": [],
+        "function": [
+          "A2"
+        ],
+        "net": [
+          "34",
+          "A2"
+        ]
+      },
+      {
+        "n": "22",
+        "shape": "roundrect",
+        "at": [
+          "4.65",
+          "4.445",
+          "180"
+        ],
+        "size": [
+          "2",
+          "0.55"
+        ],
+        "drill": [],
+        "function": [
+          "A1"
+        ],
+        "net": [
+          "37",
+          "A1"
+        ]
+      },
+      {
+        "n": "23",
+        "shape": "roundrect",
+        "at": [
+          "4.65",
+          "5.715",
+          "180"
+        ],
+        "size": [
+          "2",
+          "0.55"
+        ],
+        "drill": [],
+        "function": [
+          "A0"
+        ],
+        "net": [
+          "36",
+          "A0"
+        ]
+      },
+      {
+        "n": "24",
+        "shape": "roundrect",
+        "at": [
+          "4.65",
+          "6.985",
+          "180"
+        ],
+        "size": [
+          "2",
+          "0.55"
+        ],
+        "drill": [],
+        "function": [
+          "VCC"
+        ],
+        "net": [
+          "1",
+          "P"
+        ]
+      }
+    ],
+    "symbol_pins": [
+      [
+        "1",
+        "Y0"
+      ],
+      [
+        "10",
+        "Y9"
+      ],
+      [
+        "11",
+        "Y10"
+      ],
+      [
+        "12",
+        "GND"
+      ],
+      [
+        "13",
+        "Y11"
+      ],
+      [
+        "14",
+        "Y12"
+      ],
+      [
+        "15",
+        "Y13"
+      ],
+      [
+        "16",
+        "Y14"
+      ],
+      [
+        "17",
+        "Y15"
+      ],
+      [
+        "18",
+        "E0"
+      ],
+      [
+        "19",
+        "E1"
+      ],
+      [
+        "2",
+        "Y1"
+      ],
+      [
+        "20",
+        "A3"
+      ],
+      [
+        "21",
+        "A2"
+      ],
+      [
+        "22",
+        "A1"
+      ],
+      [
+        "23",
+        "A0"
+      ],
+      [
+        "24",
+        "VCC"
+      ],
+      [
+        "3",
+        "Y2"
+      ],
+      [
+        "4",
+        "Y3"
+      ],
+      [
+        "5",
+        "Y4"
+      ],
+      [
+        "6",
+        "Y5"
+      ],
+      [
+        "7",
+        "Y6"
+      ],
+      [
+        "8",
+        "Y7"
+      ],
+      [
+        "9",
+        "Y8"
+      ]
+    ]
+  },
+  "Package_TO_SOT_SMD:SOT-223": {
+    "example": "11x3/UI2",
+    "props": {
+      "Reference": "UI2",
+      "Value": "AMS1117-3.3",
+      "Footprint": "Package_TO_SOT_SMD:SOT-223",
+      "Datasheet": "http://www.advanced-monolithic.com/pdf/ds1117.pdf"
+    },
+    "pads": [
+      {
+        "n": "1",
+        "shape": "rect",
+        "at": [
+          "-3.15",
+          "2.3"
+        ],
+        "size": [
+          "2",
+          "1.5"
+        ],
+        "drill": [],
+        "function": [
+          "GND"
+        ],
+        "net": [
+          "10",
+          "GND"
+        ]
+      },
+      {
+        "n": "2",
+        "shape": "rect",
+        "at": [
+          "-3.15",
+          "0"
+        ],
+        "size": [
+          "2",
+          "1.5"
+        ],
+        "drill": [],
+        "function": [
+          "VO"
+        ],
+        "net": [
+          "5",
+          "P3.3"
+        ]
+      },
+      {
+        "n": "3",
+        "shape": "rect",
+        "at": [
+          "-3.15",
+          "-2.3"
+        ],
+        "size": [
+          "2",
+          "1.5"
+        ],
+        "drill": [],
+        "function": [
+          "VI"
+        ],
+        "net": [
+          "1",
+          "P"
+        ]
+      },
+      {
+        "n": "4",
+        "shape": "rect",
+        "at": [
+          "3.15",
+          "0"
+        ],
+        "size": [
+          "2",
+          "3.8"
+        ],
+        "drill": [],
+        "function": [],
+        "net": []
+      }
+    ],
+    "symbol_pins": [
+      [
+        "1",
+        "GND"
+      ],
+      [
+        "2",
+        "VO"
+      ],
+      [
+        "3",
+        "VI"
+      ]
+    ]
+  },
+  "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Horizontal_SMD": {
+    "example": "11x3/J4",
+    "props": {
+      "Reference": "J4",
+      "Value": "Hall_top",
+      "Footprint": "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Horizontal_SMD",
+      "Datasheet": ""
+    },
+    "pads": [
+      {
+        "n": "1",
+        "shape": "rect",
+        "at": [
+          "4.77",
+          "2.5",
+          "270"
+        ],
+        "size": [
+          "2.6",
+          "1.02"
+        ],
+        "drill": [],
+        "function": [
+          "Pin_1"
+        ],
+        "net": [
+          "50",
+          "HallOut1"
+        ]
+      },
+      {
+        "n": "2",
+        "shape": "rect",
+        "at": [
+          "4.77",
+          "-0.04",
+          "270"
+        ],
+        "size": [
+          "2.6",
+          "1.02"
+        ],
+        "drill": [],
+        "function": [
+          "Pin_2"
+        ],
+        "net": [
+          "51",
+          "HallOut2"
+        ]
+      },
+      {
+        "n": "3",
+        "shape": "rect",
+        "at": [
+          "4.77",
+          "-2.58",
+          "270"
+        ],
+        "size": [
+          "2.6",
+          "1.02"
+        ],
+        "drill": [],
+        "function": [
+          "Pin_3"
+        ],
+        "net": [
+          "52",
+          "HallOut3"
+        ]
+      }
+    ],
+    "symbol_pins": [
+      [
+        "1",
+        "Pin_1"
+      ],
+      [
+        "2",
+        "Pin_2"
+      ],
+      [
+        "3",
+        "Pin_3"
+      ]
+    ]
+  },
+  "Package_SO:SO-16_5.3x10.2mm_P1.27mm": {
+    "example": "8x3/UI1",
+    "props": {
+      "Reference": "UI1",
+      "Value": "74HCT138",
+      "Footprint": "Package_SO:SO-16_5.3x10.2mm_P1.27mm",
+      "Datasheet": "https://www.ti.com/lit/ds/symlink/cd74hct138.pdf?ts=1664006220654&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FCD74HCT138"
+    },
+    "pads": [
+      {
+        "n": "1",
+        "shape": "roundrect",
+        "at": [
+          "-3.4625",
+          "4.445",
+          "90"
+        ],
+        "size": [
+          "1.975",
+          "0.6"
+        ],
+        "drill": [],
+        "function": [
+          "A0"
+        ],
+        "net": [
+          "36",
+          "A0"
+        ]
+      },
+      {
+        "n": "2",
+        "shape": "roundrect",
+        "at": [
+          "-3.4625",
+          "3.175",
+          "90"
+        ],
+        "size": [
+          "1.975",
+          "0.6"
+        ],
+        "drill": [],
+        "function": [
+          "A1"
+        ],
+        "net": [
+          "37",
+          "A1"
+        ]
+      },
+      {
+        "n": "3",
+        "shape": "roundrect",
+        "at": [
+          "-3.4625",
+          "1.905",
+          "90"
+        ],
+        "size": [
+          "1.975",
+          "0.6"
+        ],
+        "drill": [],
+        "function": [
+          "A2"
+        ],
+        "net": [
+          "34",
+          "A2"
+        ]
+      },
+      {
+        "n": "4",
+        "shape": "roundrect",
+        "at": [
+          "-3.4625",
+          "0.635",
+          "90"
+        ],
+        "size": [
+          "1.975",
+          "0.6"
+        ],
+        "drill": [],
+        "function": [
+          "~{E1}"
+        ],
+        "net": [
+          "10",
+          "GND"
+        ]
+      },
+      {
+        "n": "5",
+        "shape": "roundrect",
+        "at": [
+          "-3.4625",
+          "-0.635",
+          "90"
+        ],
+        "size": [
+          "1.975",
+          "0.6"
+        ],
+        "drill": [],
+        "function": [
+          "~{E2}"
+        ],
+        "net": [
+          "10",
+          "GND"
+        ]
+      },
+      {
+        "n": "6",
+        "shape": "roundrect",
+        "at": [
+          "-3.4625",
+          "-1.905",
+          "90"
+        ],
+        "size": [
+          "1.975",
+          "0.6"
+        ],
+        "drill": [],
+        "function": [
+          "E3"
+        ],
+        "net": [
+          "35",
+          "E"
+        ]
+      },
+      {
+        "n": "7",
+        "shape": "roundrect",
+        "at": [
+          "-3.4625",
+          "-3.175",
+          "90"
+        ],
+        "size": [
+          "1.975",
+          "0.6"
+        ],
+        "drill": [],
+        "function": [
+          "Y7"
+        ],
+        "net": [
+          "66",
+          "Q8"
+        ]
+      },
+      {
+        "n": "8",
+        "shape": "roundrect",
+        "at": [
+          "-3.4625",
+          "-4.445",
+          "90"
+        ],
+        "size": [
+          "1.975",
+          "0.6"
+        ],
+        "drill": [],
+        "function": [
+          "GND"
+        ],
+        "net": [
+          "10",
+          "GND"
+        ]
+      },
+      {
+        "n": "9",
+        "shape": "roundrect",
+        "at": [
+          "3.4625",
+          "-4.445",
+          "90"
+        ],
+        "size": [
+          "1.975",
+          "0.6"
+        ],
+        "drill": [],
+        "function": [
+          "Y6"
+        ],
+        "net": [
+          "65",
+          "Q7"
+        ]
+      },
+      {
+        "n": "10",
+        "shape": "roundrect",
+        "at": [
+          "3.4625",
+          "-3.175",
+          "90"
+        ],
+        "size": [
+          "1.975",
+          "0.6"
+        ],
+        "drill": [],
+        "function": [
+          "Y5"
+        ],
+        "net": [
+          "64",
+          "Q6"
+        ]
+      },
+      {
+        "n": "11",
+        "shape": "roundrect",
+        "at": [
+          "3.4625",
+          "-1.905",
+          "90"
+        ],
+        "size": [
+          "1.975",
+          "0.6"
+        ],
+        "drill": [],
+        "function": [
+          "Y4"
+        ],
+        "net": [
+          "63",
+          "Q5"
+        ]
+      },
+      {
+        "n": "12",
+        "shape": "roundrect",
+        "at": [
+          "3.4625",
+          "-0.635",
+          "90"
+        ],
+        "size": [
+          "1.975",
+          "0.6"
+        ],
+        "drill": [],
+        "function": [
+          "Y3"
+        ],
+        "net": [
+          "62",
+          "Q4"
+        ]
+      },
+      {
+        "n": "13",
+        "shape": "roundrect",
+        "at": [
+          "3.4625",
+          "0.635",
+          "90"
+        ],
+        "size": [
+          "1.975",
+          "0.6"
+        ],
+        "drill": [],
+        "function": [
+          "Y2"
+        ],
+        "net": [
+          "61",
+          "Q3"
+        ]
+      },
+      {
+        "n": "14",
+        "shape": "roundrect",
+        "at": [
+          "3.4625",
+          "1.905",
+          "90"
+        ],
+        "size": [
+          "1.975",
+          "0.6"
+        ],
+        "drill": [],
+        "function": [
+          "Y1"
+        ],
+        "net": [
+          "60",
+          "Q2"
+        ]
+      },
+      {
+        "n": "15",
+        "shape": "roundrect",
+        "at": [
+          "3.4625",
+          "3.175",
+          "90"
+        ],
+        "size": [
+          "1.975",
+          "0.6"
+        ],
+        "drill": [],
+        "function": [
+          "Y0"
+        ],
+        "net": [
+          "59",
+          "Q1"
+        ]
+      },
+      {
+        "n": "16",
+        "shape": "roundrect",
+        "at": [
+          "3.4625",
+          "4.445",
+          "90"
+        ],
+        "size": [
+          "1.975",
+          "0.6"
+        ],
+        "drill": [],
+        "function": [
+          "VCC"
+        ],
+        "net": [
+          "1",
+          "P"
+        ]
+      }
+    ],
+    "symbol_pins": [
+      [
+        "1",
+        "A0"
+      ],
+      [
+        "10",
+        "Y5"
+      ],
+      [
+        "11",
+        "Y4"
+      ],
+      [
+        "12",
+        "Y3"
+      ],
+      [
+        "13",
+        "Y2"
+      ],
+      [
+        "14",
+        "Y1"
+      ],
+      [
+        "15",
+        "Y0"
+      ],
+      [
+        "16",
+        "VCC"
+      ],
+      [
+        "2",
+        "A1"
+      ],
+      [
+        "3",
+        "A2"
+      ],
+      [
+        "4",
+        "~{E1}"
+      ],
+      [
+        "5",
+        "~{E2}"
+      ],
+      [
+        "6",
+        "E3"
+      ],
+      [
+        "7",
+        "Y7"
+      ],
+      [
+        "8",
+        "GND"
+      ],
+      [
+        "9",
+        "Y6"
+      ]
+    ]
+  },
+  "Package_SO:SO-16_3.9x9.9mm_P1.27mm": {
+    "example": "3x8/UI1",
+    "props": {
+      "Reference": "UI1",
+      "Value": "74hc4052D",
+      "Footprint": "Package_SO:SO-16_3.9x9.9mm_P1.27mm",
+      "Datasheet": "https://assets.nexperia.com/documents/data-sheet/74HC_HCT4052.pdf"
+    },
+    "pads": [
+      {
+        "n": "1",
+        "shape": "roundrect",
+        "at": [
+          "-2.575",
+          "4.445",
+          "180"
+        ],
+        "size": [
+          "1.75",
+          "0.6"
+        ],
+        "drill": [],
+        "function": [
+          "Y0"
+        ],
+        "net": [
+          "35",
+          "HallOut2"
+        ]
+      },
+      {
+        "n": "2",
+        "shape": "roundrect",
+        "at": [
+          "-2.575",
+          "3.175",
+          "180"
+        ],
+        "size": [
+          "1.75",
+          "0.6"
+        ],
+        "drill": [],
+        "function": [
+          "Y2"
+        ],
+        "net": [
+          "39",
+          "HallOut6"
+        ]
+      },
+      {
+        "n": "3",
+        "shape": "roundrect",
+        "at": [
+          "-2.575",
+          "1.905",
+          "180"
+        ],
+        "size": [
+          "1.75",
+          "0.6"
+        ],
+        "drill": [],
+        "function": [
+          "Y"
+        ],
+        "net": [
+          "28",
+          "Hall2"
+        ]
+      },
+      {
+        "n": "4",
+        "shape": "roundrect",
+        "at": [
+          "-2.575",
+          "0.635",
+          "180"
+        ],
+        "size": [
+          "1.75",
+          "0.6"
+        ],
+        "drill": [],
+        "function": [
+          "Y3"
+        ],
+        "net": [
+          "41",
+          "HallOut8"
+        ]
+      },
+      {
+        "n": "5",
+        "shape": "roundrect",
+        "at": [
+          "-2.575",
+          "-0.635",
+          "180"
+        ],
+        "size": [
+          "1.75",
+          "0.6"
+        ],
+        "drill": [],
+        "function": [
+          "Y1"
+        ],
+        "net": [
+          "37",
+          "HallOut4"
+        ]
+      },
+      {
+        "n": "6",
+        "shape": "roundrect",
+        "at": [
+          "-2.575",
+          "-1.905",
+          "180"
+        ],
+        "size": [
+          "1.75",
+          "0.6"
+        ],
+        "drill": [],
+        "function": [
+          "Inh"
+        ],
+        "net": [
+          "10",
+          "GND"
+        ]
+      },
+      {
+        "n": "7",
+        "shape": "roundrect",
+        "at": [
+          "-2.575",
+          "-3.175",
+          "180"
+        ],
+        "size": [
+          "1.75",
+          "0.6"
+        ],
+        "drill": [],
+        "function": [
+          "VEE"
+        ],
+        "net": [
+          "10",
+          "GND"
+        ]
+      },
+      {
+        "n": "8",
+        "shape": "roundrect",
+        "at": [
+          "-2.575",
+          "-4.445",
+          "180"
+        ],
+        "size": [
+          "1.75",
+          "0.6"
+        ],
+        "drill": [],
+        "function": [
+          "VSS"
+        ],
+        "net": [
+          "10",
+          "GND"
+        ]
+      },
+      {
+        "n": "9",
+        "shape": "roundrect",
+        "at": [
+          "2.575",
+          "-4.445",
+          "180"
+        ],
+        "size": [
+          "1.75",
+          "0.6"
+        ],
+        "drill": [],
+        "function": [
+          "B"
+        ],
+        "net": [
+          "26",
+          "S1"
+        ]
+      },
+      {
+        "n": "10",
+        "shape": "roundrect",
+        "at": [
+          "2.575",
+          "-3.175",
+          "180"
+        ],
+        "size": [
+          "1.75",
+          "0.6"
+        ],
+        "drill": [],
+        "function": [
+          "A"
+        ],
+        "net": [
+          "27",
+          "S0"
+        ]
+      },
+      {
+        "n": "11",
+        "shape": "roundrect",
+        "at": [
+          "2.575",
+          "-1.905",
+          "180"
+        ],
+        "size": [
+          "1.75",
+          "0.6"
+        ],
+        "drill": [],
+        "function": [
+          "X3"
+        ],
+        "net": [
+          "40",
+          "HallOut7"
+        ]
+      },
+      {
+        "n": "12",
+        "shape": "roundrect",
+        "at": [
+          "2.575",
+          "-0.635",
+          "180"
+        ],
+        "size": [
+          "1.75",
+          "0.6"
+        ],
+        "drill": [],
+        "function": [
+          "X0"
+        ],
+        "net": [
+          "34",
+          "HallOut1"
+        ]
+      },
+      {
+        "n": "13",
+        "shape": "roundrect",
+        "at": [
+          "2.575",
+          "0.635",
+          "180"
+        ],
+        "size": [
+          "1.75",
+          "0.6"
+        ],
+        "drill": [],
+        "function": [
+          "X"
+        ],
+        "net": [
+          "29",
+          "Hall1"
+        ]
+      },
+      {
+        "n": "14",
+        "shape": "roundrect",
+        "at": [
+          "2.575",
+          "1.905",
+          "180"
+        ],
+        "size": [
+          "1.75",
+          "0.6"
+        ],
+        "drill": [],
+        "function": [
+          "X1"
+        ],
+        "net": [
+          "36",
+          "HallOut3"
+        ]
+      },
+      {
+        "n": "15",
+        "shape": "roundrect",
+        "at": [
+          "2.575",
+          "3.175",
+          "180"
+        ],
+        "size": [
+          "1.75",
+          "0.6"
+        ],
+        "drill": [],
+        "function": [
+          "X2"
+        ],
+        "net": [
+          "38",
+          "HallOut5"
+        ]
+      },
+      {
+        "n": "16",
+        "shape": "roundrect",
+        "at": [
+          "2.575",
+          "4.445",
+          "180"
+        ],
+        "size": [
+          "1.75",
+          "0.6"
+        ],
+        "drill": [],
+        "function": [
+          "VDD"
+        ],
+        "net": [
+          "1",
+          "P"
+        ]
+      }
+    ],
+    "symbol_pins": [
+      [
+        "1",
+        "Y0"
+      ],
+      [
+        "10",
+        "A"
+      ],
+      [
+        "11",
+        "X3"
+      ],
+      [
+        "12",
+        "X0"
+      ],
+      [
+        "13",
+        "X"
+      ],
+      [
+        "14",
+        "X1"
+      ],
+      [
+        "15",
+        "X2"
+      ],
+      [
+        "16",
+        "VDD"
+      ],
+      [
+        "2",
+        "Y2"
+      ],
+      [
+        "3",
+        "Y"
+      ],
+      [
+        "4",
+        "Y3"
+      ],
+      [
+        "5",
+        "Y1"
+      ],
+      [
+        "6",
+        "Inh"
+      ],
+      [
+        "7",
+        "VEE"
+      ],
+      [
+        "8",
+        "VSS"
+      ],
+      [
+        "9",
+        "B"
+      ]
+    ]
+  }
+}

@@ -1,0 +1,1510 @@
+                  74HC4052; 74HCT4052
+                  Dual 4-channel analog multiplexer/demultiplexer
+                  Rev. 13 — 9 September 2021                                             Product data sheet
+
+
+
+
+1. General description
+              The 74HC4052; 74HCT4052 is a dual single-pole quad-throw analog switch (2x SP4T) suitable
+              for use in analog or digital 4:1 multiplexer/demultiplexer applications. Each switch features four
+              independent inputs/outputs (nY0, nY1, nY2 and nY3) and a common input/output (nZ). A digital
+              enable input (E) and two digital select inputs (S0 and S1) are common to both switches. When E
+              is HIGH, the switches are turned off. Inputs include clamp diodes. This enables the use of current
+              limiting resistors to interface inputs to voltages in excess of VCC.
+
+
+2. Features and benefits
+              •   Wide analog input voltage range from -5 V to +5 V
+              •   CMOS low power dissipation
+              •   High noise immunity
+              •   Latch-up perforamcne exceeds 100 mA per JESD 78 Class II Level B
+              •   Low ON resistance:
+                  • 80 Ω (typical) at VCC - VEE = 4.5 V
+                  • 70 Ω (typical) at VCC - VEE = 6.0 V
+                  • 60 Ω (typical) at VCC - VEE = 9.0 V
+              •   Logic level translation: to enable 5 V logic to communicate with ±5 V analog signals
+              •   Typical ‘break before make’ built-in
+              •   Complies with JEDEC standards:
+                  • JESD8C (2.7 V to 3.6 V)
+                  • JESD7A (2.0 V to 6.0 V)
+              •   Input levels:
+                  • For 74HC4052: CMOS level
+                  • For 74HCT4052: TTL level
+              •   ESD protection:
+                  • HBM JESD22-A114F exceeds 2000 V
+                  • MM JESD22-A115-A exceeds 200 V
+                  • CDM JESD22-C101E exceeds 1000 V
+              •   Specified from -40 °C to +85 °C and -40 °C to +125 °C
+
+
+3. Applications
+              •   Analog multiplexing and demultiplexing
+              •   Digital multiplexing and demultiplexing
+              •   Signal gating
+Nexperia                                                                                                                       74HC4052; 74HCT4052
+                                                                                                    Dual 4-channel analog multiplexer/demultiplexer
+
+
+4. Ordering information
+Table 1. Ordering information
+Type number        Package
+                           Temperature range           Name                     Description                                                                                Version
+74HC4052D                  -40 °C to +125 °C           SO16                     plastic small outline package; 16 leads;                                                   SOT109-1
+74HCT4052D                                                                      body width 3.9 mm
+
+74HC4052PW                 -40 °C to +125 °C           TSSOP16                  plastic thin shrink small outline package; 16 leads;                                       SOT403-1
+74HCT4052PW                                                                     body width 4.4 mm
+
+74HC4052BQ                 -40 °C to +125 °C           DHVQFN16 plastic dual in-line compatible thermal enhanced                                                           SOT763-1
+74HCT4052BQ                                                     very thin quad flat package; no leads; 16 terminals;
+                                                                body 2.5 × 3.5 × 0.85 mm
+
+
+5. Functional diagram
+
+                                                                                                                            10      0         0
+                                                                                                                                         4×
+                                                                                                                                              3
+                                      13                                                                                      9     1
+
+                                                                                                                              6     G4
+                                      1Z
+                                           1Y0   12
+
+                           10    S0        1Y1   14                                                                                      MDX
+                                                                                                                                                  0           1
+                            9    S1        1Y2   15                                                                                               1           5
+                                                                                                                              3
+                                           1Y3   11                                                                                               2           2
+                                           2Y0   1                                                                                                3           4
+                                           2Y1   5                                                                                                            12
+                                           2Y2   2                                                                                                            14
+                                                                                                                            13
+                            6    E         2Y3   4                                                                                                            15
+                                      2Z
+                                                                                                                                                              11
+                                           001aah824
+                                      3                                                                                                               001aah825
+
+Fig. 1.        Logic symbol                                                                  Fig. 2.          IEC logic symbol
+
+                                                                                                                                                  nYn
+
+                                                                                                                                        VCC                       VEE
+
+
+
+
+                                                                                                                VCC                                    VCC
+
+
+
+
+                                                                                                                                        VCC                       VEE
+
+                                                                                                            VEE                                   nZ
+                   from
+                   logic
+                                                                                                                                                             mnb043
+
+Fig. 3.        Schematic diagram (one switch)
+
+
+
+
+74HC_HCT4052                                           All information provided in this document is subject to legal disclaimers.                       © Nexperia B.V. 2021. All rights reserved
+
+
+Product data sheet                                                Rev. 13 — 9 September 2021                                                                                           2 / 25
+Nexperia                                                                                                               74HC4052; 74HCT4052
+                                                                                            Dual 4-channel analog multiplexer/demultiplexer
+
+                                            VDD
+
+                                                  16                                                                        13
+                                                                                                                                  1Z
+
+                                                                                                                            12
+                                                                                                                                  1Y0
+
+
+
+
+                                                                                                                            14
+                                                                                                                                  1Y1
+
+
+
+
+                                                                                                                            15
+                                                                                                                                  1Y2
+                                    10
+                              S0
+
+
+                                                                                                                            11
+                                                                                                                                  1Y3
+
+                                    9      LOGIC
+                                                                            1-OF-4
+                              S1           LEVEL
+                                                                           DECODER
+                                         CONVERSION
+                                                                                                                             1
+                                                                                                                                  2Y0
+
+
+                                    6
+                               E
+                                                                                                                             5
+                                                                                                                                  2Y1
+
+
+
+                                                                                                                             2
+                                                                                                                                  2Y2
+
+
+
+
+                                                                                                                             4
+                                                                                                                                  2Y3
+
+
+                                                                                                                             3
+                                                                                                                                  2Z
+                                           8                                        7
+
+                                         VSS                                     VEE                                        001aah872
+
+
+Fig. 4.        Functional diagram
+
+
+
+
+74HC_HCT4052                                   All information provided in this document is subject to legal disclaimers.               © Nexperia B.V. 2021. All rights reserved
+
+
+Product data sheet                                        Rev. 13 — 9 September 2021                                                                                   3 / 25
+Nexperia                                                                                                                   74HC4052; 74HCT4052
+                                                                                                Dual 4-channel analog multiplexer/demultiplexer
+
+
+6. Pinning information
+
+                                6.1. Pinning
+
+                                                                                                                                          74HC4052
+                                                                                                                                         74HCT4052
+
+
+                                                                                                                                                 16 VCC
+                                 74HC4052                                                                        terminal 1                2Y0
+                                                                                                                index area
+                                74HCT4052                                                                                                  1
+                                                                                                                            2Y2      2                    15 1Y2
+                      2Y0   1                  16 VCC
+                                                                                                                                2Z   3                    14 1Y1
+                      2Y2   2                  15 1Y2                                                                       2Y3      4                    13 1Z
+
+                       2Z   3                  14 1Y1                                                                       2Y1      5                    12 1Y0
+                                                                                                                                E    6     VCC(1)         11 1Y3
+                      2Y3   4                  13 1Z
+                                                                                                                           VEE       7                    10 S0
+                      2Y1   5                  12 1Y0                                                                                      8     9
+
+                                                                                                                                                 S1
+                        E   6                  11 1Y3                                                                                      GND               001aah823
+
+                      VEE   7                  10 S0                                                                                 Transparent top view
+
+                     GND    8                  9   S1                                                     (1) This is not a supply pin. There is no electrical or
+                                                                                                          mechanical requirement to solder the pad. In case
+                                   001aah822                                                              soldered, the solder land should remain floating or
+                                                                                                          connected to VCC.
+Fig. 5.        Pin configuration for SOT109-1 (SO16) and
+               SOT403-1 (TSSOP16)                                                        Fig. 6.          Pin configuration for SOT763-1 (DHVQFN16)
+
+
+
+                                6.2. Pin description
+Table 2. Pin description
+Symbol                                             Pin                                                                          Description
+2Y0, 2Y1, 2Y2, 2Y3                                 1, 5, 2, 4                                                                   independent input or output
+1Z, 2Z                                             13, 3                                                                        common input or output
+E                                                  6                                                                            enable input (active LOW)
+VEE                                                7                                                                            negative supply voltage
+GND                                                8                                                                            ground (0 V)
+S0, S1                                             10, 9                                                                        select logic input
+1Y0, 1Y1, 1Y2, 1Y3                                 12, 14, 15, 11                                                               independent input or output
+VCC                                                16                                                                           positive supply voltage
+
+
+
+
+74HC_HCT4052                                       All information provided in this document is subject to legal disclaimers.                             © Nexperia B.V. 2021. All rights reserved
+
+
+Product data sheet                                            Rev. 13 — 9 September 2021                                                                                                 4 / 25
+Nexperia                                                                                                                    74HC4052; 74HCT4052
+                                                                                                 Dual 4-channel analog multiplexer/demultiplexer
+
+
+7. Functional description
+Table 3. Function table
+H = HIGH voltage level; L = LOW voltage level; X = don’t care.
+Input                                                                                                                              Channel on
+E                                      S1                                                 S0
+L                                      L                                                  L                                        nY0 and nZ
+L                                      L                                                  H                                        nY1 and nZ
+L                                      H                                                  L                                        nY2 and nZ
+L                                      H                                                  H                                        nY3 and nZ
+H                                      X                                                  X                                        none
+
+
+8. Limiting values
+Table 4. Limiting values
+In accordance with the Absolute Maximum Rating System (IEC 60134).
+Voltages are referenced to VEE = GND (ground = 0 V).
+Symbol Parameter                                         Conditions                                                                    Min                    Max             Unit
+VCC            supply voltage                                                                                                    [1]   -0.5                  +11.0            V
+IIK            input clamping current                    VI < -0.5 V or VI > VCC + 0.5 V                                                   -                   ±20            mA
+ISK            switch clamping current                   VSW < -0.5 V or VSW > VCC + 0.5 V                                                 -                   ±20            mA
+ISW            switch current                            -0.5 V < VSW < VCC + 0.5 V                                                        -                   ±25            mA
+IEE            supply current                                                                                                              -                   ±20            mA
+ICC            supply current                                                                                                              -                    50            mA
+IGND           ground current                                                                                                              -                   -50            mA
+Tstg           storage temperature                                                                                                        -65                +150             °C
+Ptot           total power dissipation                                                                                           [2]       -                   500            mW
+P              power dissipation                         per switch                                                                        -                   100            mW
+
+[1]    To avoid drawing VCC current out of pins nZ, when switch current flows in pins nYn, the voltage drop across the bidirectional switch
+       must not exceed 0.4 V. If the switch current flows into pins nZ, no VCC current will flow out of pins nYn. In this case there is no limit for
+       the voltage drop across the switch, but the voltages at pins nYn and nZ may not exceed VCC or VEE.
+[2]    For SOT109-1 (SO16) package: Ptot derates linearly with 12.4 mW/K above 110 °C.
+       For SOT403-1 (TSSOP16) package: Ptot derates linearly with 8.5 mW/K above 91 °C.
+       For SOT763-1 (DHVQFN16) package: Ptot derates linearly with 11.2 mW/K above 106 °C.
+
+
+
+
+74HC_HCT4052                                        All information provided in this document is subject to legal disclaimers.                 © Nexperia B.V. 2021. All rights reserved
+
+
+Product data sheet                                             Rev. 13 — 9 September 2021                                                                                     5 / 25
+Nexperia                                                                                                                            74HC4052; 74HCT4052
+                                                                                                         Dual 4-channel analog multiplexer/demultiplexer
+
+
+9. Recommended operating conditions
+Table 5. Recommended operating conditions
+Symbol Parameter             Conditions                                                                     74HC4052                                         74HCT4052                               Unit
+                                                                                                Min               Typ               Max               Min              Typ             Max
+VCC            supply voltage                 see Fig. 7 and Fig. 8
+                                                    VCC - GND                                    2.0               5.0              10.0               4.5             5.0              5.5          V
+                                                    VCC - VEE                                    2.0               5.0              10.0               2.0             5.0             10.0          V
+VI             input voltage                                                                   GND                    -              VCC             GND                 -              VCC          V
+VSW            switch voltage                                                                   VEE                   -              VCC              VEE                -              VCC          V
+Tamb           ambient temperature                                                              -40               +25               +125              -40              +25             +125          °C
+Δt/ΔV          input transition rise and VCC = 2.0 V                                               -                  -              625                -                -                -          ns/V
+               fall rate                 V = 4.5 V                                                 -              1.67               139                -              1.67             139          ns/V
+                                                CC
+                                              VCC = 6.0 V                                          -                  -                  83             -                -                -          ns/V
+                                              VCC = 10.0 V                                         -                  -                  31             -                -                -          ns/V
+
+                                                                  mnb044                                                                                                          mnb045
+           12                                                                                                   12
+                                                                                                       VCC - GND
+  VCC - GND                                                                                               (V)
+                                                                                                              10
+     (V)
+
+
+               8                                                                                                  8
+
+
+                                   operating area                                                                 6
+                                                                                                                                                  operating area
+               4                                                                                                  4
+
+
+                                                                                                                  2
+
+
+               0                                                                                                  0
+                0              4                    8                     12                                          0                       4                    8                      12
+                                                        VCC - VEE (V)                                                                                                  VCC - VEE (V)
+
+Fig. 7.        Guaranteed operating area as a function of the                                     Fig. 8.          Guaranteed operating area as a function of the
+               supply voltages for 74HC4052                                                                        supply voltages for 74HCT4052
+
+
+
+
+74HC_HCT4052                                                All information provided in this document is subject to legal disclaimers.                                 © Nexperia B.V. 2021. All rights reserved
+
+
+Product data sheet                                                     Rev. 13 — 9 September 2021                                                                                                     6 / 25
+Nexperia                                                                                                                74HC4052; 74HCT4052
+                                                                                             Dual 4-channel analog multiplexer/demultiplexer
+
+
+10. Static characteristics
+Table 6. RON resistance per switch for 74HC4052 and 74HCT4052
+VI = VIH or VIL; for test circuit see Fig. 9.
+Vis is the input voltage at a nYn or nZ terminal, whichever is assigned as an input.
+Vos is the output voltage at a nYn or nZ terminal, whichever is assigned as an output.
+For 74HC4052: VCC - GND or VCC - VEE = 2.0 V, 4.5 V, 6.0 V and 9.0 V.
+For 74HCT4052: VCC - GND = 4.5 V and 5.5 V, VCC - VEE = 2.0 V, 4.5 V, 6.0 V and 9.0 V.
+Symbol         Parameter           Conditions                                                                                      Min   Typ[1]            Max            Unit
+Tamb = -40 °C to +85 °C
+RON(peak) ON resistance            Vis = VCC to VEE
+          (peak)                       VCC = 2.0 V; VEE = 0 V; ISW = 100 μA                                                  [2]    -      -                  -           Ω
+                                       VCC = 4.5 V; VEE = 0 V; ISW = 1000 μA                                                        -     100               225           Ω
+                                       VCC = 6.0 V; VEE = 0 V; ISW = 1000 μA                                                        -     90                200           Ω
+                                       VCC = 4.5 V; VEE = -4.5 V; ISW = 1000 μA                                                     -     70                165           Ω
+RON(rail)      ON resistance (rail) Vis = VEE
+                                       VCC = 2.0 V; VEE = 0 V; ISW = 100 μA                                                  [2]    -     150                 -           Ω
+                                       VCC = 4.5 V; VEE = 0 V; ISW = 1000 μA                                                        -     80                175           Ω
+                                       VCC = 6.0 V; VEE = 0 V; ISW = 1000 μA                                                        -     70                150           Ω
+                                       VCC = 4.5 V; VEE = -4.5 V; ISW = 1000 μA                                                     -     60                130           Ω
+                                   Vis = VCC
+                                       VCC = 2.0 V; VEE = 0 V; ISW = 100 μA                                                  [2]    -     150                 -           Ω
+                                       VCC = 4.5 V; VEE = 0 V; ISW = 1000 μA                                                        -     90                200           Ω
+                                       VCC = 6.0 V; VEE = 0 V; ISW = 1000 μA                                                        -     80                175           Ω
+                                       VCC = 4.5 V; VEE = -4.5 V; ISW = 1000 μA                                                     -     65                150           Ω
+ΔRON           ON resistance    Vis = VCC to VEE
+               mismatch between     VCC = 2.0 V; VEE = 0 V                                                                   [2]    -      -                  -           Ω
+               channels
+                                    VCC = 4.5 V; VEE = 0 V                                                                          -      9                  -           Ω
+                                       VCC = 6.0 V; VEE = 0 V                                                                       -      8                  -           Ω
+                                       VCC = 4.5 V; VEE = -4.5 V                                                                    -      6                  -           Ω
+Tamb = -40 °C to +125 °C
+RON(peak) ON resistance            Vis = VCC to VEE
+          (peak)                       VCC = 2.0 V; VEE = 0 V; ISW = 100 μA                                                  [2]    -      -                  -           Ω
+                                       VCC = 4.5 V; VEE = 0 V; ISW = 1000 μA                                                        -      -                270           Ω
+                                       VCC = 6.0 V; VEE = 0 V; ISW = 1000 μA                                                        -      -                240           Ω
+                                       VCC = 4.5 V; VEE = -4.5 V; ISW = 1000 μA                                                     -      -                195           Ω
+
+
+
+
+74HC_HCT4052                                    All information provided in this document is subject to legal disclaimers.                 © Nexperia B.V. 2021. All rights reserved
+
+
+Product data sheet                                         Rev. 13 — 9 September 2021                                                                                     7 / 25
+Nexperia                                                                                                                        74HC4052; 74HCT4052
+                                                                                                     Dual 4-channel analog multiplexer/demultiplexer
+
+Symbol          Parameter                 Conditions                                                                                        Min      Typ[1]               Max            Unit
+RON(rail)       ON resistance (rail) Vis = VEE
+                                                VCC = 2.0 V; VEE = 0 V; ISW = 100 μA                                                  [2]    -            -                  -           Ω
+                                                VCC = 4.5 V; VEE = 0 V; ISW = 1000 μA                                                        -            -                210           Ω
+                                                VCC = 6.0 V; VEE = 0 V; ISW = 1000 μA                                                        -            -                180           Ω
+                                                VCC = 4.5 V; VEE = -4.5 V; ISW = 1000 μA                                                     -            -                160           Ω
+                                          Vis = VCC
+                                                VCC = 2.0 V; VEE = 0 V; ISW = 100 μA                                                  [2]    -            -                  -           Ω
+                                                VCC = 4.5 V; VEE = 0 V; ISW = 1000 μA                                                        -            -                240           Ω
+                                                VCC = 6.0 V; VEE = 0 V; ISW = 1000 μA                                                        -            -                210           Ω
+                                                VCC = 4.5 V; VEE = -4.5 V; ISW = 1000 μA                                                     -            -                180           Ω
+
+[1]   All typical values are measured at Tamb = 25 °C.
+[2]   When supply voltages (VCC - VEE) near 2.0 V the analog switch ON resistance becomes extremely non-linear. When using a supply of
+      2 V, it is recommended to use these devices only for transmitting digital signals.
+
+                                                                                                                                                                      001aai068
+                                                                                                              100
+                                                                                                                                              (1)
+                                                                                                           RON
+                                                                                                           (Ω)
+                                                                                                                80
+
+
+
+                                                                                                                60
+                                                                                                                                              (2)
+
+
+                                          Vsw
+                                                                                                                                              (3)
+                                           V                                                                    40
+
+                                                 VCC
+                 from select         Sn                                                                         20
+                       input
+                                 nYn               nZ
+                                                                                                                  0
+                               Vis        GND    VEE             Isw                                                  0              1.8    3.6     5.4           7.2             9.0
+                                                                                                                                                                        Vis (V)
+
+                                                        001aah826                                              Vis = 0 V to (VCC - VEE).
+               Vis = 0 V to (VCC - VEE).                                                                       (1) VCC = 4.5 V
+                                                                                                               (2) VCC = 6 V
+                                                                                                               (3) VCC = 9 V
+Fig. 9.        Test circuit for measuring RON                                                 Fig. 10. Typical RON as a function of input voltage Vis
+
+
+
+
+74HC_HCT4052                                            All information provided in this document is subject to legal disclaimers.                        © Nexperia B.V. 2021. All rights reserved
+
+
+Product data sheet                                                 Rev. 13 — 9 September 2021                                                                                            8 / 25
+Nexperia                                                                                                               74HC4052; 74HCT4052
+                                                                                            Dual 4-channel analog multiplexer/demultiplexer
+
+Table 7. Static characteristics for 74HC4052
+Voltages are referenced to GND (ground = 0 V).
+Vis is the input voltage at pins nYn or nZ, whichever is assigned as an input.
+Vos is the output voltage at pins nZ or nYn, whichever is assigned as an output.
+Symbol Parameter                          Conditions                                                                        Min    Typ[1]            Max            Unit
+Tamb = -40 °C to +85 °C
+VIH            HIGH-level input voltage   VCC = 2.0 V                                                                       1.5     1.2                 -           V
+                                          VCC = 4.5 V                                                                       3.15    2.4                 -           V
+                                          VCC = 6.0 V                                                                       4.2     3.2                 -           V
+                                          VCC = 9.0 V                                                                       6.3     4.7                 -           V
+VIL            LOW-level input voltage    VCC = 2.0 V                                                                        -      0.8               0.5           V
+                                          VCC = 4.5 V                                                                        -      2.1              1.35           V
+                                          VCC = 6.0 V                                                                        -      2.8               1.8           V
+                                          VCC = 9.0 V                                                                        -      4.3               2.7           V
+II             input leakage current      VEE = 0 V; VI = VCC or GND
+                                             VCC = 6.0 V                                                                     -       -               ±1.0           μA
+                                             VCC = 10.0 V                                                                    -       -               ±2.0           μA
+IS(OFF)        OFF-state leakage          VCC = 10.0 V; VEE = 0 V; VI = VIH or VIL;
+               current                    |VSW| = VCC - VEE; see Fig. 11
+                                             per channel                                                                     -       -               ±1.0           μA
+                                             all channels                                                                    -       -               ±2.0           μA
+IS(ON)         ON-state leakage current VCC = 10.0 V; VEE = 0 V; VI = VIH or VIL;                                            -       -               ±2.0           μA
+                                        |VSW| = VCC - VEE; see Fig. 12
+ICC            supply current             VEE = 0 V; VI = VCC or GND; Vis = VEE or VCC;
+                                          Vos = VCC or VEE
+                                             VCC = 6.0 V                                                                     -       -               80.0           μA
+                                             VCC = 10.0 V                                                                    -       -              160.0           μA
+CI             input capacitance                                                                                             -      3.5                 -           pF
+Csw            switch capacitance         independent pins nYn                                                               -       5                  -           pF
+                                          common pins nZ                                                                     -      12                  -           pF
+Tamb = -40 °C to +125 °C
+VIH            HIGH-level input voltage   VCC = 2.0 V                                                                       1.5      -                  -           V
+                                          VCC = 4.5 V                                                                       3.15     -                  -           V
+                                          VCC = 6.0 V                                                                       4.2      -                  -           V
+                                          VCC = 9.0 V                                                                       6.3      -                  -           V
+VIL            LOW-level input voltage    VCC = 2.0 V                                                                        -       -                0.5           V
+                                          VCC = 4.5 V                                                                        -       -               1.35           V
+                                          VCC = 6.0 V                                                                        -       -                1.8           V
+                                          VCC = 9.0 V                                                                        -       -                2.7           V
+
+
+
+
+74HC_HCT4052                                   All information provided in this document is subject to legal disclaimers.            © Nexperia B.V. 2021. All rights reserved
+
+
+Product data sheet                                        Rev. 13 — 9 September 2021                                                                                9 / 25
+Nexperia                                                                                                                74HC4052; 74HCT4052
+                                                                                             Dual 4-channel analog multiplexer/demultiplexer
+
+Symbol Parameter                           Conditions                                                                        Min   Typ[1]            Max            Unit
+II             input leakage current       VEE = 0 V; VI = VCC or GND
+                                              VCC = 6.0 V                                                                     -      -               ±1.0           μA
+                                              VCC = 10.0 V                                                                    -      -               ±2.0           μA
+IS(OFF)        OFF-state leakage           VCC = 10.0 V; VEE = 0 V; VI = VIH or VIL;
+               current                     |VSW| = VCC - VEE; see Fig. 11
+                                              per channel                                                                     -      -               ±1.0           μA
+                                              all channels                                                                    -      -               ±2.0           μA
+IS(ON)         ON-state leakage current VCC = 10.0 V; VEE = 0 V; VI = VIH or VIL;                                             -      -               ±2.0           μA
+                                        |VSW| = VCC - VEE; see Fig. 12
+ICC            supply current              VEE = 0 V; VI = VCC or GND; Vis = VEE or VCC;
+                                           Vos = VCC or VEE
+                                              VCC = 6.0 V                                                                     -      -              160.0           μA
+                                              VCC = 10.0 V                                                                    -      -              320.0           μA
+
+[1]   All typical values are measured at Tamb = 25 °C.
+
+Table 8. Static characteristics for 74HCT4052
+Voltages are referenced to GND (ground = 0 V).
+Vis is the input voltage at pins nYn or nZ, whichever is assigned as an input.
+Vos is the output voltage at pins nZ or nYn, whichever is assigned as an output.
+Symbol Parameter                           Conditions                                                                        Min   Typ[1]            Max            Unit
+Tamb = -40 °C to +85 °C
+VIH            HIGH-level input voltage    VCC = 4.5 V to 5.5 V                                                              2.0    1.6                 -           V
+VIL            LOW-level input voltage     VCC = 4.5 V to 5.5 V                                                               -     1.2               0.8           V
+II             input leakage current       VI = VCC or GND; VCC = 5.5 V; VEE = 0 V                                            -      -               ±1.0           μA
+IS(OFF)        OFF-state leakage           VCC = 10.0 V; VEE = 0 V; VI = VIH or VIL;
+               current                     |VSW| = VCC - VEE; see Fig. 11
+                                              per channel                                                                     -      -               ±1.0           μA
+                                              all channels                                                                    -      -               ±2.0           μA
+IS(ON)         ON-state leakage current VCC = 10.0 V; VEE = 0 V; VI = VIH or VIL;                                             -      -               ±2.0           μA
+                                        |VSW| = VCC - VEE; see Fig. 12
+ICC            supply current              VI = VCC or GND; Vis = VEE or VCC;
+                                           Vos = VCC or VEE
+                                              VCC = 5.5 V; VEE = 0 V                                                          -      -               80.0           μA
+                                              VCC = 5.0 V; VEE = -5.0 V                                                       -      -              160.0           μA
+ΔICC           additional supply current   per input; VI = VCC - 2.1 V; other inputs at VCC                                   -     45              202.5           μA
+                                           or GND; VCC = 4.5 V to 5.5 V; VEE = 0 V
+CI             input capacitance                                                                                              -     3.5                 -           pF
+Csw            switch capacitance          independent pins nYn                                                               -      5                  -           pF
+                                           common pins nZ                                                                     -     12                  -           pF
+
+
+
+
+74HC_HCT4052                                    All information provided in this document is subject to legal disclaimers.           © Nexperia B.V. 2021. All rights reserved
+
+
+Product data sheet                                         Rev. 13 — 9 September 2021                                                                             10 / 25
+Nexperia                                                                                                                   74HC4052; 74HCT4052
+                                                                                                Dual 4-channel analog multiplexer/demultiplexer
+
+Symbol Parameter                           Conditions                                                                                 Min   Typ[1]            Max            Unit
+Tamb = -40 °C to +125 °C
+VIH            HIGH-level input voltage    VCC = 4.5 V to 5.5 V                                                                       2.0     -                  -           V
+VIL            LOW-level input voltage     VCC = 4.5 V to 5.5 V                                                                        -      -                0.8           V
+II             input leakage current       VI = VCC or GND; VCC = 5.5 V; VEE = 0 V                                                     -      -               ±1.0           μA
+IS(OFF)        OFF-state leakage           VCC = 10.0 V; VEE = 0 V; VI = VIH or VIL;
+               current                     |VSW| = VCC - VEE; see Fig. 11
+                                              per channel                                                                              -      -               ±1.0           μA
+                                              all channels                                                                             -      -               ±2.0           μA
+IS(ON)         ON-state leakage current VCC = 10.0 V; VEE = 0 V; VI = VIH or VIL;                                                      -      -               ±2.0           μA
+                                        |VSW| = VCC - VEE; see Fig. 12
+ICC            supply current              VI = VCC or GND; Vis = VEE or VCC;
+                                           Vos = VCC or VEE
+                                              VCC = 5.5 V; VEE = 0 V                                                                   -      -              160.0           μA
+                                              VCC = 5.0 V; VEE = -5.0 V                                                                -      -              320.0           μA
+ΔICC           additional supply current   per input; VI = VCC - 2.1 V; other inputs at VCC                                            -      -              220.5           μA
+                                           or GND; VCC = 4.5 V to 5.5 V; VEE = 0 V
+
+[1]   All typical values are measured at Tamb = 25 °C.
+
+                                                                                                  VCC
+                                           from select                         Sn
+                                                 input            Isw                                            Isw
+                                                                               Yn                     Z
+                                                                     A                                            A
+
+                                                               Vis                     GND        VEE                           Vos
+
+
+                                                                                                                       001aan383
+
+               Vis = VCC and Vos = VEE.
+               Vis = VEE and Vos = VCC.
+Fig. 11. Test circuit for measuring OFF-state current
+
+                                                                                                          VCC
+                                                    HIGH
+                                                                                    Sn
+                                               from select
+                                                     input                 Isw
+                                                                                    Yn                       Z            Vos
+                                                                           A
+
+                                                                     Vis                      GND         VEE
+
+
+                                                                                                                 001aan384
+
+               Vis = VCC and Vos = open-circuit.
+               Vis = VEE and Vos = open-circuit.
+Fig. 12. Test circuit for measuring ON-state current
+
+
+
+
+74HC_HCT4052                                       All information provided in this document is subject to legal disclaimers.                 © Nexperia B.V. 2021. All rights reserved
+
+
+Product data sheet                                            Rev. 13 — 9 September 2021                                                                                   11 / 25
+Nexperia                                                                                                              74HC4052; 74HCT4052
+                                                                                           Dual 4-channel analog multiplexer/demultiplexer
+
+
+11. Dynamic characteristics
+Table 9. Dynamic characteristics for 74HC4052
+GND = 0 V; tr = tf = 6 ns; CL = 50 pF; for test circuit see Fig. 15.
+Vis is the input voltage at a nYn or nZ terminal, whichever is assigned as an input.
+Vos is the output voltage at a nYn or nZ terminal, whichever is assigned as an output.
+Symbol Parameter                   Conditions                                                                                    Min   Typ[1]            Max            Unit
+Tamb = -40 °C to +85 °C
+tpd            propagation delay   Vis to Vos; RL = ∞ Ω; see Fig. 13                                                       [2]
+                                      VCC = 2.0 V; VEE = 0 V                                                                      -     14                 75           ns
+                                      VCC = 4.5 V; VEE = 0 V                                                                      -      5                 15           ns
+                                      VCC = 6.0 V; VEE = 0 V                                                                      -      4                 13           ns
+                                      VCC = 4.5 V; VEE = -4.5 V                                                                   -      4                 10           ns
+ton            turn-on time        E, Sn to Vos; RL = ∞ Ω; see Fig. 14                                                     [3]
+                                      VCC = 2.0 V; VEE = 0 V                                                                      -     105               405           ns
+                                      VCC = 4.5 V; VEE = 0 V                                                                      -     38                 81           ns
+                                      VCC = 5.0 V; VEE = 0 V; CL = 15 pF                                                          -     28                  -           ns
+                                      VCC = 6.0 V; VEE = 0 V                                                                      -     30                 69           ns
+                                      VCC = 4.5 V; VEE = -4.5 V                                                                   -     26                 58           ns
+toff           turn-off time       E, Sn to Vos; RL = 1 kΩ; see Fig. 14                                                    [4]
+                                      VCC = 2.0 V; VEE = 0 V                                                                      -     74                315           ns
+                                      VCC = 4.5 V; VEE = 0 V                                                                      -     27                 63           ns
+                                      VCC = 5.0 V; VEE = 0 V; CL = 15 pF                                                          -     21                  -           ns
+                                      VCC = 6.0 V; VEE = 0 V                                                                      -     22                 54           ns
+                                      VCC = 4.5 V; VEE = -4.5 V                                                                   -     22                 48           ns
+CPD            power dissipation   per switch; VI = GND to VCC                                                             [5]    -     57                  -           pF
+               capacitance
+
+
+
+
+74HC_HCT4052                                  All information provided in this document is subject to legal disclaimers.                 © Nexperia B.V. 2021. All rights reserved
+
+
+Product data sheet                                       Rev. 13 — 9 September 2021                                                                                   12 / 25
+Nexperia                                                                                                                74HC4052; 74HCT4052
+                                                                                             Dual 4-channel analog multiplexer/demultiplexer
+
+Symbol Parameter                    Conditions                                                                                     Min   Typ[1]            Max            Unit
+Tamb = -40 °C to +125 °C
+tpd            propagation delay    Vis to Vos; RL = ∞ Ω; see Fig. 13                                                        [2]
+                                        VCC = 2.0 V; VEE = 0 V                                                                      -      -                 90           ns
+                                        VCC = 4.5 V; VEE = 0 V                                                                      -      -                 18           ns
+                                        VCC = 6.0 V; VEE = 0 V                                                                      -      -                 15           ns
+                                        VCC = 4.5 V; VEE = -4.5 V                                                                   -      -                 12           ns
+ton            turn-on time         E, Sn to Vos; RL = ∞ Ω; see Fig. 14                                                      [3]
+                                        VCC = 2.0 V; VEE = 0 V                                                                      -      -                490           ns
+                                        VCC = 4.5 V; VEE = 0 V                                                                      -      -                 98           ns
+                                        VCC = 6.0 V; VEE = 0 V                                                                      -      -                 83           ns
+                                        VCC = 4.5 V; VEE = -4.5 V                                                                   -      -                 69           ns
+toff           turn-off time        E, Sn to Vos; RL = 1 kΩ; see Fig. 14                                                     [4]
+                                        VCC = 2.0 V; VEE = 0 V                                                                      -      -                375           ns
+                                        VCC = 4.5 V; VEE = 0 V                                                                      -      -                 75           ns
+                                        VCC = 6.0 V; VEE = 0 V                                                                      -      -                 64           ns
+                                        VCC = 4.5 V; VEE = -4.5 V                                                                   -      -                 57           ns
+
+[1]    All typical values are measured at Tamb = 25 °C.
+[2]    tpd is the same as tPHL and tPLH.
+[3]    ton is the same as tPZH and tPZL.
+[4]    toff is the same as tPHZ and tPLZ.
+[5]    CPD is used to determine the dynamic power dissipation (PD in μW).
+                         2                            2
+       PD = CPD x VCC x fi x N + Σ{(CL + Csw) x VCC x fo} where:
+       fi = input frequency in MHz;
+       fo = output frequency in MHz;
+       N = number of inputs switching;
+                            2
+       Σ{(CL + Csw) x VCC x fo} = sum of outputs;
+       CL = output load capacitance in pF;
+       Csw = switch capacitance in pF;
+       VCC = supply voltage in V.
+
+
+
+
+74HC_HCT4052                                    All information provided in this document is subject to legal disclaimers.                 © Nexperia B.V. 2021. All rights reserved
+
+
+Product data sheet                                         Rev. 13 — 9 September 2021                                                                                   13 / 25
+Nexperia                                                                                                                74HC4052; 74HCT4052
+                                                                                             Dual 4-channel analog multiplexer/demultiplexer
+
+Table 10. Dynamic characteristics for 74HCT4052
+GND = 0 V; tr = tf = 6 ns; CL = 50 pF; for test circuit see Fig. 15.
+Vis is the input voltage at a nYn or nZ terminal, whichever is assigned as an input.
+Vos is the output voltage at a nYn or nZ terminal, whichever is assigned as an output.
+Symbol Parameter                    Conditions                                                                                     Min   Typ[1]            Max            Unit
+Tamb = -40 °C to +85 °C
+tpd            propagation delay    Vis to Vos; RL = ∞ Ω; see Fig. 13                                                        [2]
+                                        VCC = 4.5 V; VEE = 0 V                                                                      -      5                 15           ns
+                                        VCC = 4.5 V; VEE = -4.5 V                                                                   -      4                 10           ns
+ton            turn-on time         E, Sn to Vos; RL = 1 kΩ; see Fig. 14                                                     [3]
+                                        VCC = 4.5 V; VEE = 0 V                                                                      -     41                 88           ns
+                                        VCC = 5.0 V; VEE = 0 V; CL = 15 pF                                                          -     18                  -           ns
+                                        VCC = 4.5 V; VEE = -4.5 V                                                                   -     28                 60           ns
+toff           turn-off time        E, Sn to Vos; RL = 1 kΩ; see Fig. 14                                                     [4]
+                                        VCC = 4.5 V; VEE = 0 V                                                                      -     26                 63           ns
+                                        VCC = 5.0 V; VEE = 0 V; CL = 15 pF                                                          -     13                  -           ns
+                                        VCC = 4.5 V; VEE = -4.5 V                                                                   -     21                 48           ns
+CPD            power dissipation    per switch; VI = GND to VCC - 1.5 V                                                      [5]    -     57                  -           pF
+               capacitance
+Tamb = -40 °C to +125 °C
+tpd            propagation delay    Vis to Vos; RL = ∞ Ω; see Fig. 13                                                        [2]
+                                        VCC = 4.5 V; VEE = 0 V                                                                      -      -                 18           ns
+                                        VCC = 4.5 V; VEE = -4.5 V                                                                   -      -                 12           ns
+ton            turn-on time         E, Sn to Vos; RL = 1 kΩ; see Fig. 14                                                     [3]
+                                        VCC = 4.5 V; VEE = 0 V                                                                      -      -                105           ns
+                                        VCC = 4.5 V; VEE = -4.5 V                                                                   -      -                 72           ns
+toff           turn-off time        E, Sn to Vos; RL = 1 kΩ; see Fig. 14                                                     [4]
+                                        VCC = 4.5 V; VEE = 0 V                                                                      -      -                 75           ns
+                                        VCC = 4.5 V; VEE = -4.5 V                                                                   -      -                 57           ns
+
+[1]    All typical values are measured at Tamb = 25 °C.
+[2]    tpd is the same as tPHL and tPLH.
+[3]    ton is the same as tPZH and tPZL.
+[4]    toff is the same as tPHZ and tPLZ.
+[5]    CPD is used to determine the dynamic power dissipation (PD in μW).
+                         2                            2
+       PD = CPD x VCC x fi x N + Σ{(CL + Csw) x VCC x fo} where:
+       fi = input frequency in MHz;
+       fo = output frequency in MHz;
+       N = number of inputs switching;
+                            2
+       Σ{(CL + Csw) x VCC x fo} = sum of outputs;
+       CL = output load capacitance in pF;
+       Csw = switch capacitance in pF;
+       VCC = supply voltage in V.
+
+
+
+
+74HC_HCT4052                                    All information provided in this document is subject to legal disclaimers.                 © Nexperia B.V. 2021. All rights reserved
+
+
+Product data sheet                                         Rev. 13 — 9 September 2021                                                                                   14 / 25
+Nexperia                                                                                                                    74HC4052; 74HCT4052
+                                                                                                 Dual 4-channel analog multiplexer/demultiplexer
+
+
+                                                Vis input                   50 %
+
+
+
+                                                                                     tPLH                                tPHL
+
+
+
+                                               Vos output                        50 %
+
+
+                                                                                                                      001aad555
+
+Fig. 13. Input (Vis) to output (Vos) propagation delays
+
+                                               VI
+
+                                E, Sn inputs                  VM
+
+                                           0V
+                                                                                                                  tPZL
+                                                                   tPLZ
+
+
+
+                                 Vos output                                                                                      50 %
+                                                                                  10 %
+
+                                                                     tPHZ                                           tPZH
+
+                                                                                      90 %
+                                                                                                                                   50 %
+                                 Vos output
+
+
+                                                             switch ON                            switch OFF                            switch ON
+
+                                                                                                                                        001aae330
+
+               For 74HC4052: VM = 0.5 × VCC.
+               For 74HCT4052: VM = 1.3 V.
+Fig. 14. Turn-on and turn-off times
+
+
+
+
+74HC_HCT4052                                        All information provided in this document is subject to legal disclaimers.                      © Nexperia B.V. 2021. All rights reserved
+
+
+Product data sheet                                             Rev. 13 — 9 September 2021                                                                                        15 / 25
+Nexperia                                                                                                                         74HC4052; 74HCT4052
+                                                                                                    Dual 4-channel analog multiplexer/demultiplexer
+
+                                                                                               tW
+                                                 VI
+                                                         90 %
+                                         negative
+                                            pulse                           VM                                     VM
+                                                                             10 %
+                                                0V
+                                                                       tf                                               tr
+
+                                                                       tr                                                tf
+                                                 VI
+                                                                             90 %
+                                            positive
+                                              pulse                         VM                                     VM
+                                                         10 %
+                                                0V
+                                                                                               tW
+
+
+
+
+                                                                                  VCC Vis                                             VCC
+
+                                                                  VI                                Vos                RL        S1
+                                          PULSE
+                                                                                      DUT                                                open
+                                        GENERATOR
+                                                                                 RT                               CL
+
+                                                                                                                                            GND
+                                                                                                                                           VEE
+                                                                                                                                      001aae382
+
+               Definitions for test circuit; see Table 11:
+               RT = Termination resistance should be equal to the output impedance Zo of the pulse generator.
+               CL = Load capacitance including jig and probe capacitance.
+               RL = Load resistance.
+               S1 = Test selection switch.
+Fig. 15. Test circuit for measuring switching times
+
+Table 11. Test data
+Test            Input                                                                                                       Load                                      S1 position
+                     VI [1]           Vis                      tr, tf                                                       CL                    RL
+                                                               at fmax                       other [2]
+tPHL, tPLH           VCC              pulse                    < 2 ns                        6 ns                           50 pF                 1 kΩ                open
+tPZH, tPHZ           VCC              VCC                      < 2 ns                        6 ns                           50 pF                 1 kΩ                VEE
+tPZL, tPLZ           VCC              VEE                      < 2 ns                        6 ns                           50 pF                 1 kΩ                VCC
+
+[1]   For 74HCT4052: VI = 3 V
+[2]   tr = tf = 6 ns; when measuring fmax, there is no constraint to tr and tf with 50 % duty factor.
+
+
+
+
+74HC_HCT4052                                           All information provided in this document is subject to legal disclaimers.                        © Nexperia B.V. 2021. All rights reserved
+
+
+Product data sheet                                                Rev. 13 — 9 September 2021                                                                                          16 / 25
+Nexperia                                                                                                                 74HC4052; 74HCT4052
+                                                                                              Dual 4-channel analog multiplexer/demultiplexer
+
+
+                              11.1. Additional dynamic characteristics
+Table 12. Additional dynamic characteristics
+Recommended conditions and typical values; GND = 0 V; Tamb = 25 °C; CL = 50 pF.
+Vis is the input voltage at pins nYn or nZ, whichever is assigned as an input.
+Vos is the output voltage at pins nYn or nZ, whichever is assigned as an output.
+Symbol Parameter                    Conditions                                                                                       Min   Typ              Max           Unit
+dsin           sine-wave            fi = 1 kHz; RL = 10 kΩ; see Fig. 16
+               distortion               Vis = 4.0 V (p-p); VCC = 2.25 V; VEE = -2.25 V                                                -    0.04                -          %
+                                        Vis = 8.0 V (p-p); VCC = 4.5 V; VEE = -4.5 V                                                  -    0.02                -          %
+                                    fi = 10 kHz; RL = 10 kΩ; see Fig. 16
+                                        Vis = 4.0 V (p-p); VCC = 2.25 V; VEE = -2.25 V                                                -    0.12                -          %
+                                        Vis = 8.0 V (p-p); VCC = 4.5 V; VEE = -4.5 V                                                  -    0.06                -          %
+αiso           isolation            RL = 600 Ω; fi = 1 MHz; see Fig. 17
+               (OFF-state)              VCC = 2.25 V; VEE = -2.25 V                                                           [1]     -    -50                 -          dB
+                                        VCC = 4.5 V; VEE = -4.5 V                                                             [1]     -    -50                 -          dB
+Xtalk          crosstalk            between two switches/multiplexers; RL = 600 Ω;
+                                    fi = 1 MHz; see Fig. 18
+                                        VCC = 2.25 V; VEE = -2.25 V                                                           [1]     -    -60                 -          dB
+                                        VCC = 4.5 V; VEE = -4.5 V                                                             [1]     -    -60                 -          dB
+Vct            crosstalk voltage    peak-to-peak value; between control and any
+                                    switch; RL = 600 Ω; fi = 1 MHz; E or Sn square
+                                    wave between VCC and GND; tr = tf = 6 ns;
+                                    see Fig. 19
+                                        VCC = 4.5 V; VEE = 0 V                                                                        -    110                 -          mV
+                                        VCC = 4.5 V; VEE = -4.5 V                                                                     -    220                 -          mV
+f(-3dB)        -3 dB frequency      RL = 50 Ω; see Fig. 20
+               response                 VCC = 2.25 V; VEE = -2.25 V                                                           [2]     -    170                 -          MHz
+                                        VCC = 4.5 V; VEE = -4.5 V                                                             [2]     -    180                 -          MHz
+
+[1]    Adjust input voltage Vis to 0 dBm level (0 dBm = 1 mW into 600 Ω).
+[2]    Adjust input voltage Vis to 0 dBm level at Vos for 1 MHz (0 dBm = 1 mW into 50 Ω).
+
+                                                                                           VCC
+                                                                      Sn
+
+                                                      10 µF
+                                                               nYn/nZ                          nZ/nYn
+                                           Vis                                                                                 Vos
+
+                                                                                VEE        GND         RL          CL         dB
+
+
+                                                                                                                      001aah829
+
+Fig. 16. Test circuit for measuring sine-wave distortion
+
+
+
+
+74HC_HCT4052                                     All information provided in this document is subject to legal disclaimers.                 © Nexperia B.V. 2021. All rights reserved
+
+
+Product data sheet                                          Rev. 13 — 9 September 2021                                                                                   17 / 25
+Nexperia                                                                                                                      74HC4052; 74HCT4052
+                                                                                                   Dual 4-channel analog multiplexer/demultiplexer
+
+                                                                                                VCC
+                                                                           Sn
+
+                                                           0.1 µF
+                                                                    nYn/nZ                          nZ/nYn
+                                           Vis                                                                                      Vos
+
+                                                                                     VEE        GND         RL          CL         dB
+
+
+                                                                                                                           001aah871
+
+               VCC = 4.5 V; GND = 0 V; VEE = -4.5 V; RL = 600 Ω; RS = 1 kΩ.
+               a. Test circuit
+                                                                                                                                                 001aae332
+                                 0
+                         α iso
+                         (dB)
+                           - 20
+
+
+
+                           - 40
+
+
+
+                           - 60
+
+
+
+                           - 80
+
+
+
+                          - 100
+                                     10         102                       103                        104                           105                   106
+                                                                                                                                              fi (kHz)
+
+               b. Isolation (OFF-state) as a function of frequency
+
+Fig. 17. Test circuit for measuring isolation (OFF-state)
+
+                                                                                                 VCC
+                                                                            Sn
+
+                                                 0.1 µF      RL
+                                                                     nYn/nZ                          nZ/nYn
+                                          Vis
+
+                                                                                      VEE        GND         RL          CL
+
+
+
+
+                                                                                                 VCC
+                                                                            Sn
+
+                                                                     nYn/nZ                          nZ/nYn
+                                                                                                                                        Vos
+
+                                                                    RL                VEE        GND         RL          CL        dB
+
+
+                                                                                                                             001aah873
+
+Fig. 18. Test circuits for measuring crosstalk between any two switches/multiplexers
+
+
+
+
+74HC_HCT4052                                          All information provided in this document is subject to legal disclaimers.                               © Nexperia B.V. 2021. All rights reserved
+
+
+Product data sheet                                                Rev. 13 — 9 September 2021                                                                                                18 / 25
+Nexperia                                                                                                                 74HC4052; 74HCT4052
+                                                                                              Dual 4-channel analog multiplexer/demultiplexer
+
+
+                                           2RL                   VCC               2RL
+
+                                               Sn, E
+                                                                                                         Vct
+                                                 nYn                       nZ
+
+                                     G     2RL              VEE        GND         2RL                         oscilloscope
+
+
+                                                                                                                                    001aah913
+
+Fig. 19. Test circuit for measuring crosstalk between control input and any switch
+
+                                                                                           VCC
+                                                                      Sn
+
+                                                       10 µF
+                                                               nYn/nZ                          nZ/nYn
+                                         Vis                                                                                   Vos
+
+                                                                                VEE        GND         RL          CL         dB
+
+
+                                                                                                                      001aah829
+
+               VCC = 4.5 V; GND = 0 V; VEE = -4.5 V; RL = 50 Ω; RS = 1 kΩ.
+               a. Test circuit
+                                                                                                                                         001aad551
+                            5
+                         Vos
+                         (dB)
+                            3
+
+
+
+                            1
+
+
+
+                           -1
+
+
+
+                           -3
+
+
+
+                           -5
+                                10         102                       103                        104                           105               106
+                                                                                                                                      f (kHz)
+
+               b. Typical frequency response
+
+Fig. 20. Test circuit for frequency response
+
+
+
+
+74HC_HCT4052                                     All information provided in this document is subject to legal disclaimers.                           © Nexperia B.V. 2021. All rights reserved
+
+
+Product data sheet                                          Rev. 13 — 9 September 2021                                                                                             19 / 25
+Nexperia                                                                                                                                   74HC4052; 74HCT4052
+                                                                                                                Dual 4-channel analog multiplexer/demultiplexer
+
+
+12. Package outline
+
+  SO16: plastic small outline package; 16 leads; body width 3.9 mm                                                                                                                            SOT109-1
+
+
+
+
+                                                               D                                                                                 E                   A
+                                                                                                                                                                                   X
+
+
+
+                                                                                                                   c
+
+                              y                                                                                                                 HE                                 v M A
+
+
+                        Z
+
+                       16                                                                              9
+
+
+
+
+                                                                                                                                                              Q
+                                                                                                                          A2
+                                                                                                                                                                  (A 3)        A
+                                                                                                                                 A1
+                            pin 1 index
+                                                                                                                                                                           θ
+                                                                                                                                                          Lp
+
+                        1                                                                              8                                                  L
+
+                                                     e                                                         w M                                detail X
+                                                                                                  bp
+
+
+
+
+                                                                                 0                  2.5                   5 mm
+                                                                                                   scale
+
+
+     DIMENSIONS (inch dimensions are derived from the original mm dimensions)
+                A
+       UNIT                 A1     A2           A3        bp         c        D (1)       E (1)        e        HE           L         Lp        Q        v        w           y        Z (1)      θ
+               max.
+                            0.25   1.45                  0.49      0.25       10.0        4.0                   6.2                    1.0       0.7                                    0.7
+        mm     1.75                         0.25                                                    1.27                   1.05                          0.25     0.25      0.1
+                            0.10   1.25                  0.36      0.19        9.8        3.8                   5.8                    0.4       0.6                                    0.3       8
+                                                                                                                                                                                                       o
+                                                                                                                                                                                                    o
+                        0.010 0.057                      0.019 0.0100 0.39               0.16                  0.244                  0.039     0.028                                  0.028      0
+      inches   0.069                        0.01                                                    0.05             0.041                               0.01     0.01    0.004
+                        0.004 0.049                      0.014 0.0075 0.38               0.15                  0.228                  0.016     0.020                                  0.012
+
+     Note
+     1. Plastic or metal protrusions of 0.15 mm (0.006 inch) maximum per side are not included.
+
+
+           OUTLINE                                                           REFERENCES                                                                  EUROPEAN
+                                                                                                                                                                                   ISSUE DATE
+           VERSION                        IEC                      JEDEC                           JEITA                                                PROJECTION
+
+                                                                                                                                                                                       99-12-27
+           SOT109-1                  076E07                        MS-012
+                                                                                                                                                                                       03-02-19
+
+
+
+Fig. 21. Package outline SOT109-1 (SO16)
+
+
+
+
+74HC_HCT4052                                                       All information provided in this document is subject to legal disclaimers.                             © Nexperia B.V. 2021. All rights reserved
+
+
+Product data sheet                                                            Rev. 13 — 9 September 2021                                                                                                   20 / 25
+Nexperia                                                                                                                              74HC4052; 74HCT4052
+                                                                                                          Dual 4-channel analog multiplexer/demultiplexer
+
+  TSSOP16: plastic thin shrink small outline package; 16 leads; body width 4.4 mm                                                                                                          SOT403-1
+
+
+
+
+                                                      D                                                                             E                            A
+                                                                                                                                                                          X
+
+
+                                                                                                    c
+
+                                   y                                                                                               HE                                         v M A
+
+
+
+
+                                        Z
+
+                              16                                         9
+
+
+
+
+                                                                                                                                                            Q
+                                                                                                          A2                                                     (A 3 )
+                                                                                                                                                                              A
+                                                                                                                A1
+                                             pin 1 index
+
+                                                                                                                                                                          θ
+                                                                                                                                                      Lp
+                                                                                                                                                  L
+                              1                                          8
+                                                                                                                                          detail X
+                                                                                 w M
+                                                  e                 bp
+
+
+
+
+                                                                             0                2.5                    5 mm
+                                                                                             scale
+
+
+     DIMENSIONS (mm are the original dimensions)
+                A
+       UNIT            A1      A2            A3       bp       c         D (1)      E (2)       e         HE           L         Lp           Q            v         w         y       Z (1)      θ
+               max.
+
+        mm
+                       0.15    0.95                   0.30   0.2         5.1        4.5                   6.6                   0.75         0.4                                      0.40        8o
+                1.1                         0.25                                              0.65                     1                                   0.2    0.13        0.1
+                       0.05    0.80                   0.19   0.1         4.9        4.3                   6.2                   0.50         0.3                                      0.06        0o
+
+     Notes
+     1. Plastic or metal protrusions of 0.15 mm maximum per side are not included.
+     2. Plastic interlead protrusions of 0.25 mm maximum per side are not included.
+
+           OUTLINE                                                     REFERENCES                                                                      EUROPEAN
+                                                                                                                                                                                    ISSUE DATE
+           VERSION                     IEC                   JEDEC                          JEITA                                                     PROJECTION
+
+                                                                                                                                                                                     99-12-27
+           SOT403-1                                          MO-153
+                                                                                                                                                                                     03-02-18
+
+
+
+Fig. 22. Package outline SOT403-1 (TSSOP16)
+
+
+
+
+74HC_HCT4052                                                 All information provided in this document is subject to legal disclaimers.                                   © Nexperia B.V. 2021. All rights reserved
+
+
+Product data sheet                                                       Rev. 13 — 9 September 2021                                                                                                    21 / 25
+Nexperia                                                                                                                                 74HC4052; 74HCT4052
+                                                                                                                  Dual 4-channel analog multiplexer/demultiplexer
+
+  DHVQFN16: plastic dual in-line compatible thermal enhanced very thin quad flat package; no leads;
+  16 terminals; body 2.5 x 3.5 x 0.85 mm                                                            SOT763-1
+
+
+
+
+                                                           D                                        B       A
+
+
+
+
+                                                                                                                                          A
+                                                                                                                                              A1
+                                                                                                            E                                                                          c
+
+
+
+               terminal 1                                                                                                                                     detail X
+               index area
+
+
+
+
+                  terminal 1                                                                                                                                                 C
+                                                           e1
+                  index area
+                                         e                                 b                            v M C A B                        y1 C                                    y
+                                                                                                        w M C
+                                   2                                                    7
+
+                       L
+
+
+
+                             1                                                                  8
+
+                       Eh                                                                               e
+
+                            16                                                                  9
+
+
+
+
+                                   15                                             10
+                                                           Dh
+                                                                                                                                                                         X
+
+                                                   0                                                2.5                                              5 mm
+
+                                                                                                   scale
+     DIMENSIONS (mm are the original dimensions)
+                A(1)
+       UNIT
+                max.
+                            A1     b          c    D (1)        Dh      E (1)      Eh          e            e1      L         v          w       y      y1
+
+                           0.05   0.30             3.6         2.15     2.6      1.15                               0.5
+       mm         1                          0.2                                             0.5            2.5              0.1       0.05     0.05    0.1
+                           0.00   0.18             3.4         1.85     2.4      0.85                               0.3
+     Note
+     1. Plastic or metal protrusions of 0.075 mm maximum per side are not included.
+
+            OUTLINE                                                        REFERENCES                                                                 EUROPEAN
+                                                                                                                                                                                     ISSUE DATE
+            VERSION                      IEC                         JEDEC                         JEITA                                             PROJECTION
+
+                                                                                                                                                                                      02-10-17
+            SOT763-1                     ---                     MO-241                             ---
+                                                                                                                                                                                      03-01-27
+
+
+
+Fig. 23. Package outline SOT763-1 (DHVQFN16)
+
+
+
+
+74HC_HCT4052                                                     All information provided in this document is subject to legal disclaimers.                              © Nexperia B.V. 2021. All rights reserved
+
+
+Product data sheet                                                           Rev. 13 — 9 September 2021                                                                                               22 / 25
+Nexperia                                                                                                       74HC4052; 74HCT4052
+                                                                                    Dual 4-channel analog multiplexer/demultiplexer
+
+
+13. Abbreviations
+Table 13. Abbreviations
+Acronym                      Description
+CDM                          Charged Device Model
+DUT                          Device Under Test
+ESD                          ElectroStatic Discharge
+HBM                          Human Body Model
+MM                           Machine Model
+
+
+14. Revision history
+Table 14. Revision history
+Document ID                  Release date          Data sheet status                                Change notice Supersedes
+74HC_HCT4052 v.13            20171010              Product data sheet                               -               74HC_HCT4052 v.12
+Modifications:               •   Type numbers 74HC4052DB and 74HCT4052DB (SOT338-1/SSOP16) removed.
+                             •   Section 2 updated.
+                             •   Section 8: Derating values for Ptot total power dissipation have been updated.
+74HC_HCT4052 v.12            20171010              Product data sheet                               -               74HC_HCT4052 v.11
+Modifications:               •   The format of this data sheet has been redesigned to comply with the identity
+                                 guidelines of Nexperia.
+                             •   Legal texts have been adapted to the new company name where appropriate.
+74HC_HCT4052 v.11            20160210              Product data sheet                               -               74HC_HCT4052 v.10
+Modifications:               •   Type numbers 74HC4052N and 74HCT4052N (SOT38-4) removed.
+74HC_HCT4052 v.10            20120719              Product data sheet                               -               74HC_HCT4052 v.9
+Modifications:               •   CDM added to features.
+74HC_HCT4052 v.9             20111213              Product data sheet                               -               74HC_HCT4052 v.8
+Modifications:               •   Legal pages updated.
+74HC_HCT4052 v.8             20110511              Product data sheet                               -               74HC_HCT4052 v.7
+74HC_HCT4052 v.7             20110112              Product data sheet                               -               74HC_HCT4052 v.6
+74HC_HCT4052 v.6             20100111              Product data sheet                               -               74HC_HCT4052 v.5
+74HC_HCT4052 v.5             20080505              Product data sheet                               -               74HC_HCT4052 v.4
+74HC_HCT4052 v.4             20041111              Product specification                            -               74HC_HCT4052 v.3
+74HC_HCT4052 v.3             20030516              Product specification                            -               74HC_HCT4052 v.2
+74HC_HCT4052 v.2             19901201              -                                                -               -
+
+
+
+
+74HC_HCT4052                           All information provided in this document is subject to legal disclaimers.          © Nexperia B.V. 2021. All rights reserved
+
+
+Product data sheet                                Rev. 13 — 9 September 2021                                                                            23 / 25
+Nexperia                                                                                                                            74HC4052; 74HCT4052
+                                                                                                         Dual 4-channel analog multiplexer/demultiplexer
+                                                                                                    injury, death or severe property or environmental damage. Nexperia and its
+
+15. Legal information                                                                               suppliers accept no liability for inclusion and/or use of Nexperia products in
+                                                                                                    such equipment or applications and therefore such inclusion and/or use is at
+                                                                                                    the customer’s own risk.
+                                                                                                    Quick reference data — The Quick reference data is an extract of the
+Data sheet status                                                                                   product data given in the Limiting values and Characteristics sections of this
+                                                                                                    document, and as such is not complete, exhaustive or legally binding.
+ Document status         Product            Definition                                              Applications — Applications that are described herein for any of these
+ [1][2]                  status [3]                                                                 products are for illustrative purposes only. Nexperia makes no representation
+ Objective [short]       Development        This document contains data from                        or warranty that such applications will be suitable for the specified use
+ data sheet                                 the objective specification for                         without further testing or modification.
+                                            product development.                                    Customers are responsible for the design and operation of their applications
+                                                                                                    and products using Nexperia products, and Nexperia accepts no liability for
+ Preliminary [short]     Qualification      This document contains data from
+                                                                                                    any assistance with applications or customer product design. It is customer’s
+ data sheet                                 the preliminary specification.
+                                                                                                    sole responsibility to determine whether the Nexperia product is suitable
+ Product [short]         Production         This document contains the product                      and fit for the customer’s applications and products planned, as well as
+ data sheet                                 specification.                                          for the planned application and use of customer’s third party customer(s).
+                                                                                                    Customers should provide appropriate design and operating safeguards to
+                                                                                                    minimize the risks associated with their applications and products.
+[1]   Please consult the most recently issued document before initiating or
+      completing a design.                                                                          Nexperia does not accept any liability related to any default, damage, costs
+[2]   The term 'short data sheet' is explained in section "Definitions".                            or problem which is based on any weakness or default in the customer’s
+[3]   The product status of device(s) described in this document may have                           applications or products, or the application or use by customer’s third party
+      changed since this document was published and may differ in case of                           customer(s). Customer is responsible for doing all necessary testing for the
+      multiple devices. The latest product status information is available on                       customer’s applications and products using Nexperia products in order to
+      the internet at https://www.nexperia.com.                                                     avoid a default of the applications and the products or of the application or
+                                                                                                    use by customer’s third party customer(s). Nexperia does not accept any
+                                                                                                    liability in this respect.
+Definitions                                                                                         Limiting values — Stress above one or more limiting values (as defined in
+Draft — The document is a draft version only. The content is still under                            the Absolute Maximum Ratings System of IEC 60134) will cause permanent
+internal review and subject to formal approval, which may result in                                 damage to the device. Limiting values are stress ratings only and (proper)
+modifications or additions. Nexperia does not give any representations or                           operation of the device at these or any other conditions above those
+warranties as to the accuracy or completeness of information included herein                        given in the Recommended operating conditions section (if present) or the
+and shall have no liability for the consequences of use of such information.                        Characteristics sections of this document is not warranted. Constant or
+                                                                                                    repeated exposure to limiting values will permanently and irreversibly affect
+Short data sheet — A short data sheet is an extract from a full data sheet
+                                                                                                    the quality and reliability of the device.
+with the same product type number(s) and title. A short data sheet is
+intended for quick reference only and should not be relied upon to contain                          Terms and conditions of commercial sale — Nexperia products are
+detailed and full information. For detailed and full information see the relevant                   sold subject to the general terms and conditions of commercial sale, as
+full data sheet, which is available on request via the local Nexperia sales                         published at http://www.nexperia.com/profile/terms, unless otherwise agreed
+office. In case of any inconsistency or conflict with the short data sheet, the                     in a valid written individual agreement. In case an individual agreement is
+full data sheet shall prevail.                                                                      concluded only the terms and conditions of the respective agreement shall
+                                                                                                    apply. Nexperia hereby expressly objects to applying the customer’s general
+Product specification — The information and data provided in a Product
+                                                                                                    terms and conditions with regard to the purchase of Nexperia products by
+data sheet shall define the specification of the product as agreed between
+                                                                                                    customer.
+Nexperia and its customer, unless Nexperia and customer have explicitly
+agreed otherwise in writing. In no event however, shall an agreement be                             No offer to sell or license — Nothing in this document may be interpreted
+valid in which the Nexperia product is deemed to offer functions and qualities                      or construed as an offer to sell products that is open for acceptance or the
+beyond those described in the Product data sheet.                                                   grant, conveyance or implication of any license under any copyrights, patents
+                                                                                                    or other industrial or intellectual property rights.
+                                                                                                    Export control — This document as well as the item(s) described herein
+Disclaimers                                                                                         may be subject to export control regulations. Export might require a prior
+Limited warranty and liability — Information in this document is believed                           authorization from competent authorities.
+to be accurate and reliable. However, Nexperia does not give any
+                                                                                                    Non-automotive qualified products — Unless this data sheet expressly
+representations or warranties, expressed or implied, as to the accuracy
+                                                                                                    states that this specific Nexperia product is automotive qualified, the
+or completeness of such information and shall have no liability for the
+                                                                                                    product is not suitable for automotive use. It is neither qualified nor tested in
+consequences of use of such information. Nexperia takes no responsibility
+                                                                                                    accordance with automotive testing or application requirements. Nexperia
+for the content in this document if provided by an information source outside
+                                                                                                    accepts no liability for inclusion and/or use of non-automotive qualified
+of Nexperia.
+                                                                                                    products in automotive equipment or applications.
+In no event shall Nexperia be liable for any indirect, incidental, punitive,
+                                                                                                    In the event that customer uses the product for design-in and use in
+special or consequential damages (including - without limitation - lost
+                                                                                                    automotive applications to automotive specifications and standards,
+profits, lost savings, business interruption, costs related to the removal
+                                                                                                    customer (a) shall use the product without Nexperia’s warranty of the
+or replacement of any products or rework charges) whether or not such
+                                                                                                    product for such automotive applications, use and specifications, and (b)
+damages are based on tort (including negligence), warranty, breach of
+                                                                                                    whenever customer uses the product for automotive applications beyond
+contract or any other legal theory.
+                                                                                                    Nexperia’s specifications such use shall be solely at customer’s own risk,
+Notwithstanding any damages that customer might incur for any reason                                and (c) customer fully indemnifies Nexperia for any liability, damages or failed
+whatsoever, Nexperia’s aggregate and cumulative liability towards customer                          product claims resulting from customer design and use of the product for
+for the products described herein shall be limited in accordance with the                           automotive applications beyond Nexperia’s standard warranty and Nexperia’s
+Terms and conditions of commercial sale of Nexperia.                                                product specifications.
+Right to make changes — Nexperia reserves the right to make changes                                 Translations — A non-English (translated) version of a document is for
+to information published in this document, including without limitation                             reference only. The English version shall prevail in case of any discrepancy
+specifications and product descriptions, at any time and without notice. This                       between the translated and English versions.
+document supersedes and replaces all information supplied prior to the
+publication hereof.
+                                                                                                    Trademarks
+Suitability for use — Nexperia products are not designed, authorized or
+warranted to be suitable for use in life support, life-critical or safety-critical                  Notice: All referenced brands, product names, service names and
+systems or equipment, nor in applications where failure or malfunction                              trademarks are the property of their respective owners.
+of an Nexperia product can reasonably be expected to result in personal
+
+
+
+
+74HC_HCT4052                                                All information provided in this document is subject to legal disclaimers.                 © Nexperia B.V. 2021. All rights reserved
+
+
+Product data sheet                                                     Rev. 13 — 9 September 2021                                                                                   24 / 25
+Nexperia                                                                                                                            74HC4052; 74HCT4052
+                                                                                                         Dual 4-channel analog multiplexer/demultiplexer
+
+
+Contents
+1. General description...................................................... 1
+2. Features and benefits.................................................. 1
+3. Applications.................................................................. 1
+4. Ordering information....................................................2
+5. Functional diagram.......................................................2
+6. Pinning information......................................................4
+6.1. Pinning.........................................................................4
+6.2. Pin description............................................................. 4
+7. Functional description................................................. 5
+8. Limiting values............................................................. 5
+9. Recommended operating conditions..........................6
+10. Static characteristics..................................................7
+11. Dynamic characteristics...........................................12
+11.1. Additional dynamic characteristics........................... 17
+12. Package outline........................................................ 20
+13. Abbreviations............................................................ 23
+14. Revision history........................................................23
+15. Legal information......................................................24
+
+© Nexperia B.V. 2021. All rights reserved
+
+For more information, please visit: http://www.nexperia.com
+For sales office addresses, please send an email to: salesaddresses@nexperia.com
+Date of release: 9 September 2021
+
+
+
+
+74HC_HCT4052                                                All information provided in this document is subject to legal disclaimers.       © Nexperia B.V. 2021. All rights reserved
+
+
+Product data sheet                                                     Rev. 13 — 9 September 2021                                                                         25 / 25
+

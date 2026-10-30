@@ -1,0 +1,945 @@
+                           74HC138; 74HCT138
+                           3-to-8 line decoder/demultiplexer; inverting
+                           Rev. 9 — 13 August 2021                                                 Product data sheet
+
+
+
+
+1. General description
+                       The 74HC138; 74HCT138 decodes three binary weighted address inputs (A0, A1 and A2) to
+                       eight mutually exclusive outputs (Y0 to Y7). The device features three enable inputs (E1, E2 and
+                       E3). Every output will be HIGH unless E1 and E2 are LOW and E3 is HIGH. This multiple enable
+                       function allows easy parallel expansion to a 1-of-32 (5 to 32 lines) decoder with just four '138 ICs
+                       and one inverter. The '138 can be used as an eight output demultiplexer by using one of the active
+                       LOW enable inputs as the data input and the remaining enable inputs as strobes. Inputs include
+                       clamp diodes. This enables the use of current limiting resistors to interface inputs to voltages in
+                       excess of VCC.
+
+
+2. Features and benefits
+                       •   Wide supply voltage range from 2.0 to 6.0 V
+                       •   CMOS low power dissipation
+                       •   High noise immunity
+                       •   Latch-up performance exceeds 100 mA per JESD 78 Class II Level B
+                       •   Demultiplexing capability
+                       •   Multiple input enable for easy expansion
+                       •   Ideal for memory chip select decoding
+                       •   Active LOW mutually exclusive outputs
+                       •   Input levels:
+                           • For 74HC138: CMOS level
+                           • For 74HCT138: TTL level
+                       •   Complies with JEDEC standards:
+                           • JESD8C (2.7 V to 3.6 V)
+                           • JESD7A (2.0 V to 6.0 V)
+                       •   ESD protection:
+                           • HBM JESD22-A114F exceeds 2000 V
+                           • MM JESD22-A115-A exceeds 200 V
+                       •   Multiple package options
+                       •   Specified from -40 °C to +85 °C and from -40 °C to +125 °C
+
+
+3. Ordering information
+Table 1. Ordering information
+Type number         Package
+                   Temperature range     Name          Description                                            Version
+74HC138D           -40 °C to +125 °C     SO16          plastic small outline package; 16 leads;               SOT109-1
+74HCT138D                                              body width 3.9 mm
+
+74HC138PW          -40 °C to +125 °C     TSSOP16       plastic thin shrink small outline package; 16 leads;   SOT403-1
+74HCT138PW                                             body width 4.4 mm
+
+74HC138BQ          -40 °C to +125 °C     DHVQFN16 plastic dual in-line compatible thermal enhanced            SOT763-1
+74HCT138BQ                                        very thin quad flat package; no leads; 16 terminals;
+                                                  body 2.5 × 3.5 × 0.85 mm
+Nexperia                                                                                                                     74HC138; 74HCT138
+                                                                                                      3-to-8 line decoder/demultiplexer; inverting
+
+
+4. Functional diagram
+
+                                                                                                                                                              Y0     15
+                                                                                                  1     A0                                                    Y1     14
+                                                                                                  2     A1                                                    Y2     13
+                                                                                                  3     A2                                                    Y3     12
+                              A0        Y0       15                                                              3-to-8               ENABLE
+                  1                                                                                                                                           Y4     11
+                                                                                                               DECODER                EXITING
+                  2           A1        Y1       14                                                                                                           Y5     10
+                  3           A2        Y2       13                                                                                                           Y6       9
+                                        Y3       12                                                                                                           Y7       7
+                      E1                Y4       11
+                  4                                                                               4     E1
+                      E2                Y5       10
+                  5                                                                               5     E2
+                      E3                Y6       9
+                  6                                                                               6     E3
+                                        Y7       7
+
+                                    mna370                                                                                                                mna372
+
+Fig. 1.       Logic symbol                                                         Fig. 2.          Functional diagram
+
+                                   A2                                                                                           Y7
+
+
+                                                                                                                                Y6
+                                   A1
+
+                                                                                                                                Y5
+                                   A0
+                                                                                                                                Y4
+                                   E1
+                                                                                                                                Y3
+                                   E2
+                                                                                                                                Y2
+                                   E3
+                                                                                                                                Y1
+
+
+                                                                                                                                Y0
+                                                                                                                          001aae059
+
+Fig. 3.       Logic diagram
+
+
+
+
+74HC_HCT138                                  All information provided in this document is subject to legal disclaimers.                         © Nexperia B.V. 2021. All rights reserved
+
+
+Product data sheet                                         Rev. 9 — 13 August 2021                                                                                             2 / 15
+Nexperia                                                                                                                            74HC138; 74HCT138
+                                                                                                              3-to-8 line decoder/demultiplexer; inverting
+
+
+5. Pinning information
+
+                             5.1. Pinning
+                                                                                                                                                       74HC138
+                                                                                                                                                      74HCT138
+
+
+                                                                                                                                                               16 VCC
+                                                                                                                                     terminal 1         A0
+                                                                                                                                    index area
+                                                                                                                                                        1
+                                                                                                                                             A1   2                      15 Y0
+                                                                                                                                             A2   3                      14 Y1
+                     74HC138
+                                                                                                                                             E1   4                      13 Y2
+                    74HCT138
+                                                                                                                                             E2   5                      12 Y3
+          A0    1                    16 VCC                                                                                                  E3   6                      11 Y4
+                                                                                                                                                        GND(1)
+                                                                                  74HC138
+          A1    2                    15 Y0                                                                                                   Y7   7                      10 Y5
+                                                                                 74HCT138
+                                                                                                                                                        8      9
+          A2    3                    14 Y1
+                                                                 1                                              16 VCC
+                                                                                                                                                        GND
+                                                          A0                                                                                                   Y6
+                                                                                                                                                                              001aae060
+          E1    4                    13 Y2                A1     2                                              15 Y0
+                                                          A2     3                                              14 Y1                             Transparent top view
+          E2    5                    12 Y3
+                                                          E1     4                                              13 Y2                        (1) This is not a ground
+          E3    6                    11 Y4                E2     5                                              12 Y3                        pin. There is no electrical
+                                                          E3     6                                              11 Y4                        or mechanical requirement
+          Y7    7                    10 Y5
+                                                                 7                                              10 Y5
+                                                                                                                                             to solder the pad. In case
+                                                          Y7
+                                                                                                                                             soldered, the solder land
+       GND      8                    9   Y6            GND       8                                               9    Y6
+                                                                                                                                             should remain floating or
+                        aaa-028342                                                              aaa-028343                                   connected to GND.
+Fig. 4.        Pin configuration SOT109-1            Fig. 5.         Pin configuration SOT403-1                                   Fig. 6.    Pin configuration SOT763-1
+               (SO16)                                                (TSSOP16)                                                               (DHVQFN16)
+
+
+
+                             5.2. Pin description
+Table 2. Pin description
+Symbol                                        Pin                                                         Description
+A0, A1, A2                                    1, 2, 3                                                     address input
+E1, E2                                        4, 5                                                        enable input (active LOW)
+E3                                            6                                                           enable input (active HIGH)
+Y0, Y1, Y2, Y3, Y4, Y5, Y6, Y7                15, 14, 13, 12, 11, 10, 9, 7                                output
+GND                                           8                                                           ground (0 V)
+VCC                                           16                                                          supply voltage
+
+
+
+
+74HC_HCT138                                          All information provided in this document is subject to legal disclaimers.                         © Nexperia B.V. 2021. All rights reserved
+
+
+Product data sheet                                                   Rev. 9 — 13 August 2021                                                                                           3 / 15
+Nexperia                                                                                                                   74HC138; 74HCT138
+                                                                                                        3-to-8 line decoder/demultiplexer; inverting
+
+
+6. Functional description
+Table 3. Function table
+H = HIGH voltage level; L = LOW voltage level; X = don’t care.
+Control                        Input                               Output
+E1            E2      E3       A2        A1       A0               Y7               Y6              Y5               Y4     Y3         Y2            Y1              Y0
+H             X       X        X         X        X                H                H               H                H      H          H             H               H
+X             H       X
+X             X       L
+L             L       H        L         L        L                H                H               H                H      H          H             H               L
+                               L         L        H                H                H               H                H      H          H             L               H
+                               L         H        L                H                H               H                H      H          L             H               H
+                               L         H        H                H                H               H                H      L          H             H               H
+                               H         L        L                H                H               H                L      H          H             H               H
+                               H         L        H                H                H               L                H      H          H             H               H
+                               H         H        L                H                L               H                H      H          H             H               H
+                               H         H        H                L                H               H                H      H          H             H               H
+
+
+7. Limiting values
+Table 4. Limiting values
+In accordance with the Absolute Maximum Rating System (IEC 60134). Voltages are referenced to GND (ground = 0 V).
+Symbol Parameter                               Conditions                                                                              Min                 Max            Unit
+VCC           supply voltage                                                                                                           -0.5                  +7           V
+IIK           input clamping current           VI < -0.5 V or VI > VCC + 0.5 V                                                              -               ±20           mA
+IOK           output clamping current          VO < -0.5 V or VO > VCC + 0.5 V                                                              -               ±20           mA
+IO            output current                   VO = -0.5 V to (VCC + 0.5 V)                                                                 -               ±25           mA
+ICC           quiescent supply current                                                                                                      -                50           mA
+IGND          ground current                                                                                                               -50                -           mA
+Tstg          storage temperature                                                                                                          -65            +150            °C
+Ptot          total power dissipation                                                                                            [1]        -               500           mW
+
+[1]    For SOT109-1 (SO16) package: Ptot derates linearly with 12.4 mW/K above 110 °C.
+       For SOT403-1 (TSSOP16) package: Ptot derates linearly with 8.5 mW/K above 91 °C.
+       For SOT763-1 (DHVQFN16) package: Ptot derates linearly with 11.2 mW/K above 106 °C.
+
+
+
+
+74HC_HCT138                                   All information provided in this document is subject to legal disclaimers.                    © Nexperia B.V. 2021. All rights reserved
+
+
+Product data sheet                                          Rev. 9 — 13 August 2021                                                                                        4 / 15
+Nexperia                                                                                                                      74HC138; 74HCT138
+                                                                                                        3-to-8 line decoder/demultiplexer; inverting
+
+
+8. Recommended operating conditions
+Table 5. Recommended operating conditions
+Voltages are referenced to GND (ground = 0 V)
+Symbol Parameter                                Conditions                                           74HC138                                74HCT138                        Unit
+                                                                                       Min               Typ                Max     Min       Typ              Max
+VCC           supply voltage                                                            2.0               5.0               6.0      4.5       5.0              5.5         V
+VI            input voltage                                                               0                 -               VCC      0           -             VCC          V
+VO            output voltage                                                              0                 -               VCC      0           -             VCC          V
+Tamb          ambient temperature                                                       -40              +25                +125    -40       +25             +125          °C
+Δt/ΔV         input transition rise and fall rate VCC = 2.0 V                             -                 -               625       -          -                -         ns/V
+                                                VCC = 4.5 V                               -              1.67               139       -       1.67             139          ns/V
+                                                VCC = 6.0 V                               -                 -                83       -          -                -         ns/V
+
+
+9. Static characteristics
+Table 6. Static characteristics
+At recommended operating conditions; voltages are referenced to GND (ground = 0 V).
+Symbol Parameter               Conditions                                              Tamb = 25 °C                         Tamb = -40 °C     Tamb = -40 °C                 Unit
+                                                                                                                              to +85 °C        to +125 °C
+                                                                                Min           Typ           Max             Min     Max       Min              Max
+74HC138
+VIH           HIGH-level       VCC = 2.0 V                                       1.5           1.2              -            1.5      -        1.5                -         V
+              input voltage    VCC = 4.5 V                                      3.15           2.4              -           3.15      -       3.15                -         V
+                               VCC = 6.0 V                                       4.2           3.2              -            4.2      -        4.2                -         V
+VIL           LOW-level        VCC = 2.0 V                                         -           0.8           0.5              -      0.5         -              0.5         V
+              input voltage    VCC = 4.5 V                                         -           2.1          1.35              -     1.35         -             1.35         V
+                               VCC = 6.0 V                                         -           2.8           1.8              -      1.8         -              1.8         V
+VOH           HIGH-level     VI = VIH or VIL
+              output voltage     IO = -20 μA; VCC = 2.0 V                        1.9           2.0              -            1.9      -        1.9                -         V
+                                  IO = -20 μA; VCC = 4.5 V                       4.4           4.5              -            4.4      -        4.4                -         V
+                                  IO = -20 μA; VCC = 6.0 V                       5.9           6.0              -            5.9      -        5.9                -         V
+                                  IO = -4.0 mA; VCC = 4.5 V                     3.98          4.32              -           3.84      -        3.7                -         V
+                                  IO = -5.2 mA; VCC = 6.0 V                     5.48          5.81              -           5.34      -        5.2                -         V
+VOL           LOW-level      VI = VIH or VIL
+              output voltage     IO = 20 μA; VCC = 2.0 V                           -             0           0.1              -      0.1         -              0.1         V
+                                  IO = 20 μA; VCC = 4.5 V                          -             0           0.1              -      0.1         -              0.1         V
+                                  IO = 20 μA; VCC = 6.0 V                          -             0           0.1              -      0.1         -              0.1         V
+                                  IO = 4.0 mA; VCC = 4.5 V                         -          0.15          0.26              -     0.33         -              0.4         V
+                                  IO = 5.2 mA; VCC = 6.0 V                         -          0.16          0.26              -     0.33         -              0.4         V
+II            input leakage    VI = VCC or GND; VCC = 6.0 V                        -             -          ±0.1              -     ±1.0         -             ±1.0         μA
+              current
+ICC           supply current VI = VCC or GND; IO = 0 A;                            -             -           8.0              -      80          -             160          μA
+                             VCC = 6.0 V
+CI            input                                                                -           3.5              -                                                           pF
+              capacitance
+
+
+
+74HC_HCT138                                    All information provided in this document is subject to legal disclaimers.                     © Nexperia B.V. 2021. All rights reserved
+
+
+Product data sheet                                           Rev. 9 — 13 August 2021                                                                                         5 / 15
+Nexperia                                                                                                                      74HC138; 74HCT138
+                                                                                                        3-to-8 line decoder/demultiplexer; inverting
+
+Symbol Parameter              Conditions                                               Tamb = 25 °C                         Tamb = -40 °C   Tamb = -40 °C                 Unit
+                                                                                                                              to +85 °C      to +125 °C
+                                                                                Min           Typ           Max             Min     Max     Min              Max
+74HCT138
+VIH           HIGH-level      VCC = 4.5 V to 5.5 V                               2.0           1.6             -            2.0       -      2.0                -         V
+              input voltage
+VIL           LOW-level       VCC = 4.5 V to 5.5 V                                 -           1.2           0.8             -       0.8       -              0.8         V
+              input voltage
+VOH           HIGH-level     VI = VIH or VIL; VCC = 4.5 V
+              output voltage     IO = -20 μA                                     4.4           4.5             -            4.4       -      4.4                -         V
+                                 IO = -4 mA                                     3.98          4.32             -            3.84      -      3.7                -         V
+VOL           LOW-level      VI = VIH or VIL; VCC = 4.5 V
+              output voltage     IO = 20 μA                                        -             0           0.1             -       0.1       -              0.1         V
+                                 IO = 4.0 mA                                       -          0.15          0.26             -      0.33       -              0.4         V
+II            input leakage   VI = VCC or GND; VCC = 5.5 V                         -             -          ±0.1             -      ±1.0       -             ±1.0         μA
+              current
+ICC           supply current VI = VCC or GND; IO = 0 A;                            -             -           8.0             -       80        -             160          μA
+                             VCC = 5.5 V
+ΔICC          additional     VI = VCC - 2.1 V;
+              supply current other inputs at VCC or GND;
+                             VCC = 4.5 V to 5.5 V; IO = 0 A
+                                 per input pin; An inputs                          -          150           540              -       675       -             735          μA
+                                 per input pin; En inputs                          -          125           450              -      562.5      -            612.5         μA
+                                 per input pin; E3 input                           -          100           360              -       450       -             490          μA
+CI            input                                                                -           3.5             -             -        -        -                -         pF
+              capacitance
+
+
+
+
+74HC_HCT138                                    All information provided in this document is subject to legal disclaimers.                   © Nexperia B.V. 2021. All rights reserved
+
+
+Product data sheet                                           Rev. 9 — 13 August 2021                                                                                       6 / 15
+Nexperia                                                                                                                    74HC138; 74HCT138
+                                                                                                        3-to-8 line decoder/demultiplexer; inverting
+
+
+10. Dynamic characteristics
+Table 7. Dynamic characteristics
+Voltages are referenced to GND (ground = 0 V); CL = 50 pF unless otherwise specified; for test circuit see Fig. 9.
+Symbol Parameter             Conditions                                                 Tamb = 25 °C                        Tamb = -40 °C    Tamb = -40 °C Unit
+                                                                                                                              to +85 °C       to +125 °C
+                                                                                 Min             Typ            Max         Min     Max       Min            Max
+74HC138
+tpd           propagation    An to Yn; see Fig. 7                      [1]
+              delay              VCC = 2.0 V                                        -             41             150          -     190          -            225         ns
+                                 VCC = 4.5 V                                        -             15              30          -      38          -             45         ns
+                                 VCC = 5 V; CL = 15 pF                              -             12                -         -       -          -               -        ns
+                                 VCC = 6.0 V                                        -             12              26          -      33          -             38         ns
+                             E3 to Yn; see Fig. 7                      [1]
+                                 VCC = 2.0 V                                        -             47             150          -     190          -            225         ns
+                                 VCC = 4.5 V                                        -             17              20          -      38          -             45         ns
+                                 VCC = 5 V; CL = 15 pF                              -             14                -         -       -          -               -        ns
+                                 VCC = 6.0 V                                        -             14              26          -      33          -             38         ns
+                             En to Yn; see Fig. 8                      [1]
+                                 VCC = 2.0 V                                        -             47             150          -     190          -            225         ns
+                                 VCC = 4.5 V                                        -             17              20          -      38          -             45         ns
+                                 VCC = 5 V; CL = 15 pF                              -             14                -         -       -          -               -        ns
+                                 VCC = 6.0 V                                        -             14              26          -      33          -             38         ns
+tt            transition time Yn; see Fig. 7 and Fig. 8                [2]
+                                 VCC = 2.0 V                                        -             19              75          -      95          -            110         ns
+                                 VCC = 4.5 V                                        -              7              15          -      19          -             22         ns
+                                 VCC = 6.0 V                                        -              6              13          -      16          -             19         ns
+CPD           power          CL = 50 pF; f = 1 MHz;                    [3]          -             67                -         -       -          -               -        pF
+              dissipation    VI = GND to VCC
+              capacitance
+
+
+
+
+74HC_HCT138                                    All information provided in this document is subject to legal disclaimers.                   © Nexperia B.V. 2021. All rights reserved
+
+
+Product data sheet                                           Rev. 9 — 13 August 2021                                                                                       7 / 15
+Nexperia                                                                                                                       74HC138; 74HCT138
+                                                                                                        3-to-8 line decoder/demultiplexer; inverting
+
+Symbol Parameter             Conditions                                                 Tamb = 25 °C                           Tamb = -40 °C    Tamb = -40 °C Unit
+                                                                                                                                 to +85 °C       to +125 °C
+                                                                                  Min            Typ            Max              Min   Max       Min            Max
+74HCT138
+tpd           propagation    An to Yn; see Fig. 7                      [1]
+              delay              VCC = 4.5 V                                        -             20              35              -     44          -             53         ns
+                                 VCC = 5 V; CL = 15 pF                              -             17                -             -      -          -               -        ns
+                             E3 to Yn; see Fig. 7                      [1]
+                                 VCC = 4.5 V                                        -             18              40              -     50          -             60         ns
+                                 VCC = 5 V; CL = 15 pF                              -             19                -             -      -          -               -        ns
+                             En to Yn; see Fig. 8                      [1]
+                                 VCC = 4.5 V                                        -             19              40              -     50          -             60         ns
+                                 VCC = 5 V; CL = 15 pF                              -             19                -             -      -          -               -        ns
+tt            transition time Yn; see Fig. 7 and Fig. 8                [2]
+                                 VCC = 4.5 V                                        -              7              15              -     19          -             22         ns
+CPD           power          CL = 50 pF; f = 1 MHz;                    [3]          -             67                -             -      -          -               -        pF
+              dissipation    VI = GND to VCC - 1.5 V
+              capacitance
+
+[1]   tpd is the same as tPLH and tPHL.
+[2]   tt is the same as tTHL and tTLH.
+[3]   CPD is used to determine the dynamic power dissipation (PD in μW).
+                        2                   2
+      PD = CPD × VCC × fi × N + Σ(CL × VCC × fo) where:
+      fi = input frequency in MHz;
+      fo = output frequency in MHz;
+      CL = output load capacitance in pF;
+      VCC = supply voltage in V;
+      N = number of inputs switching;
+                    2
+      Σ(CL × VCC × fo) = sum of outputs.
+
+
+
+                             10.1. Waveforms and test circuit
+                                                    VCC
+                                          An, E3
+                                                                             VM
+                                           input
+                                                    GND
+                                                                                    tPHL                                tPLH
+                                                    VOH
+
+                                            Yn                                    VM
+                                           output
+                                                    VOL
+                                                                                        tTHL                             tTLH
+                                                                                                                        mna373
+
+              Measurement points are given in Table 8.
+              VOL and VOH are typical voltage output levels that occur with the output load.
+Fig. 7.       Propagation delay input (An) and enable input (E3) to output (Yn) and transition time output (Yn)
+
+
+
+
+74HC_HCT138                                    All information provided in this document is subject to legal disclaimers.                      © Nexperia B.V. 2021. All rights reserved
+
+
+Product data sheet                                           Rev. 9 — 13 August 2021                                                                                          8 / 15
+Nexperia                                                                                                                            74HC138; 74HCT138
+                                                                                                          3-to-8 line decoder/demultiplexer; inverting
+
+                                                      VCC
+                                            E1, E2
+                                                                              VM
+                                             input
+                                                     GND
+                                                                                      tPHL                                tPLH
+                                                      VOH
+
+                                             Yn                                    VM
+                                            output
+                                                      VOL
+                                                                                         tTHL                              tTLH
+                                                                                                                          mna374
+
+              Measurement points are given in Table 8.
+              VOL and VOH are typical voltage output levels that occur with the output load.
+Fig. 8.       Propagation delay enable input (En) to output (Yn) and transition time output (Yn)
+
+Table 8. Measurement points
+Type                                             Input                                                                         Output
+                                                 VM                                                                            VM
+74HC138                                          0.5VCC                                                                        0.5VCC
+74HCT138                                         1.3 V                                                                         1.3 V
+
+                                                                                      tW
+                                           VI
+                                                 90 %
+                                     negative
+                                       pulse                      VM                                      VM
+                                                                    10 %
+                                          0V
+                                                             tf                                                 tr
+
+                                                             tr                                                 tf
+                                           VI
+                                                                    90 %
+                                     positive
+                                       pulse                      VM                                      VM
+                                                 10 %
+                                          0V
+                                                                                      tW
+
+
+
+                                                                             VCC                                                    VCC
+
+
+                                                     VI                                      VO                      RL       S1
+                                            G                                DUT                                                       open
+
+                                                                   RT                                         CL
+
+
+
+                                                                                                                                   001aad983
+
+              Test data is given in Table 9.
+              Definitions test circuit:
+              RT = Termination resistance should be equal to output impedance Zo of the pulse generator.
+              CL = Load capacitance including jig and probe capacitance.
+              RL = Load resistance.
+              S1 = Test selection switch.
+Fig. 9.       Test circuit for measuring switching times
+
+Table 9. Test data
+Type                     Input                               Load                                                              S1 position
+                         VI             tr, tf               CL                                    RL                          tPHL, tPLH      tPZH, tPHZ          tPZL, tPLZ
+74HC138                  VCC            6 ns                 15 pF, 50 pF                          1 kΩ                        open            GND                 VCC
+74HCT138                 3V             6 ns                 15 pF, 50 pF                          1 kΩ                        open            GND                 VCC
+
+
+
+
+74HC_HCT138                                      All information provided in this document is subject to legal disclaimers.                        © Nexperia B.V. 2021. All rights reserved
+
+
+Product data sheet                                                Rev. 9 — 13 August 2021                                                                                         9 / 15
+Nexperia                                                                                                                                           74HC138; 74HCT138
+                                                                                                                              3-to-8 line decoder/demultiplexer; inverting
+
+
+11. Package outline
+
+  SO16: plastic small outline package; 16 leads; body width 3.9 mm                                                                                                                              SOT109-1
+
+
+
+
+                                                                 D                                                                                 E                   A
+                                                                                                                                                                                     X
+
+
+
+                                                                                                                     c
+
+                                y                                                                                                                 HE                                 v M A
+
+
+                          Z
+
+                         16                                                                              9
+
+
+
+
+                                                                                                                                                                Q
+                                                                                                                            A2
+                                                                                                                                                                    (A 3)        A
+                                                                                                                                   A1
+                              pin 1 index
+                                                                                                                                                                             θ
+                                                                                                                                                            Lp
+
+                          1                                                                              8                                                  L
+
+                                                       e                                                         w M                                detail X
+                                                                                                    bp
+
+
+
+
+                                                                                   0                  2.5                   5 mm
+                                                                                                     scale
+
+
+     DIMENSIONS (inch dimensions are derived from the original mm dimensions)
+                  A
+       UNIT                   A1     A2           A3        bp         c        D (1)       E (1)        e        HE           L         Lp        Q        v        w           y        Z (1)      θ
+                 max.
+                              0.25   1.45                  0.49      0.25       10.0        4.0                   6.2                    1.0       0.7                                    0.7
+        mm       1.75                         0.25                                                    1.27                   1.05                          0.25     0.25      0.1
+                              0.10   1.25                  0.36      0.19        9.8        3.8                   5.8                    0.4       0.6                                    0.3       8
+                                                                                                                                                                                                         o
+                                                                                                                                                                                                      o
+                          0.010 0.057                      0.019 0.0100 0.39               0.16                  0.244                  0.039     0.028                                  0.028      0
+      inches     0.069                        0.01                                                    0.05             0.041                               0.01     0.01    0.004
+                          0.004 0.049                      0.014 0.0075 0.38               0.15                  0.228                  0.016     0.020                                  0.012
+
+     Note
+     1. Plastic or metal protrusions of 0.15 mm (0.006 inch) maximum per side are not included.
+
+
+              OUTLINE                                                          REFERENCES                                                                  EUROPEAN
+                                                                                                                                                                                     ISSUE DATE
+              VERSION                       IEC                      JEDEC                           JEITA                                                PROJECTION
+
+                                                                                                                                                                                         99-12-27
+              SOT109-1                 076E07                        MS-012
+                                                                                                                                                                                         03-02-19
+
+
+
+Fig. 10. Package outline SOT109-1 (SO16)
+
+
+
+
+74HC_HCT138                                                          All information provided in this document is subject to legal disclaimers.                             © Nexperia B.V. 2021. All rights reserved
+
+
+Product data sheet                                                                 Rev. 9 — 13 August 2021                                                                                                   10 / 15
+Nexperia                                                                                                                                        74HC138; 74HCT138
+                                                                                                                        3-to-8 line decoder/demultiplexer; inverting
+
+  TSSOP16: plastic thin shrink small outline package; 16 leads; body width 4.4 mm                                                                                                            SOT403-1
+
+
+
+
+                                                        D                                                                             E                            A
+                                                                                                                                                                            X
+
+
+                                                                                                      c
+
+                                     y                                                                                               HE                                         v M A
+
+
+
+
+                                          Z
+
+                                16                                         9
+
+
+
+
+                                                                                                                                                              Q
+                                                                                                            A2                                                     (A 3 )
+                                                                                                                                                                                A
+                                                                                                                  A1
+                                               pin 1 index
+
+                                                                                                                                                                            θ
+                                                                                                                                                        Lp
+                                                                                                                                                    L
+                                1                                          8
+                                                                                                                                            detail X
+                                                                                   w M
+                                                    e                 bp
+
+
+
+
+                                                                               0                2.5                    5 mm
+                                                                                               scale
+
+
+     DIMENSIONS (mm are the original dimensions)
+                  A
+       UNIT              A1      A2            A3       bp       c         D (1)      E (2)       e         HE           L         Lp           Q            v         w         y       Z (1)      θ
+                 max.
+
+        mm
+                         0.15    0.95                   0.30   0.2         5.1        4.5                   6.6                   0.75         0.4                                      0.40        8o
+                  1.1                         0.25                                              0.65                     1                                   0.2    0.13        0.1
+                         0.05    0.80                   0.19   0.1         4.9        4.3                   6.2                   0.50         0.3                                      0.06        0o
+
+     Notes
+     1. Plastic or metal protrusions of 0.15 mm maximum per side are not included.
+     2. Plastic interlead protrusions of 0.25 mm maximum per side are not included.
+
+              OUTLINE                                                    REFERENCES                                                                      EUROPEAN
+                                                                                                                                                                                      ISSUE DATE
+              VERSION                    IEC                   JEDEC                          JEITA                                                     PROJECTION
+
+                                                                                                                                                                                       99-12-27
+              SOT403-1                                         MO-153
+                                                                                                                                                                                       03-02-18
+
+
+
+Fig. 11. Package outline SOT403-1 (TSSOP16)
+
+
+
+
+74HC_HCT138                                                    All information provided in this document is subject to legal disclaimers.                                   © Nexperia B.V. 2021. All rights reserved
+
+
+Product data sheet                                                             Rev. 9 — 13 August 2021                                                                                                   11 / 15
+Nexperia                                                                                                                                       74HC138; 74HCT138
+                                                                                                                         3-to-8 line decoder/demultiplexer; inverting
+
+  DHVQFN16: plastic dual in-line compatible thermal enhanced very thin quad flat package; no leads;
+  16 terminals; body 2.5 x 3.5 x 0.85 mm                                                            SOT763-1
+
+
+
+
+                                                          D                                        B       A
+
+
+
+
+                                                                                                                                         A
+                                                                                                                                             A1
+                                                                                                           E                                                                          c
+
+
+
+              terminal 1                                                                                                                                     detail X
+              index area
+
+
+
+
+                 terminal 1                                                                                                                                                 C
+                                                          e1
+                 index area
+                                        e                                 b                            v M C A B                        y1 C                                    y
+                                                                                                       w M C
+                                  2                                                    7
+
+                      L
+
+
+
+                            1                                                                  8
+
+                      Eh                                                                               e
+
+                           16                                                                  9
+
+
+
+
+                                  15                                             10
+                                                          Dh
+                                                                                                                                                                        X
+
+                                                  0                                                2.5                                              5 mm
+
+                                                                                                  scale
+     DIMENSIONS (mm are the original dimensions)
+               A(1)
+       UNIT
+               max.
+                           A1     b          c    D (1)        Dh      E (1)      Eh          e            e1      L         v          w       y      y1
+
+                          0.05   0.30             3.6         2.15     2.6      1.15                              0.5
+       mm        1                          0.2                                             0.5            2.5              0.1       0.05     0.05    0.1
+                          0.00   0.18             3.4         1.85     2.4      0.85                              0.3
+     Note
+     1. Plastic or metal protrusions of 0.075 mm maximum per side are not included.
+
+              OUTLINE                                                     REFERENCES                                                                 EUROPEAN
+                                                                                                                                                                                    ISSUE DATE
+              VERSION                   IEC                         JEDEC                         JEITA                                             PROJECTION
+
+                                                                                                                                                                                     02-10-17
+              SOT763-1                  ---                     MO-241                             ---
+                                                                                                                                                                                     03-01-27
+
+
+
+Fig. 12. Package outline SOT763-1 (DHVQFN16)
+
+
+
+
+74HC_HCT138                                                     All information provided in this document is subject to legal disclaimers.                              © Nexperia B.V. 2021. All rights reserved
+
+
+Product data sheet                                                             Rev. 9 — 13 August 2021                                                                                               12 / 15
+Nexperia                                                                                                             74HC138; 74HCT138
+                                                                                                 3-to-8 line decoder/demultiplexer; inverting
+
+
+12. Abbreviations
+Table 10. Abbreviations
+Acronym                      Description
+CMOS                         Complementary Metal-Oxide Semiconductor
+DUT                          Device Under Test
+ESD                          ElectroStatic Discharge
+HBM                          Human Body Model
+MM                           Machine Model
+TTL                          Transistor-Transistor Logic
+
+
+13. Revision history
+Table 11. Revision history
+Document ID                  Release date             Data sheet status                              Change notice      Supersedes
+74HC_HCT138 v.9              20210813                 Product data sheet                             -                  74HC_HCT138 v.8
+Modifications:               •   Section 2 updated.
+                             •   Type numbers 74HC138DB and 74HCT138DB (SOT338-1/SSOP16) removed.
+74HC_HCT138 v.8              20200407                 Product data sheet                             -                  74HC_HCT138 v.7
+Modifications:               •   Fig. 6 corrected (Errata).
+                             •   Table 4: Derating values for Ptot total power dissipation updated.
+74HC_HCT138 v.7              20180326                 Product data sheet                             -                  74HC_HCT138 v.6
+Modifications:               •   The format of this data sheet has been redesigned to comply with the identity guidelines
+                                 of Nexperia.
+                             •   Legal texts have been adapted to the new company name where appropriate.
+74HC_HCT138 v.6              20151228                 Product data sheet                             -                  74HC_HCT138 v.5
+Modifications:               •   Type numbers 74HC138N and 74HCT138N (SOT38-4) removed.
+74HC_HCT138 v.5              20150126                 Product data sheet                             -                  74HC_HCT138 v.4
+Modifications:               •   Section 9: OFF-state output current removed because device has no 3-state outputs.
+                             •   Section 10: Power dissipation capacitance condition for 74HCT138 is corrected.
+74HC_HCT138 v.4              20120627                 Product data sheet                             -                  74HC_HCT138 v.3
+Modifications:               •   The format of this data sheet has been redesigned to comply with the new identity
+                                 guidelines of NXP Semiconductors.
+                             •   Legal texts have been adapted to the new company name where appropriate.
+                             •   SOT38-1 changed to SOT38-4.
+74HC_HCT138 v.3              20051223                 Product data sheet                             -                  74HC_HCT138_CNV v.2
+Modifications:               •   The format of this data sheet has been redesigned to comply with the new presentation
+                                 and information standard of Philips Semiconductors.
+                             •   Section 3, Section 5 and Section 11: Added DHVQFN package information
+                             •   Section 9: Added from the family specification
+74HC_HCT138_CNV v.2          19970827                 Product specification                          -                  -
+
+
+
+
+74HC_HCT138                             All information provided in this document is subject to legal disclaimers.           © Nexperia B.V. 2021. All rights reserved
+
+
+Product data sheet                                    Rev. 9 — 13 August 2021                                                                             13 / 15
+Nexperia                                                                                                                                 74HC138; 74HCT138
+                                                                                                                     3-to-8 line decoder/demultiplexer; inverting
+                                                                                                    injury, death or severe property or environmental damage. Nexperia and its
+
+14. Legal information                                                                               suppliers accept no liability for inclusion and/or use of Nexperia products in
+                                                                                                    such equipment or applications and therefore such inclusion and/or use is at
+                                                                                                    the customer’s own risk.
+                                                                                                    Quick reference data — The Quick reference data is an extract of the
+Data sheet status                                                                                   product data given in the Limiting values and Characteristics sections of this
+                                                                                                    document, and as such is not complete, exhaustive or legally binding.
+ Document status         Product            Definition                                              Applications — Applications that are described herein for any of these
+ [1][2]                  status [3]                                                                 products are for illustrative purposes only. Nexperia makes no representation
+ Objective [short]       Development        This document contains data from                        or warranty that such applications will be suitable for the specified use
+ data sheet                                 the objective specification for                         without further testing or modification.
+                                            product development.                                    Customers are responsible for the design and operation of their applications
+                                                                                                    and products using Nexperia products, and Nexperia accepts no liability for
+ Preliminary [short]     Qualification      This document contains data from
+                                                                                                    any assistance with applications or customer product design. It is customer’s
+ data sheet                                 the preliminary specification.
+                                                                                                    sole responsibility to determine whether the Nexperia product is suitable
+ Product [short]         Production         This document contains the product                      and fit for the customer’s applications and products planned, as well as
+ data sheet                                 specification.                                          for the planned application and use of customer’s third party customer(s).
+                                                                                                    Customers should provide appropriate design and operating safeguards to
+                                                                                                    minimize the risks associated with their applications and products.
+[1]   Please consult the most recently issued document before initiating or
+      completing a design.                                                                          Nexperia does not accept any liability related to any default, damage, costs
+[2]   The term 'short data sheet' is explained in section "Definitions".                            or problem which is based on any weakness or default in the customer’s
+[3]   The product status of device(s) described in this document may have                           applications or products, or the application or use by customer’s third party
+      changed since this document was published and may differ in case of                           customer(s). Customer is responsible for doing all necessary testing for the
+      multiple devices. The latest product status information is available on                       customer’s applications and products using Nexperia products in order to
+      the internet at https://www.nexperia.com.                                                     avoid a default of the applications and the products or of the application or
+                                                                                                    use by customer’s third party customer(s). Nexperia does not accept any
+                                                                                                    liability in this respect.
+Definitions                                                                                         Limiting values — Stress above one or more limiting values (as defined in
+Draft — The document is a draft version only. The content is still under                            the Absolute Maximum Ratings System of IEC 60134) will cause permanent
+internal review and subject to formal approval, which may result in                                 damage to the device. Limiting values are stress ratings only and (proper)
+modifications or additions. Nexperia does not give any representations or                           operation of the device at these or any other conditions above those
+warranties as to the accuracy or completeness of information included herein                        given in the Recommended operating conditions section (if present) or the
+and shall have no liability for the consequences of use of such information.                        Characteristics sections of this document is not warranted. Constant or
+                                                                                                    repeated exposure to limiting values will permanently and irreversibly affect
+Short data sheet — A short data sheet is an extract from a full data sheet
+                                                                                                    the quality and reliability of the device.
+with the same product type number(s) and title. A short data sheet is
+intended for quick reference only and should not be relied upon to contain                          Terms and conditions of commercial sale — Nexperia products are
+detailed and full information. For detailed and full information see the relevant                   sold subject to the general terms and conditions of commercial sale, as
+full data sheet, which is available on request via the local Nexperia sales                         published at http://www.nexperia.com/profile/terms, unless otherwise agreed
+office. In case of any inconsistency or conflict with the short data sheet, the                     in a valid written individual agreement. In case an individual agreement is
+full data sheet shall prevail.                                                                      concluded only the terms and conditions of the respective agreement shall
+                                                                                                    apply. Nexperia hereby expressly objects to applying the customer’s general
+Product specification — The information and data provided in a Product
+                                                                                                    terms and conditions with regard to the purchase of Nexperia products by
+data sheet shall define the specification of the product as agreed between
+                                                                                                    customer.
+Nexperia and its customer, unless Nexperia and customer have explicitly
+agreed otherwise in writing. In no event however, shall an agreement be                             No offer to sell or license — Nothing in this document may be interpreted
+valid in which the Nexperia product is deemed to offer functions and qualities                      or construed as an offer to sell products that is open for acceptance or the
+beyond those described in the Product data sheet.                                                   grant, conveyance or implication of any license under any copyrights, patents
+                                                                                                    or other industrial or intellectual property rights.
+                                                                                                    Export control — This document as well as the item(s) described herein
+Disclaimers                                                                                         may be subject to export control regulations. Export might require a prior
+Limited warranty and liability — Information in this document is believed                           authorization from competent authorities.
+to be accurate and reliable. However, Nexperia does not give any
+                                                                                                    Non-automotive qualified products — Unless this data sheet expressly
+representations or warranties, expressed or implied, as to the accuracy
+                                                                                                    states that this specific Nexperia product is automotive qualified, the
+or completeness of such information and shall have no liability for the
+                                                                                                    product is not suitable for automotive use. It is neither qualified nor tested in
+consequences of use of such information. Nexperia takes no responsibility
+                                                                                                    accordance with automotive testing or application requirements. Nexperia
+for the content in this document if provided by an information source outside
+                                                                                                    accepts no liability for inclusion and/or use of non-automotive qualified
+of Nexperia.
+                                                                                                    products in automotive equipment or applications.
+In no event shall Nexperia be liable for any indirect, incidental, punitive,
+                                                                                                    In the event that customer uses the product for design-in and use in
+special or consequential damages (including - without limitation - lost
+                                                                                                    automotive applications to automotive specifications and standards,
+profits, lost savings, business interruption, costs related to the removal
+                                                                                                    customer (a) shall use the product without Nexperia’s warranty of the
+or replacement of any products or rework charges) whether or not such
+                                                                                                    product for such automotive applications, use and specifications, and (b)
+damages are based on tort (including negligence), warranty, breach of
+                                                                                                    whenever customer uses the product for automotive applications beyond
+contract or any other legal theory.
+                                                                                                    Nexperia’s specifications such use shall be solely at customer’s own risk,
+Notwithstanding any damages that customer might incur for any reason                                and (c) customer fully indemnifies Nexperia for any liability, damages or failed
+whatsoever, Nexperia’s aggregate and cumulative liability towards customer                          product claims resulting from customer design and use of the product for
+for the products described herein shall be limited in accordance with the                           automotive applications beyond Nexperia’s standard warranty and Nexperia’s
+Terms and conditions of commercial sale of Nexperia.                                                product specifications.
+Right to make changes — Nexperia reserves the right to make changes                                 Translations — A non-English (translated) version of a document is for
+to information published in this document, including without limitation                             reference only. The English version shall prevail in case of any discrepancy
+specifications and product descriptions, at any time and without notice. This                       between the translated and English versions.
+document supersedes and replaces all information supplied prior to the
+publication hereof.
+                                                                                                    Trademarks
+Suitability for use — Nexperia products are not designed, authorized or
+warranted to be suitable for use in life support, life-critical or safety-critical                  Notice: All referenced brands, product names, service names and
+systems or equipment, nor in applications where failure or malfunction                              trademarks are the property of their respective owners.
+of an Nexperia product can reasonably be expected to result in personal
+
+
+
+
+74HC_HCT138                                                 All information provided in this document is subject to legal disclaimers.                 © Nexperia B.V. 2021. All rights reserved
+
+
+Product data sheet                                                        Rev. 9 — 13 August 2021                                                                                   14 / 15
+Nexperia                                                                                                                                 74HC138; 74HCT138
+                                                                                                                     3-to-8 line decoder/demultiplexer; inverting
+
+
+Contents
+1. General description...................................................... 1
+2. Features and benefits.................................................. 1
+3. Ordering information....................................................1
+4. Functional diagram.......................................................2
+5. Pinning information......................................................3
+5.1. Pinning.........................................................................3
+5.2. Pin description............................................................. 3
+6. Functional description................................................. 4
+7. Limiting values............................................................. 4
+8. Recommended operating conditions..........................5
+9. Static characteristics....................................................5
+10. Dynamic characteristics............................................ 7
+10.1. Waveforms and test circuit........................................ 8
+11. Package outline........................................................ 10
+12. Abbreviations............................................................ 13
+13. Revision history........................................................13
+14. Legal information......................................................14
+
+© Nexperia B.V. 2021. All rights reserved
+
+For more information, please visit: http://www.nexperia.com
+For sales office addresses, please send an email to: salesaddresses@nexperia.com
+Date of release: 13 August 2021
+
+
+
+
+74HC_HCT138                                                 All information provided in this document is subject to legal disclaimers.          © Nexperia B.V. 2021. All rights reserved
+
+
+Product data sheet                                                        Rev. 9 — 13 August 2021                                                                            15 / 15
+

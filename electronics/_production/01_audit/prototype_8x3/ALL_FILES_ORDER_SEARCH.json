@@ -1,0 +1,1523 @@
+[
+  {
+    "path": ".gitignore",
+    "method": "text",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "LICENSE",
+    "method": "text",
+    "error": null,
+    "matches": [
+      {
+        "line": 437,
+        "text": "  You are not required to accept this License in order to receive or"
+      },
+      {
+        "line": 542,
+        "text": "  If conditions are imposed on you (whether by court order, agreement or"
+      }
+    ]
+  },
+  {
+    "path": "README.md",
+    "method": "text",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": ".github/FUNDING.yml",
+    "method": "text",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "stones/mold.jpeg",
+    "method": "OCR",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "stones/README.md",
+    "method": "text",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "stones/stones.jpg",
+    "method": "OCR",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "stones/3d_prints/go_stones_mold_0.05mm_PETG_MK3S_1d1h55m.gcode",
+    "method": "text",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "stones/3d_prints/stone_holder_0.2mm_PETG_MK3S_2h27m.gcode",
+    "method": "text",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "stones/3d_prints/go_stones_mold.f3d",
+    "method": "archive text/printable strings (native CAD semantics not decoded)",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "stones/3d_prints/stone_holder.f3d",
+    "method": "archive text/printable strings (native CAD semantics not decoded)",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "software/readme.md",
+    "method": "text",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "software/overview.png",
+    "method": "OCR",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "software/flutter/saiboard/.gitignore",
+    "method": "text",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "software/flutter/saiboard/.metadata",
+    "method": "text",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "software/flutter/saiboard/pubspec.lock",
+    "method": "text",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "software/flutter/saiboard/README.md",
+    "method": "text",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "software/flutter/saiboard/analysis_options.yaml",
+    "method": "text",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "software/flutter/saiboard/pubspec.yaml",
+    "method": "text",
+    "error": null,
+    "matches": [
+      {
+        "line": 24,
+        "text": "# Dependencies specify other packages that your package needs in order to work."
+      }
+    ]
+  },
+  {
+    "path": "software/flutter/saiboard/assets/images/white.png",
+    "method": "OCR",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "software/flutter/saiboard/assets/images/icon.png",
+    "method": "OCR",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "software/flutter/saiboard/assets/images/black.png",
+    "method": "OCR",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "software/flutter/saiboard/assets/images/icon2.png",
+    "method": "OCR",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "software/flutter/saiboard/assets/images/icon.txt",
+    "method": "text",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "software/flutter/saiboard/assets/fonts/Roboto.ttf",
+    "method": "text",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "software/flutter/saiboard/lib/play_page.dart",
+    "method": "text",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "software/flutter/saiboard/lib/move_widget.dart",
+    "method": "text",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "software/flutter/saiboard/lib/app_state.dart",
+    "method": "text",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "software/flutter/saiboard/lib/main.dart",
+    "method": "text",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "software/flutter/saiboard/lib/analysis_page.dart",
+    "method": "text",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "software/flutter/saiboard/web/index.html",
+    "method": "text",
+    "error": null,
+    "matches": [
+      {
+        "line": 9,
+        "text": "    The path provided below has to start and end with a slash \"/\" in order for"
+      }
+    ]
+  },
+  {
+    "path": "software/flutter/saiboard/web/manifest.json",
+    "method": "text",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "software/flutter/saiboard/web/icons/apple-icon-152x152.png",
+    "method": "OCR",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "software/flutter/saiboard/web/icons/ms-icon-150x150.png",
+    "method": "OCR",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "software/flutter/saiboard/web/icons/apple-icon-120x120.png",
+    "method": "OCR",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "software/flutter/saiboard/web/icons/android-icon-192x192.png",
+    "method": "OCR",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "software/flutter/saiboard/web/icons/apple-icon-72x72.png",
+    "method": "OCR",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "software/flutter/saiboard/web/icons/favicon-32x32.png",
+    "method": "OCR",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "software/flutter/saiboard/web/icons/favicon.ico",
+    "method": "OCR",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "software/flutter/saiboard/web/icons/android-icon-48x48.png",
+    "method": "OCR",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "software/flutter/saiboard/web/icons/apple-icon-144x144.png",
+    "method": "OCR",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "software/flutter/saiboard/web/icons/ms-icon-70x70.png",
+    "method": "OCR",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "software/flutter/saiboard/web/icons/ms-icon-144x144.png",
+    "method": "OCR",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "software/flutter/saiboard/web/icons/apple-icon-114x114.png",
+    "method": "OCR",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "software/flutter/saiboard/web/icons/apple-icon.png",
+    "method": "OCR",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "software/flutter/saiboard/web/icons/favicon-96x96.png",
+    "method": "OCR",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "software/flutter/saiboard/web/icons/apple-icon-precomposed.png",
+    "method": "OCR",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "software/flutter/saiboard/web/icons/apple-icon-57x57.png",
+    "method": "OCR",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "software/flutter/saiboard/web/icons/android-icon-144x144.png",
+    "method": "OCR",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "software/flutter/saiboard/web/icons/android-icon-96x96.png",
+    "method": "OCR",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "software/flutter/saiboard/web/icons/apple-icon-76x76.png",
+    "method": "OCR",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "software/flutter/saiboard/web/icons/ms-icon-310x310.png",
+    "method": "OCR",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "software/flutter/saiboard/web/icons/apple-icon-60x60.png",
+    "method": "OCR",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "software/flutter/saiboard/web/icons/apple-icon-180x180.png",
+    "method": "OCR",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "software/flutter/saiboard/web/icons/android-icon-36x36.png",
+    "method": "OCR",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "software/flutter/saiboard/web/icons/android-icon-72x72.png",
+    "method": "OCR",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "software/flutter/saiboard/web/icons/favicon-16x16.png",
+    "method": "OCR",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "software/backend/docker-compose.yml",
+    "method": "text",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "software/backend/README.md",
+    "method": "text",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "software/backend/game/Dockerfile",
+    "method": "text",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "software/backend/game/play.py",
+    "method": "text",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "software/backend/game/main.py",
+    "method": "text",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "software/backend/game/requirements.txt",
+    "method": "text",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "software/backend/game/game_record.py",
+    "method": "text",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "software/backend/outside/Dockerfile",
+    "method": "text",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "software/backend/outside/main.py",
+    "method": "text",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "software/backend/outside/requirements.txt",
+    "method": "text",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "software/backend/board/Dockerfile",
+    "method": "text",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "software/backend/board/main.py",
+    "method": "text",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "software/backend/board/requirements.txt",
+    "method": "text",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "software/backend/board/board.py",
+    "method": "text",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "software/backend/katago/Dockerfile",
+    "method": "text",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "software/backend/katago/main.py",
+    "method": "text",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "software/backend/katago/requirements.txt",
+    "method": "text",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "software/backend/katago/analysis.cfg",
+    "method": "text",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "software/backend/katago/katago.py",
+    "method": "text",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "software/backend/katago/Dockerfile_rasp",
+    "method": "text",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "software/esp32s3/test_basic_components.ipynb",
+    "method": "text",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "software/esp32s3/CMakeLists.txt",
+    "method": "text",
+    "error": null,
+    "matches": [
+      {
+        "line": 2,
+        "text": "# CMakeLists in this exact order for cmake to work correctly"
+      }
+    ]
+  },
+  {
+    "path": "software/esp32s3/README.md",
+    "method": "text",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "software/esp32s3/components/wifi/CMakeLists.txt",
+    "method": "text",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "software/esp32s3/components/wifi/wifi.h",
+    "method": "text",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "software/esp32s3/components/wifi/wifi.c",
+    "method": "text",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "software/esp32s3/components/led_strip/CMakeLists.txt",
+    "method": "text",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "software/esp32s3/components/led_strip/led_strip.c",
+    "method": "text",
+    "error": null,
+    "matches": [
+      {
+        "line": 139,
+        "text": "    color_order_t order;"
+      },
+      {
+        "line": 144,
+        "text": "    [LED_STRIP_WS2812]  = { .t0h = 400, .t0l = 1000, .t1h = 1000, .t1l = 400, .order = ORDER_GRB, .adapter = ws2812_rmt_adapter },"
+      },
+      {
+        "line": 145,
+        "text": "    [LED_STRIP_SK6812]  = { .t0h = 300, .t0l = 900,  .t1h = 600,  .t1l = 600, .order = ORDER_GRB, .adapter = sk6812_rmt_adapter },"
+      },
+      {
+        "line": 146,
+        "text": "    [LED_STRIP_APA106]  = { .t0h = 350, .t0l = 1360, .t1h = 1360, .t1l = 350, .order = ORDER_RGB, .adapter = apa106_rmt_adapter },"
+      },
+      {
+        "line": 147,
+        "text": "    [LED_STRIP_SM16703] = { .t0h = 300, .t0l = 900,  .t1h = 1360, .t1l = 350, .order = ORDER_RGB, .adapter = sm16703_rmt_adapter },"
+      },
+      {
+        "line": 213,
+        "text": "    switch (led_params[strip->type].order)"
+      }
+    ]
+  },
+  {
+    "path": "software/esp32s3/components/led_strip/LICENSE",
+    "method": "text",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "software/esp32s3/components/led_strip/led_strip.h",
+    "method": "text",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "software/esp32s3/main/CMakeLists.txt",
+    "method": "text",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "software/esp32s3/main/main.c",
+    "method": "text",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "pics/analysis.jpg",
+    "method": "OCR",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "pics/ownership.jpg",
+    "method": "OCR",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "pics/play.jpg",
+    "method": "OCR",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "pics/nextmoves.jpg",
+    "method": "OCR",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "pics/topmoves.jpg",
+    "method": "OCR",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "board/board.jpg",
+    "method": "OCR",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "board/README.md",
+    "method": "text",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "board/cnc_files/bottom.f3d",
+    "method": "archive text/printable strings (native CAD semantics not decoded)",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "board/cnc_files/grid.dxf",
+    "method": "text",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "board/cnc_files/top.dxf",
+    "method": "text",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "board/cnc_files/side.f3d",
+    "method": "archive text/printable strings (native CAD semantics not decoded)",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "board/cnc_files/bottom.dxf",
+    "method": "text",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "board/cnc_files/Top.f3d",
+    "method": "archive text/printable strings (native CAD semantics not decoded)",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "board/cnc_files/grid.f3d",
+    "method": "archive text/printable strings (native CAD semantics not decoded)",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "board/cnc_files/side.dxf",
+    "method": "text",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "board/3d_prints/pen_part2.f3d",
+    "method": "archive text/printable strings (native CAD semantics not decoded)",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "board/3d_prints/pen_part1.f3d",
+    "method": "archive text/printable strings (native CAD semantics not decoded)",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "electronics/README.md",
+    "method": "text",
+    "error": null,
+    "matches": [
+      {
+        "line": 11,
+        "text": "- [Order](https://jlcpcb.com/) PCB/ Stencil"
+      }
+    ]
+  },
+  {
+    "path": "electronics/pcb.jpg",
+    "method": "OCR",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "electronics/paste.jpg",
+    "method": "OCR",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "electronics/kicad_files/11x3/11x3.kicad_pcb",
+    "method": "text",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "electronics/kicad_files/11x3/11x3.kicad_sch",
+    "method": "text",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "electronics/kicad_files/11x3/11x3.kicad_pro",
+    "method": "text",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "electronics/kicad_files/11x3/gerbers/11x3-F_Paste.gbr",
+    "method": "text",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "electronics/kicad_files/11x3/gerbers/11x3-PTH.drl",
+    "method": "text",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "electronics/kicad_files/11x3/gerbers/11x3-In1_Cu.gbr",
+    "method": "text",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "electronics/kicad_files/11x3/gerbers/11x3-F_Mask.gbr",
+    "method": "text",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "electronics/kicad_files/11x3/gerbers/11x3-B_Paste.gbr",
+    "method": "text",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "electronics/kicad_files/11x3/gerbers/11x3-Edge_Cuts.gbr",
+    "method": "text",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "electronics/kicad_files/11x3/gerbers/11x3-F_Silkscreen.gbr",
+    "method": "text",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "electronics/kicad_files/11x3/gerbers/11x3-F_Cu.gbr",
+    "method": "text",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "electronics/kicad_files/11x3/gerbers/11x3-job.gbrjob",
+    "method": "text",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "electronics/kicad_files/11x3/gerbers/11x3-B_Silkscreen.gbr",
+    "method": "text",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "electronics/kicad_files/11x3/gerbers/11x3-B_Cu.gbr",
+    "method": "text",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "electronics/kicad_files/11x3/gerbers/11x3-B_Mask.gbr",
+    "method": "text",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "electronics/kicad_files/11x3/gerbers/gerber.zip",
+    "method": "archive text/printable strings (native CAD semantics not decoded)",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "electronics/kicad_files/11x3/gerbers/11x3-In2_Cu.gbr",
+    "method": "text",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "electronics/kicad_files/11x3/gerbers/11x3-NPTH.drl",
+    "method": "text",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "electronics/kicad_files/8x3/8x3.kicad_pro",
+    "method": "text",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "electronics/kicad_files/8x3/~8x3.kicad_pro.lck",
+    "method": "text",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "electronics/kicad_files/8x3/8x3.kicad_pcb",
+    "method": "text",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "electronics/kicad_files/8x3/8x3.kicad_sch",
+    "method": "text",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "electronics/kicad_files/8x3/8x3.kicad_prl",
+    "method": "text",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "electronics/kicad_files/8x3/gerbers/8x3-Edge_Cuts.gbr",
+    "method": "text",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "electronics/kicad_files/8x3/gerbers/8x3-B_Silkscreen.gbr",
+    "method": "text",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "electronics/kicad_files/8x3/gerbers/8x3-B_Cu.gbr",
+    "method": "text",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "electronics/kicad_files/8x3/gerbers/8x3-NPTH.drl",
+    "method": "text",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "electronics/kicad_files/8x3/gerbers/8x3-B_Mask.gbr",
+    "method": "text",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "electronics/kicad_files/8x3/gerbers/8x3-job.gbrjob",
+    "method": "text",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "electronics/kicad_files/8x3/gerbers/8x3-PTH.drl",
+    "method": "text",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "electronics/kicad_files/8x3/gerbers/8x3-B_Paste.gbr",
+    "method": "text",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "electronics/kicad_files/8x3/gerbers/8x3-F_Paste.gbr",
+    "method": "text",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "electronics/kicad_files/8x3/gerbers/gerber.zip",
+    "method": "archive text/printable strings (native CAD semantics not decoded)",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "electronics/kicad_files/8x3/gerbers/8x3-F_Mask.gbr",
+    "method": "text",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "electronics/kicad_files/8x3/gerbers/8x3-F_Cu.gbr",
+    "method": "text",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "electronics/kicad_files/8x3/gerbers/8x3-F_Silkscreen.gbr",
+    "method": "text",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "electronics/kicad_files/3x8/3x8.kicad_pro",
+    "method": "text",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "electronics/kicad_files/3x8/3x8.kicad_sch",
+    "method": "text",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "electronics/kicad_files/3x8/3x8.kicad_pcb",
+    "method": "text",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "electronics/kicad_files/3x8/gerbers/3x8-F_Cu.gbr",
+    "method": "text",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "electronics/kicad_files/3x8/gerbers/3x8-F_Silkscreen.gbr",
+    "method": "text",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "electronics/kicad_files/3x8/gerbers/3x8-F_Mask.gbr",
+    "method": "text",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "electronics/kicad_files/3x8/gerbers/3x8-Edge_Cuts.gbr",
+    "method": "text",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "electronics/kicad_files/3x8/gerbers/3x8-B_Silkscreen.gbr",
+    "method": "text",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "electronics/kicad_files/3x8/gerbers/3x8-B_Mask.gbr",
+    "method": "text",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "electronics/kicad_files/3x8/gerbers/3x8-NPTH.drl",
+    "method": "text",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "electronics/kicad_files/3x8/gerbers/3x8-F_Paste.gbr",
+    "method": "text",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "electronics/kicad_files/3x8/gerbers/gerber.zip",
+    "method": "archive text/printable strings (native CAD semantics not decoded)",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "electronics/kicad_files/3x8/gerbers/3x8-job.gbrjob",
+    "method": "text",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "electronics/kicad_files/3x8/gerbers/3x8-B_Cu.gbr",
+    "method": "text",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "electronics/kicad_files/3x8/gerbers/3x8-B_Paste.gbr",
+    "method": "text",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "electronics/kicad_files/3x8/gerbers/3x8-PTH.drl",
+    "method": "text",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "electronics/kicad_files/8x8/8x8.kicad_pcb",
+    "method": "text",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "electronics/kicad_files/8x8/8x8.kicad_.zip",
+    "method": "archive text/printable strings (native CAD semantics not decoded)",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "electronics/kicad_files/8x8/8x8.kicad_pro",
+    "method": "text",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "electronics/kicad_files/8x8/8x8.kicad_sch",
+    "method": "text",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "electronics/kicad_files/8x8/gerbers/8x8-B_Mask.gbr",
+    "method": "text",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "electronics/kicad_files/8x8/gerbers/8x8-B_Silkscreen.gbr",
+    "method": "text",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "electronics/kicad_files/8x8/gerbers/8x8-F_Cu.gbr",
+    "method": "text",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "electronics/kicad_files/8x8/gerbers/8x8-F_Paste.gbr",
+    "method": "text",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "electronics/kicad_files/8x8/gerbers/8x8-NPTH.drl",
+    "method": "text",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "electronics/kicad_files/8x8/gerbers/8x8-F_Silkscreen.gbr",
+    "method": "text",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "electronics/kicad_files/8x8/gerbers/8x8-B_Cu.gbr",
+    "method": "text",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "electronics/kicad_files/8x8/gerbers/gerber.zip",
+    "method": "archive text/printable strings (native CAD semantics not decoded)",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "electronics/kicad_files/8x8/gerbers/8x8-B_Paste.gbr",
+    "method": "text",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "electronics/kicad_files/8x8/gerbers/8x8-Edge_Cuts.gbr",
+    "method": "text",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "electronics/kicad_files/8x8/gerbers/8x8-job.gbrjob",
+    "method": "text",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "electronics/kicad_files/8x8/gerbers/8x8-PTH.drl",
+    "method": "text",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "electronics/kicad_files/8x8/gerbers/8x8-F_Mask.gbr",
+    "method": "text",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "electronics/updated_components_SKC6812RGBW-WS/LED_PIN_AUDIT.csv",
+    "method": "text",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "electronics/updated_components_SKC6812RGBW-WS/LED_BOM_CANDIDATE.csv",
+    "method": "text",
+    "error": null,
+    "matches": [
+      {
+        "line": 1,
+        "text": "Board,Designators,Quantity_per_PCB,MPN,Manufacturer,LCSC,Footprint,Status"
+      }
+    ]
+  },
+  {
+    "path": "electronics/updated_components_SKC6812RGBW-WS/README.md",
+    "method": "text",
+    "error": null,
+    "matches": [
+      {
+        "line": 16,
+        "text": "This is 145 instances across four **unique** board designs, not the quantity for an assembled 19x19 board. `LED_BOM_CANDIDATE.csv` covers only these LEDs and is not a complete assembly BOM. `LED_PIN_AUDIT.csv` records all 580 LED pads. No firmware, other components, or original files were changed. Gerbers and assembly placement files are intentionally not included in this unreleased candidate."
+      },
+      {
+        "line": 64,
+        "text": "Replacement pages 9-10 specify GRBW, MSB first, 32 bits per pixel. The existing `led_strip.c` already emits that order when `is_rgbw` is true. Frame format therefore matches the current firmware, despite the original RGB-only PDF."
+      }
+    ]
+  },
+  {
+    "path": "electronics/updated_components_SKC6812RGBW-WS/Saiboard_LED.kicad_sym",
+    "method": "text",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "electronics/updated_components_SKC6812RGBW-WS/validation.json",
+    "method": "text",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "electronics/updated_components_SKC6812RGBW-WS/kicad_files/11x3/11x3.kicad_pcb",
+    "method": "text",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "electronics/updated_components_SKC6812RGBW-WS/kicad_files/11x3/sym-lib-table",
+    "method": "text",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "electronics/updated_components_SKC6812RGBW-WS/kicad_files/11x3/11x3.kicad_sch",
+    "method": "text",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "electronics/updated_components_SKC6812RGBW-WS/kicad_files/11x3/11x3.kicad_pro",
+    "method": "text",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "electronics/updated_components_SKC6812RGBW-WS/kicad_files/8x3/8x3.kicad_pro",
+    "method": "text",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "electronics/updated_components_SKC6812RGBW-WS/kicad_files/8x3/sym-lib-table",
+    "method": "text",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "electronics/updated_components_SKC6812RGBW-WS/kicad_files/8x3/8x3.kicad_pcb",
+    "method": "text",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "electronics/updated_components_SKC6812RGBW-WS/kicad_files/8x3/8x3.kicad_sch",
+    "method": "text",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "electronics/updated_components_SKC6812RGBW-WS/kicad_files/3x8/3x8.kicad_pro",
+    "method": "text",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "electronics/updated_components_SKC6812RGBW-WS/kicad_files/3x8/sym-lib-table",
+    "method": "text",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "electronics/updated_components_SKC6812RGBW-WS/kicad_files/3x8/3x8.kicad_sch",
+    "method": "text",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "electronics/updated_components_SKC6812RGBW-WS/kicad_files/3x8/3x8.kicad_pcb",
+    "method": "text",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "electronics/updated_components_SKC6812RGBW-WS/kicad_files/8x8/sym-lib-table",
+    "method": "text",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "electronics/updated_components_SKC6812RGBW-WS/kicad_files/8x8/8x8.kicad_pcb",
+    "method": "text",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "electronics/updated_components_SKC6812RGBW-WS/kicad_files/8x8/8x8.kicad_pro",
+    "method": "text",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "electronics/updated_components_SKC6812RGBW-WS/kicad_files/8x8/8x8.kicad_sch",
+    "method": "text",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "electronics/updated_components_SKC6812RGBW-WS/datasheets/OPSCO_SKC6812RGBW_RevB1_2025-07-31.pdf",
+    "method": "PDF text",
+    "error": null,
+    "matches": [
+      {
+        "line": 602,
+        "text": "         High bit first send, send data in GRBW/Y/A order (G7 \u2192 G6 \u2192.... W0)"
+      },
+      {
+        "line": 634,
+        "text": "  output terminals. In addition, in order to ensure more stable operation between IC chips, the decoupling capacitance between each"
+      },
+      {
+        "line": 903,
+        "text": "      (Each roll can hold up to 1000/5000                                                  QTY: 1000 /5000PCS"
+      }
+    ]
+  },
+  {
+    "path": "electronics/updated_components_SKC6812RGBW-WS/datasheets/Original_SK6812.pdf",
+    "method": "PDF text",
+    "error": null,
+    "matches": [
+      {
+        "line": 250,
+        "text": "  Note: high starting, in order to send data (G7 - G6 - ...... ..B0)"
+      }
+    ]
+  },
+  {
+    "path": "electronics/3d_prints/8x8_pcb_mask.f3d",
+    "method": "archive text/printable strings (native CAD semantics not decoded)",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "electronics/3d_prints/8x8_0.26mm_PETG_MK3S_3h42m.gcode",
+    "method": "text",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "electronics/3d_prints/raspberry_pi_mount_0.26mm_PETG_MK3S_20m.gcode",
+    "method": "text",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "electronics/3d_prints/raspberry_pi_mount.f3d",
+    "method": "archive text/printable strings (native CAD semantics not decoded)",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "electronics/3d_prints/3x8_pcb_mask.f3d",
+    "method": "archive text/printable strings (native CAD semantics not decoded)",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "electronics/3d_prints/8x3_pcb_mask.f3d",
+    "method": "archive text/printable strings (native CAD semantics not decoded)",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "electronics/3d_prints/11x3_pcb_mask.f3d",
+    "method": "archive text/printable strings (native CAD semantics not decoded)",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "electronics/3d_prints/11x3_0.26mm_PETG_MK3S_2h1m.gcode",
+    "method": "text",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "electronics/3d_prints/3x8_0.26mm_PETG_MK3S_2h54m.gcode",
+    "method": "text",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "electronics/3d_prints/8x3_0.26mm_PETG_MK3S_1h27m.gcode",
+    "method": "text",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "electronics/datasheets/BOARD_CONNECTOR_MALE.jpg",
+    "method": "OCR",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "electronics/datasheets/AMS1117-3.3.pdf",
+    "method": "PDF text",
+    "error": null,
+    "matches": [
+      {
+        "line": 28,
+        "text": "ORDERING INFORMATION:"
+      }
+    ]
+  },
+  {
+    "path": "electronics/datasheets/SK6812.pdf",
+    "method": "PDF text",
+    "error": null,
+    "matches": [
+      {
+        "line": 250,
+        "text": "  Note: high starting, in order to send data (G7 - G6 - ...... ..B0)"
+      }
+    ]
+  },
+  {
+    "path": "electronics/datasheets/cd74hct154.pdf",
+    "method": "PDF text",
+    "error": null,
+    "matches": [
+      {
+        "line": 14,
+        "text": "HC154           - Bus Driver Outputs . . . . . . . . . . . . . 15 LSTTL Loads                  Ordering Information"
+      },
+      {
+        "line": 39,
+        "text": "              The \u2019HC154 and \u2019HCT154 are 4- to 16-line                                         NOTE: When ordering, use the entire part number. The suffix 96"
+      },
+      {
+        "line": 377,
+        "text": "                                     (1)                 Drawing        Qty                  (2)           Ball material                 (3)                                      (4/5)"
+      }
+    ]
+  },
+  {
+    "path": "electronics/datasheets/BOARD_CONNECTOR_FEMALE.jpg",
+    "method": "OCR",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "electronics/datasheets/cd74hct138.pdf",
+    "method": "PDF text",
+    "error": null,
+    "matches": [
+      {
+        "line": 694,
+        "text": "                            (1)                 Drawing        Qty          (2)        Ball material           (3)                                    (4/5)"
+      },
+      {
+        "line": 746,
+        "text": "                                       (1)                 Drawing        Qty                    (2)       Ball material           (3)                                    (4/5)"
+      }
+    ]
+  },
+  {
+    "path": "electronics/datasheets/WAGO_2061-602.pdf",
+    "method": "PDF text",
+    "error": null,
+    "matches": []
+  },
+  {
+    "path": "electronics/datasheets/MMBT3906.pdf",
+    "method": "PDF text",
+    "error": null,
+    "matches": [
+      {
+        "line": 56,
+        "text": "    Ordering Information"
+      },
+      {
+        "line": 57,
+        "text": "         Part Number                    Marking           Package         Packing Method        Pack Quantity"
+      },
+      {
+        "line": 69,
+        "text": "\u00a9 2010 Semiconductor Components Industries, LLC.                                                    Publication Order Number:"
+      },
+      {
+        "line": 566,
+        "text": "PUBLICATION ORDERING INFORMATION"
+      },
+      {
+        "line": 569,
+        "text": " 19521 E. 32nd Pkwy, Aurora, Colorado 80011 USA                          Europe, Middle East and Africa Technical Support:                  Order Literature: http://www.onsemi.com/orderlit"
+      }
+    ]
+  },
+  {
+    "path": "electronics/datasheets/AH49E.pdf",
+    "method": "PDF text",
+    "error": null,
+    "matches": [
+      {
+        "line": 131,
+        "text": "Ordering Information"
+      }
+    ]
+  },
+  {
+    "path": "electronics/datasheets/74HCT138.pdf",
+    "method": "PDF text",
+    "error": null,
+    "matches": [
+      {
+        "line": 41,
+        "text": "3. Ordering information"
+      },
+      {
+        "line": 42,
+        "text": "Table 1. Ordering information"
+      },
+      {
+        "line": 844,
+        "text": "      multiple devices. The latest product status information is available on                       customer\u2019s applications and products using Nexperia products in order to"
+      },
+      {
+        "line": 930,
+        "text": "3. Ordering information....................................................1"
+      }
+    ]
+  },
+  {
+    "path": "electronics/datasheets/sn74LV1T34.pdf",
+    "method": "PDF text",
+    "error": null,
+    "matches": [
+      {
+        "line": 786,
+        "text": "                                          (1)                  Drawing        Qty                   (2)            Ball material                  (3)                                             (4/5)"
+      }
+    ]
+  },
+  {
+    "path": "electronics/datasheets/74HC4052D.pdf",
+    "method": "PDF text",
+    "error": null,
+    "matches": [
+      {
+        "line": 50,
+        "text": "4. Ordering information"
+      },
+      {
+        "line": 51,
+        "text": "Table 1. Ordering information"
+      },
+      {
+        "line": 1418,
+        "text": "      multiple devices. The latest product status information is available on                       customer\u2019s applications and products using Nexperia products in order to"
+      },
+      {
+        "line": 1505,
+        "text": "4. Ordering information....................................................2"
+      }
+    ]
+  }
+]

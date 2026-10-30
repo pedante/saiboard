@@ -1,0 +1,7770 @@
+[
+  {
+    "id": "FP-01",
+    "value": "SKC6812RGBW-WS",
+    "footprint": "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm",
+    "designators": [
+      "11x3/D1",
+      "11x3/D2",
+      "11x3/D3",
+      "11x3/D4",
+      "11x3/D5",
+      "11x3/D6",
+      "11x3/D7",
+      "11x3/D8",
+      "11x3/D9",
+      "11x3/D10",
+      "11x3/D11",
+      "11x3/D12",
+      "11x3/D13",
+      "11x3/D14",
+      "11x3/D15",
+      "11x3/D16",
+      "11x3/D17",
+      "11x3/D18",
+      "11x3/D19",
+      "11x3/D20",
+      "11x3/D21",
+      "11x3/D22",
+      "11x3/D23",
+      "11x3/D24",
+      "11x3/D27",
+      "11x3/D31",
+      "11x3/D29",
+      "11x3/D26",
+      "11x3/D30",
+      "11x3/D28",
+      "11x3/D25",
+      "11x3/D33",
+      "11x3/D32",
+      "8x3/D1",
+      "8x3/D2",
+      "8x3/D3",
+      "8x3/D4",
+      "8x3/D5",
+      "8x3/D6",
+      "8x3/D7",
+      "8x3/D8",
+      "8x3/D9",
+      "8x3/D10",
+      "8x3/D11",
+      "8x3/D12",
+      "8x3/D13",
+      "8x3/D14",
+      "8x3/D15",
+      "8x3/D16",
+      "8x3/D17",
+      "8x3/D18",
+      "8x3/D19",
+      "8x3/D20",
+      "8x3/D21",
+      "8x3/D22",
+      "8x3/D23",
+      "8x3/D24",
+      "3x8/D1",
+      "3x8/D2",
+      "3x8/D3",
+      "3x8/D4",
+      "3x8/D5",
+      "3x8/D6",
+      "3x8/D7",
+      "3x8/D8",
+      "3x8/D9",
+      "3x8/D10",
+      "3x8/D11",
+      "3x8/D12",
+      "3x8/D13",
+      "3x8/D14",
+      "3x8/D15",
+      "3x8/D16",
+      "3x8/D17",
+      "3x8/D18",
+      "3x8/D19",
+      "3x8/D20",
+      "3x8/D21",
+      "3x8/D22",
+      "3x8/D23",
+      "3x8/D24",
+      "8x8/D1",
+      "8x8/D2",
+      "8x8/D3",
+      "8x8/D4",
+      "8x8/D5",
+      "8x8/D6",
+      "8x8/D7",
+      "8x8/D8",
+      "8x8/D9",
+      "8x8/D10",
+      "8x8/D11",
+      "8x8/D12",
+      "8x8/D13",
+      "8x8/D14",
+      "8x8/D15",
+      "8x8/D16",
+      "8x8/D17",
+      "8x8/D18",
+      "8x8/D19",
+      "8x8/D20",
+      "8x8/D21",
+      "8x8/D22",
+      "8x8/D23",
+      "8x8/D24",
+      "8x8/D25",
+      "8x8/D26",
+      "8x8/D27",
+      "8x8/D28",
+      "8x8/D29",
+      "8x8/D30",
+      "8x8/D31",
+      "8x8/D32",
+      "8x8/D33",
+      "8x8/D34",
+      "8x8/D35",
+      "8x8/D36",
+      "8x8/D37",
+      "8x8/D38",
+      "8x8/D39",
+      "8x8/D40",
+      "8x8/D41",
+      "8x8/D42",
+      "8x8/D43",
+      "8x8/D44",
+      "8x8/D45",
+      "8x8/D46",
+      "8x8/D47",
+      "8x8/D48",
+      "8x8/D49",
+      "8x8/D50",
+      "8x8/D51",
+      "8x8/D52",
+      "8x8/D53",
+      "8x8/D54",
+      "8x8/D55",
+      "8x8/D56",
+      "8x8/D57",
+      "8x8/D58",
+      "8x8/D59",
+      "8x8/D60",
+      "8x8/D61",
+      "8x8/D62",
+      "8x8/D63",
+      "8x8/D64"
+    ],
+    "pads": [
+      {
+        "number": "1",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "2.45",
+          "1.6"
+        ],
+        "size": [
+          "1.5",
+          "1"
+        ],
+        "layers": [
+          "F.Cu",
+          "F.Paste",
+          "F.Mask"
+        ],
+        "pinfunction": [
+          "VSS"
+        ]
+      },
+      {
+        "number": "2",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "2.45",
+          "-1.6"
+        ],
+        "size": [
+          "1.5",
+          "1"
+        ],
+        "layers": [
+          "F.Cu",
+          "F.Paste",
+          "F.Mask"
+        ],
+        "pinfunction": [
+          "DIN"
+        ]
+      },
+      {
+        "number": "3",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "-2.45",
+          "-1.6"
+        ],
+        "size": [
+          "1.5",
+          "1"
+        ],
+        "layers": [
+          "F.Cu",
+          "F.Paste",
+          "F.Mask"
+        ],
+        "pinfunction": [
+          "VDD"
+        ]
+      },
+      {
+        "number": "4",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "-2.45",
+          "1.6"
+        ],
+        "size": [
+          "1.5",
+          "1"
+        ],
+        "layers": [
+          "F.Cu",
+          "F.Paste",
+          "F.Mask"
+        ],
+        "pinfunction": [
+          "DOUT"
+        ]
+      }
+    ],
+    "example": "11x3/D1"
+  },
+  {
+    "id": "FP-02",
+    "value": "AH49E",
+    "footprint": "Package_TO_SOT_SMD:SOT-23",
+    "designators": [
+      "11x3/U1",
+      "11x3/U2",
+      "11x3/U3",
+      "11x3/U4",
+      "11x3/U5",
+      "11x3/U6",
+      "11x3/U7",
+      "11x3/U8",
+      "11x3/U9",
+      "11x3/U10",
+      "11x3/U11",
+      "11x3/U12",
+      "11x3/U13",
+      "11x3/U14",
+      "11x3/U15",
+      "11x3/U16",
+      "11x3/U17",
+      "11x3/U18",
+      "11x3/U19",
+      "11x3/U20",
+      "11x3/U21",
+      "11x3/U22",
+      "11x3/U23",
+      "11x3/U24",
+      "11x3/U29",
+      "11x3/U28",
+      "11x3/U26",
+      "11x3/U32",
+      "11x3/U30",
+      "11x3/U33",
+      "11x3/U25",
+      "11x3/U27",
+      "11x3/U31",
+      "8x3/U1",
+      "8x3/U2",
+      "8x3/U3",
+      "8x3/U4",
+      "8x3/U5",
+      "8x3/U6",
+      "8x3/U7",
+      "8x3/U8",
+      "8x3/U9",
+      "8x3/U10",
+      "8x3/U11",
+      "8x3/U12",
+      "8x3/U13",
+      "8x3/U14",
+      "8x3/U15",
+      "8x3/U16",
+      "8x3/U17",
+      "8x3/U18",
+      "8x3/U19",
+      "8x3/U20",
+      "8x3/U21",
+      "8x3/U22",
+      "8x3/U23",
+      "8x3/U24",
+      "3x8/U1",
+      "3x8/U2",
+      "3x8/U3",
+      "3x8/U4",
+      "3x8/U5",
+      "3x8/U6",
+      "3x8/U7",
+      "3x8/U8",
+      "3x8/U9",
+      "3x8/U10",
+      "3x8/U11",
+      "3x8/U12",
+      "3x8/U13",
+      "3x8/U14",
+      "3x8/U15",
+      "3x8/U16",
+      "3x8/U17",
+      "3x8/U18",
+      "3x8/U19",
+      "3x8/U20",
+      "3x8/U21",
+      "3x8/U22",
+      "3x8/U23",
+      "3x8/U24",
+      "8x8/U1",
+      "8x8/U2",
+      "8x8/U3",
+      "8x8/U4",
+      "8x8/U5",
+      "8x8/U6",
+      "8x8/U7",
+      "8x8/U8",
+      "8x8/U9",
+      "8x8/U10",
+      "8x8/U11",
+      "8x8/U12",
+      "8x8/U13",
+      "8x8/U14",
+      "8x8/U15",
+      "8x8/U16",
+      "8x8/U17",
+      "8x8/U18",
+      "8x8/U19",
+      "8x8/U20",
+      "8x8/U21",
+      "8x8/U22",
+      "8x8/U23",
+      "8x8/U24",
+      "8x8/U25",
+      "8x8/U26",
+      "8x8/U27",
+      "8x8/U28",
+      "8x8/U29",
+      "8x8/U30",
+      "8x8/U31",
+      "8x8/U32",
+      "8x8/U33",
+      "8x8/U34",
+      "8x8/U35",
+      "8x8/U36",
+      "8x8/U37",
+      "8x8/U38",
+      "8x8/U39",
+      "8x8/U40",
+      "8x8/U41",
+      "8x8/U42",
+      "8x8/U43",
+      "8x8/U44",
+      "8x8/U45",
+      "8x8/U46",
+      "8x8/U47",
+      "8x8/U48",
+      "8x8/U49",
+      "8x8/U50",
+      "8x8/U51",
+      "8x8/U52",
+      "8x8/U53",
+      "8x8/U54",
+      "8x8/U55",
+      "8x8/U56",
+      "8x8/U57",
+      "8x8/U58",
+      "8x8/U59",
+      "8x8/U60",
+      "8x8/U61",
+      "8x8/U62",
+      "8x8/U63",
+      "8x8/U64"
+    ],
+    "pads": [
+      {
+        "number": "1",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "-1",
+          "-0.95"
+        ],
+        "size": [
+          "0.9",
+          "0.8"
+        ],
+        "layers": [
+          "F.Cu",
+          "F.Paste",
+          "F.Mask"
+        ],
+        "pinfunction": [
+          "VCC"
+        ]
+      },
+      {
+        "number": "2",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "-1",
+          "0.95"
+        ],
+        "size": [
+          "0.9",
+          "0.8"
+        ],
+        "layers": [
+          "F.Cu",
+          "F.Paste",
+          "F.Mask"
+        ],
+        "pinfunction": [
+          "OUT"
+        ]
+      },
+      {
+        "number": "3",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "1",
+          "0"
+        ],
+        "size": [
+          "0.9",
+          "0.8"
+        ],
+        "layers": [
+          "F.Cu",
+          "F.Paste",
+          "F.Mask"
+        ],
+        "pinfunction": [
+          "GND"
+        ]
+      }
+    ],
+    "example": "11x3/U1"
+  },
+  {
+    "id": "FP-03",
+    "value": "C104",
+    "footprint": "Capacitor_SMD:C_1206_3216Metric",
+    "designators": [
+      "11x3/C1",
+      "11x3/C26",
+      "11x3/C14",
+      "11x3/C8",
+      "11x3/C9",
+      "11x3/C19",
+      "11x3/C7",
+      "11x3/C4",
+      "11x3/C25",
+      "11x3/C23",
+      "11x3/C13",
+      "11x3/C30",
+      "11x3/C32",
+      "11x3/C27",
+      "11x3/C22",
+      "11x3/C12",
+      "11x3/C11",
+      "11x3/C33",
+      "11x3/C17",
+      "11x3/C15",
+      "11x3/C10",
+      "11x3/C5",
+      "11x3/C24",
+      "11x3/C3",
+      "11x3/C6",
+      "11x3/C2",
+      "11x3/C18",
+      "11x3/C21",
+      "11x3/C29",
+      "11x3/C28",
+      "11x3/C16",
+      "11x3/C31",
+      "11x3/C20",
+      "8x3/C1",
+      "8x3/C14",
+      "8x3/C8",
+      "8x3/C9",
+      "8x3/C19",
+      "8x3/C7",
+      "8x3/C4",
+      "8x3/C23",
+      "8x3/C13",
+      "8x3/C22",
+      "8x3/C12",
+      "8x3/C11",
+      "8x3/C17",
+      "8x3/C15",
+      "8x3/C10",
+      "8x3/C5",
+      "8x3/C24",
+      "8x3/C3",
+      "8x3/C6",
+      "8x3/C2",
+      "8x3/C18",
+      "8x3/C21",
+      "8x3/C16",
+      "8x3/C20",
+      "3x8/C1",
+      "3x8/C5",
+      "3x8/C6",
+      "3x8/C22",
+      "3x8/C19",
+      "3x8/C20",
+      "3x8/C18",
+      "3x8/C24",
+      "3x8/C17",
+      "3x8/C7",
+      "3x8/C9",
+      "3x8/C14",
+      "3x8/C3",
+      "3x8/C23",
+      "3x8/C15",
+      "3x8/C4",
+      "3x8/C10",
+      "3x8/C8",
+      "3x8/C16",
+      "3x8/C13",
+      "3x8/C2",
+      "3x8/C11",
+      "3x8/C12",
+      "3x8/C21",
+      "8x8/C1",
+      "8x8/C5",
+      "8x8/C39",
+      "8x8/C34",
+      "8x8/C6",
+      "8x8/C44",
+      "8x8/C22",
+      "8x8/C52",
+      "8x8/C19",
+      "8x8/C55",
+      "8x8/C20",
+      "8x8/C18",
+      "8x8/C24",
+      "8x8/C49",
+      "8x8/C17",
+      "8x8/C7",
+      "8x8/C9",
+      "8x8/C58",
+      "8x8/C14",
+      "8x8/C33",
+      "8x8/C29",
+      "8x8/C3",
+      "8x8/C53",
+      "8x8/C60",
+      "8x8/C45",
+      "8x8/C51",
+      "8x8/C37",
+      "8x8/C23",
+      "8x8/C15",
+      "8x8/C54",
+      "8x8/C47",
+      "8x8/C43",
+      "8x8/C57",
+      "8x8/C4",
+      "8x8/C46",
+      "8x8/C32",
+      "8x8/C26",
+      "8x8/C42",
+      "8x8/C40",
+      "8x8/C25",
+      "8x8/C10",
+      "8x8/C27",
+      "8x8/C30",
+      "8x8/C64",
+      "8x8/C28",
+      "8x8/C8",
+      "8x8/C16",
+      "8x8/C13",
+      "8x8/C2",
+      "8x8/C62",
+      "8x8/C48",
+      "8x8/C59",
+      "8x8/C56",
+      "8x8/C11",
+      "8x8/C31",
+      "8x8/C38",
+      "8x8/C36",
+      "8x8/C41",
+      "8x8/C35",
+      "8x8/C50",
+      "8x8/C12",
+      "8x8/C63",
+      "8x8/C21",
+      "8x8/C61"
+    ],
+    "pads": [
+      {
+        "number": "1",
+        "type": "smd",
+        "shape": "roundrect",
+        "at": [
+          "-1.475",
+          "0"
+        ],
+        "size": [
+          "1.15",
+          "1.8"
+        ],
+        "layers": [
+          "F.Cu",
+          "F.Paste",
+          "F.Mask"
+        ],
+        "pinfunction": []
+      },
+      {
+        "number": "2",
+        "type": "smd",
+        "shape": "roundrect",
+        "at": [
+          "1.475",
+          "0"
+        ],
+        "size": [
+          "1.15",
+          "1.8"
+        ],
+        "layers": [
+          "F.Cu",
+          "F.Paste",
+          "F.Mask"
+        ],
+        "pinfunction": []
+      }
+    ],
+    "example": "11x3/C1"
+  },
+  {
+    "id": "FP-04",
+    "value": null,
+    "footprint": "MountingHole:MountingHole_3mm",
+    "designators": [
+      "11x3/M6",
+      "11x3/M5",
+      "11x3/M6",
+      "11x3/M1",
+      "11x3/M2",
+      "11x3/M6",
+      "8x3/M3",
+      "8x3/M2",
+      "8x3/M1",
+      "3x8/M2",
+      "3x8/M3",
+      "3x8/M1",
+      "8x8/m1",
+      "8x8/m1",
+      "8x8/m1",
+      "8x8/m1",
+      "8x8/m2",
+      "8x8/m1",
+      "8x8/m1",
+      "8x8/m1"
+    ],
+    "pads": [
+      {
+        "number": "",
+        "type": "np_thru_hole",
+        "shape": "circle",
+        "at": [
+          "0",
+          "0"
+        ],
+        "size": [
+          "3",
+          "3"
+        ],
+        "layers": [
+          "*.Cu",
+          "*.Mask"
+        ],
+        "pinfunction": []
+      }
+    ],
+    "example": "11x3/M6"
+  },
+  {
+    "id": "FP-05",
+    "value": "330",
+    "footprint": "Resistor_SMD:R_1206_3216Metric",
+    "designators": [
+      "11x3/R9",
+      "11x3/R4",
+      "11x3/R1",
+      "11x3/R8",
+      "11x3/R7",
+      "11x3/R10",
+      "11x3/R2",
+      "11x3/R3",
+      "11x3/R6",
+      "11x3/R11",
+      "11x3/R5"
+    ],
+    "pads": [
+      {
+        "number": "1",
+        "type": "smd",
+        "shape": "roundrect",
+        "at": [
+          "-1.4625",
+          "0"
+        ],
+        "size": [
+          "1.125",
+          "1.75"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": []
+      },
+      {
+        "number": "2",
+        "type": "smd",
+        "shape": "roundrect",
+        "at": [
+          "1.4625",
+          "0"
+        ],
+        "size": [
+          "1.125",
+          "1.75"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": []
+      }
+    ],
+    "example": "11x3/R9"
+  },
+  {
+    "id": "FP-06",
+    "value": "C104",
+    "footprint": "Capacitor_SMD:C_1206_3216Metric",
+    "designators": [
+      "11x3/CI6",
+      "11x3/CI1",
+      "11x3/CI4",
+      "11x3/CI3",
+      "8x3/CI5",
+      "8x3/CI1",
+      "8x3/CI3",
+      "3x8/CI1"
+    ],
+    "pads": [
+      {
+        "number": "1",
+        "type": "smd",
+        "shape": "roundrect",
+        "at": [
+          "-1.475",
+          "0"
+        ],
+        "size": [
+          "1.15",
+          "1.8"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": []
+      },
+      {
+        "number": "2",
+        "type": "smd",
+        "shape": "roundrect",
+        "at": [
+          "1.475",
+          "0"
+        ],
+        "size": [
+          "1.15",
+          "1.8"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": []
+      }
+    ],
+    "example": "11x3/CI6"
+  },
+  {
+    "id": "FP-07",
+    "value": "C106",
+    "footprint": "Capacitor_SMD:C_1206_3216Metric",
+    "designators": [
+      "11x3/CI2",
+      "11x3/CI5",
+      "8x3/CI2",
+      "8x3/CI4"
+    ],
+    "pads": [
+      {
+        "number": "1",
+        "type": "smd",
+        "shape": "roundrect",
+        "at": [
+          "-1.475",
+          "0"
+        ],
+        "size": [
+          "1.15",
+          "1.8"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": []
+      },
+      {
+        "number": "2",
+        "type": "smd",
+        "shape": "roundrect",
+        "at": [
+          "1.475",
+          "0"
+        ],
+        "size": [
+          "1.15",
+          "1.8"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": []
+      }
+    ],
+    "example": "11x3/CI2"
+  },
+  {
+    "id": "FP-08",
+    "value": "PQ_bottom_side_b",
+    "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal_SMD",
+    "designators": [
+      "11x3/J26"
+    ],
+    "pads": [
+      {
+        "number": "1",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "-4.78",
+          "-2.59"
+        ],
+        "size": [
+          "3.2",
+          "1.02"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_1"
+        ]
+      },
+      {
+        "number": "2",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "-4.78",
+          "-0.05"
+        ],
+        "size": [
+          "3.2",
+          "1.02"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_2"
+        ]
+      },
+      {
+        "number": "3",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "-4.78",
+          "2.49"
+        ],
+        "size": [
+          "3.2",
+          "1.02"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_3"
+        ]
+      }
+    ],
+    "example": "11x3/J26"
+  },
+  {
+    "id": "FP-09",
+    "value": "1000 \u00b5F",
+    "footprint": "Capacitor_SMD:CP_Elec_10x10.5",
+    "designators": [
+      "11x3/CP1"
+    ],
+    "pads": [
+      {
+        "number": "1",
+        "type": "smd",
+        "shape": "roundrect",
+        "at": [
+          "-4.2",
+          "0"
+        ],
+        "size": [
+          "4.4",
+          "2.5"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": []
+      },
+      {
+        "number": "2",
+        "type": "smd",
+        "shape": "roundrect",
+        "at": [
+          "4.2",
+          "0"
+        ],
+        "size": [
+          "4.4",
+          "2.5"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": []
+      }
+    ],
+    "example": "11x3/CP1"
+  },
+  {
+    "id": "FP-10",
+    "value": "Power_side_b",
+    "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal_SMD",
+    "designators": [
+      "11x3/J19"
+    ],
+    "pads": [
+      {
+        "number": "1",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "-4.78",
+          "-2.59"
+        ],
+        "size": [
+          "3.2",
+          "1.02"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_1"
+        ]
+      },
+      {
+        "number": "2",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "-4.78",
+          "-0.05"
+        ],
+        "size": [
+          "3.2",
+          "1.02"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_2"
+        ]
+      },
+      {
+        "number": "3",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "-4.78",
+          "2.49"
+        ],
+        "size": [
+          "3.2",
+          "1.02"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_3"
+        ]
+      }
+    ],
+    "example": "11x3/J19"
+  },
+  {
+    "id": "FP-11",
+    "value": "Touch_side_b",
+    "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal_SMD",
+    "designators": [
+      "11x3/J22",
+      "8x3/J10"
+    ],
+    "pads": [
+      {
+        "number": "1",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "-4.78",
+          "-1.27"
+        ],
+        "size": [
+          "3.2",
+          "1.02"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_1"
+        ]
+      },
+      {
+        "number": "2",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "-4.78",
+          "1.27"
+        ],
+        "size": [
+          "3.2",
+          "1.02"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_2"
+        ]
+      }
+    ],
+    "example": "11x3/J22"
+  },
+  {
+    "id": "FP-12",
+    "value": "2N3906",
+    "footprint": "Package_TO_SOT_SMD:SOT-23",
+    "designators": [
+      "11x3/Q7",
+      "11x3/Q2",
+      "11x3/Q3",
+      "11x3/Q9",
+      "11x3/Q8",
+      "11x3/Q5",
+      "11x3/Q11",
+      "11x3/Q1",
+      "11x3/Q6",
+      "11x3/Q10",
+      "11x3/Q4"
+    ],
+    "pads": [
+      {
+        "number": "1",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "-1",
+          "0.95"
+        ],
+        "size": [
+          "0.9",
+          "0.8"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "B"
+        ]
+      },
+      {
+        "number": "2",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "-1",
+          "-0.95"
+        ],
+        "size": [
+          "0.9",
+          "0.8"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "E"
+        ]
+      },
+      {
+        "number": "3",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "1",
+          "0"
+        ],
+        "size": [
+          "0.9",
+          "0.8"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "C"
+        ]
+      }
+    ],
+    "example": "11x3/Q7"
+  },
+  {
+    "id": "FP-13",
+    "value": "IC_top_1",
+    "footprint": "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Horizontal_SMD",
+    "designators": [
+      "11x3/J2"
+    ],
+    "pads": [
+      {
+        "number": "1",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "4.78",
+          "1.24"
+        ],
+        "size": [
+          "2.6",
+          "1.02"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_1"
+        ]
+      },
+      {
+        "number": "2",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "4.78",
+          "-1.3"
+        ],
+        "size": [
+          "2.6",
+          "1.02"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_2"
+        ]
+      }
+    ],
+    "example": "11x3/J2"
+  },
+  {
+    "id": "FP-14",
+    "value": "PQ_side_b",
+    "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal_SMD",
+    "designators": [
+      "11x3/J21",
+      "11x3/J23",
+      "11x3/J24",
+      "11x3/J20",
+      "8x3/J9",
+      "8x3/J11",
+      "8x3/J12",
+      "8x3/J8"
+    ],
+    "pads": [
+      {
+        "number": "1",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "-4.78",
+          "-1.27"
+        ],
+        "size": [
+          "3.2",
+          "1.02"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_1"
+        ]
+      },
+      {
+        "number": "2",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "-4.78",
+          "1.27"
+        ],
+        "size": [
+          "3.2",
+          "1.02"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_2"
+        ]
+      }
+    ],
+    "example": "11x3/J21"
+  },
+  {
+    "id": "FP-15",
+    "value": "SN74LV1T34",
+    "footprint": "Package_TO_SOT_SMD:SOT-23-5",
+    "designators": [
+      "11x3/UI3"
+    ],
+    "pads": [
+      {
+        "number": "1",
+        "type": "smd",
+        "shape": "roundrect",
+        "at": [
+          "-1.1375",
+          "0.95"
+        ],
+        "size": [
+          "1.325",
+          "0.6"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "NC"
+        ]
+      },
+      {
+        "number": "2",
+        "type": "smd",
+        "shape": "roundrect",
+        "at": [
+          "-1.1375",
+          "0"
+        ],
+        "size": [
+          "1.325",
+          "0.6"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "A"
+        ]
+      },
+      {
+        "number": "3",
+        "type": "smd",
+        "shape": "roundrect",
+        "at": [
+          "-1.1375",
+          "-0.95"
+        ],
+        "size": [
+          "1.325",
+          "0.6"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "GND"
+        ]
+      },
+      {
+        "number": "4",
+        "type": "smd",
+        "shape": "roundrect",
+        "at": [
+          "1.1375",
+          "-0.95"
+        ],
+        "size": [
+          "1.325",
+          "0.6"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Y"
+        ]
+      },
+      {
+        "number": "5",
+        "type": "smd",
+        "shape": "roundrect",
+        "at": [
+          "1.1375",
+          "0.95"
+        ],
+        "size": [
+          "1.325",
+          "0.6"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "VCC"
+        ]
+      }
+    ],
+    "example": "11x3/UI3"
+  },
+  {
+    "id": "FP-16",
+    "value": "PQ_side_a",
+    "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal_SMD",
+    "designators": [
+      "11x3/J9",
+      "11x3/J10",
+      "11x3/J12",
+      "11x3/J13",
+      "8x3/J2",
+      "8x3/J3",
+      "8x3/J5",
+      "8x3/J6"
+    ],
+    "pads": [
+      {
+        "number": "1",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "-4.78",
+          "-1.27"
+        ],
+        "size": [
+          "3.2",
+          "1.02"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_1"
+        ]
+      },
+      {
+        "number": "2",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "-4.78",
+          "1.27"
+        ],
+        "size": [
+          "3.2",
+          "1.02"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_2"
+        ]
+      }
+    ],
+    "example": "11x3/J9"
+  },
+  {
+    "id": "FP-17",
+    "value": "PQ_bottom_side_a",
+    "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal_SMD",
+    "designators": [
+      "11x3/J15"
+    ],
+    "pads": [
+      {
+        "number": "1",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "-4.78",
+          "-2.59"
+        ],
+        "size": [
+          "3.2",
+          "1.02"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_1"
+        ]
+      },
+      {
+        "number": "2",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "-4.78",
+          "-0.05"
+        ],
+        "size": [
+          "3.2",
+          "1.02"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_2"
+        ]
+      },
+      {
+        "number": "3",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "-4.78",
+          "2.49"
+        ],
+        "size": [
+          "3.2",
+          "1.02"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_3"
+        ]
+      }
+    ],
+    "example": "11x3/J15"
+  },
+  {
+    "id": "FP-18",
+    "value": "Touch_top",
+    "footprint": "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Horizontal_SMD",
+    "designators": [
+      "11x3/J5"
+    ],
+    "pads": [
+      {
+        "number": "1",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "4.78",
+          "1.24"
+        ],
+        "size": [
+          "2.6",
+          "1.02"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_1"
+        ]
+      },
+      {
+        "number": "2",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "4.78",
+          "-1.3"
+        ],
+        "size": [
+          "2.6",
+          "1.02"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_2"
+        ]
+      }
+    ],
+    "example": "11x3/J5"
+  },
+  {
+    "id": "FP-19",
+    "value": "IC_bottom_side_a",
+    "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal_SMD",
+    "designators": [
+      "11x3/J17"
+    ],
+    "pads": [
+      {
+        "number": "1",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "-4.78",
+          "-1.27"
+        ],
+        "size": [
+          "3.2",
+          "1.02"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_1"
+        ]
+      },
+      {
+        "number": "2",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "-4.78",
+          "1.27"
+        ],
+        "size": [
+          "3.2",
+          "1.02"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_2"
+        ]
+      }
+    ],
+    "example": "11x3/J17"
+  },
+  {
+    "id": "FP-20",
+    "value": "IC_top_2",
+    "footprint": "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Horizontal_SMD",
+    "designators": [
+      "11x3/J3"
+    ],
+    "pads": [
+      {
+        "number": "1",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "4.78",
+          "1.24"
+        ],
+        "size": [
+          "2.6",
+          "1.02"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_1"
+        ]
+      },
+      {
+        "number": "2",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "4.78",
+          "-1.3"
+        ],
+        "size": [
+          "2.6",
+          "1.02"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_2"
+        ]
+      }
+    ],
+    "example": "11x3/J3"
+  },
+  {
+    "id": "FP-21",
+    "value": "Touch_side_a",
+    "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal_SMD",
+    "designators": [
+      "11x3/J11",
+      "8x3/J4"
+    ],
+    "pads": [
+      {
+        "number": "1",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "-4.78",
+          "-1.27"
+        ],
+        "size": [
+          "3.2",
+          "1.02"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_1"
+        ]
+      },
+      {
+        "number": "2",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "-4.78",
+          "1.27"
+        ],
+        "size": [
+          "3.2",
+          "1.02"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_2"
+        ]
+      }
+    ],
+    "example": "11x3/J11"
+  },
+  {
+    "id": "FP-22",
+    "value": "Power_side_a",
+    "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal_SMD",
+    "designators": [
+      "11x3/J8"
+    ],
+    "pads": [
+      {
+        "number": "1",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "-4.78",
+          "-2.59"
+        ],
+        "size": [
+          "3.2",
+          "1.02"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_1"
+        ]
+      },
+      {
+        "number": "2",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "-4.78",
+          "-0.05"
+        ],
+        "size": [
+          "3.2",
+          "1.02"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_2"
+        ]
+      },
+      {
+        "number": "3",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "-4.78",
+          "2.49"
+        ],
+        "size": [
+          "3.2",
+          "1.02"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_3"
+        ]
+      }
+    ],
+    "example": "11x3/J8"
+  },
+  {
+    "id": "FP-23",
+    "value": "Power_bottom_side_a",
+    "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal_SMD",
+    "designators": [
+      "11x3/J18"
+    ],
+    "pads": [
+      {
+        "number": "1",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "-4.78",
+          "-2.59"
+        ],
+        "size": [
+          "3.2",
+          "1.02"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_1"
+        ]
+      },
+      {
+        "number": "2",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "-4.78",
+          "-0.05"
+        ],
+        "size": [
+          "3.2",
+          "1.02"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_2"
+        ]
+      },
+      {
+        "number": "3",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "-4.78",
+          "2.49"
+        ],
+        "size": [
+          "3.2",
+          "1.02"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_3"
+        ]
+      }
+    ],
+    "example": "11x3/J18"
+  },
+  {
+    "id": "FP-24",
+    "value": "Power_Terminal",
+    "footprint": "TerminalBlock_WAGO:Wago_2601-602",
+    "designators": [
+      "11x3/J32"
+    ],
+    "pads": [
+      {
+        "number": "1",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "5.5",
+          "0"
+        ],
+        "size": [
+          "4.5",
+          "2.4"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_1"
+        ]
+      },
+      {
+        "number": "1",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "-6",
+          "0"
+        ],
+        "size": [
+          "6.5",
+          "2.1"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_1"
+        ]
+      },
+      {
+        "number": "2",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "5.5",
+          "6"
+        ],
+        "size": [
+          "4.5",
+          "2.4"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_2"
+        ]
+      },
+      {
+        "number": "2",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "-6",
+          "6"
+        ],
+        "size": [
+          "6.5",
+          "2.1"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_2"
+        ]
+      }
+    ],
+    "example": "11x3/J32"
+  },
+  {
+    "id": "FP-25",
+    "value": "IC_bottom_side_b",
+    "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal_SMD",
+    "designators": [
+      "11x3/J28"
+    ],
+    "pads": [
+      {
+        "number": "1",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "-4.78",
+          "-1.27"
+        ],
+        "size": [
+          "3.2",
+          "1.02"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_1"
+        ]
+      },
+      {
+        "number": "2",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "-4.78",
+          "1.27"
+        ],
+        "size": [
+          "3.2",
+          "1.02"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_2"
+        ]
+      }
+    ],
+    "example": "11x3/J28"
+  },
+  {
+    "id": "FP-26",
+    "value": "Touch_bottom_side_b",
+    "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal_SMD",
+    "designators": [
+      "11x3/J25"
+    ],
+    "pads": [
+      {
+        "number": "1",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "-4.78",
+          "-1.27"
+        ],
+        "size": [
+          "3.2",
+          "1.02"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_1"
+        ]
+      },
+      {
+        "number": "2",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "-4.78",
+          "1.27"
+        ],
+        "size": [
+          "3.2",
+          "1.02"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_2"
+        ]
+      }
+    ],
+    "example": "11x3/J25"
+  },
+  {
+    "id": "FP-27",
+    "value": "esp32s3right",
+    "footprint": "Connector_PinSocket_2.54mm:PinSocket_2x22_P2.54mm_Vertical_SMD",
+    "designators": [
+      "11x3/J31"
+    ],
+    "pads": [
+      {
+        "number": "1",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "2.52",
+          "26.67"
+        ],
+        "size": [
+          "3",
+          "1"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_1"
+        ]
+      },
+      {
+        "number": "2",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "-2.52",
+          "26.67"
+        ],
+        "size": [
+          "3",
+          "1"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_2"
+        ]
+      },
+      {
+        "number": "3",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "2.52",
+          "24.13"
+        ],
+        "size": [
+          "3",
+          "1"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_3"
+        ]
+      },
+      {
+        "number": "4",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "-2.52",
+          "24.13"
+        ],
+        "size": [
+          "3",
+          "1"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_4"
+        ]
+      },
+      {
+        "number": "5",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "2.52",
+          "21.59"
+        ],
+        "size": [
+          "3",
+          "1"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_5"
+        ]
+      },
+      {
+        "number": "6",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "-2.52",
+          "21.59"
+        ],
+        "size": [
+          "3",
+          "1"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_6"
+        ]
+      },
+      {
+        "number": "7",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "2.52",
+          "19.05"
+        ],
+        "size": [
+          "3",
+          "1"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_7"
+        ]
+      },
+      {
+        "number": "8",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "-2.52",
+          "19.05"
+        ],
+        "size": [
+          "3",
+          "1"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_8"
+        ]
+      },
+      {
+        "number": "9",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "2.52",
+          "16.51"
+        ],
+        "size": [
+          "3",
+          "1"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_9"
+        ]
+      },
+      {
+        "number": "10",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "-2.52",
+          "16.51"
+        ],
+        "size": [
+          "3",
+          "1"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_10"
+        ]
+      },
+      {
+        "number": "11",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "2.52",
+          "13.97"
+        ],
+        "size": [
+          "3",
+          "1"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_11"
+        ]
+      },
+      {
+        "number": "12",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "-2.52",
+          "13.97"
+        ],
+        "size": [
+          "3",
+          "1"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_12"
+        ]
+      },
+      {
+        "number": "13",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "2.52",
+          "11.43"
+        ],
+        "size": [
+          "3",
+          "1"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_13"
+        ]
+      },
+      {
+        "number": "14",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "-2.52",
+          "11.43"
+        ],
+        "size": [
+          "3",
+          "1"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_14"
+        ]
+      },
+      {
+        "number": "15",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "2.52",
+          "8.89"
+        ],
+        "size": [
+          "3",
+          "1"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_15"
+        ]
+      },
+      {
+        "number": "16",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "-2.52",
+          "8.89"
+        ],
+        "size": [
+          "3",
+          "1"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_16"
+        ]
+      },
+      {
+        "number": "17",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "2.52",
+          "6.35"
+        ],
+        "size": [
+          "3",
+          "1"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_17"
+        ]
+      },
+      {
+        "number": "18",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "-2.52",
+          "6.35"
+        ],
+        "size": [
+          "3",
+          "1"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_18"
+        ]
+      },
+      {
+        "number": "19",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "2.52",
+          "3.81"
+        ],
+        "size": [
+          "3",
+          "1"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_19"
+        ]
+      },
+      {
+        "number": "20",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "-2.52",
+          "3.81"
+        ],
+        "size": [
+          "3",
+          "1"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_20"
+        ]
+      },
+      {
+        "number": "21",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "2.52",
+          "1.27"
+        ],
+        "size": [
+          "3",
+          "1"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_21"
+        ]
+      },
+      {
+        "number": "22",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "-2.52",
+          "1.27"
+        ],
+        "size": [
+          "3",
+          "1"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_22"
+        ]
+      },
+      {
+        "number": "23",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "2.52",
+          "-1.27"
+        ],
+        "size": [
+          "3",
+          "1"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_23"
+        ]
+      },
+      {
+        "number": "24",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "-2.52",
+          "-1.27"
+        ],
+        "size": [
+          "3",
+          "1"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_24"
+        ]
+      },
+      {
+        "number": "25",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "2.52",
+          "-3.81"
+        ],
+        "size": [
+          "3",
+          "1"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_25"
+        ]
+      },
+      {
+        "number": "26",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "-2.52",
+          "-3.81"
+        ],
+        "size": [
+          "3",
+          "1"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_26"
+        ]
+      },
+      {
+        "number": "27",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "2.52",
+          "-6.35"
+        ],
+        "size": [
+          "3",
+          "1"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_27"
+        ]
+      },
+      {
+        "number": "28",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "-2.52",
+          "-6.35"
+        ],
+        "size": [
+          "3",
+          "1"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_28"
+        ]
+      },
+      {
+        "number": "29",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "2.52",
+          "-8.89"
+        ],
+        "size": [
+          "3",
+          "1"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_29"
+        ]
+      },
+      {
+        "number": "30",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "-2.52",
+          "-8.89"
+        ],
+        "size": [
+          "3",
+          "1"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_30"
+        ]
+      },
+      {
+        "number": "31",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "2.52",
+          "-11.43"
+        ],
+        "size": [
+          "3",
+          "1"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_31"
+        ]
+      },
+      {
+        "number": "32",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "-2.52",
+          "-11.43"
+        ],
+        "size": [
+          "3",
+          "1"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_32"
+        ]
+      },
+      {
+        "number": "33",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "2.52",
+          "-13.97"
+        ],
+        "size": [
+          "3",
+          "1"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_33"
+        ]
+      },
+      {
+        "number": "34",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "-2.52",
+          "-13.97"
+        ],
+        "size": [
+          "3",
+          "1"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_34"
+        ]
+      },
+      {
+        "number": "35",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "2.52",
+          "-16.51"
+        ],
+        "size": [
+          "3",
+          "1"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_35"
+        ]
+      },
+      {
+        "number": "36",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "-2.52",
+          "-16.51"
+        ],
+        "size": [
+          "3",
+          "1"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_36"
+        ]
+      },
+      {
+        "number": "37",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "2.52",
+          "-19.05"
+        ],
+        "size": [
+          "3",
+          "1"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_37"
+        ]
+      },
+      {
+        "number": "38",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "-2.52",
+          "-19.05"
+        ],
+        "size": [
+          "3",
+          "1"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_38"
+        ]
+      },
+      {
+        "number": "39",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "2.52",
+          "-21.59"
+        ],
+        "size": [
+          "3",
+          "1"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_39"
+        ]
+      },
+      {
+        "number": "40",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "-2.52",
+          "-21.59"
+        ],
+        "size": [
+          "3",
+          "1"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_40"
+        ]
+      },
+      {
+        "number": "41",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "2.52",
+          "-24.13"
+        ],
+        "size": [
+          "3",
+          "1"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_41"
+        ]
+      },
+      {
+        "number": "42",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "-2.52",
+          "-24.13"
+        ],
+        "size": [
+          "3",
+          "1"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_42"
+        ]
+      },
+      {
+        "number": "43",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "2.52",
+          "-26.67"
+        ],
+        "size": [
+          "3",
+          "1"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_43"
+        ]
+      },
+      {
+        "number": "44",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "-2.52",
+          "-26.67"
+        ],
+        "size": [
+          "3",
+          "1"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_44"
+        ]
+      }
+    ],
+    "example": "11x3/J31"
+  },
+  {
+    "id": "FP-28",
+    "value": "Touch_bottom_side_a",
+    "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal_SMD",
+    "designators": [
+      "11x3/J14"
+    ],
+    "pads": [
+      {
+        "number": "1",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "-4.78",
+          "-1.27"
+        ],
+        "size": [
+          "3.2",
+          "1.02"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_1"
+        ]
+      },
+      {
+        "number": "2",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "-4.78",
+          "1.27"
+        ],
+        "size": [
+          "3.2",
+          "1.02"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_2"
+        ]
+      }
+    ],
+    "example": "11x3/J14"
+  },
+  {
+    "id": "FP-29",
+    "value": "74HCT154D",
+    "footprint": "Package_SO:SOP-24_7.5x15.4mm_P1.27mm",
+    "designators": [
+      "11x3/UI1"
+    ],
+    "pads": [
+      {
+        "number": "1",
+        "type": "smd",
+        "shape": "roundrect",
+        "at": [
+          "-4.65",
+          "6.985"
+        ],
+        "size": [
+          "2",
+          "0.55"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Y0"
+        ]
+      },
+      {
+        "number": "2",
+        "type": "smd",
+        "shape": "roundrect",
+        "at": [
+          "-4.65",
+          "5.715"
+        ],
+        "size": [
+          "2",
+          "0.55"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Y1"
+        ]
+      },
+      {
+        "number": "3",
+        "type": "smd",
+        "shape": "roundrect",
+        "at": [
+          "-4.65",
+          "4.445"
+        ],
+        "size": [
+          "2",
+          "0.55"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Y2"
+        ]
+      },
+      {
+        "number": "4",
+        "type": "smd",
+        "shape": "roundrect",
+        "at": [
+          "-4.65",
+          "3.175"
+        ],
+        "size": [
+          "2",
+          "0.55"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Y3"
+        ]
+      },
+      {
+        "number": "5",
+        "type": "smd",
+        "shape": "roundrect",
+        "at": [
+          "-4.65",
+          "1.905"
+        ],
+        "size": [
+          "2",
+          "0.55"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Y4"
+        ]
+      },
+      {
+        "number": "6",
+        "type": "smd",
+        "shape": "roundrect",
+        "at": [
+          "-4.65",
+          "0.635"
+        ],
+        "size": [
+          "2",
+          "0.55"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Y5"
+        ]
+      },
+      {
+        "number": "7",
+        "type": "smd",
+        "shape": "roundrect",
+        "at": [
+          "-4.65",
+          "-0.635"
+        ],
+        "size": [
+          "2",
+          "0.55"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Y6"
+        ]
+      },
+      {
+        "number": "8",
+        "type": "smd",
+        "shape": "roundrect",
+        "at": [
+          "-4.65",
+          "-1.905"
+        ],
+        "size": [
+          "2",
+          "0.55"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Y7"
+        ]
+      },
+      {
+        "number": "9",
+        "type": "smd",
+        "shape": "roundrect",
+        "at": [
+          "-4.65",
+          "-3.175"
+        ],
+        "size": [
+          "2",
+          "0.55"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Y8"
+        ]
+      },
+      {
+        "number": "10",
+        "type": "smd",
+        "shape": "roundrect",
+        "at": [
+          "-4.65",
+          "-4.445"
+        ],
+        "size": [
+          "2",
+          "0.55"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Y9"
+        ]
+      },
+      {
+        "number": "11",
+        "type": "smd",
+        "shape": "roundrect",
+        "at": [
+          "-4.65",
+          "-5.715"
+        ],
+        "size": [
+          "2",
+          "0.55"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Y10"
+        ]
+      },
+      {
+        "number": "12",
+        "type": "smd",
+        "shape": "roundrect",
+        "at": [
+          "-4.65",
+          "-6.985"
+        ],
+        "size": [
+          "2",
+          "0.55"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "GND"
+        ]
+      },
+      {
+        "number": "13",
+        "type": "smd",
+        "shape": "roundrect",
+        "at": [
+          "4.65",
+          "-6.985"
+        ],
+        "size": [
+          "2",
+          "0.55"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Y11"
+        ]
+      },
+      {
+        "number": "14",
+        "type": "smd",
+        "shape": "roundrect",
+        "at": [
+          "4.65",
+          "-5.715"
+        ],
+        "size": [
+          "2",
+          "0.55"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Y12"
+        ]
+      },
+      {
+        "number": "15",
+        "type": "smd",
+        "shape": "roundrect",
+        "at": [
+          "4.65",
+          "-4.445"
+        ],
+        "size": [
+          "2",
+          "0.55"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Y13"
+        ]
+      },
+      {
+        "number": "16",
+        "type": "smd",
+        "shape": "roundrect",
+        "at": [
+          "4.65",
+          "-3.175"
+        ],
+        "size": [
+          "2",
+          "0.55"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Y14"
+        ]
+      },
+      {
+        "number": "17",
+        "type": "smd",
+        "shape": "roundrect",
+        "at": [
+          "4.65",
+          "-1.905"
+        ],
+        "size": [
+          "2",
+          "0.55"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Y15"
+        ]
+      },
+      {
+        "number": "18",
+        "type": "smd",
+        "shape": "roundrect",
+        "at": [
+          "4.65",
+          "-0.635"
+        ],
+        "size": [
+          "2",
+          "0.55"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "E0"
+        ]
+      },
+      {
+        "number": "19",
+        "type": "smd",
+        "shape": "roundrect",
+        "at": [
+          "4.65",
+          "0.635"
+        ],
+        "size": [
+          "2",
+          "0.55"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "E1"
+        ]
+      },
+      {
+        "number": "20",
+        "type": "smd",
+        "shape": "roundrect",
+        "at": [
+          "4.65",
+          "1.905"
+        ],
+        "size": [
+          "2",
+          "0.55"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "A3"
+        ]
+      },
+      {
+        "number": "21",
+        "type": "smd",
+        "shape": "roundrect",
+        "at": [
+          "4.65",
+          "3.175"
+        ],
+        "size": [
+          "2",
+          "0.55"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "A2"
+        ]
+      },
+      {
+        "number": "22",
+        "type": "smd",
+        "shape": "roundrect",
+        "at": [
+          "4.65",
+          "4.445"
+        ],
+        "size": [
+          "2",
+          "0.55"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "A1"
+        ]
+      },
+      {
+        "number": "23",
+        "type": "smd",
+        "shape": "roundrect",
+        "at": [
+          "4.65",
+          "5.715"
+        ],
+        "size": [
+          "2",
+          "0.55"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "A0"
+        ]
+      },
+      {
+        "number": "24",
+        "type": "smd",
+        "shape": "roundrect",
+        "at": [
+          "4.65",
+          "6.985"
+        ],
+        "size": [
+          "2",
+          "0.55"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "VCC"
+        ]
+      }
+    ],
+    "example": "11x3/UI1"
+  },
+  {
+    "id": "FP-30",
+    "value": "Power_bottom_side_b",
+    "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal_SMD",
+    "designators": [
+      "11x3/J29"
+    ],
+    "pads": [
+      {
+        "number": "1",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "-4.78",
+          "-2.59"
+        ],
+        "size": [
+          "3.2",
+          "1.02"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_1"
+        ]
+      },
+      {
+        "number": "2",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "-4.78",
+          "-0.05"
+        ],
+        "size": [
+          "3.2",
+          "1.02"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_2"
+        ]
+      },
+      {
+        "number": "3",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "-4.78",
+          "2.49"
+        ],
+        "size": [
+          "3.2",
+          "1.02"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_3"
+        ]
+      }
+    ],
+    "example": "11x3/J29"
+  },
+  {
+    "id": "FP-31",
+    "value": "220",
+    "footprint": "Resistor_SMD:R_1206_3216Metric",
+    "designators": [
+      "11x3/RI1"
+    ],
+    "pads": [
+      {
+        "number": "1",
+        "type": "smd",
+        "shape": "roundrect",
+        "at": [
+          "-1.4625",
+          "0"
+        ],
+        "size": [
+          "1.125",
+          "1.75"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": []
+      },
+      {
+        "number": "2",
+        "type": "smd",
+        "shape": "roundrect",
+        "at": [
+          "1.4625",
+          "0"
+        ],
+        "size": [
+          "1.125",
+          "1.75"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": []
+      }
+    ],
+    "example": "11x3/RI1"
+  },
+  {
+    "id": "FP-32",
+    "value": "Power_RaspberryPi",
+    "footprint": "TerminalBlock_WAGO:Wago_2601-602",
+    "designators": [
+      "11x3/J33"
+    ],
+    "pads": [
+      {
+        "number": "1",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "-6",
+          "0"
+        ],
+        "size": [
+          "6.5",
+          "2.1"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_1"
+        ]
+      },
+      {
+        "number": "1",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "5.5",
+          "0"
+        ],
+        "size": [
+          "4.5",
+          "2.4"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_1"
+        ]
+      },
+      {
+        "number": "2",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "-6",
+          "6"
+        ],
+        "size": [
+          "6.5",
+          "2.1"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_2"
+        ]
+      },
+      {
+        "number": "2",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "5.5",
+          "6"
+        ],
+        "size": [
+          "4.5",
+          "2.4"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_2"
+        ]
+      }
+    ],
+    "example": "11x3/J33"
+  },
+  {
+    "id": "FP-33",
+    "value": "Power_top_side_b",
+    "footprint": "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Horizontal_SMD",
+    "designators": [
+      "11x3/J7"
+    ],
+    "pads": [
+      {
+        "number": "1",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "4.78",
+          "1.24"
+        ],
+        "size": [
+          "2.6",
+          "1.02"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_1"
+        ]
+      },
+      {
+        "number": "2",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "4.78",
+          "-1.3"
+        ],
+        "size": [
+          "2.6",
+          "1.02"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_2"
+        ]
+      }
+    ],
+    "example": "11x3/J7"
+  },
+  {
+    "id": "FP-34",
+    "value": "esp32s3left",
+    "footprint": "Connector_PinSocket_2.54mm:PinSocket_2x22_P2.54mm_Vertical_SMD",
+    "designators": [
+      "11x3/J30"
+    ],
+    "pads": [
+      {
+        "number": "1",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "2.52",
+          "26.67"
+        ],
+        "size": [
+          "3",
+          "1"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_1"
+        ]
+      },
+      {
+        "number": "2",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "-2.52",
+          "26.67"
+        ],
+        "size": [
+          "3",
+          "1"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_2"
+        ]
+      },
+      {
+        "number": "3",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "2.52",
+          "24.13"
+        ],
+        "size": [
+          "3",
+          "1"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_3"
+        ]
+      },
+      {
+        "number": "4",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "-2.52",
+          "24.13"
+        ],
+        "size": [
+          "3",
+          "1"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_4"
+        ]
+      },
+      {
+        "number": "5",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "2.52",
+          "21.59"
+        ],
+        "size": [
+          "3",
+          "1"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_5"
+        ]
+      },
+      {
+        "number": "6",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "-2.52",
+          "21.59"
+        ],
+        "size": [
+          "3",
+          "1"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_6"
+        ]
+      },
+      {
+        "number": "7",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "2.52",
+          "19.05"
+        ],
+        "size": [
+          "3",
+          "1"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_7"
+        ]
+      },
+      {
+        "number": "8",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "-2.52",
+          "19.05"
+        ],
+        "size": [
+          "3",
+          "1"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_8"
+        ]
+      },
+      {
+        "number": "9",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "2.52",
+          "16.51"
+        ],
+        "size": [
+          "3",
+          "1"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_9"
+        ]
+      },
+      {
+        "number": "10",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "-2.52",
+          "16.51"
+        ],
+        "size": [
+          "3",
+          "1"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_10"
+        ]
+      },
+      {
+        "number": "11",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "2.52",
+          "13.97"
+        ],
+        "size": [
+          "3",
+          "1"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_11"
+        ]
+      },
+      {
+        "number": "12",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "-2.52",
+          "13.97"
+        ],
+        "size": [
+          "3",
+          "1"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_12"
+        ]
+      },
+      {
+        "number": "13",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "2.52",
+          "11.43"
+        ],
+        "size": [
+          "3",
+          "1"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_13"
+        ]
+      },
+      {
+        "number": "14",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "-2.52",
+          "11.43"
+        ],
+        "size": [
+          "3",
+          "1"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_14"
+        ]
+      },
+      {
+        "number": "15",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "2.52",
+          "8.89"
+        ],
+        "size": [
+          "3",
+          "1"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_15"
+        ]
+      },
+      {
+        "number": "16",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "-2.52",
+          "8.89"
+        ],
+        "size": [
+          "3",
+          "1"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_16"
+        ]
+      },
+      {
+        "number": "17",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "2.52",
+          "6.35"
+        ],
+        "size": [
+          "3",
+          "1"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_17"
+        ]
+      },
+      {
+        "number": "18",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "-2.52",
+          "6.35"
+        ],
+        "size": [
+          "3",
+          "1"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_18"
+        ]
+      },
+      {
+        "number": "19",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "2.52",
+          "3.81"
+        ],
+        "size": [
+          "3",
+          "1"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_19"
+        ]
+      },
+      {
+        "number": "20",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "-2.52",
+          "3.81"
+        ],
+        "size": [
+          "3",
+          "1"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_20"
+        ]
+      },
+      {
+        "number": "21",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "2.52",
+          "1.27"
+        ],
+        "size": [
+          "3",
+          "1"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_21"
+        ]
+      },
+      {
+        "number": "22",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "-2.52",
+          "1.27"
+        ],
+        "size": [
+          "3",
+          "1"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_22"
+        ]
+      },
+      {
+        "number": "23",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "2.52",
+          "-1.27"
+        ],
+        "size": [
+          "3",
+          "1"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_23"
+        ]
+      },
+      {
+        "number": "24",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "-2.52",
+          "-1.27"
+        ],
+        "size": [
+          "3",
+          "1"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_24"
+        ]
+      },
+      {
+        "number": "25",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "2.52",
+          "-3.81"
+        ],
+        "size": [
+          "3",
+          "1"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_25"
+        ]
+      },
+      {
+        "number": "26",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "-2.52",
+          "-3.81"
+        ],
+        "size": [
+          "3",
+          "1"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_26"
+        ]
+      },
+      {
+        "number": "27",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "2.52",
+          "-6.35"
+        ],
+        "size": [
+          "3",
+          "1"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_27"
+        ]
+      },
+      {
+        "number": "28",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "-2.52",
+          "-6.35"
+        ],
+        "size": [
+          "3",
+          "1"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_28"
+        ]
+      },
+      {
+        "number": "29",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "2.52",
+          "-8.89"
+        ],
+        "size": [
+          "3",
+          "1"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_29"
+        ]
+      },
+      {
+        "number": "30",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "-2.52",
+          "-8.89"
+        ],
+        "size": [
+          "3",
+          "1"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_30"
+        ]
+      },
+      {
+        "number": "31",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "2.52",
+          "-11.43"
+        ],
+        "size": [
+          "3",
+          "1"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_31"
+        ]
+      },
+      {
+        "number": "32",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "-2.52",
+          "-11.43"
+        ],
+        "size": [
+          "3",
+          "1"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_32"
+        ]
+      },
+      {
+        "number": "33",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "2.52",
+          "-13.97"
+        ],
+        "size": [
+          "3",
+          "1"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_33"
+        ]
+      },
+      {
+        "number": "34",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "-2.52",
+          "-13.97"
+        ],
+        "size": [
+          "3",
+          "1"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_34"
+        ]
+      },
+      {
+        "number": "35",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "2.52",
+          "-16.51"
+        ],
+        "size": [
+          "3",
+          "1"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_35"
+        ]
+      },
+      {
+        "number": "36",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "-2.52",
+          "-16.51"
+        ],
+        "size": [
+          "3",
+          "1"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_36"
+        ]
+      },
+      {
+        "number": "37",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "2.52",
+          "-19.05"
+        ],
+        "size": [
+          "3",
+          "1"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_37"
+        ]
+      },
+      {
+        "number": "38",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "-2.52",
+          "-19.05"
+        ],
+        "size": [
+          "3",
+          "1"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_38"
+        ]
+      },
+      {
+        "number": "39",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "2.52",
+          "-21.59"
+        ],
+        "size": [
+          "3",
+          "1"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_39"
+        ]
+      },
+      {
+        "number": "40",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "-2.52",
+          "-21.59"
+        ],
+        "size": [
+          "3",
+          "1"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_40"
+        ]
+      },
+      {
+        "number": "41",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "2.52",
+          "-24.13"
+        ],
+        "size": [
+          "3",
+          "1"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_41"
+        ]
+      },
+      {
+        "number": "42",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "-2.52",
+          "-24.13"
+        ],
+        "size": [
+          "3",
+          "1"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_42"
+        ]
+      },
+      {
+        "number": "43",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "2.52",
+          "-26.67"
+        ],
+        "size": [
+          "3",
+          "1"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_43"
+        ]
+      },
+      {
+        "number": "44",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "-2.52",
+          "-26.67"
+        ],
+        "size": [
+          "3",
+          "1"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_44"
+        ]
+      }
+    ],
+    "example": "11x3/J30"
+  },
+  {
+    "id": "FP-35",
+    "value": "AMS1117-3.3",
+    "footprint": "Package_TO_SOT_SMD:SOT-223",
+    "designators": [
+      "11x3/UI2",
+      "8x3/UI2"
+    ],
+    "pads": [
+      {
+        "number": "1",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "-3.15",
+          "2.3"
+        ],
+        "size": [
+          "2",
+          "1.5"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "GND"
+        ]
+      },
+      {
+        "number": "2",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "-3.15",
+          "0"
+        ],
+        "size": [
+          "2",
+          "1.5"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "VO"
+        ]
+      },
+      {
+        "number": "3",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "-3.15",
+          "-2.3"
+        ],
+        "size": [
+          "2",
+          "1.5"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "VI"
+        ]
+      },
+      {
+        "number": "4",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "3.15",
+          "0"
+        ],
+        "size": [
+          "2",
+          "3.8"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": []
+      }
+    ],
+    "example": "11x3/UI2"
+  },
+  {
+    "id": "FP-36",
+    "value": "Hall_bottom_side_b",
+    "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal_SMD",
+    "designators": [
+      "11x3/J27"
+    ],
+    "pads": [
+      {
+        "number": "1",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "-4.78",
+          "-1.27"
+        ],
+        "size": [
+          "3.2",
+          "1.02"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_1"
+        ]
+      },
+      {
+        "number": "2",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "-4.78",
+          "1.27"
+        ],
+        "size": [
+          "3.2",
+          "1.02"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_2"
+        ]
+      }
+    ],
+    "example": "11x3/J27"
+  },
+  {
+    "id": "FP-37",
+    "value": "Hall_top",
+    "footprint": "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Horizontal_SMD",
+    "designators": [
+      "11x3/J4"
+    ],
+    "pads": [
+      {
+        "number": "1",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "4.77",
+          "2.5"
+        ],
+        "size": [
+          "2.6",
+          "1.02"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_1"
+        ]
+      },
+      {
+        "number": "2",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "4.77",
+          "-0.04"
+        ],
+        "size": [
+          "2.6",
+          "1.02"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_2"
+        ]
+      },
+      {
+        "number": "3",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "4.77",
+          "-2.58"
+        ],
+        "size": [
+          "2.6",
+          "1.02"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_3"
+        ]
+      }
+    ],
+    "example": "11x3/J4"
+  },
+  {
+    "id": "FP-38",
+    "value": "Power_top_side_a",
+    "footprint": "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Horizontal_SMD",
+    "designators": [
+      "11x3/J1"
+    ],
+    "pads": [
+      {
+        "number": "1",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "4.77",
+          "2.5"
+        ],
+        "size": [
+          "2.6",
+          "1.02"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_1"
+        ]
+      },
+      {
+        "number": "2",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "4.77",
+          "-0.04"
+        ],
+        "size": [
+          "2.6",
+          "1.02"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_2"
+        ]
+      },
+      {
+        "number": "3",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "4.77",
+          "-2.58"
+        ],
+        "size": [
+          "2.6",
+          "1.02"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_3"
+        ]
+      }
+    ],
+    "example": "11x3/J1"
+  },
+  {
+    "id": "FP-39",
+    "value": "Hall_bottom_side_a",
+    "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal_SMD",
+    "designators": [
+      "11x3/J16"
+    ],
+    "pads": [
+      {
+        "number": "1",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "-4.78",
+          "-1.27"
+        ],
+        "size": [
+          "3.2",
+          "1.02"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_1"
+        ]
+      },
+      {
+        "number": "2",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "-4.78",
+          "1.27"
+        ],
+        "size": [
+          "3.2",
+          "1.02"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_2"
+        ]
+      }
+    ],
+    "example": "11x3/J16"
+  },
+  {
+    "id": "FP-40",
+    "value": "Power_top",
+    "footprint": "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Horizontal_SMD",
+    "designators": [
+      "11x3/J6"
+    ],
+    "pads": [
+      {
+        "number": "1",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "4.77",
+          "2.5"
+        ],
+        "size": [
+          "2.6",
+          "1.02"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_1"
+        ]
+      },
+      {
+        "number": "2",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "4.77",
+          "-0.04"
+        ],
+        "size": [
+          "2.6",
+          "1.02"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_2"
+        ]
+      },
+      {
+        "number": "3",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "4.77",
+          "-2.58"
+        ],
+        "size": [
+          "2.6",
+          "1.02"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_3"
+        ]
+      }
+    ],
+    "example": "11x3/J6"
+  },
+  {
+    "id": "FP-41",
+    "value": "R330",
+    "footprint": "Resistor_SMD:R_1206_3216Metric",
+    "designators": [
+      "8x3/R4",
+      "8x3/R1",
+      "8x3/R8",
+      "8x3/R7",
+      "8x3/R2",
+      "8x3/R3",
+      "8x3/R6",
+      "8x3/R5"
+    ],
+    "pads": [
+      {
+        "number": "1",
+        "type": "smd",
+        "shape": "roundrect",
+        "at": [
+          "-1.4625",
+          "0"
+        ],
+        "size": [
+          "1.125",
+          "1.75"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": []
+      },
+      {
+        "number": "2",
+        "type": "smd",
+        "shape": "roundrect",
+        "at": [
+          "1.4625",
+          "0"
+        ],
+        "size": [
+          "1.125",
+          "1.75"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": []
+      }
+    ],
+    "example": "8x3/R4"
+  },
+  {
+    "id": "FP-42",
+    "value": "LedIn_side_b",
+    "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal_SMD",
+    "designators": [
+      "8x3/J7"
+    ],
+    "pads": [
+      {
+        "number": "1",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "-4.78",
+          "2.49"
+        ],
+        "size": [
+          "3.2",
+          "1.02"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_1"
+        ]
+      },
+      {
+        "number": "2",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "-4.78",
+          "-0.05"
+        ],
+        "size": [
+          "3.2",
+          "1.02"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_2"
+        ]
+      },
+      {
+        "number": "3",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "-4.78",
+          "-2.59"
+        ],
+        "size": [
+          "3.2",
+          "1.02"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_3"
+        ]
+      }
+    ],
+    "example": "8x3/J7"
+  },
+  {
+    "id": "FP-43",
+    "value": "2N3906",
+    "footprint": "Package_TO_SOT_SMD:SOT-23",
+    "designators": [
+      "8x3/Q7",
+      "8x3/Q2",
+      "8x3/Q3",
+      "8x3/Q8",
+      "8x3/Q5",
+      "8x3/Q1",
+      "8x3/Q6",
+      "8x3/Q4"
+    ],
+    "pads": [
+      {
+        "number": "1",
+        "type": "smd",
+        "shape": "roundrect",
+        "at": [
+          "-0.9375",
+          "0.95"
+        ],
+        "size": [
+          "1.475",
+          "0.6"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "B"
+        ]
+      },
+      {
+        "number": "2",
+        "type": "smd",
+        "shape": "roundrect",
+        "at": [
+          "-0.9375",
+          "-0.95"
+        ],
+        "size": [
+          "1.475",
+          "0.6"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "E"
+        ]
+      },
+      {
+        "number": "3",
+        "type": "smd",
+        "shape": "roundrect",
+        "at": [
+          "0.9375",
+          "0"
+        ],
+        "size": [
+          "1.475",
+          "0.6"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "C"
+        ]
+      }
+    ],
+    "example": "8x3/Q7"
+  },
+  {
+    "id": "FP-44",
+    "value": "IC",
+    "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal_SMD",
+    "designators": [
+      "8x3/J14",
+      "8x3/J15"
+    ],
+    "pads": [
+      {
+        "number": "1",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "-4.78",
+          "-1.27"
+        ],
+        "size": [
+          "3.2",
+          "1.02"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_1"
+        ]
+      },
+      {
+        "number": "2",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "-4.78",
+          "1.27"
+        ],
+        "size": [
+          "3.2",
+          "1.02"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_2"
+        ]
+      }
+    ],
+    "example": "8x3/J14"
+  },
+  {
+    "id": "FP-45",
+    "value": "74HCT138",
+    "footprint": "Package_SO:SO-16_5.3x10.2mm_P1.27mm",
+    "designators": [
+      "8x3/UI1"
+    ],
+    "pads": [
+      {
+        "number": "1",
+        "type": "smd",
+        "shape": "roundrect",
+        "at": [
+          "-3.4625",
+          "4.445"
+        ],
+        "size": [
+          "1.975",
+          "0.6"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "A0"
+        ]
+      },
+      {
+        "number": "2",
+        "type": "smd",
+        "shape": "roundrect",
+        "at": [
+          "-3.4625",
+          "3.175"
+        ],
+        "size": [
+          "1.975",
+          "0.6"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "A1"
+        ]
+      },
+      {
+        "number": "3",
+        "type": "smd",
+        "shape": "roundrect",
+        "at": [
+          "-3.4625",
+          "1.905"
+        ],
+        "size": [
+          "1.975",
+          "0.6"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "A2"
+        ]
+      },
+      {
+        "number": "4",
+        "type": "smd",
+        "shape": "roundrect",
+        "at": [
+          "-3.4625",
+          "0.635"
+        ],
+        "size": [
+          "1.975",
+          "0.6"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "~{E1}"
+        ]
+      },
+      {
+        "number": "5",
+        "type": "smd",
+        "shape": "roundrect",
+        "at": [
+          "-3.4625",
+          "-0.635"
+        ],
+        "size": [
+          "1.975",
+          "0.6"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "~{E2}"
+        ]
+      },
+      {
+        "number": "6",
+        "type": "smd",
+        "shape": "roundrect",
+        "at": [
+          "-3.4625",
+          "-1.905"
+        ],
+        "size": [
+          "1.975",
+          "0.6"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "E3"
+        ]
+      },
+      {
+        "number": "7",
+        "type": "smd",
+        "shape": "roundrect",
+        "at": [
+          "-3.4625",
+          "-3.175"
+        ],
+        "size": [
+          "1.975",
+          "0.6"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Y7"
+        ]
+      },
+      {
+        "number": "8",
+        "type": "smd",
+        "shape": "roundrect",
+        "at": [
+          "-3.4625",
+          "-4.445"
+        ],
+        "size": [
+          "1.975",
+          "0.6"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "GND"
+        ]
+      },
+      {
+        "number": "9",
+        "type": "smd",
+        "shape": "roundrect",
+        "at": [
+          "3.4625",
+          "-4.445"
+        ],
+        "size": [
+          "1.975",
+          "0.6"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Y6"
+        ]
+      },
+      {
+        "number": "10",
+        "type": "smd",
+        "shape": "roundrect",
+        "at": [
+          "3.4625",
+          "-3.175"
+        ],
+        "size": [
+          "1.975",
+          "0.6"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Y5"
+        ]
+      },
+      {
+        "number": "11",
+        "type": "smd",
+        "shape": "roundrect",
+        "at": [
+          "3.4625",
+          "-1.905"
+        ],
+        "size": [
+          "1.975",
+          "0.6"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Y4"
+        ]
+      },
+      {
+        "number": "12",
+        "type": "smd",
+        "shape": "roundrect",
+        "at": [
+          "3.4625",
+          "-0.635"
+        ],
+        "size": [
+          "1.975",
+          "0.6"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Y3"
+        ]
+      },
+      {
+        "number": "13",
+        "type": "smd",
+        "shape": "roundrect",
+        "at": [
+          "3.4625",
+          "0.635"
+        ],
+        "size": [
+          "1.975",
+          "0.6"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Y2"
+        ]
+      },
+      {
+        "number": "14",
+        "type": "smd",
+        "shape": "roundrect",
+        "at": [
+          "3.4625",
+          "1.905"
+        ],
+        "size": [
+          "1.975",
+          "0.6"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Y1"
+        ]
+      },
+      {
+        "number": "15",
+        "type": "smd",
+        "shape": "roundrect",
+        "at": [
+          "3.4625",
+          "3.175"
+        ],
+        "size": [
+          "1.975",
+          "0.6"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Y0"
+        ]
+      },
+      {
+        "number": "16",
+        "type": "smd",
+        "shape": "roundrect",
+        "at": [
+          "3.4625",
+          "4.445"
+        ],
+        "size": [
+          "1.975",
+          "0.6"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "VCC"
+        ]
+      }
+    ],
+    "example": "8x3/UI1"
+  },
+  {
+    "id": "FP-46",
+    "value": "Touch",
+    "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal_SMD",
+    "designators": [
+      "8x3/J17"
+    ],
+    "pads": [
+      {
+        "number": "1",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "-4.78",
+          "-1.27"
+        ],
+        "size": [
+          "3.2",
+          "1.02"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_1"
+        ]
+      },
+      {
+        "number": "2",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "-4.78",
+          "1.27"
+        ],
+        "size": [
+          "3.2",
+          "1.02"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_2"
+        ]
+      }
+    ],
+    "example": "8x3/J17"
+  },
+  {
+    "id": "FP-47",
+    "value": "LedIn_side_a",
+    "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal_SMD",
+    "designators": [
+      "8x3/J1"
+    ],
+    "pads": [
+      {
+        "number": "1",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "-4.78",
+          "2.49"
+        ],
+        "size": [
+          "3.2",
+          "1.02"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_1"
+        ]
+      },
+      {
+        "number": "2",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "-4.78",
+          "-0.05"
+        ],
+        "size": [
+          "3.2",
+          "1.02"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_2"
+        ]
+      },
+      {
+        "number": "3",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "-4.78",
+          "-2.59"
+        ],
+        "size": [
+          "3.2",
+          "1.02"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_3"
+        ]
+      }
+    ],
+    "example": "8x3/J1"
+  },
+  {
+    "id": "FP-48",
+    "value": "Conn_side_b",
+    "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal_SMD",
+    "designators": [
+      "8x3/J19"
+    ],
+    "pads": [
+      {
+        "number": "1",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "-4.78",
+          "-1.27"
+        ],
+        "size": [
+          "3.2",
+          "1.02"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_1"
+        ]
+      },
+      {
+        "number": "2",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "-4.78",
+          "1.27"
+        ],
+        "size": [
+          "3.2",
+          "1.02"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_2"
+        ]
+      }
+    ],
+    "example": "8x3/J19"
+  },
+  {
+    "id": "FP-49",
+    "value": "Hall",
+    "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal_SMD",
+    "designators": [
+      "8x3/J16"
+    ],
+    "pads": [
+      {
+        "number": "1",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "-4.78",
+          "2.49"
+        ],
+        "size": [
+          "3.2",
+          "1.02"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_1"
+        ]
+      },
+      {
+        "number": "2",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "-4.78",
+          "-0.05"
+        ],
+        "size": [
+          "3.2",
+          "1.02"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_2"
+        ]
+      },
+      {
+        "number": "3",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "-4.78",
+          "-2.59"
+        ],
+        "size": [
+          "3.2",
+          "1.02"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_3"
+        ]
+      }
+    ],
+    "example": "8x3/J16"
+  },
+  {
+    "id": "FP-50",
+    "value": "Conn_side_a",
+    "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal_SMD",
+    "designators": [
+      "8x3/J13"
+    ],
+    "pads": [
+      {
+        "number": "1",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "-4.78",
+          "2.49"
+        ],
+        "size": [
+          "3.2",
+          "1.02"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_1"
+        ]
+      },
+      {
+        "number": "2",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "-4.78",
+          "-0.05"
+        ],
+        "size": [
+          "3.2",
+          "1.02"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_2"
+        ]
+      },
+      {
+        "number": "3",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "-4.78",
+          "-2.59"
+        ],
+        "size": [
+          "3.2",
+          "1.02"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_3"
+        ]
+      }
+    ],
+    "example": "8x3/J13"
+  },
+  {
+    "id": "FP-51",
+    "value": "Led",
+    "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal_SMD",
+    "designators": [
+      "8x3/J18"
+    ],
+    "pads": [
+      {
+        "number": "1",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "-4.78",
+          "2.49"
+        ],
+        "size": [
+          "3.2",
+          "1.02"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_1"
+        ]
+      },
+      {
+        "number": "2",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "-4.78",
+          "-0.05"
+        ],
+        "size": [
+          "3.2",
+          "1.02"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_2"
+        ]
+      },
+      {
+        "number": "3",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "-4.78",
+          "-2.59"
+        ],
+        "size": [
+          "3.2",
+          "1.02"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_3"
+        ]
+      }
+    ],
+    "example": "8x3/J18"
+  },
+  {
+    "id": "FP-52",
+    "value": "IC_side_b",
+    "footprint": "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Horizontal_SMD",
+    "designators": [
+      "3x8/J19"
+    ],
+    "pads": [
+      {
+        "number": "1",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "4.78",
+          "1.24"
+        ],
+        "size": [
+          "2.6",
+          "1.02"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_1"
+        ]
+      },
+      {
+        "number": "2",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "4.78",
+          "-1.3"
+        ],
+        "size": [
+          "2.6",
+          "1.02"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_2"
+        ]
+      }
+    ],
+    "example": "3x8/J19"
+  },
+  {
+    "id": "FP-53",
+    "value": "LedOut_side_a",
+    "footprint": "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Horizontal_SMD",
+    "designators": [
+      "3x8/J16"
+    ],
+    "pads": [
+      {
+        "number": "1",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "4.77",
+          "2.5"
+        ],
+        "size": [
+          "2.6",
+          "1.02"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_1"
+        ]
+      },
+      {
+        "number": "2",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "4.77",
+          "-0.04"
+        ],
+        "size": [
+          "2.6",
+          "1.02"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_2"
+        ]
+      },
+      {
+        "number": "3",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "4.77",
+          "-2.58"
+        ],
+        "size": [
+          "2.6",
+          "1.02"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_3"
+        ]
+      }
+    ],
+    "example": "3x8/J16"
+  },
+  {
+    "id": "FP-54",
+    "value": "Hall_top",
+    "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal_SMD",
+    "designators": [
+      "3x8/J2",
+      "3x8/J3",
+      "3x8/J5",
+      "3x8/J4",
+      "8x8/J5",
+      "8x8/J4",
+      "8x8/J2",
+      "8x8/J3"
+    ],
+    "pads": [
+      {
+        "number": "1",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "-4.78",
+          "-1.27"
+        ],
+        "size": [
+          "3.2",
+          "1.02"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_1"
+        ]
+      },
+      {
+        "number": "2",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "-4.78",
+          "1.27"
+        ],
+        "size": [
+          "3.2",
+          "1.02"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_2"
+        ]
+      }
+    ],
+    "example": "3x8/J2"
+  },
+  {
+    "id": "FP-55",
+    "value": "PQ_side_b",
+    "footprint": "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Horizontal_SMD",
+    "designators": [
+      "3x8/J13"
+    ],
+    "pads": [
+      {
+        "number": "1",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "4.77",
+          "2.5"
+        ],
+        "size": [
+          "2.6",
+          "1.02"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_1"
+        ]
+      },
+      {
+        "number": "2",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "4.77",
+          "-0.04"
+        ],
+        "size": [
+          "2.6",
+          "1.02"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_2"
+        ]
+      },
+      {
+        "number": "3",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "4.77",
+          "-2.58"
+        ],
+        "size": [
+          "2.6",
+          "1.02"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_3"
+        ]
+      }
+    ],
+    "example": "3x8/J13"
+  },
+  {
+    "id": "FP-56",
+    "value": "74hc4052D",
+    "footprint": "Package_SO:SO-16_3.9x9.9mm_P1.27mm",
+    "designators": [
+      "3x8/UI1"
+    ],
+    "pads": [
+      {
+        "number": "1",
+        "type": "smd",
+        "shape": "roundrect",
+        "at": [
+          "-2.575",
+          "4.445"
+        ],
+        "size": [
+          "1.75",
+          "0.6"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Y0"
+        ]
+      },
+      {
+        "number": "2",
+        "type": "smd",
+        "shape": "roundrect",
+        "at": [
+          "-2.575",
+          "3.175"
+        ],
+        "size": [
+          "1.75",
+          "0.6"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Y2"
+        ]
+      },
+      {
+        "number": "3",
+        "type": "smd",
+        "shape": "roundrect",
+        "at": [
+          "-2.575",
+          "1.905"
+        ],
+        "size": [
+          "1.75",
+          "0.6"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Y"
+        ]
+      },
+      {
+        "number": "4",
+        "type": "smd",
+        "shape": "roundrect",
+        "at": [
+          "-2.575",
+          "0.635"
+        ],
+        "size": [
+          "1.75",
+          "0.6"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Y3"
+        ]
+      },
+      {
+        "number": "5",
+        "type": "smd",
+        "shape": "roundrect",
+        "at": [
+          "-2.575",
+          "-0.635"
+        ],
+        "size": [
+          "1.75",
+          "0.6"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Y1"
+        ]
+      },
+      {
+        "number": "6",
+        "type": "smd",
+        "shape": "roundrect",
+        "at": [
+          "-2.575",
+          "-1.905"
+        ],
+        "size": [
+          "1.75",
+          "0.6"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Inh"
+        ]
+      },
+      {
+        "number": "7",
+        "type": "smd",
+        "shape": "roundrect",
+        "at": [
+          "-2.575",
+          "-3.175"
+        ],
+        "size": [
+          "1.75",
+          "0.6"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "VEE"
+        ]
+      },
+      {
+        "number": "8",
+        "type": "smd",
+        "shape": "roundrect",
+        "at": [
+          "-2.575",
+          "-4.445"
+        ],
+        "size": [
+          "1.75",
+          "0.6"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "VSS"
+        ]
+      },
+      {
+        "number": "9",
+        "type": "smd",
+        "shape": "roundrect",
+        "at": [
+          "2.575",
+          "-4.445"
+        ],
+        "size": [
+          "1.75",
+          "0.6"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "B"
+        ]
+      },
+      {
+        "number": "10",
+        "type": "smd",
+        "shape": "roundrect",
+        "at": [
+          "2.575",
+          "-3.175"
+        ],
+        "size": [
+          "1.75",
+          "0.6"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "A"
+        ]
+      },
+      {
+        "number": "11",
+        "type": "smd",
+        "shape": "roundrect",
+        "at": [
+          "2.575",
+          "-1.905"
+        ],
+        "size": [
+          "1.75",
+          "0.6"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "X3"
+        ]
+      },
+      {
+        "number": "12",
+        "type": "smd",
+        "shape": "roundrect",
+        "at": [
+          "2.575",
+          "-0.635"
+        ],
+        "size": [
+          "1.75",
+          "0.6"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "X0"
+        ]
+      },
+      {
+        "number": "13",
+        "type": "smd",
+        "shape": "roundrect",
+        "at": [
+          "2.575",
+          "0.635"
+        ],
+        "size": [
+          "1.75",
+          "0.6"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "X"
+        ]
+      },
+      {
+        "number": "14",
+        "type": "smd",
+        "shape": "roundrect",
+        "at": [
+          "2.575",
+          "1.905"
+        ],
+        "size": [
+          "1.75",
+          "0.6"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "X1"
+        ]
+      },
+      {
+        "number": "15",
+        "type": "smd",
+        "shape": "roundrect",
+        "at": [
+          "2.575",
+          "3.175"
+        ],
+        "size": [
+          "1.75",
+          "0.6"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "X2"
+        ]
+      },
+      {
+        "number": "16",
+        "type": "smd",
+        "shape": "roundrect",
+        "at": [
+          "2.575",
+          "4.445"
+        ],
+        "size": [
+          "1.75",
+          "0.6"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "VDD"
+        ]
+      }
+    ],
+    "example": "3x8/UI1"
+  },
+  {
+    "id": "FP-57",
+    "value": "Touch_side_a",
+    "footprint": "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Horizontal_SMD",
+    "designators": [
+      "3x8/J14",
+      "8x8/J22"
+    ],
+    "pads": [
+      {
+        "number": "1",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "4.78",
+          "1.24"
+        ],
+        "size": [
+          "2.6",
+          "1.02"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_1"
+        ]
+      },
+      {
+        "number": "2",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "4.78",
+          "-1.3"
+        ],
+        "size": [
+          "2.6",
+          "1.02"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_2"
+        ]
+      }
+    ],
+    "example": "3x8/J14"
+  },
+  {
+    "id": "FP-58",
+    "value": "LedOut_side_b",
+    "footprint": "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Horizontal_SMD",
+    "designators": [
+      "3x8/J17"
+    ],
+    "pads": [
+      {
+        "number": "1",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "4.77",
+          "2.5"
+        ],
+        "size": [
+          "2.6",
+          "1.02"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_1"
+        ]
+      },
+      {
+        "number": "2",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "4.77",
+          "-0.04"
+        ],
+        "size": [
+          "2.6",
+          "1.02"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_2"
+        ]
+      },
+      {
+        "number": "3",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "4.77",
+          "-2.58"
+        ],
+        "size": [
+          "2.6",
+          "1.02"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_3"
+        ]
+      }
+    ],
+    "example": "3x8/J17"
+  },
+  {
+    "id": "FP-59",
+    "value": "Hall_side_a",
+    "footprint": "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Horizontal_SMD",
+    "designators": [
+      "3x8/J20"
+    ],
+    "pads": [
+      {
+        "number": "1",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "4.78",
+          "1.24"
+        ],
+        "size": [
+          "2.6",
+          "1.02"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_1"
+        ]
+      },
+      {
+        "number": "2",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "4.78",
+          "-1.3"
+        ],
+        "size": [
+          "2.6",
+          "1.02"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_2"
+        ]
+      }
+    ],
+    "example": "3x8/J20"
+  },
+  {
+    "id": "FP-60",
+    "value": "IC_side_a",
+    "footprint": "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Horizontal_SMD",
+    "designators": [
+      "3x8/J18"
+    ],
+    "pads": [
+      {
+        "number": "1",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "4.78",
+          "1.24"
+        ],
+        "size": [
+          "2.6",
+          "1.02"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_1"
+        ]
+      },
+      {
+        "number": "2",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "4.78",
+          "-1.3"
+        ],
+        "size": [
+          "2.6",
+          "1.02"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_2"
+        ]
+      }
+    ],
+    "example": "3x8/J18"
+  },
+  {
+    "id": "FP-61",
+    "value": "LedIn",
+    "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal_SMD",
+    "designators": [
+      "3x8/J10"
+    ],
+    "pads": [
+      {
+        "number": "1",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "-4.78",
+          "-1.27"
+        ],
+        "size": [
+          "3.2",
+          "1.02"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_1"
+        ]
+      },
+      {
+        "number": "2",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "-4.78",
+          "1.27"
+        ],
+        "size": [
+          "3.2",
+          "1.02"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_2"
+        ]
+      }
+    ],
+    "example": "3x8/J10"
+  },
+  {
+    "id": "FP-62",
+    "value": "Hall_side_b",
+    "footprint": "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Horizontal_SMD",
+    "designators": [
+      "3x8/J21"
+    ],
+    "pads": [
+      {
+        "number": "1",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "4.78",
+          "1.24"
+        ],
+        "size": [
+          "2.6",
+          "1.02"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_1"
+        ]
+      },
+      {
+        "number": "2",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "4.78",
+          "-1.3"
+        ],
+        "size": [
+          "2.6",
+          "1.02"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_2"
+        ]
+      }
+    ],
+    "example": "3x8/J21"
+  },
+  {
+    "id": "FP-63",
+    "value": "Touch_side_b",
+    "footprint": "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Horizontal_SMD",
+    "designators": [
+      "3x8/J15",
+      "8x8/J23"
+    ],
+    "pads": [
+      {
+        "number": "1",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "4.78",
+          "1.24"
+        ],
+        "size": [
+          "2.6",
+          "1.02"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_1"
+        ]
+      },
+      {
+        "number": "2",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "4.78",
+          "-1.3"
+        ],
+        "size": [
+          "2.6",
+          "1.02"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_2"
+        ]
+      }
+    ],
+    "example": "3x8/J15"
+  },
+  {
+    "id": "FP-64",
+    "value": "PQ_side_a",
+    "footprint": "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Horizontal_SMD",
+    "designators": [
+      "3x8/J12"
+    ],
+    "pads": [
+      {
+        "number": "1",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "4.77",
+          "2.5"
+        ],
+        "size": [
+          "2.6",
+          "1.02"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_1"
+        ]
+      },
+      {
+        "number": "2",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "4.77",
+          "-0.04"
+        ],
+        "size": [
+          "2.6",
+          "1.02"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_2"
+        ]
+      },
+      {
+        "number": "3",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "4.77",
+          "-2.58"
+        ],
+        "size": [
+          "2.6",
+          "1.02"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_3"
+        ]
+      }
+    ],
+    "example": "3x8/J12"
+  },
+  {
+    "id": "FP-65",
+    "value": "Hall_bottom",
+    "footprint": "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Horizontal_SMD",
+    "designators": [
+      "8x8/J7",
+      "8x8/J8",
+      "8x8/J6",
+      "8x8/J9"
+    ],
+    "pads": [
+      {
+        "number": "1",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "4.78",
+          "1.24"
+        ],
+        "size": [
+          "2.6",
+          "1.02"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_1"
+        ]
+      },
+      {
+        "number": "2",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "4.78",
+          "-1.3"
+        ],
+        "size": [
+          "2.6",
+          "1.02"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_2"
+        ]
+      }
+    ],
+    "example": "8x8/J7"
+  },
+  {
+    "id": "FP-66",
+    "value": "LedIn_side_b",
+    "footprint": "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Horizontal_SMD",
+    "designators": [
+      "8x8/J19"
+    ],
+    "pads": [
+      {
+        "number": "1",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "4.77",
+          "2.5"
+        ],
+        "size": [
+          "2.6",
+          "1.02"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_1"
+        ]
+      },
+      {
+        "number": "2",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "4.77",
+          "-0.04"
+        ],
+        "size": [
+          "2.6",
+          "1.02"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_2"
+        ]
+      },
+      {
+        "number": "3",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "4.77",
+          "-2.58"
+        ],
+        "size": [
+          "2.6",
+          "1.02"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_3"
+        ]
+      }
+    ],
+    "example": "8x8/J19"
+  },
+  {
+    "id": "FP-67",
+    "value": "PQ_side_b",
+    "footprint": "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Horizontal_SMD",
+    "designators": [
+      "8x8/J15",
+      "8x8/J16",
+      "8x8/J17",
+      "8x8/J14"
+    ],
+    "pads": [
+      {
+        "number": "1",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "4.78",
+          "1.24"
+        ],
+        "size": [
+          "2.6",
+          "1.02"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_1"
+        ]
+      },
+      {
+        "number": "2",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "4.78",
+          "-1.3"
+        ],
+        "size": [
+          "2.6",
+          "1.02"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_2"
+        ]
+      }
+    ],
+    "example": "8x8/J15"
+  },
+  {
+    "id": "FP-68",
+    "value": "LedIn_top",
+    "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal_SMD",
+    "designators": [
+      "8x8/J21"
+    ],
+    "pads": [
+      {
+        "number": "1",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "-4.78",
+          "-1.27"
+        ],
+        "size": [
+          "3.2",
+          "1.02"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_1"
+        ]
+      },
+      {
+        "number": "2",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "-4.78",
+          "1.27"
+        ],
+        "size": [
+          "3.2",
+          "1.02"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_2"
+        ]
+      }
+    ],
+    "example": "8x8/J21"
+  },
+  {
+    "id": "FP-69",
+    "value": "PQ_side_a",
+    "footprint": "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Horizontal_SMD",
+    "designators": [
+      "8x8/J10",
+      "8x8/J11",
+      "8x8/J12",
+      "8x8/J13"
+    ],
+    "pads": [
+      {
+        "number": "1",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "4.78",
+          "1.24"
+        ],
+        "size": [
+          "2.6",
+          "1.02"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_1"
+        ]
+      },
+      {
+        "number": "2",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "4.78",
+          "-1.3"
+        ],
+        "size": [
+          "2.6",
+          "1.02"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_2"
+        ]
+      }
+    ],
+    "example": "8x8/J10"
+  },
+  {
+    "id": "FP-70",
+    "value": "LedIn_side_a",
+    "footprint": "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Horizontal_SMD",
+    "designators": [
+      "8x8/J18"
+    ],
+    "pads": [
+      {
+        "number": "1",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "4.77",
+          "2.5"
+        ],
+        "size": [
+          "2.6",
+          "1.02"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_1"
+        ]
+      },
+      {
+        "number": "2",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "4.77",
+          "-0.04"
+        ],
+        "size": [
+          "2.6",
+          "1.02"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_2"
+        ]
+      },
+      {
+        "number": "3",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "4.77",
+          "-2.58"
+        ],
+        "size": [
+          "2.6",
+          "1.02"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_3"
+        ]
+      }
+    ],
+    "example": "8x8/J18"
+  },
+  {
+    "id": "FP-71",
+    "value": "LedOut_bottom",
+    "footprint": "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Horizontal_SMD",
+    "designators": [
+      "8x8/J20"
+    ],
+    "pads": [
+      {
+        "number": "1",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "4.78",
+          "1.24"
+        ],
+        "size": [
+          "2.6",
+          "1.02"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_1"
+        ]
+      },
+      {
+        "number": "2",
+        "type": "smd",
+        "shape": "rect",
+        "at": [
+          "4.78",
+          "-1.3"
+        ],
+        "size": [
+          "2.6",
+          "1.02"
+        ],
+        "layers": [
+          "B.Cu",
+          "B.Paste",
+          "B.Mask"
+        ],
+        "pinfunction": [
+          "Pin_2"
+        ]
+      }
+    ],
+    "example": "8x8/J20"
+  }
+]

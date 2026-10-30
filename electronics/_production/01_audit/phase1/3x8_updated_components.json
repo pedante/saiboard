@@ -1,0 +1,7686 @@
+{
+  "pcb": [
+    {
+      "reference": "D1",
+      "value": "SKC6812RGBW-WS",
+      "footprint": "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm",
+      "properties": {
+        "Sheetfile": "3x8.kicad_sch",
+        "Sheetname": "",
+        "Manufacturer": "OPSCO Optoelectronics",
+        "MPN": "SKC6812RGBW-WS",
+        "LCSC": "C5378724",
+        "AssemblyStatus": "HOLD - compatibility differences; see README.md"
+      },
+      "at": [
+        "27.976201",
+        "45.896401",
+        "180"
+      ],
+      "layer": [
+        "F.Cu"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "net": [
+            "10",
+            "GND"
+          ],
+          "at": [
+            "2.45",
+            "1.6",
+            "180"
+          ],
+          "size": [
+            "1.5",
+            "1"
+          ],
+          "drill": []
+        },
+        {
+          "number": "2",
+          "net": [
+            "2",
+            "LedIn"
+          ],
+          "at": [
+            "2.45",
+            "-1.6",
+            "180"
+          ],
+          "size": [
+            "1.5",
+            "1"
+          ],
+          "drill": []
+        },
+        {
+          "number": "3",
+          "net": [
+            "1",
+            "P"
+          ],
+          "at": [
+            "-2.45",
+            "-1.6",
+            "180"
+          ],
+          "size": [
+            "1.5",
+            "1"
+          ],
+          "drill": []
+        },
+        {
+          "number": "4",
+          "net": [
+            "3",
+            "Net-(D1-Pad4)"
+          ],
+          "at": [
+            "-2.45",
+            "1.6",
+            "180"
+          ],
+          "size": [
+            "1.5",
+            "1"
+          ],
+          "drill": []
+        }
+      ]
+    },
+    {
+      "reference": "D2",
+      "value": "SKC6812RGBW-WS",
+      "footprint": "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm",
+      "properties": {
+        "Sheetfile": "3x8.kicad_sch",
+        "Sheetname": "",
+        "Manufacturer": "OPSCO Optoelectronics",
+        "MPN": "SKC6812RGBW-WS",
+        "LCSC": "C5378724",
+        "AssemblyStatus": "HOLD - compatibility differences; see README.md"
+      },
+      "at": [
+        "49.976201",
+        "45.896401",
+        "180"
+      ],
+      "layer": [
+        "F.Cu"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "net": [
+            "10",
+            "GND"
+          ],
+          "at": [
+            "2.45",
+            "1.6",
+            "180"
+          ],
+          "size": [
+            "1.5",
+            "1"
+          ],
+          "drill": []
+        },
+        {
+          "number": "2",
+          "net": [
+            "3",
+            "Net-(D1-Pad4)"
+          ],
+          "at": [
+            "2.45",
+            "-1.6",
+            "180"
+          ],
+          "size": [
+            "1.5",
+            "1"
+          ],
+          "drill": []
+        },
+        {
+          "number": "3",
+          "net": [
+            "1",
+            "P"
+          ],
+          "at": [
+            "-2.45",
+            "-1.6",
+            "180"
+          ],
+          "size": [
+            "1.5",
+            "1"
+          ],
+          "drill": []
+        },
+        {
+          "number": "4",
+          "net": [
+            "4",
+            "Net-(D2-Pad4)"
+          ],
+          "at": [
+            "-2.45",
+            "1.6",
+            "180"
+          ],
+          "size": [
+            "1.5",
+            "1"
+          ],
+          "drill": []
+        }
+      ]
+    },
+    {
+      "reference": "D3",
+      "value": "SKC6812RGBW-WS",
+      "footprint": "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm",
+      "properties": {
+        "Sheetfile": "3x8.kicad_sch",
+        "Sheetname": "",
+        "Manufacturer": "OPSCO Optoelectronics",
+        "MPN": "SKC6812RGBW-WS",
+        "LCSC": "C5378724",
+        "AssemblyStatus": "HOLD - compatibility differences; see README.md"
+      },
+      "at": [
+        "71.976201",
+        "45.896401",
+        "180"
+      ],
+      "layer": [
+        "F.Cu"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "net": [
+            "10",
+            "GND"
+          ],
+          "at": [
+            "2.45",
+            "1.6",
+            "180"
+          ],
+          "size": [
+            "1.5",
+            "1"
+          ],
+          "drill": []
+        },
+        {
+          "number": "2",
+          "net": [
+            "4",
+            "Net-(D2-Pad4)"
+          ],
+          "at": [
+            "2.45",
+            "-1.6",
+            "180"
+          ],
+          "size": [
+            "1.5",
+            "1"
+          ],
+          "drill": []
+        },
+        {
+          "number": "3",
+          "net": [
+            "1",
+            "P"
+          ],
+          "at": [
+            "-2.45",
+            "-1.6",
+            "180"
+          ],
+          "size": [
+            "1.5",
+            "1"
+          ],
+          "drill": []
+        },
+        {
+          "number": "4",
+          "net": [
+            "5",
+            "Net-(D3-Pad4)"
+          ],
+          "at": [
+            "-2.45",
+            "1.6",
+            "180"
+          ],
+          "size": [
+            "1.5",
+            "1"
+          ],
+          "drill": []
+        }
+      ]
+    },
+    {
+      "reference": "D4",
+      "value": "SKC6812RGBW-WS",
+      "footprint": "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm",
+      "properties": {
+        "Sheetfile": "3x8.kicad_sch",
+        "Sheetname": "",
+        "Manufacturer": "OPSCO Optoelectronics",
+        "MPN": "SKC6812RGBW-WS",
+        "LCSC": "C5378724",
+        "AssemblyStatus": "HOLD - compatibility differences; see README.md"
+      },
+      "at": [
+        "93.976201",
+        "45.896401",
+        "180"
+      ],
+      "layer": [
+        "F.Cu"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "net": [
+            "10",
+            "GND"
+          ],
+          "at": [
+            "2.45",
+            "1.6",
+            "180"
+          ],
+          "size": [
+            "1.5",
+            "1"
+          ],
+          "drill": []
+        },
+        {
+          "number": "2",
+          "net": [
+            "5",
+            "Net-(D3-Pad4)"
+          ],
+          "at": [
+            "2.45",
+            "-1.6",
+            "180"
+          ],
+          "size": [
+            "1.5",
+            "1"
+          ],
+          "drill": []
+        },
+        {
+          "number": "3",
+          "net": [
+            "1",
+            "P"
+          ],
+          "at": [
+            "-2.45",
+            "-1.6",
+            "180"
+          ],
+          "size": [
+            "1.5",
+            "1"
+          ],
+          "drill": []
+        },
+        {
+          "number": "4",
+          "net": [
+            "6",
+            "Net-(D4-Pad4)"
+          ],
+          "at": [
+            "-2.45",
+            "1.6",
+            "180"
+          ],
+          "size": [
+            "1.5",
+            "1"
+          ],
+          "drill": []
+        }
+      ]
+    },
+    {
+      "reference": "D5",
+      "value": "SKC6812RGBW-WS",
+      "footprint": "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm",
+      "properties": {
+        "Sheetfile": "3x8.kicad_sch",
+        "Sheetname": "",
+        "Manufacturer": "OPSCO Optoelectronics",
+        "MPN": "SKC6812RGBW-WS",
+        "LCSC": "C5378724",
+        "AssemblyStatus": "HOLD - compatibility differences; see README.md"
+      },
+      "at": [
+        "115.976201",
+        "45.896401",
+        "180"
+      ],
+      "layer": [
+        "F.Cu"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "net": [
+            "10",
+            "GND"
+          ],
+          "at": [
+            "2.45",
+            "1.6",
+            "180"
+          ],
+          "size": [
+            "1.5",
+            "1"
+          ],
+          "drill": []
+        },
+        {
+          "number": "2",
+          "net": [
+            "6",
+            "Net-(D4-Pad4)"
+          ],
+          "at": [
+            "2.45",
+            "-1.6",
+            "180"
+          ],
+          "size": [
+            "1.5",
+            "1"
+          ],
+          "drill": []
+        },
+        {
+          "number": "3",
+          "net": [
+            "1",
+            "P"
+          ],
+          "at": [
+            "-2.45",
+            "-1.6",
+            "180"
+          ],
+          "size": [
+            "1.5",
+            "1"
+          ],
+          "drill": []
+        },
+        {
+          "number": "4",
+          "net": [
+            "7",
+            "Net-(D5-Pad4)"
+          ],
+          "at": [
+            "-2.45",
+            "1.6",
+            "180"
+          ],
+          "size": [
+            "1.5",
+            "1"
+          ],
+          "drill": []
+        }
+      ]
+    },
+    {
+      "reference": "D6",
+      "value": "SKC6812RGBW-WS",
+      "footprint": "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm",
+      "properties": {
+        "Sheetfile": "3x8.kicad_sch",
+        "Sheetname": "",
+        "Manufacturer": "OPSCO Optoelectronics",
+        "MPN": "SKC6812RGBW-WS",
+        "LCSC": "C5378724",
+        "AssemblyStatus": "HOLD - compatibility differences; see README.md"
+      },
+      "at": [
+        "137.976201",
+        "45.896401",
+        "180"
+      ],
+      "layer": [
+        "F.Cu"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "net": [
+            "10",
+            "GND"
+          ],
+          "at": [
+            "2.45",
+            "1.6",
+            "180"
+          ],
+          "size": [
+            "1.5",
+            "1"
+          ],
+          "drill": []
+        },
+        {
+          "number": "2",
+          "net": [
+            "7",
+            "Net-(D5-Pad4)"
+          ],
+          "at": [
+            "2.45",
+            "-1.6",
+            "180"
+          ],
+          "size": [
+            "1.5",
+            "1"
+          ],
+          "drill": []
+        },
+        {
+          "number": "3",
+          "net": [
+            "1",
+            "P"
+          ],
+          "at": [
+            "-2.45",
+            "-1.6",
+            "180"
+          ],
+          "size": [
+            "1.5",
+            "1"
+          ],
+          "drill": []
+        },
+        {
+          "number": "4",
+          "net": [
+            "8",
+            "Net-(D6-Pad4)"
+          ],
+          "at": [
+            "-2.45",
+            "1.6",
+            "180"
+          ],
+          "size": [
+            "1.5",
+            "1"
+          ],
+          "drill": []
+        }
+      ]
+    },
+    {
+      "reference": "D7",
+      "value": "SKC6812RGBW-WS",
+      "footprint": "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm",
+      "properties": {
+        "Sheetfile": "3x8.kicad_sch",
+        "Sheetname": "",
+        "Manufacturer": "OPSCO Optoelectronics",
+        "MPN": "SKC6812RGBW-WS",
+        "LCSC": "C5378724",
+        "AssemblyStatus": "HOLD - compatibility differences; see README.md"
+      },
+      "at": [
+        "159.976201",
+        "45.896401",
+        "180"
+      ],
+      "layer": [
+        "F.Cu"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "net": [
+            "10",
+            "GND"
+          ],
+          "at": [
+            "2.45",
+            "1.6",
+            "180"
+          ],
+          "size": [
+            "1.5",
+            "1"
+          ],
+          "drill": []
+        },
+        {
+          "number": "2",
+          "net": [
+            "8",
+            "Net-(D6-Pad4)"
+          ],
+          "at": [
+            "2.45",
+            "-1.6",
+            "180"
+          ],
+          "size": [
+            "1.5",
+            "1"
+          ],
+          "drill": []
+        },
+        {
+          "number": "3",
+          "net": [
+            "1",
+            "P"
+          ],
+          "at": [
+            "-2.45",
+            "-1.6",
+            "180"
+          ],
+          "size": [
+            "1.5",
+            "1"
+          ],
+          "drill": []
+        },
+        {
+          "number": "4",
+          "net": [
+            "9",
+            "Net-(D7-Pad4)"
+          ],
+          "at": [
+            "-2.45",
+            "1.6",
+            "180"
+          ],
+          "size": [
+            "1.5",
+            "1"
+          ],
+          "drill": []
+        }
+      ]
+    },
+    {
+      "reference": "D8",
+      "value": "SKC6812RGBW-WS",
+      "footprint": "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm",
+      "properties": {
+        "Sheetfile": "3x8.kicad_sch",
+        "Sheetname": "",
+        "Manufacturer": "OPSCO Optoelectronics",
+        "MPN": "SKC6812RGBW-WS",
+        "LCSC": "C5378724",
+        "AssemblyStatus": "HOLD - compatibility differences; see README.md"
+      },
+      "at": [
+        "181.976201",
+        "45.896401",
+        "180"
+      ],
+      "layer": [
+        "F.Cu"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "net": [
+            "10",
+            "GND"
+          ],
+          "at": [
+            "2.45",
+            "1.6",
+            "180"
+          ],
+          "size": [
+            "1.5",
+            "1"
+          ],
+          "drill": []
+        },
+        {
+          "number": "2",
+          "net": [
+            "9",
+            "Net-(D7-Pad4)"
+          ],
+          "at": [
+            "2.45",
+            "-1.6",
+            "180"
+          ],
+          "size": [
+            "1.5",
+            "1"
+          ],
+          "drill": []
+        },
+        {
+          "number": "3",
+          "net": [
+            "1",
+            "P"
+          ],
+          "at": [
+            "-2.45",
+            "-1.6",
+            "180"
+          ],
+          "size": [
+            "1.5",
+            "1"
+          ],
+          "drill": []
+        },
+        {
+          "number": "4",
+          "net": [
+            "19",
+            "Net-(D16-Pad2)"
+          ],
+          "at": [
+            "-2.45",
+            "1.6",
+            "180"
+          ],
+          "size": [
+            "1.5",
+            "1"
+          ],
+          "drill": []
+        }
+      ]
+    },
+    {
+      "reference": "D9",
+      "value": "SKC6812RGBW-WS",
+      "footprint": "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm",
+      "properties": {
+        "Sheetfile": "3x8.kicad_sch",
+        "Sheetname": "",
+        "Manufacturer": "OPSCO Optoelectronics",
+        "MPN": "SKC6812RGBW-WS",
+        "LCSC": "C5378724",
+        "AssemblyStatus": "HOLD - compatibility differences; see README.md"
+      },
+      "at": [
+        "27.976201",
+        "69.596401"
+      ],
+      "layer": [
+        "F.Cu"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "net": [
+            "10",
+            "GND"
+          ],
+          "at": [
+            "2.45",
+            "1.6"
+          ],
+          "size": [
+            "1.5",
+            "1"
+          ],
+          "drill": []
+        },
+        {
+          "number": "2",
+          "net": [
+            "13",
+            "Net-(D10-Pad4)"
+          ],
+          "at": [
+            "2.45",
+            "-1.6"
+          ],
+          "size": [
+            "1.5",
+            "1"
+          ],
+          "drill": []
+        },
+        {
+          "number": "3",
+          "net": [
+            "1",
+            "P"
+          ],
+          "at": [
+            "-2.45",
+            "-1.6"
+          ],
+          "size": [
+            "1.5",
+            "1"
+          ],
+          "drill": []
+        },
+        {
+          "number": "4",
+          "net": [
+            "20",
+            "Net-(D17-Pad2)"
+          ],
+          "at": [
+            "-2.45",
+            "1.6"
+          ],
+          "size": [
+            "1.5",
+            "1"
+          ],
+          "drill": []
+        }
+      ]
+    },
+    {
+      "reference": "D10",
+      "value": "SKC6812RGBW-WS",
+      "footprint": "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm",
+      "properties": {
+        "Sheetfile": "3x8.kicad_sch",
+        "Sheetname": "",
+        "Manufacturer": "OPSCO Optoelectronics",
+        "MPN": "SKC6812RGBW-WS",
+        "LCSC": "C5378724",
+        "AssemblyStatus": "HOLD - compatibility differences; see README.md"
+      },
+      "at": [
+        "49.976201",
+        "69.596401"
+      ],
+      "layer": [
+        "F.Cu"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "net": [
+            "10",
+            "GND"
+          ],
+          "at": [
+            "2.45",
+            "1.6"
+          ],
+          "size": [
+            "1.5",
+            "1"
+          ],
+          "drill": []
+        },
+        {
+          "number": "2",
+          "net": [
+            "12",
+            "Net-(D10-Pad2)"
+          ],
+          "at": [
+            "2.45",
+            "-1.6"
+          ],
+          "size": [
+            "1.5",
+            "1"
+          ],
+          "drill": []
+        },
+        {
+          "number": "3",
+          "net": [
+            "1",
+            "P"
+          ],
+          "at": [
+            "-2.45",
+            "-1.6"
+          ],
+          "size": [
+            "1.5",
+            "1"
+          ],
+          "drill": []
+        },
+        {
+          "number": "4",
+          "net": [
+            "13",
+            "Net-(D10-Pad4)"
+          ],
+          "at": [
+            "-2.45",
+            "1.6"
+          ],
+          "size": [
+            "1.5",
+            "1"
+          ],
+          "drill": []
+        }
+      ]
+    },
+    {
+      "reference": "D11",
+      "value": "SKC6812RGBW-WS",
+      "footprint": "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm",
+      "properties": {
+        "Sheetfile": "3x8.kicad_sch",
+        "Sheetname": "",
+        "Manufacturer": "OPSCO Optoelectronics",
+        "MPN": "SKC6812RGBW-WS",
+        "LCSC": "C5378724",
+        "AssemblyStatus": "HOLD - compatibility differences; see README.md"
+      },
+      "at": [
+        "71.976201",
+        "69.596401"
+      ],
+      "layer": [
+        "F.Cu"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "net": [
+            "10",
+            "GND"
+          ],
+          "at": [
+            "2.45",
+            "1.6"
+          ],
+          "size": [
+            "1.5",
+            "1"
+          ],
+          "drill": []
+        },
+        {
+          "number": "2",
+          "net": [
+            "14",
+            "Net-(D11-Pad2)"
+          ],
+          "at": [
+            "2.45",
+            "-1.6"
+          ],
+          "size": [
+            "1.5",
+            "1"
+          ],
+          "drill": []
+        },
+        {
+          "number": "3",
+          "net": [
+            "1",
+            "P"
+          ],
+          "at": [
+            "-2.45",
+            "-1.6"
+          ],
+          "size": [
+            "1.5",
+            "1"
+          ],
+          "drill": []
+        },
+        {
+          "number": "4",
+          "net": [
+            "12",
+            "Net-(D10-Pad2)"
+          ],
+          "at": [
+            "-2.45",
+            "1.6"
+          ],
+          "size": [
+            "1.5",
+            "1"
+          ],
+          "drill": []
+        }
+      ]
+    },
+    {
+      "reference": "D12",
+      "value": "SKC6812RGBW-WS",
+      "footprint": "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm",
+      "properties": {
+        "Sheetfile": "3x8.kicad_sch",
+        "Sheetname": "",
+        "Manufacturer": "OPSCO Optoelectronics",
+        "MPN": "SKC6812RGBW-WS",
+        "LCSC": "C5378724",
+        "AssemblyStatus": "HOLD - compatibility differences; see README.md"
+      },
+      "at": [
+        "93.976201",
+        "69.596401"
+      ],
+      "layer": [
+        "F.Cu"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "net": [
+            "10",
+            "GND"
+          ],
+          "at": [
+            "2.45",
+            "1.6"
+          ],
+          "size": [
+            "1.5",
+            "1"
+          ],
+          "drill": []
+        },
+        {
+          "number": "2",
+          "net": [
+            "15",
+            "Net-(D12-Pad2)"
+          ],
+          "at": [
+            "2.45",
+            "-1.6"
+          ],
+          "size": [
+            "1.5",
+            "1"
+          ],
+          "drill": []
+        },
+        {
+          "number": "3",
+          "net": [
+            "1",
+            "P"
+          ],
+          "at": [
+            "-2.45",
+            "-1.6"
+          ],
+          "size": [
+            "1.5",
+            "1"
+          ],
+          "drill": []
+        },
+        {
+          "number": "4",
+          "net": [
+            "14",
+            "Net-(D11-Pad2)"
+          ],
+          "at": [
+            "-2.45",
+            "1.6"
+          ],
+          "size": [
+            "1.5",
+            "1"
+          ],
+          "drill": []
+        }
+      ]
+    },
+    {
+      "reference": "D13",
+      "value": "SKC6812RGBW-WS",
+      "footprint": "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm",
+      "properties": {
+        "Sheetfile": "3x8.kicad_sch",
+        "Sheetname": "",
+        "Manufacturer": "OPSCO Optoelectronics",
+        "MPN": "SKC6812RGBW-WS",
+        "LCSC": "C5378724",
+        "AssemblyStatus": "HOLD - compatibility differences; see README.md"
+      },
+      "at": [
+        "115.976201",
+        "69.596401"
+      ],
+      "layer": [
+        "F.Cu"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "net": [
+            "10",
+            "GND"
+          ],
+          "at": [
+            "2.45",
+            "1.6"
+          ],
+          "size": [
+            "1.5",
+            "1"
+          ],
+          "drill": []
+        },
+        {
+          "number": "2",
+          "net": [
+            "16",
+            "Net-(D13-Pad2)"
+          ],
+          "at": [
+            "2.45",
+            "-1.6"
+          ],
+          "size": [
+            "1.5",
+            "1"
+          ],
+          "drill": []
+        },
+        {
+          "number": "3",
+          "net": [
+            "1",
+            "P"
+          ],
+          "at": [
+            "-2.45",
+            "-1.6"
+          ],
+          "size": [
+            "1.5",
+            "1"
+          ],
+          "drill": []
+        },
+        {
+          "number": "4",
+          "net": [
+            "15",
+            "Net-(D12-Pad2)"
+          ],
+          "at": [
+            "-2.45",
+            "1.6"
+          ],
+          "size": [
+            "1.5",
+            "1"
+          ],
+          "drill": []
+        }
+      ]
+    },
+    {
+      "reference": "D14",
+      "value": "SKC6812RGBW-WS",
+      "footprint": "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm",
+      "properties": {
+        "Sheetfile": "3x8.kicad_sch",
+        "Sheetname": "",
+        "Manufacturer": "OPSCO Optoelectronics",
+        "MPN": "SKC6812RGBW-WS",
+        "LCSC": "C5378724",
+        "AssemblyStatus": "HOLD - compatibility differences; see README.md"
+      },
+      "at": [
+        "137.976201",
+        "69.596401"
+      ],
+      "layer": [
+        "F.Cu"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "net": [
+            "10",
+            "GND"
+          ],
+          "at": [
+            "2.45",
+            "1.6"
+          ],
+          "size": [
+            "1.5",
+            "1"
+          ],
+          "drill": []
+        },
+        {
+          "number": "2",
+          "net": [
+            "17",
+            "Net-(D14-Pad2)"
+          ],
+          "at": [
+            "2.45",
+            "-1.6"
+          ],
+          "size": [
+            "1.5",
+            "1"
+          ],
+          "drill": []
+        },
+        {
+          "number": "3",
+          "net": [
+            "1",
+            "P"
+          ],
+          "at": [
+            "-2.45",
+            "-1.6"
+          ],
+          "size": [
+            "1.5",
+            "1"
+          ],
+          "drill": []
+        },
+        {
+          "number": "4",
+          "net": [
+            "16",
+            "Net-(D13-Pad2)"
+          ],
+          "at": [
+            "-2.45",
+            "1.6"
+          ],
+          "size": [
+            "1.5",
+            "1"
+          ],
+          "drill": []
+        }
+      ]
+    },
+    {
+      "reference": "D15",
+      "value": "SKC6812RGBW-WS",
+      "footprint": "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm",
+      "properties": {
+        "Sheetfile": "3x8.kicad_sch",
+        "Sheetname": "",
+        "Manufacturer": "OPSCO Optoelectronics",
+        "MPN": "SKC6812RGBW-WS",
+        "LCSC": "C5378724",
+        "AssemblyStatus": "HOLD - compatibility differences; see README.md"
+      },
+      "at": [
+        "159.976201",
+        "69.596401"
+      ],
+      "layer": [
+        "F.Cu"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "net": [
+            "10",
+            "GND"
+          ],
+          "at": [
+            "2.45",
+            "1.6"
+          ],
+          "size": [
+            "1.5",
+            "1"
+          ],
+          "drill": []
+        },
+        {
+          "number": "2",
+          "net": [
+            "18",
+            "Net-(D15-Pad2)"
+          ],
+          "at": [
+            "2.45",
+            "-1.6"
+          ],
+          "size": [
+            "1.5",
+            "1"
+          ],
+          "drill": []
+        },
+        {
+          "number": "3",
+          "net": [
+            "1",
+            "P"
+          ],
+          "at": [
+            "-2.45",
+            "-1.6"
+          ],
+          "size": [
+            "1.5",
+            "1"
+          ],
+          "drill": []
+        },
+        {
+          "number": "4",
+          "net": [
+            "17",
+            "Net-(D14-Pad2)"
+          ],
+          "at": [
+            "-2.45",
+            "1.6"
+          ],
+          "size": [
+            "1.5",
+            "1"
+          ],
+          "drill": []
+        }
+      ]
+    },
+    {
+      "reference": "D16",
+      "value": "SKC6812RGBW-WS",
+      "footprint": "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm",
+      "properties": {
+        "Sheetfile": "3x8.kicad_sch",
+        "Sheetname": "",
+        "Manufacturer": "OPSCO Optoelectronics",
+        "MPN": "SKC6812RGBW-WS",
+        "LCSC": "C5378724",
+        "AssemblyStatus": "HOLD - compatibility differences; see README.md"
+      },
+      "at": [
+        "181.976201",
+        "69.596401"
+      ],
+      "layer": [
+        "F.Cu"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "net": [
+            "10",
+            "GND"
+          ],
+          "at": [
+            "2.45",
+            "1.6"
+          ],
+          "size": [
+            "1.5",
+            "1"
+          ],
+          "drill": []
+        },
+        {
+          "number": "2",
+          "net": [
+            "19",
+            "Net-(D16-Pad2)"
+          ],
+          "at": [
+            "2.45",
+            "-1.6"
+          ],
+          "size": [
+            "1.5",
+            "1"
+          ],
+          "drill": []
+        },
+        {
+          "number": "3",
+          "net": [
+            "1",
+            "P"
+          ],
+          "at": [
+            "-2.45",
+            "-1.6"
+          ],
+          "size": [
+            "1.5",
+            "1"
+          ],
+          "drill": []
+        },
+        {
+          "number": "4",
+          "net": [
+            "18",
+            "Net-(D15-Pad2)"
+          ],
+          "at": [
+            "-2.45",
+            "1.6"
+          ],
+          "size": [
+            "1.5",
+            "1"
+          ],
+          "drill": []
+        }
+      ]
+    },
+    {
+      "reference": "D17",
+      "value": "SKC6812RGBW-WS",
+      "footprint": "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm",
+      "properties": {
+        "Sheetfile": "3x8.kicad_sch",
+        "Sheetname": "",
+        "Manufacturer": "OPSCO Optoelectronics",
+        "MPN": "SKC6812RGBW-WS",
+        "LCSC": "C5378724",
+        "AssemblyStatus": "HOLD - compatibility differences; see README.md"
+      },
+      "at": [
+        "27.976201",
+        "93.296401",
+        "180"
+      ],
+      "layer": [
+        "F.Cu"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "net": [
+            "10",
+            "GND"
+          ],
+          "at": [
+            "2.45",
+            "1.6",
+            "180"
+          ],
+          "size": [
+            "1.5",
+            "1"
+          ],
+          "drill": []
+        },
+        {
+          "number": "2",
+          "net": [
+            "20",
+            "Net-(D17-Pad2)"
+          ],
+          "at": [
+            "2.45",
+            "-1.6",
+            "180"
+          ],
+          "size": [
+            "1.5",
+            "1"
+          ],
+          "drill": []
+        },
+        {
+          "number": "3",
+          "net": [
+            "1",
+            "P"
+          ],
+          "at": [
+            "-2.45",
+            "-1.6",
+            "180"
+          ],
+          "size": [
+            "1.5",
+            "1"
+          ],
+          "drill": []
+        },
+        {
+          "number": "4",
+          "net": [
+            "43",
+            "Net-(D17-Pad4)"
+          ],
+          "at": [
+            "-2.45",
+            "1.6",
+            "180"
+          ],
+          "size": [
+            "1.5",
+            "1"
+          ],
+          "drill": []
+        }
+      ]
+    },
+    {
+      "reference": "D18",
+      "value": "SKC6812RGBW-WS",
+      "footprint": "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm",
+      "properties": {
+        "Sheetfile": "3x8.kicad_sch",
+        "Sheetname": "",
+        "Manufacturer": "OPSCO Optoelectronics",
+        "MPN": "SKC6812RGBW-WS",
+        "LCSC": "C5378724",
+        "AssemblyStatus": "HOLD - compatibility differences; see README.md"
+      },
+      "at": [
+        "49.976201",
+        "93.296401",
+        "180"
+      ],
+      "layer": [
+        "F.Cu"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "net": [
+            "10",
+            "GND"
+          ],
+          "at": [
+            "2.45",
+            "1.6",
+            "180"
+          ],
+          "size": [
+            "1.5",
+            "1"
+          ],
+          "drill": []
+        },
+        {
+          "number": "2",
+          "net": [
+            "43",
+            "Net-(D17-Pad4)"
+          ],
+          "at": [
+            "2.45",
+            "-1.6",
+            "180"
+          ],
+          "size": [
+            "1.5",
+            "1"
+          ],
+          "drill": []
+        },
+        {
+          "number": "3",
+          "net": [
+            "1",
+            "P"
+          ],
+          "at": [
+            "-2.45",
+            "-1.6",
+            "180"
+          ],
+          "size": [
+            "1.5",
+            "1"
+          ],
+          "drill": []
+        },
+        {
+          "number": "4",
+          "net": [
+            "44",
+            "Net-(D18-Pad4)"
+          ],
+          "at": [
+            "-2.45",
+            "1.6",
+            "180"
+          ],
+          "size": [
+            "1.5",
+            "1"
+          ],
+          "drill": []
+        }
+      ]
+    },
+    {
+      "reference": "D19",
+      "value": "SKC6812RGBW-WS",
+      "footprint": "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm",
+      "properties": {
+        "Sheetfile": "3x8.kicad_sch",
+        "Sheetname": "",
+        "Manufacturer": "OPSCO Optoelectronics",
+        "MPN": "SKC6812RGBW-WS",
+        "LCSC": "C5378724",
+        "AssemblyStatus": "HOLD - compatibility differences; see README.md"
+      },
+      "at": [
+        "71.976201",
+        "93.296401",
+        "180"
+      ],
+      "layer": [
+        "F.Cu"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "net": [
+            "10",
+            "GND"
+          ],
+          "at": [
+            "2.45",
+            "1.6",
+            "180"
+          ],
+          "size": [
+            "1.5",
+            "1"
+          ],
+          "drill": []
+        },
+        {
+          "number": "2",
+          "net": [
+            "44",
+            "Net-(D18-Pad4)"
+          ],
+          "at": [
+            "2.45",
+            "-1.6",
+            "180"
+          ],
+          "size": [
+            "1.5",
+            "1"
+          ],
+          "drill": []
+        },
+        {
+          "number": "3",
+          "net": [
+            "1",
+            "P"
+          ],
+          "at": [
+            "-2.45",
+            "-1.6",
+            "180"
+          ],
+          "size": [
+            "1.5",
+            "1"
+          ],
+          "drill": []
+        },
+        {
+          "number": "4",
+          "net": [
+            "21",
+            "Net-(D19-Pad4)"
+          ],
+          "at": [
+            "-2.45",
+            "1.6",
+            "180"
+          ],
+          "size": [
+            "1.5",
+            "1"
+          ],
+          "drill": []
+        }
+      ]
+    },
+    {
+      "reference": "D20",
+      "value": "SKC6812RGBW-WS",
+      "footprint": "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm",
+      "properties": {
+        "Sheetfile": "3x8.kicad_sch",
+        "Sheetname": "",
+        "Manufacturer": "OPSCO Optoelectronics",
+        "MPN": "SKC6812RGBW-WS",
+        "LCSC": "C5378724",
+        "AssemblyStatus": "HOLD - compatibility differences; see README.md"
+      },
+      "at": [
+        "93.976201",
+        "93.296401",
+        "180"
+      ],
+      "layer": [
+        "F.Cu"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "net": [
+            "10",
+            "GND"
+          ],
+          "at": [
+            "2.45",
+            "1.6",
+            "180"
+          ],
+          "size": [
+            "1.5",
+            "1"
+          ],
+          "drill": []
+        },
+        {
+          "number": "2",
+          "net": [
+            "21",
+            "Net-(D19-Pad4)"
+          ],
+          "at": [
+            "2.45",
+            "-1.6",
+            "180"
+          ],
+          "size": [
+            "1.5",
+            "1"
+          ],
+          "drill": []
+        },
+        {
+          "number": "3",
+          "net": [
+            "1",
+            "P"
+          ],
+          "at": [
+            "-2.45",
+            "-1.6",
+            "180"
+          ],
+          "size": [
+            "1.5",
+            "1"
+          ],
+          "drill": []
+        },
+        {
+          "number": "4",
+          "net": [
+            "22",
+            "Net-(D20-Pad4)"
+          ],
+          "at": [
+            "-2.45",
+            "1.6",
+            "180"
+          ],
+          "size": [
+            "1.5",
+            "1"
+          ],
+          "drill": []
+        }
+      ]
+    },
+    {
+      "reference": "D21",
+      "value": "SKC6812RGBW-WS",
+      "footprint": "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm",
+      "properties": {
+        "Sheetfile": "3x8.kicad_sch",
+        "Sheetname": "",
+        "Manufacturer": "OPSCO Optoelectronics",
+        "MPN": "SKC6812RGBW-WS",
+        "LCSC": "C5378724",
+        "AssemblyStatus": "HOLD - compatibility differences; see README.md"
+      },
+      "at": [
+        "115.976201",
+        "93.296401",
+        "180"
+      ],
+      "layer": [
+        "F.Cu"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "net": [
+            "10",
+            "GND"
+          ],
+          "at": [
+            "2.45",
+            "1.6",
+            "180"
+          ],
+          "size": [
+            "1.5",
+            "1"
+          ],
+          "drill": []
+        },
+        {
+          "number": "2",
+          "net": [
+            "22",
+            "Net-(D20-Pad4)"
+          ],
+          "at": [
+            "2.45",
+            "-1.6",
+            "180"
+          ],
+          "size": [
+            "1.5",
+            "1"
+          ],
+          "drill": []
+        },
+        {
+          "number": "3",
+          "net": [
+            "1",
+            "P"
+          ],
+          "at": [
+            "-2.45",
+            "-1.6",
+            "180"
+          ],
+          "size": [
+            "1.5",
+            "1"
+          ],
+          "drill": []
+        },
+        {
+          "number": "4",
+          "net": [
+            "23",
+            "Net-(D21-Pad4)"
+          ],
+          "at": [
+            "-2.45",
+            "1.6",
+            "180"
+          ],
+          "size": [
+            "1.5",
+            "1"
+          ],
+          "drill": []
+        }
+      ]
+    },
+    {
+      "reference": "D22",
+      "value": "SKC6812RGBW-WS",
+      "footprint": "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm",
+      "properties": {
+        "Sheetfile": "3x8.kicad_sch",
+        "Sheetname": "",
+        "Manufacturer": "OPSCO Optoelectronics",
+        "MPN": "SKC6812RGBW-WS",
+        "LCSC": "C5378724",
+        "AssemblyStatus": "HOLD - compatibility differences; see README.md"
+      },
+      "at": [
+        "137.976201",
+        "93.296401",
+        "180"
+      ],
+      "layer": [
+        "F.Cu"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "net": [
+            "10",
+            "GND"
+          ],
+          "at": [
+            "2.45",
+            "1.6",
+            "180"
+          ],
+          "size": [
+            "1.5",
+            "1"
+          ],
+          "drill": []
+        },
+        {
+          "number": "2",
+          "net": [
+            "23",
+            "Net-(D21-Pad4)"
+          ],
+          "at": [
+            "2.45",
+            "-1.6",
+            "180"
+          ],
+          "size": [
+            "1.5",
+            "1"
+          ],
+          "drill": []
+        },
+        {
+          "number": "3",
+          "net": [
+            "1",
+            "P"
+          ],
+          "at": [
+            "-2.45",
+            "-1.6",
+            "180"
+          ],
+          "size": [
+            "1.5",
+            "1"
+          ],
+          "drill": []
+        },
+        {
+          "number": "4",
+          "net": [
+            "24",
+            "Net-(D22-Pad4)"
+          ],
+          "at": [
+            "-2.45",
+            "1.6",
+            "180"
+          ],
+          "size": [
+            "1.5",
+            "1"
+          ],
+          "drill": []
+        }
+      ]
+    },
+    {
+      "reference": "D23",
+      "value": "SKC6812RGBW-WS",
+      "footprint": "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm",
+      "properties": {
+        "Sheetfile": "3x8.kicad_sch",
+        "Sheetname": "",
+        "Manufacturer": "OPSCO Optoelectronics",
+        "MPN": "SKC6812RGBW-WS",
+        "LCSC": "C5378724",
+        "AssemblyStatus": "HOLD - compatibility differences; see README.md"
+      },
+      "at": [
+        "159.976201",
+        "93.296401",
+        "180"
+      ],
+      "layer": [
+        "F.Cu"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "net": [
+            "10",
+            "GND"
+          ],
+          "at": [
+            "2.45",
+            "1.6",
+            "180"
+          ],
+          "size": [
+            "1.5",
+            "1"
+          ],
+          "drill": []
+        },
+        {
+          "number": "2",
+          "net": [
+            "24",
+            "Net-(D22-Pad4)"
+          ],
+          "at": [
+            "2.45",
+            "-1.6",
+            "180"
+          ],
+          "size": [
+            "1.5",
+            "1"
+          ],
+          "drill": []
+        },
+        {
+          "number": "3",
+          "net": [
+            "1",
+            "P"
+          ],
+          "at": [
+            "-2.45",
+            "-1.6",
+            "180"
+          ],
+          "size": [
+            "1.5",
+            "1"
+          ],
+          "drill": []
+        },
+        {
+          "number": "4",
+          "net": [
+            "25",
+            "Net-(D23-Pad4)"
+          ],
+          "at": [
+            "-2.45",
+            "1.6",
+            "180"
+          ],
+          "size": [
+            "1.5",
+            "1"
+          ],
+          "drill": []
+        }
+      ]
+    },
+    {
+      "reference": "D24",
+      "value": "SKC6812RGBW-WS",
+      "footprint": "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm",
+      "properties": {
+        "Sheetfile": "3x8.kicad_sch",
+        "Sheetname": "",
+        "Manufacturer": "OPSCO Optoelectronics",
+        "MPN": "SKC6812RGBW-WS",
+        "LCSC": "C5378724",
+        "AssemblyStatus": "HOLD - compatibility differences; see README.md"
+      },
+      "at": [
+        "181.976201",
+        "93.296401",
+        "180"
+      ],
+      "layer": [
+        "F.Cu"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "net": [
+            "10",
+            "GND"
+          ],
+          "at": [
+            "2.45",
+            "1.6",
+            "180"
+          ],
+          "size": [
+            "1.5",
+            "1"
+          ],
+          "drill": []
+        },
+        {
+          "number": "2",
+          "net": [
+            "25",
+            "Net-(D23-Pad4)"
+          ],
+          "at": [
+            "2.45",
+            "-1.6",
+            "180"
+          ],
+          "size": [
+            "1.5",
+            "1"
+          ],
+          "drill": []
+        },
+        {
+          "number": "3",
+          "net": [
+            "1",
+            "P"
+          ],
+          "at": [
+            "-2.45",
+            "-1.6",
+            "180"
+          ],
+          "size": [
+            "1.5",
+            "1"
+          ],
+          "drill": []
+        },
+        {
+          "number": "4",
+          "net": [
+            "30",
+            "LedOut"
+          ],
+          "at": [
+            "-2.45",
+            "1.6",
+            "180"
+          ],
+          "size": [
+            "1.5",
+            "1"
+          ],
+          "drill": []
+        }
+      ]
+    },
+    {
+      "reference": "U1",
+      "value": "AH49E",
+      "footprint": "Package_TO_SOT_SMD:SOT-23",
+      "properties": {
+        "Sheetfile": "3x8.kicad_sch",
+        "Sheetname": ""
+      },
+      "at": [
+        "28",
+        "41.35",
+        "90"
+      ],
+      "layer": [
+        "F.Cu"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "net": [
+            "31",
+            "PQ1"
+          ],
+          "at": [
+            "-1",
+            "-0.95",
+            "90"
+          ],
+          "size": [
+            "0.9",
+            "0.8"
+          ],
+          "drill": []
+        },
+        {
+          "number": "2",
+          "net": [
+            "34",
+            "HallOut1"
+          ],
+          "at": [
+            "-1",
+            "0.95",
+            "90"
+          ],
+          "size": [
+            "0.9",
+            "0.8"
+          ],
+          "drill": []
+        },
+        {
+          "number": "3",
+          "net": [
+            "42",
+            "AGND"
+          ],
+          "at": [
+            "1",
+            "0",
+            "90"
+          ],
+          "size": [
+            "0.9",
+            "0.8"
+          ],
+          "drill": []
+        }
+      ]
+    },
+    {
+      "reference": "U2",
+      "value": "AH49E",
+      "footprint": "Package_TO_SOT_SMD:SOT-23",
+      "properties": {
+        "Sheetfile": "3x8.kicad_sch",
+        "Sheetname": ""
+      },
+      "at": [
+        "50",
+        "41.35",
+        "90"
+      ],
+      "layer": [
+        "F.Cu"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "net": [
+            "31",
+            "PQ1"
+          ],
+          "at": [
+            "-1",
+            "-0.95",
+            "90"
+          ],
+          "size": [
+            "0.9",
+            "0.8"
+          ],
+          "drill": []
+        },
+        {
+          "number": "2",
+          "net": [
+            "35",
+            "HallOut2"
+          ],
+          "at": [
+            "-1",
+            "0.95",
+            "90"
+          ],
+          "size": [
+            "0.9",
+            "0.8"
+          ],
+          "drill": []
+        },
+        {
+          "number": "3",
+          "net": [
+            "42",
+            "AGND"
+          ],
+          "at": [
+            "1",
+            "0",
+            "90"
+          ],
+          "size": [
+            "0.9",
+            "0.8"
+          ],
+          "drill": []
+        }
+      ]
+    },
+    {
+      "reference": "U3",
+      "value": "AH49E",
+      "footprint": "Package_TO_SOT_SMD:SOT-23",
+      "properties": {
+        "Sheetfile": "3x8.kicad_sch",
+        "Sheetname": ""
+      },
+      "at": [
+        "72",
+        "41.35",
+        "90"
+      ],
+      "layer": [
+        "F.Cu"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "net": [
+            "31",
+            "PQ1"
+          ],
+          "at": [
+            "-1",
+            "-0.95",
+            "90"
+          ],
+          "size": [
+            "0.9",
+            "0.8"
+          ],
+          "drill": []
+        },
+        {
+          "number": "2",
+          "net": [
+            "36",
+            "HallOut3"
+          ],
+          "at": [
+            "-1",
+            "0.95",
+            "90"
+          ],
+          "size": [
+            "0.9",
+            "0.8"
+          ],
+          "drill": []
+        },
+        {
+          "number": "3",
+          "net": [
+            "42",
+            "AGND"
+          ],
+          "at": [
+            "1",
+            "0",
+            "90"
+          ],
+          "size": [
+            "0.9",
+            "0.8"
+          ],
+          "drill": []
+        }
+      ]
+    },
+    {
+      "reference": "U4",
+      "value": "AH49E",
+      "footprint": "Package_TO_SOT_SMD:SOT-23",
+      "properties": {
+        "Sheetfile": "3x8.kicad_sch",
+        "Sheetname": ""
+      },
+      "at": [
+        "94",
+        "41.35",
+        "90"
+      ],
+      "layer": [
+        "F.Cu"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "net": [
+            "31",
+            "PQ1"
+          ],
+          "at": [
+            "-1",
+            "-0.95",
+            "90"
+          ],
+          "size": [
+            "0.9",
+            "0.8"
+          ],
+          "drill": []
+        },
+        {
+          "number": "2",
+          "net": [
+            "37",
+            "HallOut4"
+          ],
+          "at": [
+            "-1",
+            "0.95",
+            "90"
+          ],
+          "size": [
+            "0.9",
+            "0.8"
+          ],
+          "drill": []
+        },
+        {
+          "number": "3",
+          "net": [
+            "42",
+            "AGND"
+          ],
+          "at": [
+            "1",
+            "0",
+            "90"
+          ],
+          "size": [
+            "0.9",
+            "0.8"
+          ],
+          "drill": []
+        }
+      ]
+    },
+    {
+      "reference": "U5",
+      "value": "AH49E",
+      "footprint": "Package_TO_SOT_SMD:SOT-23",
+      "properties": {
+        "Sheetfile": "3x8.kicad_sch",
+        "Sheetname": ""
+      },
+      "at": [
+        "116",
+        "41.35",
+        "90"
+      ],
+      "layer": [
+        "F.Cu"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "net": [
+            "31",
+            "PQ1"
+          ],
+          "at": [
+            "-1",
+            "-0.95",
+            "90"
+          ],
+          "size": [
+            "0.9",
+            "0.8"
+          ],
+          "drill": []
+        },
+        {
+          "number": "2",
+          "net": [
+            "38",
+            "HallOut5"
+          ],
+          "at": [
+            "-1",
+            "0.95",
+            "90"
+          ],
+          "size": [
+            "0.9",
+            "0.8"
+          ],
+          "drill": []
+        },
+        {
+          "number": "3",
+          "net": [
+            "42",
+            "AGND"
+          ],
+          "at": [
+            "1",
+            "0",
+            "90"
+          ],
+          "size": [
+            "0.9",
+            "0.8"
+          ],
+          "drill": []
+        }
+      ]
+    },
+    {
+      "reference": "U6",
+      "value": "AH49E",
+      "footprint": "Package_TO_SOT_SMD:SOT-23",
+      "properties": {
+        "Sheetfile": "3x8.kicad_sch",
+        "Sheetname": ""
+      },
+      "at": [
+        "138",
+        "41.35",
+        "90"
+      ],
+      "layer": [
+        "F.Cu"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "net": [
+            "31",
+            "PQ1"
+          ],
+          "at": [
+            "-1",
+            "-0.95",
+            "90"
+          ],
+          "size": [
+            "0.9",
+            "0.8"
+          ],
+          "drill": []
+        },
+        {
+          "number": "2",
+          "net": [
+            "39",
+            "HallOut6"
+          ],
+          "at": [
+            "-1",
+            "0.95",
+            "90"
+          ],
+          "size": [
+            "0.9",
+            "0.8"
+          ],
+          "drill": []
+        },
+        {
+          "number": "3",
+          "net": [
+            "42",
+            "AGND"
+          ],
+          "at": [
+            "1",
+            "0",
+            "90"
+          ],
+          "size": [
+            "0.9",
+            "0.8"
+          ],
+          "drill": []
+        }
+      ]
+    },
+    {
+      "reference": "U7",
+      "value": "AH49E",
+      "footprint": "Package_TO_SOT_SMD:SOT-23",
+      "properties": {
+        "Sheetfile": "3x8.kicad_sch",
+        "Sheetname": ""
+      },
+      "at": [
+        "160",
+        "41.35",
+        "90"
+      ],
+      "layer": [
+        "F.Cu"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "net": [
+            "31",
+            "PQ1"
+          ],
+          "at": [
+            "-1",
+            "-0.95",
+            "90"
+          ],
+          "size": [
+            "0.9",
+            "0.8"
+          ],
+          "drill": []
+        },
+        {
+          "number": "2",
+          "net": [
+            "40",
+            "HallOut7"
+          ],
+          "at": [
+            "-1",
+            "0.95",
+            "90"
+          ],
+          "size": [
+            "0.9",
+            "0.8"
+          ],
+          "drill": []
+        },
+        {
+          "number": "3",
+          "net": [
+            "42",
+            "AGND"
+          ],
+          "at": [
+            "1",
+            "0",
+            "90"
+          ],
+          "size": [
+            "0.9",
+            "0.8"
+          ],
+          "drill": []
+        }
+      ]
+    },
+    {
+      "reference": "U8",
+      "value": "AH49E",
+      "footprint": "Package_TO_SOT_SMD:SOT-23",
+      "properties": {
+        "Sheetfile": "3x8.kicad_sch",
+        "Sheetname": ""
+      },
+      "at": [
+        "182",
+        "41.35",
+        "90"
+      ],
+      "layer": [
+        "F.Cu"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "net": [
+            "31",
+            "PQ1"
+          ],
+          "at": [
+            "-1",
+            "-0.95",
+            "90"
+          ],
+          "size": [
+            "0.9",
+            "0.8"
+          ],
+          "drill": []
+        },
+        {
+          "number": "2",
+          "net": [
+            "41",
+            "HallOut8"
+          ],
+          "at": [
+            "-1",
+            "0.95",
+            "90"
+          ],
+          "size": [
+            "0.9",
+            "0.8"
+          ],
+          "drill": []
+        },
+        {
+          "number": "3",
+          "net": [
+            "42",
+            "AGND"
+          ],
+          "at": [
+            "1",
+            "0",
+            "90"
+          ],
+          "size": [
+            "0.9",
+            "0.8"
+          ],
+          "drill": []
+        }
+      ]
+    },
+    {
+      "reference": "U9",
+      "value": "AH49E",
+      "footprint": "Package_TO_SOT_SMD:SOT-23",
+      "properties": {
+        "Sheetfile": "3x8.kicad_sch",
+        "Sheetname": ""
+      },
+      "at": [
+        "28",
+        "65.05",
+        "90"
+      ],
+      "layer": [
+        "F.Cu"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "net": [
+            "32",
+            "PQ2"
+          ],
+          "at": [
+            "-1",
+            "-0.95",
+            "90"
+          ],
+          "size": [
+            "0.9",
+            "0.8"
+          ],
+          "drill": []
+        },
+        {
+          "number": "2",
+          "net": [
+            "34",
+            "HallOut1"
+          ],
+          "at": [
+            "-1",
+            "0.95",
+            "90"
+          ],
+          "size": [
+            "0.9",
+            "0.8"
+          ],
+          "drill": []
+        },
+        {
+          "number": "3",
+          "net": [
+            "42",
+            "AGND"
+          ],
+          "at": [
+            "1",
+            "0",
+            "90"
+          ],
+          "size": [
+            "0.9",
+            "0.8"
+          ],
+          "drill": []
+        }
+      ]
+    },
+    {
+      "reference": "U10",
+      "value": "AH49E",
+      "footprint": "Package_TO_SOT_SMD:SOT-23",
+      "properties": {
+        "Sheetfile": "3x8.kicad_sch",
+        "Sheetname": ""
+      },
+      "at": [
+        "50",
+        "65.05",
+        "90"
+      ],
+      "layer": [
+        "F.Cu"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "net": [
+            "32",
+            "PQ2"
+          ],
+          "at": [
+            "-1",
+            "-0.95",
+            "90"
+          ],
+          "size": [
+            "0.9",
+            "0.8"
+          ],
+          "drill": []
+        },
+        {
+          "number": "2",
+          "net": [
+            "35",
+            "HallOut2"
+          ],
+          "at": [
+            "-1",
+            "0.95",
+            "90"
+          ],
+          "size": [
+            "0.9",
+            "0.8"
+          ],
+          "drill": []
+        },
+        {
+          "number": "3",
+          "net": [
+            "42",
+            "AGND"
+          ],
+          "at": [
+            "1",
+            "0",
+            "90"
+          ],
+          "size": [
+            "0.9",
+            "0.8"
+          ],
+          "drill": []
+        }
+      ]
+    },
+    {
+      "reference": "U11",
+      "value": "AH49E",
+      "footprint": "Package_TO_SOT_SMD:SOT-23",
+      "properties": {
+        "Sheetfile": "3x8.kicad_sch",
+        "Sheetname": ""
+      },
+      "at": [
+        "72",
+        "65.05",
+        "90"
+      ],
+      "layer": [
+        "F.Cu"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "net": [
+            "32",
+            "PQ2"
+          ],
+          "at": [
+            "-1",
+            "-0.95",
+            "90"
+          ],
+          "size": [
+            "0.9",
+            "0.8"
+          ],
+          "drill": []
+        },
+        {
+          "number": "2",
+          "net": [
+            "36",
+            "HallOut3"
+          ],
+          "at": [
+            "-1",
+            "0.95",
+            "90"
+          ],
+          "size": [
+            "0.9",
+            "0.8"
+          ],
+          "drill": []
+        },
+        {
+          "number": "3",
+          "net": [
+            "42",
+            "AGND"
+          ],
+          "at": [
+            "1",
+            "0",
+            "90"
+          ],
+          "size": [
+            "0.9",
+            "0.8"
+          ],
+          "drill": []
+        }
+      ]
+    },
+    {
+      "reference": "U12",
+      "value": "AH49E",
+      "footprint": "Package_TO_SOT_SMD:SOT-23",
+      "properties": {
+        "Sheetfile": "3x8.kicad_sch",
+        "Sheetname": ""
+      },
+      "at": [
+        "94",
+        "65.05",
+        "90"
+      ],
+      "layer": [
+        "F.Cu"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "net": [
+            "32",
+            "PQ2"
+          ],
+          "at": [
+            "-1",
+            "-0.95",
+            "90"
+          ],
+          "size": [
+            "0.9",
+            "0.8"
+          ],
+          "drill": []
+        },
+        {
+          "number": "2",
+          "net": [
+            "37",
+            "HallOut4"
+          ],
+          "at": [
+            "-1",
+            "0.95",
+            "90"
+          ],
+          "size": [
+            "0.9",
+            "0.8"
+          ],
+          "drill": []
+        },
+        {
+          "number": "3",
+          "net": [
+            "42",
+            "AGND"
+          ],
+          "at": [
+            "1",
+            "0",
+            "90"
+          ],
+          "size": [
+            "0.9",
+            "0.8"
+          ],
+          "drill": []
+        }
+      ]
+    },
+    {
+      "reference": "U13",
+      "value": "AH49E",
+      "footprint": "Package_TO_SOT_SMD:SOT-23",
+      "properties": {
+        "Sheetfile": "3x8.kicad_sch",
+        "Sheetname": ""
+      },
+      "at": [
+        "116",
+        "65.05",
+        "90"
+      ],
+      "layer": [
+        "F.Cu"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "net": [
+            "32",
+            "PQ2"
+          ],
+          "at": [
+            "-1",
+            "-0.95",
+            "90"
+          ],
+          "size": [
+            "0.9",
+            "0.8"
+          ],
+          "drill": []
+        },
+        {
+          "number": "2",
+          "net": [
+            "38",
+            "HallOut5"
+          ],
+          "at": [
+            "-1",
+            "0.95",
+            "90"
+          ],
+          "size": [
+            "0.9",
+            "0.8"
+          ],
+          "drill": []
+        },
+        {
+          "number": "3",
+          "net": [
+            "42",
+            "AGND"
+          ],
+          "at": [
+            "1",
+            "0",
+            "90"
+          ],
+          "size": [
+            "0.9",
+            "0.8"
+          ],
+          "drill": []
+        }
+      ]
+    },
+    {
+      "reference": "U14",
+      "value": "AH49E",
+      "footprint": "Package_TO_SOT_SMD:SOT-23",
+      "properties": {
+        "Sheetfile": "3x8.kicad_sch",
+        "Sheetname": ""
+      },
+      "at": [
+        "138",
+        "65.05",
+        "90"
+      ],
+      "layer": [
+        "F.Cu"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "net": [
+            "32",
+            "PQ2"
+          ],
+          "at": [
+            "-1",
+            "-0.95",
+            "90"
+          ],
+          "size": [
+            "0.9",
+            "0.8"
+          ],
+          "drill": []
+        },
+        {
+          "number": "2",
+          "net": [
+            "39",
+            "HallOut6"
+          ],
+          "at": [
+            "-1",
+            "0.95",
+            "90"
+          ],
+          "size": [
+            "0.9",
+            "0.8"
+          ],
+          "drill": []
+        },
+        {
+          "number": "3",
+          "net": [
+            "42",
+            "AGND"
+          ],
+          "at": [
+            "1",
+            "0",
+            "90"
+          ],
+          "size": [
+            "0.9",
+            "0.8"
+          ],
+          "drill": []
+        }
+      ]
+    },
+    {
+      "reference": "U15",
+      "value": "AH49E",
+      "footprint": "Package_TO_SOT_SMD:SOT-23",
+      "properties": {
+        "Sheetfile": "3x8.kicad_sch",
+        "Sheetname": ""
+      },
+      "at": [
+        "160",
+        "65.05",
+        "90"
+      ],
+      "layer": [
+        "F.Cu"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "net": [
+            "32",
+            "PQ2"
+          ],
+          "at": [
+            "-1",
+            "-0.95",
+            "90"
+          ],
+          "size": [
+            "0.9",
+            "0.8"
+          ],
+          "drill": []
+        },
+        {
+          "number": "2",
+          "net": [
+            "40",
+            "HallOut7"
+          ],
+          "at": [
+            "-1",
+            "0.95",
+            "90"
+          ],
+          "size": [
+            "0.9",
+            "0.8"
+          ],
+          "drill": []
+        },
+        {
+          "number": "3",
+          "net": [
+            "42",
+            "AGND"
+          ],
+          "at": [
+            "1",
+            "0",
+            "90"
+          ],
+          "size": [
+            "0.9",
+            "0.8"
+          ],
+          "drill": []
+        }
+      ]
+    },
+    {
+      "reference": "U16",
+      "value": "AH49E",
+      "footprint": "Package_TO_SOT_SMD:SOT-23",
+      "properties": {
+        "Sheetfile": "3x8.kicad_sch",
+        "Sheetname": ""
+      },
+      "at": [
+        "182",
+        "65.05",
+        "90"
+      ],
+      "layer": [
+        "F.Cu"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "net": [
+            "32",
+            "PQ2"
+          ],
+          "at": [
+            "-1",
+            "-0.95",
+            "90"
+          ],
+          "size": [
+            "0.9",
+            "0.8"
+          ],
+          "drill": []
+        },
+        {
+          "number": "2",
+          "net": [
+            "41",
+            "HallOut8"
+          ],
+          "at": [
+            "-1",
+            "0.95",
+            "90"
+          ],
+          "size": [
+            "0.9",
+            "0.8"
+          ],
+          "drill": []
+        },
+        {
+          "number": "3",
+          "net": [
+            "42",
+            "AGND"
+          ],
+          "at": [
+            "1",
+            "0",
+            "90"
+          ],
+          "size": [
+            "0.9",
+            "0.8"
+          ],
+          "drill": []
+        }
+      ]
+    },
+    {
+      "reference": "U17",
+      "value": "AH49E",
+      "footprint": "Package_TO_SOT_SMD:SOT-23",
+      "properties": {
+        "Sheetfile": "3x8.kicad_sch",
+        "Sheetname": ""
+      },
+      "at": [
+        "28",
+        "88.75",
+        "90"
+      ],
+      "layer": [
+        "F.Cu"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "net": [
+            "33",
+            "PQ3"
+          ],
+          "at": [
+            "-1",
+            "-0.95",
+            "90"
+          ],
+          "size": [
+            "0.9",
+            "0.8"
+          ],
+          "drill": []
+        },
+        {
+          "number": "2",
+          "net": [
+            "34",
+            "HallOut1"
+          ],
+          "at": [
+            "-1",
+            "0.95",
+            "90"
+          ],
+          "size": [
+            "0.9",
+            "0.8"
+          ],
+          "drill": []
+        },
+        {
+          "number": "3",
+          "net": [
+            "42",
+            "AGND"
+          ],
+          "at": [
+            "1",
+            "0",
+            "90"
+          ],
+          "size": [
+            "0.9",
+            "0.8"
+          ],
+          "drill": []
+        }
+      ]
+    },
+    {
+      "reference": "U18",
+      "value": "AH49E",
+      "footprint": "Package_TO_SOT_SMD:SOT-23",
+      "properties": {
+        "Sheetfile": "3x8.kicad_sch",
+        "Sheetname": ""
+      },
+      "at": [
+        "50",
+        "88.75",
+        "90"
+      ],
+      "layer": [
+        "F.Cu"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "net": [
+            "33",
+            "PQ3"
+          ],
+          "at": [
+            "-1",
+            "-0.95",
+            "90"
+          ],
+          "size": [
+            "0.9",
+            "0.8"
+          ],
+          "drill": []
+        },
+        {
+          "number": "2",
+          "net": [
+            "35",
+            "HallOut2"
+          ],
+          "at": [
+            "-1",
+            "0.95",
+            "90"
+          ],
+          "size": [
+            "0.9",
+            "0.8"
+          ],
+          "drill": []
+        },
+        {
+          "number": "3",
+          "net": [
+            "42",
+            "AGND"
+          ],
+          "at": [
+            "1",
+            "0",
+            "90"
+          ],
+          "size": [
+            "0.9",
+            "0.8"
+          ],
+          "drill": []
+        }
+      ]
+    },
+    {
+      "reference": "U19",
+      "value": "AH49E",
+      "footprint": "Package_TO_SOT_SMD:SOT-23",
+      "properties": {
+        "Sheetfile": "3x8.kicad_sch",
+        "Sheetname": ""
+      },
+      "at": [
+        "72",
+        "88.75",
+        "90"
+      ],
+      "layer": [
+        "F.Cu"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "net": [
+            "33",
+            "PQ3"
+          ],
+          "at": [
+            "-1",
+            "-0.95",
+            "90"
+          ],
+          "size": [
+            "0.9",
+            "0.8"
+          ],
+          "drill": []
+        },
+        {
+          "number": "2",
+          "net": [
+            "36",
+            "HallOut3"
+          ],
+          "at": [
+            "-1",
+            "0.95",
+            "90"
+          ],
+          "size": [
+            "0.9",
+            "0.8"
+          ],
+          "drill": []
+        },
+        {
+          "number": "3",
+          "net": [
+            "42",
+            "AGND"
+          ],
+          "at": [
+            "1",
+            "0",
+            "90"
+          ],
+          "size": [
+            "0.9",
+            "0.8"
+          ],
+          "drill": []
+        }
+      ]
+    },
+    {
+      "reference": "U20",
+      "value": "AH49E",
+      "footprint": "Package_TO_SOT_SMD:SOT-23",
+      "properties": {
+        "Sheetfile": "3x8.kicad_sch",
+        "Sheetname": ""
+      },
+      "at": [
+        "94",
+        "88.75",
+        "90"
+      ],
+      "layer": [
+        "F.Cu"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "net": [
+            "33",
+            "PQ3"
+          ],
+          "at": [
+            "-1",
+            "-0.95",
+            "90"
+          ],
+          "size": [
+            "0.9",
+            "0.8"
+          ],
+          "drill": []
+        },
+        {
+          "number": "2",
+          "net": [
+            "37",
+            "HallOut4"
+          ],
+          "at": [
+            "-1",
+            "0.95",
+            "90"
+          ],
+          "size": [
+            "0.9",
+            "0.8"
+          ],
+          "drill": []
+        },
+        {
+          "number": "3",
+          "net": [
+            "42",
+            "AGND"
+          ],
+          "at": [
+            "1",
+            "0",
+            "90"
+          ],
+          "size": [
+            "0.9",
+            "0.8"
+          ],
+          "drill": []
+        }
+      ]
+    },
+    {
+      "reference": "U21",
+      "value": "AH49E",
+      "footprint": "Package_TO_SOT_SMD:SOT-23",
+      "properties": {
+        "Sheetfile": "3x8.kicad_sch",
+        "Sheetname": ""
+      },
+      "at": [
+        "116",
+        "88.75",
+        "90"
+      ],
+      "layer": [
+        "F.Cu"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "net": [
+            "33",
+            "PQ3"
+          ],
+          "at": [
+            "-1",
+            "-0.95",
+            "90"
+          ],
+          "size": [
+            "0.9",
+            "0.8"
+          ],
+          "drill": []
+        },
+        {
+          "number": "2",
+          "net": [
+            "38",
+            "HallOut5"
+          ],
+          "at": [
+            "-1",
+            "0.95",
+            "90"
+          ],
+          "size": [
+            "0.9",
+            "0.8"
+          ],
+          "drill": []
+        },
+        {
+          "number": "3",
+          "net": [
+            "42",
+            "AGND"
+          ],
+          "at": [
+            "1",
+            "0",
+            "90"
+          ],
+          "size": [
+            "0.9",
+            "0.8"
+          ],
+          "drill": []
+        }
+      ]
+    },
+    {
+      "reference": "U22",
+      "value": "AH49E",
+      "footprint": "Package_TO_SOT_SMD:SOT-23",
+      "properties": {
+        "Sheetfile": "3x8.kicad_sch",
+        "Sheetname": ""
+      },
+      "at": [
+        "138",
+        "88.75",
+        "90"
+      ],
+      "layer": [
+        "F.Cu"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "net": [
+            "33",
+            "PQ3"
+          ],
+          "at": [
+            "-1",
+            "-0.95",
+            "90"
+          ],
+          "size": [
+            "0.9",
+            "0.8"
+          ],
+          "drill": []
+        },
+        {
+          "number": "2",
+          "net": [
+            "39",
+            "HallOut6"
+          ],
+          "at": [
+            "-1",
+            "0.95",
+            "90"
+          ],
+          "size": [
+            "0.9",
+            "0.8"
+          ],
+          "drill": []
+        },
+        {
+          "number": "3",
+          "net": [
+            "42",
+            "AGND"
+          ],
+          "at": [
+            "1",
+            "0",
+            "90"
+          ],
+          "size": [
+            "0.9",
+            "0.8"
+          ],
+          "drill": []
+        }
+      ]
+    },
+    {
+      "reference": "U23",
+      "value": "AH49E",
+      "footprint": "Package_TO_SOT_SMD:SOT-23",
+      "properties": {
+        "Sheetfile": "3x8.kicad_sch",
+        "Sheetname": ""
+      },
+      "at": [
+        "160",
+        "88.75",
+        "90"
+      ],
+      "layer": [
+        "F.Cu"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "net": [
+            "33",
+            "PQ3"
+          ],
+          "at": [
+            "-1",
+            "-0.95",
+            "90"
+          ],
+          "size": [
+            "0.9",
+            "0.8"
+          ],
+          "drill": []
+        },
+        {
+          "number": "2",
+          "net": [
+            "40",
+            "HallOut7"
+          ],
+          "at": [
+            "-1",
+            "0.95",
+            "90"
+          ],
+          "size": [
+            "0.9",
+            "0.8"
+          ],
+          "drill": []
+        },
+        {
+          "number": "3",
+          "net": [
+            "42",
+            "AGND"
+          ],
+          "at": [
+            "1",
+            "0",
+            "90"
+          ],
+          "size": [
+            "0.9",
+            "0.8"
+          ],
+          "drill": []
+        }
+      ]
+    },
+    {
+      "reference": "U24",
+      "value": "AH49E",
+      "footprint": "Package_TO_SOT_SMD:SOT-23",
+      "properties": {
+        "Sheetfile": "3x8.kicad_sch",
+        "Sheetname": ""
+      },
+      "at": [
+        "182",
+        "88.75",
+        "90"
+      ],
+      "layer": [
+        "F.Cu"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "net": [
+            "33",
+            "PQ3"
+          ],
+          "at": [
+            "-1",
+            "-0.95",
+            "90"
+          ],
+          "size": [
+            "0.9",
+            "0.8"
+          ],
+          "drill": []
+        },
+        {
+          "number": "2",
+          "net": [
+            "41",
+            "HallOut8"
+          ],
+          "at": [
+            "-1",
+            "0.95",
+            "90"
+          ],
+          "size": [
+            "0.9",
+            "0.8"
+          ],
+          "drill": []
+        },
+        {
+          "number": "3",
+          "net": [
+            "42",
+            "AGND"
+          ],
+          "at": [
+            "1",
+            "0",
+            "90"
+          ],
+          "size": [
+            "0.9",
+            "0.8"
+          ],
+          "drill": []
+        }
+      ]
+    },
+    {
+      "reference": "C1",
+      "value": "C104",
+      "footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "properties": {
+        "Sheetfile": "3x8.kicad_sch",
+        "Sheetname": ""
+      },
+      "at": [
+        "27.8768",
+        "37.65",
+        "180"
+      ],
+      "layer": [
+        "F.Cu"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "net": [
+            "1",
+            "P"
+          ],
+          "at": [
+            "-1.475",
+            "0",
+            "180"
+          ],
+          "size": [
+            "1.15",
+            "1.8"
+          ],
+          "drill": []
+        },
+        {
+          "number": "2",
+          "net": [
+            "10",
+            "GND"
+          ],
+          "at": [
+            "1.475",
+            "0",
+            "180"
+          ],
+          "size": [
+            "1.15",
+            "1.8"
+          ],
+          "drill": []
+        }
+      ]
+    },
+    {
+      "reference": "C5",
+      "value": "C104",
+      "footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "properties": {
+        "Sheetfile": "3x8.kicad_sch",
+        "Sheetname": ""
+      },
+      "at": [
+        "115.8768",
+        "37.65",
+        "180"
+      ],
+      "layer": [
+        "F.Cu"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "net": [
+            "1",
+            "P"
+          ],
+          "at": [
+            "-1.475",
+            "0",
+            "180"
+          ],
+          "size": [
+            "1.15",
+            "1.8"
+          ],
+          "drill": []
+        },
+        {
+          "number": "2",
+          "net": [
+            "10",
+            "GND"
+          ],
+          "at": [
+            "1.475",
+            "0",
+            "180"
+          ],
+          "size": [
+            "1.15",
+            "1.8"
+          ],
+          "drill": []
+        }
+      ]
+    },
+    {
+      "reference": "C6",
+      "value": "C104",
+      "footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "properties": {
+        "Sheetfile": "3x8.kicad_sch",
+        "Sheetname": ""
+      },
+      "at": [
+        "137.8768",
+        "37.65",
+        "180"
+      ],
+      "layer": [
+        "F.Cu"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "net": [
+            "1",
+            "P"
+          ],
+          "at": [
+            "-1.475",
+            "0",
+            "180"
+          ],
+          "size": [
+            "1.15",
+            "1.8"
+          ],
+          "drill": []
+        },
+        {
+          "number": "2",
+          "net": [
+            "10",
+            "GND"
+          ],
+          "at": [
+            "1.475",
+            "0",
+            "180"
+          ],
+          "size": [
+            "1.15",
+            "1.8"
+          ],
+          "drill": []
+        }
+      ]
+    },
+    {
+      "reference": "M2",
+      "value": "MountingHole_3mm",
+      "footprint": "MountingHole:MountingHole_3mm",
+      "properties": {},
+      "at": [
+        "105.98",
+        "53.92"
+      ],
+      "layer": [
+        "F.Cu"
+      ],
+      "pads": [
+        {
+          "number": "",
+          "net": [],
+          "at": [
+            "0",
+            "0"
+          ],
+          "size": [
+            "3",
+            "3"
+          ],
+          "drill": [
+            "3"
+          ]
+        }
+      ]
+    },
+    {
+      "reference": "C22",
+      "value": "C104",
+      "footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "properties": {
+        "Sheetfile": "3x8.kicad_sch",
+        "Sheetname": ""
+      },
+      "at": [
+        "137.8768",
+        "85.05",
+        "180"
+      ],
+      "layer": [
+        "F.Cu"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "net": [
+            "1",
+            "P"
+          ],
+          "at": [
+            "-1.475",
+            "0",
+            "180"
+          ],
+          "size": [
+            "1.15",
+            "1.8"
+          ],
+          "drill": []
+        },
+        {
+          "number": "2",
+          "net": [
+            "10",
+            "GND"
+          ],
+          "at": [
+            "1.475",
+            "0",
+            "180"
+          ],
+          "size": [
+            "1.15",
+            "1.8"
+          ],
+          "drill": []
+        }
+      ]
+    },
+    {
+      "reference": "C19",
+      "value": "C104",
+      "footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "properties": {
+        "Sheetfile": "3x8.kicad_sch",
+        "Sheetname": ""
+      },
+      "at": [
+        "71.8768",
+        "85.05",
+        "180"
+      ],
+      "layer": [
+        "F.Cu"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "net": [
+            "1",
+            "P"
+          ],
+          "at": [
+            "-1.475",
+            "0",
+            "180"
+          ],
+          "size": [
+            "1.15",
+            "1.8"
+          ],
+          "drill": []
+        },
+        {
+          "number": "2",
+          "net": [
+            "10",
+            "GND"
+          ],
+          "at": [
+            "1.475",
+            "0",
+            "180"
+          ],
+          "size": [
+            "1.15",
+            "1.8"
+          ],
+          "drill": []
+        }
+      ]
+    },
+    {
+      "reference": "C20",
+      "value": "C104",
+      "footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "properties": {
+        "Sheetfile": "3x8.kicad_sch",
+        "Sheetname": ""
+      },
+      "at": [
+        "93.8768",
+        "85.05",
+        "180"
+      ],
+      "layer": [
+        "F.Cu"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "net": [
+            "1",
+            "P"
+          ],
+          "at": [
+            "-1.475",
+            "0",
+            "180"
+          ],
+          "size": [
+            "1.15",
+            "1.8"
+          ],
+          "drill": []
+        },
+        {
+          "number": "2",
+          "net": [
+            "10",
+            "GND"
+          ],
+          "at": [
+            "1.475",
+            "0",
+            "180"
+          ],
+          "size": [
+            "1.15",
+            "1.8"
+          ],
+          "drill": []
+        }
+      ]
+    },
+    {
+      "reference": "C18",
+      "value": "C104",
+      "footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "properties": {
+        "Sheetfile": "3x8.kicad_sch",
+        "Sheetname": ""
+      },
+      "at": [
+        "49.8768",
+        "85.05",
+        "180"
+      ],
+      "layer": [
+        "F.Cu"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "net": [
+            "1",
+            "P"
+          ],
+          "at": [
+            "-1.475",
+            "0",
+            "180"
+          ],
+          "size": [
+            "1.15",
+            "1.8"
+          ],
+          "drill": []
+        },
+        {
+          "number": "2",
+          "net": [
+            "10",
+            "GND"
+          ],
+          "at": [
+            "1.475",
+            "0",
+            "180"
+          ],
+          "size": [
+            "1.15",
+            "1.8"
+          ],
+          "drill": []
+        }
+      ]
+    },
+    {
+      "reference": "C24",
+      "value": "C104",
+      "footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "properties": {
+        "Sheetfile": "3x8.kicad_sch",
+        "Sheetname": ""
+      },
+      "at": [
+        "181.8768",
+        "85.05",
+        "180"
+      ],
+      "layer": [
+        "F.Cu"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "net": [
+            "1",
+            "P"
+          ],
+          "at": [
+            "-1.475",
+            "0",
+            "180"
+          ],
+          "size": [
+            "1.15",
+            "1.8"
+          ],
+          "drill": []
+        },
+        {
+          "number": "2",
+          "net": [
+            "10",
+            "GND"
+          ],
+          "at": [
+            "1.475",
+            "0",
+            "180"
+          ],
+          "size": [
+            "1.15",
+            "1.8"
+          ],
+          "drill": []
+        }
+      ]
+    },
+    {
+      "reference": "C17",
+      "value": "C104",
+      "footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "properties": {
+        "Sheetfile": "3x8.kicad_sch",
+        "Sheetname": ""
+      },
+      "at": [
+        "27.8768",
+        "85.05",
+        "180"
+      ],
+      "layer": [
+        "F.Cu"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "net": [
+            "1",
+            "P"
+          ],
+          "at": [
+            "-1.475",
+            "0",
+            "180"
+          ],
+          "size": [
+            "1.15",
+            "1.8"
+          ],
+          "drill": []
+        },
+        {
+          "number": "2",
+          "net": [
+            "10",
+            "GND"
+          ],
+          "at": [
+            "1.475",
+            "0",
+            "180"
+          ],
+          "size": [
+            "1.15",
+            "1.8"
+          ],
+          "drill": []
+        }
+      ]
+    },
+    {
+      "reference": "C7",
+      "value": "C104",
+      "footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "properties": {
+        "Sheetfile": "3x8.kicad_sch",
+        "Sheetname": ""
+      },
+      "at": [
+        "159.8768",
+        "37.65",
+        "180"
+      ],
+      "layer": [
+        "F.Cu"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "net": [
+            "1",
+            "P"
+          ],
+          "at": [
+            "-1.475",
+            "0",
+            "180"
+          ],
+          "size": [
+            "1.15",
+            "1.8"
+          ],
+          "drill": []
+        },
+        {
+          "number": "2",
+          "net": [
+            "10",
+            "GND"
+          ],
+          "at": [
+            "1.475",
+            "0",
+            "180"
+          ],
+          "size": [
+            "1.15",
+            "1.8"
+          ],
+          "drill": []
+        }
+      ]
+    },
+    {
+      "reference": "C9",
+      "value": "C104",
+      "footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "properties": {
+        "Sheetfile": "3x8.kicad_sch",
+        "Sheetname": ""
+      },
+      "at": [
+        "27.8768",
+        "61.35"
+      ],
+      "layer": [
+        "F.Cu"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "net": [
+            "1",
+            "P"
+          ],
+          "at": [
+            "-1.475",
+            "0"
+          ],
+          "size": [
+            "1.15",
+            "1.8"
+          ],
+          "drill": []
+        },
+        {
+          "number": "2",
+          "net": [
+            "10",
+            "GND"
+          ],
+          "at": [
+            "1.475",
+            "0"
+          ],
+          "size": [
+            "1.15",
+            "1.8"
+          ],
+          "drill": []
+        }
+      ]
+    },
+    {
+      "reference": "C14",
+      "value": "C104",
+      "footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "properties": {
+        "Sheetfile": "3x8.kicad_sch",
+        "Sheetname": ""
+      },
+      "at": [
+        "137.8768",
+        "61.35"
+      ],
+      "layer": [
+        "F.Cu"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "net": [
+            "1",
+            "P"
+          ],
+          "at": [
+            "-1.475",
+            "0"
+          ],
+          "size": [
+            "1.15",
+            "1.8"
+          ],
+          "drill": []
+        },
+        {
+          "number": "2",
+          "net": [
+            "10",
+            "GND"
+          ],
+          "at": [
+            "1.475",
+            "0"
+          ],
+          "size": [
+            "1.15",
+            "1.8"
+          ],
+          "drill": []
+        }
+      ]
+    },
+    {
+      "reference": "C3",
+      "value": "C104",
+      "footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "properties": {
+        "Sheetfile": "3x8.kicad_sch",
+        "Sheetname": ""
+      },
+      "at": [
+        "71.8768",
+        "37.65",
+        "180"
+      ],
+      "layer": [
+        "F.Cu"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "net": [
+            "1",
+            "P"
+          ],
+          "at": [
+            "-1.475",
+            "0",
+            "180"
+          ],
+          "size": [
+            "1.15",
+            "1.8"
+          ],
+          "drill": []
+        },
+        {
+          "number": "2",
+          "net": [
+            "10",
+            "GND"
+          ],
+          "at": [
+            "1.475",
+            "0",
+            "180"
+          ],
+          "size": [
+            "1.15",
+            "1.8"
+          ],
+          "drill": []
+        }
+      ]
+    },
+    {
+      "reference": "C23",
+      "value": "C104",
+      "footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "properties": {
+        "Sheetfile": "3x8.kicad_sch",
+        "Sheetname": ""
+      },
+      "at": [
+        "159.8768",
+        "85.05",
+        "180"
+      ],
+      "layer": [
+        "F.Cu"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "net": [
+            "1",
+            "P"
+          ],
+          "at": [
+            "-1.475",
+            "0",
+            "180"
+          ],
+          "size": [
+            "1.15",
+            "1.8"
+          ],
+          "drill": []
+        },
+        {
+          "number": "2",
+          "net": [
+            "10",
+            "GND"
+          ],
+          "at": [
+            "1.475",
+            "0",
+            "180"
+          ],
+          "size": [
+            "1.15",
+            "1.8"
+          ],
+          "drill": []
+        }
+      ]
+    },
+    {
+      "reference": "C15",
+      "value": "C104",
+      "footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "properties": {
+        "Sheetfile": "3x8.kicad_sch",
+        "Sheetname": ""
+      },
+      "at": [
+        "159.8768",
+        "61.35"
+      ],
+      "layer": [
+        "F.Cu"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "net": [
+            "1",
+            "P"
+          ],
+          "at": [
+            "-1.475",
+            "0"
+          ],
+          "size": [
+            "1.15",
+            "1.8"
+          ],
+          "drill": []
+        },
+        {
+          "number": "2",
+          "net": [
+            "10",
+            "GND"
+          ],
+          "at": [
+            "1.475",
+            "0"
+          ],
+          "size": [
+            "1.15",
+            "1.8"
+          ],
+          "drill": []
+        }
+      ]
+    },
+    {
+      "reference": "M3",
+      "value": "MountingHole_3mm",
+      "footprint": "MountingHole:MountingHole_3mm",
+      "properties": {},
+      "at": [
+        "170.85",
+        "54.72"
+      ],
+      "layer": [
+        "F.Cu"
+      ],
+      "pads": [
+        {
+          "number": "",
+          "net": [],
+          "at": [
+            "0",
+            "0"
+          ],
+          "size": [
+            "3",
+            "3"
+          ],
+          "drill": [
+            "3"
+          ]
+        }
+      ]
+    },
+    {
+      "reference": "C4",
+      "value": "C104",
+      "footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "properties": {
+        "Sheetfile": "3x8.kicad_sch",
+        "Sheetname": ""
+      },
+      "at": [
+        "93.8768",
+        "37.65",
+        "180"
+      ],
+      "layer": [
+        "F.Cu"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "net": [
+            "1",
+            "P"
+          ],
+          "at": [
+            "-1.475",
+            "0",
+            "180"
+          ],
+          "size": [
+            "1.15",
+            "1.8"
+          ],
+          "drill": []
+        },
+        {
+          "number": "2",
+          "net": [
+            "10",
+            "GND"
+          ],
+          "at": [
+            "1.475",
+            "0",
+            "180"
+          ],
+          "size": [
+            "1.15",
+            "1.8"
+          ],
+          "drill": []
+        }
+      ]
+    },
+    {
+      "reference": "C10",
+      "value": "C104",
+      "footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "properties": {
+        "Sheetfile": "3x8.kicad_sch",
+        "Sheetname": ""
+      },
+      "at": [
+        "49.8768",
+        "61.35"
+      ],
+      "layer": [
+        "F.Cu"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "net": [
+            "1",
+            "P"
+          ],
+          "at": [
+            "-1.475",
+            "0"
+          ],
+          "size": [
+            "1.15",
+            "1.8"
+          ],
+          "drill": []
+        },
+        {
+          "number": "2",
+          "net": [
+            "10",
+            "GND"
+          ],
+          "at": [
+            "1.475",
+            "0"
+          ],
+          "size": [
+            "1.15",
+            "1.8"
+          ],
+          "drill": []
+        }
+      ]
+    },
+    {
+      "reference": "C8",
+      "value": "C104",
+      "footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "properties": {
+        "Sheetfile": "3x8.kicad_sch",
+        "Sheetname": ""
+      },
+      "at": [
+        "181.8768",
+        "37.65",
+        "180"
+      ],
+      "layer": [
+        "F.Cu"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "net": [
+            "1",
+            "P"
+          ],
+          "at": [
+            "-1.475",
+            "0",
+            "180"
+          ],
+          "size": [
+            "1.15",
+            "1.8"
+          ],
+          "drill": []
+        },
+        {
+          "number": "2",
+          "net": [
+            "10",
+            "GND"
+          ],
+          "at": [
+            "1.475",
+            "0",
+            "180"
+          ],
+          "size": [
+            "1.15",
+            "1.8"
+          ],
+          "drill": []
+        }
+      ]
+    },
+    {
+      "reference": "C16",
+      "value": "C104",
+      "footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "properties": {
+        "Sheetfile": "3x8.kicad_sch",
+        "Sheetname": ""
+      },
+      "at": [
+        "181.8768",
+        "61.35"
+      ],
+      "layer": [
+        "F.Cu"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "net": [
+            "1",
+            "P"
+          ],
+          "at": [
+            "-1.475",
+            "0"
+          ],
+          "size": [
+            "1.15",
+            "1.8"
+          ],
+          "drill": []
+        },
+        {
+          "number": "2",
+          "net": [
+            "10",
+            "GND"
+          ],
+          "at": [
+            "1.475",
+            "0"
+          ],
+          "size": [
+            "1.15",
+            "1.8"
+          ],
+          "drill": []
+        }
+      ]
+    },
+    {
+      "reference": "C13",
+      "value": "C104",
+      "footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "properties": {
+        "Sheetfile": "3x8.kicad_sch",
+        "Sheetname": ""
+      },
+      "at": [
+        "115.8768",
+        "61.35"
+      ],
+      "layer": [
+        "F.Cu"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "net": [
+            "1",
+            "P"
+          ],
+          "at": [
+            "-1.475",
+            "0"
+          ],
+          "size": [
+            "1.15",
+            "1.8"
+          ],
+          "drill": []
+        },
+        {
+          "number": "2",
+          "net": [
+            "10",
+            "GND"
+          ],
+          "at": [
+            "1.475",
+            "0"
+          ],
+          "size": [
+            "1.15",
+            "1.8"
+          ],
+          "drill": []
+        }
+      ]
+    },
+    {
+      "reference": "C2",
+      "value": "C104",
+      "footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "properties": {
+        "Sheetfile": "3x8.kicad_sch",
+        "Sheetname": ""
+      },
+      "at": [
+        "49.8768",
+        "37.65",
+        "180"
+      ],
+      "layer": [
+        "F.Cu"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "net": [
+            "1",
+            "P"
+          ],
+          "at": [
+            "-1.475",
+            "0",
+            "180"
+          ],
+          "size": [
+            "1.15",
+            "1.8"
+          ],
+          "drill": []
+        },
+        {
+          "number": "2",
+          "net": [
+            "10",
+            "GND"
+          ],
+          "at": [
+            "1.475",
+            "0",
+            "180"
+          ],
+          "size": [
+            "1.15",
+            "1.8"
+          ],
+          "drill": []
+        }
+      ]
+    },
+    {
+      "reference": "C11",
+      "value": "C104",
+      "footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "properties": {
+        "Sheetfile": "3x8.kicad_sch",
+        "Sheetname": ""
+      },
+      "at": [
+        "71.8768",
+        "61.35"
+      ],
+      "layer": [
+        "F.Cu"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "net": [
+            "1",
+            "P"
+          ],
+          "at": [
+            "-1.475",
+            "0"
+          ],
+          "size": [
+            "1.15",
+            "1.8"
+          ],
+          "drill": []
+        },
+        {
+          "number": "2",
+          "net": [
+            "10",
+            "GND"
+          ],
+          "at": [
+            "1.475",
+            "0"
+          ],
+          "size": [
+            "1.15",
+            "1.8"
+          ],
+          "drill": []
+        }
+      ]
+    },
+    {
+      "reference": "C12",
+      "value": "C104",
+      "footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "properties": {
+        "Sheetfile": "3x8.kicad_sch",
+        "Sheetname": ""
+      },
+      "at": [
+        "93.8768",
+        "61.35"
+      ],
+      "layer": [
+        "F.Cu"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "net": [
+            "1",
+            "P"
+          ],
+          "at": [
+            "-1.475",
+            "0"
+          ],
+          "size": [
+            "1.15",
+            "1.8"
+          ],
+          "drill": []
+        },
+        {
+          "number": "2",
+          "net": [
+            "10",
+            "GND"
+          ],
+          "at": [
+            "1.475",
+            "0"
+          ],
+          "size": [
+            "1.15",
+            "1.8"
+          ],
+          "drill": []
+        }
+      ]
+    },
+    {
+      "reference": "M1",
+      "value": "MountingHole_3mm",
+      "footprint": "MountingHole:MountingHole_3mm",
+      "properties": {},
+      "at": [
+        "39.54",
+        "54.16"
+      ],
+      "layer": [
+        "F.Cu"
+      ],
+      "pads": [
+        {
+          "number": "",
+          "net": [],
+          "at": [
+            "0",
+            "0"
+          ],
+          "size": [
+            "3",
+            "3"
+          ],
+          "drill": [
+            "3"
+          ]
+        }
+      ]
+    },
+    {
+      "reference": "C21",
+      "value": "C104",
+      "footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "properties": {
+        "Sheetfile": "3x8.kicad_sch",
+        "Sheetname": ""
+      },
+      "at": [
+        "115.8768",
+        "85.05",
+        "180"
+      ],
+      "layer": [
+        "F.Cu"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "net": [
+            "1",
+            "P"
+          ],
+          "at": [
+            "-1.475",
+            "0",
+            "180"
+          ],
+          "size": [
+            "1.15",
+            "1.8"
+          ],
+          "drill": []
+        },
+        {
+          "number": "2",
+          "net": [
+            "10",
+            "GND"
+          ],
+          "at": [
+            "1.475",
+            "0",
+            "180"
+          ],
+          "size": [
+            "1.15",
+            "1.8"
+          ],
+          "drill": []
+        }
+      ]
+    },
+    {
+      "reference": "J19",
+      "value": "IC_side_b",
+      "footprint": "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Horizontal_SMD",
+      "properties": {
+        "Sheetfile": "3x8.kicad_sch",
+        "Sheetname": ""
+      },
+      "at": [
+        "186.8",
+        "80.35",
+        "180"
+      ],
+      "layer": [
+        "B.Cu"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "net": [
+            "27",
+            "S0"
+          ],
+          "at": [
+            "4.78",
+            "1.24",
+            "180"
+          ],
+          "size": [
+            "2.6",
+            "1.02"
+          ],
+          "drill": []
+        },
+        {
+          "number": "2",
+          "net": [
+            "26",
+            "S1"
+          ],
+          "at": [
+            "4.78",
+            "-1.3",
+            "180"
+          ],
+          "size": [
+            "2.6",
+            "1.02"
+          ],
+          "drill": []
+        }
+      ]
+    },
+    {
+      "reference": "J16",
+      "value": "LedOut_side_a",
+      "footprint": "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Horizontal_SMD",
+      "properties": {
+        "Sheetfile": "3x8.kicad_sch",
+        "Sheetname": ""
+      },
+      "at": [
+        "23.2",
+        "92.5"
+      ],
+      "layer": [
+        "B.Cu"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "net": [
+            "1",
+            "P"
+          ],
+          "at": [
+            "4.77",
+            "2.5"
+          ],
+          "size": [
+            "2.6",
+            "1.02"
+          ],
+          "drill": []
+        },
+        {
+          "number": "2",
+          "net": [
+            "30",
+            "LedOut"
+          ],
+          "at": [
+            "4.77",
+            "-0.04"
+          ],
+          "size": [
+            "2.6",
+            "1.02"
+          ],
+          "drill": []
+        },
+        {
+          "number": "3",
+          "net": [
+            "10",
+            "GND"
+          ],
+          "at": [
+            "4.77",
+            "-2.58"
+          ],
+          "size": [
+            "2.6",
+            "1.02"
+          ],
+          "drill": []
+        }
+      ]
+    },
+    {
+      "reference": "J2",
+      "value": "Hall_top",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal_SMD",
+      "properties": {
+        "Sheetfile": "3x8.kicad_sch",
+        "Sheetname": ""
+      },
+      "at": [
+        "41.55",
+        "31.03",
+        "90"
+      ],
+      "layer": [
+        "B.Cu"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "net": [
+            "34",
+            "HallOut1"
+          ],
+          "at": [
+            "-4.78",
+            "-1.27",
+            "90"
+          ],
+          "size": [
+            "3.2",
+            "1.02"
+          ],
+          "drill": []
+        },
+        {
+          "number": "2",
+          "net": [
+            "35",
+            "HallOut2"
+          ],
+          "at": [
+            "-4.78",
+            "1.27",
+            "90"
+          ],
+          "size": [
+            "3.2",
+            "1.02"
+          ],
+          "drill": []
+        }
+      ]
+    },
+    {
+      "reference": "J13",
+      "value": "PQ_side_b",
+      "footprint": "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Horizontal_SMD",
+      "properties": {
+        "Sheetfile": "3x8.kicad_sch",
+        "Sheetname": ""
+      },
+      "at": [
+        "186.8",
+        "55.975",
+        "180"
+      ],
+      "layer": [
+        "B.Cu"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "net": [
+            "31",
+            "PQ1"
+          ],
+          "at": [
+            "4.77",
+            "2.5",
+            "180"
+          ],
+          "size": [
+            "2.6",
+            "1.02"
+          ],
+          "drill": []
+        },
+        {
+          "number": "2",
+          "net": [
+            "32",
+            "PQ2"
+          ],
+          "at": [
+            "4.77",
+            "-0.04",
+            "180"
+          ],
+          "size": [
+            "2.6",
+            "1.02"
+          ],
+          "drill": []
+        },
+        {
+          "number": "3",
+          "net": [
+            "33",
+            "PQ3"
+          ],
+          "at": [
+            "4.77",
+            "-2.58",
+            "180"
+          ],
+          "size": [
+            "2.6",
+            "1.02"
+          ],
+          "drill": []
+        }
+      ]
+    },
+    {
+      "reference": "UI1",
+      "value": "74hc4052D",
+      "footprint": "Package_SO:SO-16_3.9x9.9mm_P1.27mm",
+      "properties": {
+        "Sheetfile": "3x8.kicad_sch",
+        "Sheetname": ""
+      },
+      "at": [
+        "107.361904",
+        "78.08",
+        "180"
+      ],
+      "layer": [
+        "B.Cu"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "net": [
+            "35",
+            "HallOut2"
+          ],
+          "at": [
+            "-2.575",
+            "4.445",
+            "180"
+          ],
+          "size": [
+            "1.75",
+            "0.6"
+          ],
+          "drill": []
+        },
+        {
+          "number": "2",
+          "net": [
+            "39",
+            "HallOut6"
+          ],
+          "at": [
+            "-2.575",
+            "3.175",
+            "180"
+          ],
+          "size": [
+            "1.75",
+            "0.6"
+          ],
+          "drill": []
+        },
+        {
+          "number": "3",
+          "net": [
+            "28",
+            "Hall2"
+          ],
+          "at": [
+            "-2.575",
+            "1.905",
+            "180"
+          ],
+          "size": [
+            "1.75",
+            "0.6"
+          ],
+          "drill": []
+        },
+        {
+          "number": "4",
+          "net": [
+            "41",
+            "HallOut8"
+          ],
+          "at": [
+            "-2.575",
+            "0.635",
+            "180"
+          ],
+          "size": [
+            "1.75",
+            "0.6"
+          ],
+          "drill": []
+        },
+        {
+          "number": "5",
+          "net": [
+            "37",
+            "HallOut4"
+          ],
+          "at": [
+            "-2.575",
+            "-0.635",
+            "180"
+          ],
+          "size": [
+            "1.75",
+            "0.6"
+          ],
+          "drill": []
+        },
+        {
+          "number": "6",
+          "net": [
+            "10",
+            "GND"
+          ],
+          "at": [
+            "-2.575",
+            "-1.905",
+            "180"
+          ],
+          "size": [
+            "1.75",
+            "0.6"
+          ],
+          "drill": []
+        },
+        {
+          "number": "7",
+          "net": [
+            "10",
+            "GND"
+          ],
+          "at": [
+            "-2.575",
+            "-3.175",
+            "180"
+          ],
+          "size": [
+            "1.75",
+            "0.6"
+          ],
+          "drill": []
+        },
+        {
+          "number": "8",
+          "net": [
+            "10",
+            "GND"
+          ],
+          "at": [
+            "-2.575",
+            "-4.445",
+            "180"
+          ],
+          "size": [
+            "1.75",
+            "0.6"
+          ],
+          "drill": []
+        },
+        {
+          "number": "9",
+          "net": [
+            "26",
+            "S1"
+          ],
+          "at": [
+            "2.575",
+            "-4.445",
+            "180"
+          ],
+          "size": [
+            "1.75",
+            "0.6"
+          ],
+          "drill": []
+        },
+        {
+          "number": "10",
+          "net": [
+            "27",
+            "S0"
+          ],
+          "at": [
+            "2.575",
+            "-3.175",
+            "180"
+          ],
+          "size": [
+            "1.75",
+            "0.6"
+          ],
+          "drill": []
+        },
+        {
+          "number": "11",
+          "net": [
+            "40",
+            "HallOut7"
+          ],
+          "at": [
+            "2.575",
+            "-1.905",
+            "180"
+          ],
+          "size": [
+            "1.75",
+            "0.6"
+          ],
+          "drill": []
+        },
+        {
+          "number": "12",
+          "net": [
+            "34",
+            "HallOut1"
+          ],
+          "at": [
+            "2.575",
+            "-0.635",
+            "180"
+          ],
+          "size": [
+            "1.75",
+            "0.6"
+          ],
+          "drill": []
+        },
+        {
+          "number": "13",
+          "net": [
+            "29",
+            "Hall1"
+          ],
+          "at": [
+            "2.575",
+            "0.635",
+            "180"
+          ],
+          "size": [
+            "1.75",
+            "0.6"
+          ],
+          "drill": []
+        },
+        {
+          "number": "14",
+          "net": [
+            "36",
+            "HallOut3"
+          ],
+          "at": [
+            "2.575",
+            "1.905",
+            "180"
+          ],
+          "size": [
+            "1.75",
+            "0.6"
+          ],
+          "drill": []
+        },
+        {
+          "number": "15",
+          "net": [
+            "38",
+            "HallOut5"
+          ],
+          "at": [
+            "2.575",
+            "3.175",
+            "180"
+          ],
+          "size": [
+            "1.75",
+            "0.6"
+          ],
+          "drill": []
+        },
+        {
+          "number": "16",
+          "net": [
+            "1",
+            "P"
+          ],
+          "at": [
+            "2.575",
+            "4.445",
+            "180"
+          ],
+          "size": [
+            "1.75",
+            "0.6"
+          ],
+          "drill": []
+        }
+      ]
+    },
+    {
+      "reference": "J14",
+      "value": "Touch_side_a",
+      "footprint": "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Horizontal_SMD",
+      "properties": {
+        "Sheetfile": "3x8.kicad_sch",
+        "Sheetname": ""
+      },
+      "at": [
+        "23.2",
+        "47.21"
+      ],
+      "layer": [
+        "B.Cu"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "net": [
+            "11",
+            "unconnected-(J14-Pad1)"
+          ],
+          "at": [
+            "4.78",
+            "1.24"
+          ],
+          "size": [
+            "2.6",
+            "1.02"
+          ],
+          "drill": []
+        },
+        {
+          "number": "2",
+          "net": [
+            "42",
+            "AGND"
+          ],
+          "at": [
+            "4.78",
+            "-1.3"
+          ],
+          "size": [
+            "2.6",
+            "1.02"
+          ],
+          "drill": []
+        }
+      ]
+    },
+    {
+      "reference": "J17",
+      "value": "LedOut_side_b",
+      "footprint": "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Horizontal_SMD",
+      "properties": {
+        "Sheetfile": "3x8.kicad_sch",
+        "Sheetname": ""
+      },
+      "at": [
+        "186.8",
+        "92.5",
+        "180"
+      ],
+      "layer": [
+        "B.Cu"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "net": [
+            "10",
+            "GND"
+          ],
+          "at": [
+            "4.77",
+            "2.5",
+            "180"
+          ],
+          "size": [
+            "2.6",
+            "1.02"
+          ],
+          "drill": []
+        },
+        {
+          "number": "2",
+          "net": [
+            "30",
+            "LedOut"
+          ],
+          "at": [
+            "4.77",
+            "-0.04",
+            "180"
+          ],
+          "size": [
+            "2.6",
+            "1.02"
+          ],
+          "drill": []
+        },
+        {
+          "number": "3",
+          "net": [
+            "1",
+            "P"
+          ],
+          "at": [
+            "4.77",
+            "-2.58",
+            "180"
+          ],
+          "size": [
+            "2.6",
+            "1.02"
+          ],
+          "drill": []
+        }
+      ]
+    },
+    {
+      "reference": "J3",
+      "value": "Hall_top",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal_SMD",
+      "properties": {
+        "Sheetfile": "3x8.kicad_sch",
+        "Sheetname": ""
+      },
+      "at": [
+        "85.55",
+        "31.03",
+        "90"
+      ],
+      "layer": [
+        "B.Cu"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "net": [
+            "36",
+            "HallOut3"
+          ],
+          "at": [
+            "-4.78",
+            "-1.27",
+            "90"
+          ],
+          "size": [
+            "3.2",
+            "1.02"
+          ],
+          "drill": []
+        },
+        {
+          "number": "2",
+          "net": [
+            "37",
+            "HallOut4"
+          ],
+          "at": [
+            "-4.78",
+            "1.27",
+            "90"
+          ],
+          "size": [
+            "3.2",
+            "1.02"
+          ],
+          "drill": []
+        }
+      ]
+    },
+    {
+      "reference": "CI1",
+      "value": "C104",
+      "footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "properties": {
+        "Sheetfile": "3x8.kicad_sch",
+        "Sheetname": ""
+      },
+      "at": [
+        "105.96",
+        "71.44"
+      ],
+      "layer": [
+        "B.Cu"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "net": [
+            "1",
+            "P"
+          ],
+          "at": [
+            "-1.475",
+            "0"
+          ],
+          "size": [
+            "1.15",
+            "1.8"
+          ],
+          "drill": []
+        },
+        {
+          "number": "2",
+          "net": [
+            "10",
+            "GND"
+          ],
+          "at": [
+            "1.475",
+            "0"
+          ],
+          "size": [
+            "1.15",
+            "1.8"
+          ],
+          "drill": []
+        }
+      ]
+    },
+    {
+      "reference": "J20",
+      "value": "Hall_side_a",
+      "footprint": "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Horizontal_SMD",
+      "properties": {
+        "Sheetfile": "3x8.kicad_sch",
+        "Sheetname": ""
+      },
+      "at": [
+        "23.2",
+        "73.94"
+      ],
+      "layer": [
+        "B.Cu"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "net": [
+            "29",
+            "Hall1"
+          ],
+          "at": [
+            "4.78",
+            "1.24"
+          ],
+          "size": [
+            "2.6",
+            "1.02"
+          ],
+          "drill": []
+        },
+        {
+          "number": "2",
+          "net": [
+            "28",
+            "Hall2"
+          ],
+          "at": [
+            "4.78",
+            "-1.3"
+          ],
+          "size": [
+            "2.6",
+            "1.02"
+          ],
+          "drill": []
+        }
+      ]
+    },
+    {
+      "reference": "J18",
+      "value": "IC_side_a",
+      "footprint": "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Horizontal_SMD",
+      "properties": {
+        "Sheetfile": "3x8.kicad_sch",
+        "Sheetname": ""
+      },
+      "at": [
+        "23.2",
+        "80.35"
+      ],
+      "layer": [
+        "B.Cu"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "net": [
+            "26",
+            "S1"
+          ],
+          "at": [
+            "4.78",
+            "1.24"
+          ],
+          "size": [
+            "2.6",
+            "1.02"
+          ],
+          "drill": []
+        },
+        {
+          "number": "2",
+          "net": [
+            "27",
+            "S0"
+          ],
+          "at": [
+            "4.78",
+            "-1.3"
+          ],
+          "size": [
+            "2.6",
+            "1.02"
+          ],
+          "drill": []
+        }
+      ]
+    },
+    {
+      "reference": "J10",
+      "value": "LedIn",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal_SMD",
+      "properties": {
+        "Sheetfile": "3x8.kicad_sch",
+        "Sheetname": ""
+      },
+      "at": [
+        "21.35",
+        "31.03",
+        "90"
+      ],
+      "layer": [
+        "B.Cu"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "net": [
+            "45",
+            "unconnected-(J10-Pad1)"
+          ],
+          "at": [
+            "-4.78",
+            "-1.27",
+            "90"
+          ],
+          "size": [
+            "3.2",
+            "1.02"
+          ],
+          "drill": []
+        },
+        {
+          "number": "2",
+          "net": [
+            "2",
+            "LedIn"
+          ],
+          "at": [
+            "-4.78",
+            "1.27",
+            "90"
+          ],
+          "size": [
+            "3.2",
+            "1.02"
+          ],
+          "drill": []
+        }
+      ]
+    },
+    {
+      "reference": "J21",
+      "value": "Hall_side_b",
+      "footprint": "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Horizontal_SMD",
+      "properties": {
+        "Sheetfile": "3x8.kicad_sch",
+        "Sheetname": ""
+      },
+      "at": [
+        "186.8",
+        "73.94",
+        "180"
+      ],
+      "layer": [
+        "B.Cu"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "net": [
+            "28",
+            "Hall2"
+          ],
+          "at": [
+            "4.78",
+            "1.24",
+            "180"
+          ],
+          "size": [
+            "2.6",
+            "1.02"
+          ],
+          "drill": []
+        },
+        {
+          "number": "2",
+          "net": [
+            "29",
+            "Hall1"
+          ],
+          "at": [
+            "4.78",
+            "-1.3",
+            "180"
+          ],
+          "size": [
+            "2.6",
+            "1.02"
+          ],
+          "drill": []
+        }
+      ]
+    },
+    {
+      "reference": "J15",
+      "value": "Touch_side_b",
+      "footprint": "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Horizontal_SMD",
+      "properties": {
+        "Sheetfile": "3x8.kicad_sch",
+        "Sheetname": ""
+      },
+      "at": [
+        "186.8",
+        "47.21",
+        "180"
+      ],
+      "layer": [
+        "B.Cu"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "net": [
+            "42",
+            "AGND"
+          ],
+          "at": [
+            "4.78",
+            "1.24",
+            "180"
+          ],
+          "size": [
+            "2.6",
+            "1.02"
+          ],
+          "drill": []
+        },
+        {
+          "number": "2",
+          "net": [
+            "46",
+            "unconnected-(J15-Pad2)"
+          ],
+          "at": [
+            "4.78",
+            "-1.3",
+            "180"
+          ],
+          "size": [
+            "2.6",
+            "1.02"
+          ],
+          "drill": []
+        }
+      ]
+    },
+    {
+      "reference": "J12",
+      "value": "PQ_side_a",
+      "footprint": "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Horizontal_SMD",
+      "properties": {
+        "Sheetfile": "3x8.kicad_sch",
+        "Sheetname": ""
+      },
+      "at": [
+        "23.2",
+        "55.975"
+      ],
+      "layer": [
+        "B.Cu"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "net": [
+            "33",
+            "PQ3"
+          ],
+          "at": [
+            "4.77",
+            "2.5"
+          ],
+          "size": [
+            "2.6",
+            "1.02"
+          ],
+          "drill": []
+        },
+        {
+          "number": "2",
+          "net": [
+            "32",
+            "PQ2"
+          ],
+          "at": [
+            "4.77",
+            "-0.04"
+          ],
+          "size": [
+            "2.6",
+            "1.02"
+          ],
+          "drill": []
+        },
+        {
+          "number": "3",
+          "net": [
+            "31",
+            "PQ1"
+          ],
+          "at": [
+            "4.77",
+            "-2.58"
+          ],
+          "size": [
+            "2.6",
+            "1.02"
+          ],
+          "drill": []
+        }
+      ]
+    },
+    {
+      "reference": "J5",
+      "value": "Hall_top",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal_SMD",
+      "properties": {
+        "Sheetfile": "3x8.kicad_sch",
+        "Sheetname": ""
+      },
+      "at": [
+        "173.55",
+        "31.03",
+        "90"
+      ],
+      "layer": [
+        "B.Cu"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "net": [
+            "40",
+            "HallOut7"
+          ],
+          "at": [
+            "-4.78",
+            "-1.27",
+            "90"
+          ],
+          "size": [
+            "3.2",
+            "1.02"
+          ],
+          "drill": []
+        },
+        {
+          "number": "2",
+          "net": [
+            "41",
+            "HallOut8"
+          ],
+          "at": [
+            "-4.78",
+            "1.27",
+            "90"
+          ],
+          "size": [
+            "3.2",
+            "1.02"
+          ],
+          "drill": []
+        }
+      ]
+    },
+    {
+      "reference": "J4",
+      "value": "Hall_top",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal_SMD",
+      "properties": {
+        "Sheetfile": "3x8.kicad_sch",
+        "Sheetname": ""
+      },
+      "at": [
+        "129.55",
+        "31.03",
+        "90"
+      ],
+      "layer": [
+        "B.Cu"
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "net": [
+            "38",
+            "HallOut5"
+          ],
+          "at": [
+            "-4.78",
+            "-1.27",
+            "90"
+          ],
+          "size": [
+            "3.2",
+            "1.02"
+          ],
+          "drill": []
+        },
+        {
+          "number": "2",
+          "net": [
+            "39",
+            "HallOut6"
+          ],
+          "at": [
+            "-4.78",
+            "1.27",
+            "90"
+          ],
+          "size": [
+            "3.2",
+            "1.02"
+          ],
+          "drill": []
+        }
+      ]
+    }
+  ],
+  "schematic": [
+    {
+      "reference": "D16",
+      "Reference": "D16",
+      "Value": "SKC6812RGBW-WS",
+      "Footprint": "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm",
+      "Datasheet": "https://datasheet.lcsc.com/datasheet/pdf/f73fcb028ddf7140b2dbd34804e8ce40.pdf?productCode=C5378724",
+      "Manufacturer": "OPSCO Optoelectronics",
+      "MPN": "SKC6812RGBW-WS",
+      "LCSC": "C5378724",
+      "AssemblyStatus": "HOLD - compatibility differences; see README.md",
+      "lib_id": [
+        "Saiboard_LED:SKC6812RGBW-WS"
+      ],
+      "uuid": [
+        "00000000-0000-0000-0000-000061e4ecd3"
+      ]
+    },
+    {
+      "reference": "D15",
+      "Reference": "D15",
+      "Value": "SKC6812RGBW-WS",
+      "Footprint": "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm",
+      "Datasheet": "https://datasheet.lcsc.com/datasheet/pdf/f73fcb028ddf7140b2dbd34804e8ce40.pdf?productCode=C5378724",
+      "Manufacturer": "OPSCO Optoelectronics",
+      "MPN": "SKC6812RGBW-WS",
+      "LCSC": "C5378724",
+      "AssemblyStatus": "HOLD - compatibility differences; see README.md",
+      "lib_id": [
+        "Saiboard_LED:SKC6812RGBW-WS"
+      ],
+      "uuid": [
+        "00000000-0000-0000-0000-000061e4ecff"
+      ]
+    },
+    {
+      "reference": "D14",
+      "Reference": "D14",
+      "Value": "SKC6812RGBW-WS",
+      "Footprint": "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm",
+      "Datasheet": "https://datasheet.lcsc.com/datasheet/pdf/f73fcb028ddf7140b2dbd34804e8ce40.pdf?productCode=C5378724",
+      "Manufacturer": "OPSCO Optoelectronics",
+      "MPN": "SKC6812RGBW-WS",
+      "LCSC": "C5378724",
+      "AssemblyStatus": "HOLD - compatibility differences; see README.md",
+      "lib_id": [
+        "Saiboard_LED:SKC6812RGBW-WS"
+      ],
+      "uuid": [
+        "00000000-0000-0000-0000-000061e4ed26"
+      ]
+    },
+    {
+      "reference": "D13",
+      "Reference": "D13",
+      "Value": "SKC6812RGBW-WS",
+      "Footprint": "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm",
+      "Datasheet": "https://datasheet.lcsc.com/datasheet/pdf/f73fcb028ddf7140b2dbd34804e8ce40.pdf?productCode=C5378724",
+      "Manufacturer": "OPSCO Optoelectronics",
+      "MPN": "SKC6812RGBW-WS",
+      "LCSC": "C5378724",
+      "AssemblyStatus": "HOLD - compatibility differences; see README.md",
+      "lib_id": [
+        "Saiboard_LED:SKC6812RGBW-WS"
+      ],
+      "uuid": [
+        "00000000-0000-0000-0000-000061e4ed4d"
+      ]
+    },
+    {
+      "reference": "D12",
+      "Reference": "D12",
+      "Value": "SKC6812RGBW-WS",
+      "Footprint": "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm",
+      "Datasheet": "https://datasheet.lcsc.com/datasheet/pdf/f73fcb028ddf7140b2dbd34804e8ce40.pdf?productCode=C5378724",
+      "Manufacturer": "OPSCO Optoelectronics",
+      "MPN": "SKC6812RGBW-WS",
+      "LCSC": "C5378724",
+      "AssemblyStatus": "HOLD - compatibility differences; see README.md",
+      "lib_id": [
+        "Saiboard_LED:SKC6812RGBW-WS"
+      ],
+      "uuid": [
+        "00000000-0000-0000-0000-000061e4ed74"
+      ]
+    },
+    {
+      "reference": "D11",
+      "Reference": "D11",
+      "Value": "SKC6812RGBW-WS",
+      "Footprint": "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm",
+      "Datasheet": "https://datasheet.lcsc.com/datasheet/pdf/f73fcb028ddf7140b2dbd34804e8ce40.pdf?productCode=C5378724",
+      "Manufacturer": "OPSCO Optoelectronics",
+      "MPN": "SKC6812RGBW-WS",
+      "LCSC": "C5378724",
+      "AssemblyStatus": "HOLD - compatibility differences; see README.md",
+      "lib_id": [
+        "Saiboard_LED:SKC6812RGBW-WS"
+      ],
+      "uuid": [
+        "00000000-0000-0000-0000-000061e4ed9b"
+      ]
+    },
+    {
+      "reference": "D10",
+      "Reference": "D10",
+      "Value": "SKC6812RGBW-WS",
+      "Footprint": "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm",
+      "Datasheet": "https://datasheet.lcsc.com/datasheet/pdf/f73fcb028ddf7140b2dbd34804e8ce40.pdf?productCode=C5378724",
+      "Manufacturer": "OPSCO Optoelectronics",
+      "MPN": "SKC6812RGBW-WS",
+      "LCSC": "C5378724",
+      "AssemblyStatus": "HOLD - compatibility differences; see README.md",
+      "lib_id": [
+        "Saiboard_LED:SKC6812RGBW-WS"
+      ],
+      "uuid": [
+        "00000000-0000-0000-0000-000061e4edc2"
+      ]
+    },
+    {
+      "reference": "D9",
+      "Reference": "D9",
+      "Value": "SKC6812RGBW-WS",
+      "Footprint": "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm",
+      "Datasheet": "https://datasheet.lcsc.com/datasheet/pdf/f73fcb028ddf7140b2dbd34804e8ce40.pdf?productCode=C5378724",
+      "Manufacturer": "OPSCO Optoelectronics",
+      "MPN": "SKC6812RGBW-WS",
+      "LCSC": "C5378724",
+      "AssemblyStatus": "HOLD - compatibility differences; see README.md",
+      "lib_id": [
+        "Saiboard_LED:SKC6812RGBW-WS"
+      ],
+      "uuid": [
+        "00000000-0000-0000-0000-000061e4ede9"
+      ]
+    },
+    {
+      "reference": "D1",
+      "Reference": "D1",
+      "Value": "SKC6812RGBW-WS",
+      "Footprint": "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm",
+      "Datasheet": "https://datasheet.lcsc.com/datasheet/pdf/f73fcb028ddf7140b2dbd34804e8ce40.pdf?productCode=C5378724",
+      "Manufacturer": "OPSCO Optoelectronics",
+      "MPN": "SKC6812RGBW-WS",
+      "LCSC": "C5378724",
+      "AssemblyStatus": "HOLD - compatibility differences; see README.md",
+      "lib_id": [
+        "Saiboard_LED:SKC6812RGBW-WS"
+      ],
+      "uuid": [
+        "00000000-0000-0000-0000-000061ea7144"
+      ]
+    },
+    {
+      "reference": "D2",
+      "Reference": "D2",
+      "Value": "SKC6812RGBW-WS",
+      "Footprint": "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm",
+      "Datasheet": "https://datasheet.lcsc.com/datasheet/pdf/f73fcb028ddf7140b2dbd34804e8ce40.pdf?productCode=C5378724",
+      "Manufacturer": "OPSCO Optoelectronics",
+      "MPN": "SKC6812RGBW-WS",
+      "LCSC": "C5378724",
+      "AssemblyStatus": "HOLD - compatibility differences; see README.md",
+      "lib_id": [
+        "Saiboard_LED:SKC6812RGBW-WS"
+      ],
+      "uuid": [
+        "00000000-0000-0000-0000-000061ea7175"
+      ]
+    },
+    {
+      "reference": "D3",
+      "Reference": "D3",
+      "Value": "SKC6812RGBW-WS",
+      "Footprint": "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm",
+      "Datasheet": "https://datasheet.lcsc.com/datasheet/pdf/f73fcb028ddf7140b2dbd34804e8ce40.pdf?productCode=C5378724",
+      "Manufacturer": "OPSCO Optoelectronics",
+      "MPN": "SKC6812RGBW-WS",
+      "LCSC": "C5378724",
+      "AssemblyStatus": "HOLD - compatibility differences; see README.md",
+      "lib_id": [
+        "Saiboard_LED:SKC6812RGBW-WS"
+      ],
+      "uuid": [
+        "00000000-0000-0000-0000-000061ea71a1"
+      ]
+    },
+    {
+      "reference": "D4",
+      "Reference": "D4",
+      "Value": "SKC6812RGBW-WS",
+      "Footprint": "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm",
+      "Datasheet": "https://datasheet.lcsc.com/datasheet/pdf/f73fcb028ddf7140b2dbd34804e8ce40.pdf?productCode=C5378724",
+      "Manufacturer": "OPSCO Optoelectronics",
+      "MPN": "SKC6812RGBW-WS",
+      "LCSC": "C5378724",
+      "AssemblyStatus": "HOLD - compatibility differences; see README.md",
+      "lib_id": [
+        "Saiboard_LED:SKC6812RGBW-WS"
+      ],
+      "uuid": [
+        "00000000-0000-0000-0000-000061ea71c8"
+      ]
+    },
+    {
+      "reference": "D5",
+      "Reference": "D5",
+      "Value": "SKC6812RGBW-WS",
+      "Footprint": "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm",
+      "Datasheet": "https://datasheet.lcsc.com/datasheet/pdf/f73fcb028ddf7140b2dbd34804e8ce40.pdf?productCode=C5378724",
+      "Manufacturer": "OPSCO Optoelectronics",
+      "MPN": "SKC6812RGBW-WS",
+      "LCSC": "C5378724",
+      "AssemblyStatus": "HOLD - compatibility differences; see README.md",
+      "lib_id": [
+        "Saiboard_LED:SKC6812RGBW-WS"
+      ],
+      "uuid": [
+        "00000000-0000-0000-0000-000061ea71ef"
+      ]
+    },
+    {
+      "reference": "D6",
+      "Reference": "D6",
+      "Value": "SKC6812RGBW-WS",
+      "Footprint": "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm",
+      "Datasheet": "https://datasheet.lcsc.com/datasheet/pdf/f73fcb028ddf7140b2dbd34804e8ce40.pdf?productCode=C5378724",
+      "Manufacturer": "OPSCO Optoelectronics",
+      "MPN": "SKC6812RGBW-WS",
+      "LCSC": "C5378724",
+      "AssemblyStatus": "HOLD - compatibility differences; see README.md",
+      "lib_id": [
+        "Saiboard_LED:SKC6812RGBW-WS"
+      ],
+      "uuid": [
+        "00000000-0000-0000-0000-000061ea7216"
+      ]
+    },
+    {
+      "reference": "D7",
+      "Reference": "D7",
+      "Value": "SKC6812RGBW-WS",
+      "Footprint": "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm",
+      "Datasheet": "https://datasheet.lcsc.com/datasheet/pdf/f73fcb028ddf7140b2dbd34804e8ce40.pdf?productCode=C5378724",
+      "Manufacturer": "OPSCO Optoelectronics",
+      "MPN": "SKC6812RGBW-WS",
+      "LCSC": "C5378724",
+      "AssemblyStatus": "HOLD - compatibility differences; see README.md",
+      "lib_id": [
+        "Saiboard_LED:SKC6812RGBW-WS"
+      ],
+      "uuid": [
+        "00000000-0000-0000-0000-000061ea723d"
+      ]
+    },
+    {
+      "reference": "D8",
+      "Reference": "D8",
+      "Value": "SKC6812RGBW-WS",
+      "Footprint": "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm",
+      "Datasheet": "https://datasheet.lcsc.com/datasheet/pdf/f73fcb028ddf7140b2dbd34804e8ce40.pdf?productCode=C5378724",
+      "Manufacturer": "OPSCO Optoelectronics",
+      "MPN": "SKC6812RGBW-WS",
+      "LCSC": "C5378724",
+      "AssemblyStatus": "HOLD - compatibility differences; see README.md",
+      "lib_id": [
+        "Saiboard_LED:SKC6812RGBW-WS"
+      ],
+      "uuid": [
+        "00000000-0000-0000-0000-000061ea7264"
+      ]
+    },
+    {
+      "reference": "U1",
+      "Reference": "U1",
+      "Value": "AH49E",
+      "Footprint": "Package_TO_SOT_SMD:SOT-23",
+      "Datasheet": "https://www.diodes.com/assets/Datasheets/AH49E.pdf",
+      "lib_id": [
+        "Sensor_Magnetic:AH49E"
+      ],
+      "uuid": [
+        "00000000-0000-0000-0000-0000630af1e3"
+      ]
+    },
+    {
+      "reference": "#FLG0103",
+      "Reference": "#FLG0103",
+      "Value": "PWR_FLAG",
+      "Footprint": "",
+      "Datasheet": "~",
+      "lib_id": [
+        "power:PWR_FLAG"
+      ],
+      "uuid": [
+        "00000000-0000-0000-0000-000063532f80"
+      ]
+    },
+    {
+      "reference": "#FLG0104",
+      "Reference": "#FLG0104",
+      "Value": "PWR_FLAG",
+      "Footprint": "",
+      "Datasheet": "~",
+      "lib_id": [
+        "power:PWR_FLAG"
+      ],
+      "uuid": [
+        "00000000-0000-0000-0000-000063535805"
+      ]
+    },
+    {
+      "reference": "#FLG0105",
+      "Reference": "#FLG0105",
+      "Value": "PWR_FLAG",
+      "Footprint": "",
+      "Datasheet": "~",
+      "lib_id": [
+        "power:PWR_FLAG"
+      ],
+      "uuid": [
+        "00000000-0000-0000-0000-000063538110"
+      ]
+    },
+    {
+      "reference": "#FLG0113",
+      "Reference": "#FLG0113",
+      "Value": "PWR_FLAG",
+      "Footprint": "",
+      "Datasheet": "~",
+      "lib_id": [
+        "power:PWR_FLAG"
+      ],
+      "uuid": [
+        "00000000-0000-0000-0000-00006354f451"
+      ]
+    },
+    {
+      "reference": "#FLG0101",
+      "Reference": "#FLG0101",
+      "Value": "PWR_FLAG",
+      "Footprint": "",
+      "Datasheet": "~",
+      "lib_id": [
+        "power:PWR_FLAG"
+      ],
+      "uuid": [
+        "00000000-0000-0000-0000-000063701026"
+      ]
+    },
+    {
+      "reference": "#FLG0118",
+      "Reference": "#FLG0118",
+      "Value": "PWR_FLAG",
+      "Footprint": "",
+      "Datasheet": "~",
+      "lib_id": [
+        "power:PWR_FLAG"
+      ],
+      "uuid": [
+        "00000000-0000-0000-0000-000063720cae"
+      ]
+    },
+    {
+      "reference": "D23",
+      "Reference": "D23",
+      "Value": "SKC6812RGBW-WS",
+      "Footprint": "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm",
+      "Datasheet": "https://datasheet.lcsc.com/datasheet/pdf/f73fcb028ddf7140b2dbd34804e8ce40.pdf?productCode=C5378724",
+      "Manufacturer": "OPSCO Optoelectronics",
+      "MPN": "SKC6812RGBW-WS",
+      "LCSC": "C5378724",
+      "AssemblyStatus": "HOLD - compatibility differences; see README.md",
+      "lib_id": [
+        "Saiboard_LED:SKC6812RGBW-WS"
+      ],
+      "uuid": [
+        "044aa01b-d93a-457c-8452-286e35e898ee"
+      ]
+    },
+    {
+      "reference": "C8",
+      "Reference": "C8",
+      "Value": "C104",
+      "Footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "Datasheet": "~",
+      "lib_id": [
+        "Device:C"
+      ],
+      "uuid": [
+        "080d23a4-dcff-4402-a09f-bf54b4aaace0"
+      ]
+    },
+    {
+      "reference": "U8",
+      "Reference": "U8",
+      "Value": "AH49E",
+      "Footprint": "Package_TO_SOT_SMD:SOT-23",
+      "Datasheet": "https://www.diodes.com/assets/Datasheets/AH49E.pdf",
+      "lib_id": [
+        "Sensor_Magnetic:AH49E"
+      ],
+      "uuid": [
+        "083f0e5d-4a90-4941-af31-f007635cf654"
+      ]
+    },
+    {
+      "reference": "C10",
+      "Reference": "C10",
+      "Value": "C104",
+      "Footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "Datasheet": "~",
+      "lib_id": [
+        "Device:C"
+      ],
+      "uuid": [
+        "0c548962-e5e7-4a6f-aaf7-69b9508ca9d8"
+      ]
+    },
+    {
+      "reference": "U2",
+      "Reference": "U2",
+      "Value": "AH49E",
+      "Footprint": "Package_TO_SOT_SMD:SOT-23",
+      "Datasheet": "https://www.diodes.com/assets/Datasheets/AH49E.pdf",
+      "lib_id": [
+        "Sensor_Magnetic:AH49E"
+      ],
+      "uuid": [
+        "0fc52f01-8b37-436c-9b2a-6480055a9d87"
+      ]
+    },
+    {
+      "reference": "U15",
+      "Reference": "U15",
+      "Value": "AH49E",
+      "Footprint": "Package_TO_SOT_SMD:SOT-23",
+      "Datasheet": "https://www.diodes.com/assets/Datasheets/AH49E.pdf",
+      "lib_id": [
+        "Sensor_Magnetic:AH49E"
+      ],
+      "uuid": [
+        "1c3564dd-cc1e-45a8-982f-2acd5364378a"
+      ]
+    },
+    {
+      "reference": "U7",
+      "Reference": "U7",
+      "Value": "AH49E",
+      "Footprint": "Package_TO_SOT_SMD:SOT-23",
+      "Datasheet": "https://www.diodes.com/assets/Datasheets/AH49E.pdf",
+      "lib_id": [
+        "Sensor_Magnetic:AH49E"
+      ],
+      "uuid": [
+        "26a62a4b-ca6b-4531-abf8-42ad8a8466b6"
+      ]
+    },
+    {
+      "reference": "C3",
+      "Reference": "C3",
+      "Value": "C104",
+      "Footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "Datasheet": "~",
+      "lib_id": [
+        "Device:C"
+      ],
+      "uuid": [
+        "26d14634-e06b-47a3-b6a4-3456bcfaa9cb"
+      ]
+    },
+    {
+      "reference": "C22",
+      "Reference": "C22",
+      "Value": "C104",
+      "Footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "Datasheet": "~",
+      "lib_id": [
+        "Device:C"
+      ],
+      "uuid": [
+        "2ef268a5-5e1a-4130-a5a5-05c9a1261b41"
+      ]
+    },
+    {
+      "reference": "U4",
+      "Reference": "U4",
+      "Value": "AH49E",
+      "Footprint": "Package_TO_SOT_SMD:SOT-23",
+      "Datasheet": "https://www.diodes.com/assets/Datasheets/AH49E.pdf",
+      "lib_id": [
+        "Sensor_Magnetic:AH49E"
+      ],
+      "uuid": [
+        "31e4c514-792e-4d49-bc97-e2c3300630bd"
+      ]
+    },
+    {
+      "reference": "C15",
+      "Reference": "C15",
+      "Value": "C104",
+      "Footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "Datasheet": "~",
+      "lib_id": [
+        "Device:C"
+      ],
+      "uuid": [
+        "37d26037-7304-486a-96a7-4677d7ad7b5f"
+      ]
+    },
+    {
+      "reference": "J15",
+      "Reference": "J15",
+      "Value": "Touch_side_b",
+      "Footprint": "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Horizontal_SMD",
+      "Datasheet": "~",
+      "lib_id": [
+        "Connector_Generic:Conn_01x02"
+      ],
+      "uuid": [
+        "3ab3b171-b8d7-4640-bcfc-83e3632c8cdd"
+      ]
+    },
+    {
+      "reference": "U5",
+      "Reference": "U5",
+      "Value": "AH49E",
+      "Footprint": "Package_TO_SOT_SMD:SOT-23",
+      "Datasheet": "https://www.diodes.com/assets/Datasheets/AH49E.pdf",
+      "lib_id": [
+        "Sensor_Magnetic:AH49E"
+      ],
+      "uuid": [
+        "3bc431b9-3552-45ab-8d3f-403f1e729cb2"
+      ]
+    },
+    {
+      "reference": "U20",
+      "Reference": "U20",
+      "Value": "AH49E",
+      "Footprint": "Package_TO_SOT_SMD:SOT-23",
+      "Datasheet": "https://www.diodes.com/assets/Datasheets/AH49E.pdf",
+      "lib_id": [
+        "Sensor_Magnetic:AH49E"
+      ],
+      "uuid": [
+        "408765fe-ad31-4d79-9606-fa6668305461"
+      ]
+    },
+    {
+      "reference": "U10",
+      "Reference": "U10",
+      "Value": "AH49E",
+      "Footprint": "Package_TO_SOT_SMD:SOT-23",
+      "Datasheet": "https://www.diodes.com/assets/Datasheets/AH49E.pdf",
+      "lib_id": [
+        "Sensor_Magnetic:AH49E"
+      ],
+      "uuid": [
+        "41a68bc8-b1c3-4afe-b545-7518ace6f553"
+      ]
+    },
+    {
+      "reference": "J5",
+      "Reference": "J5",
+      "Value": "Hall_top",
+      "Footprint": "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal_SMD",
+      "Datasheet": "~",
+      "lib_id": [
+        "Connector_Generic:Conn_01x02"
+      ],
+      "uuid": [
+        "4277225c-6739-488f-82fd-da69a8a1bfbd"
+      ]
+    },
+    {
+      "reference": "J19",
+      "Reference": "J19",
+      "Value": "IC_side_b",
+      "Footprint": "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Horizontal_SMD",
+      "Datasheet": "~",
+      "lib_id": [
+        "Connector_Generic:Conn_01x02"
+      ],
+      "uuid": [
+        "434d5e9e-517b-45e1-835f-dfe88f634022"
+      ]
+    },
+    {
+      "reference": "U21",
+      "Reference": "U21",
+      "Value": "AH49E",
+      "Footprint": "Package_TO_SOT_SMD:SOT-23",
+      "Datasheet": "https://www.diodes.com/assets/Datasheets/AH49E.pdf",
+      "lib_id": [
+        "Sensor_Magnetic:AH49E"
+      ],
+      "uuid": [
+        "45531af7-901c-4b29-9eed-9bc72f718e8d"
+      ]
+    },
+    {
+      "reference": "C2",
+      "Reference": "C2",
+      "Value": "C104",
+      "Footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "Datasheet": "~",
+      "lib_id": [
+        "Device:C"
+      ],
+      "uuid": [
+        "50d7fcc2-1d55-4eae-956e-de8abd050621"
+      ]
+    },
+    {
+      "reference": "J10",
+      "Reference": "J10",
+      "Value": "LedIn",
+      "Footprint": "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal_SMD",
+      "Datasheet": "~",
+      "lib_id": [
+        "Connector_Generic:Conn_01x02"
+      ],
+      "uuid": [
+        "53e766ee-173d-4c17-bbf3-09969a18f014"
+      ]
+    },
+    {
+      "reference": "U24",
+      "Reference": "U24",
+      "Value": "AH49E",
+      "Footprint": "Package_TO_SOT_SMD:SOT-23",
+      "Datasheet": "https://www.diodes.com/assets/Datasheets/AH49E.pdf",
+      "lib_id": [
+        "Sensor_Magnetic:AH49E"
+      ],
+      "uuid": [
+        "561e6c01-b50a-4dbb-9869-2271ab51d404"
+      ]
+    },
+    {
+      "reference": "C16",
+      "Reference": "C16",
+      "Value": "C104",
+      "Footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "Datasheet": "~",
+      "lib_id": [
+        "Device:C"
+      ],
+      "uuid": [
+        "57a66ee8-0584-4112-9d56-8a555929b2c3"
+      ]
+    },
+    {
+      "reference": "UI1",
+      "Reference": "UI1",
+      "Value": "74hc4052D",
+      "Footprint": "Package_SO:SO-16_3.9x9.9mm_P1.27mm",
+      "Datasheet": "https://assets.nexperia.com/documents/data-sheet/74HC_HCT4052.pdf",
+      "lib_id": [
+        "4xxx:4052"
+      ],
+      "uuid": [
+        "59210ad3-dc43-4434-bde5-6dc7763d4e3e"
+      ]
+    },
+    {
+      "reference": "C18",
+      "Reference": "C18",
+      "Value": "C104",
+      "Footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "Datasheet": "~",
+      "lib_id": [
+        "Device:C"
+      ],
+      "uuid": [
+        "5b00c56e-d4c6-47f9-9863-d7944f9ad5d9"
+      ]
+    },
+    {
+      "reference": "D21",
+      "Reference": "D21",
+      "Value": "SKC6812RGBW-WS",
+      "Footprint": "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm",
+      "Datasheet": "https://datasheet.lcsc.com/datasheet/pdf/f73fcb028ddf7140b2dbd34804e8ce40.pdf?productCode=C5378724",
+      "Manufacturer": "OPSCO Optoelectronics",
+      "MPN": "SKC6812RGBW-WS",
+      "LCSC": "C5378724",
+      "AssemblyStatus": "HOLD - compatibility differences; see README.md",
+      "lib_id": [
+        "Saiboard_LED:SKC6812RGBW-WS"
+      ],
+      "uuid": [
+        "5f2ceea8-478b-41fe-99d0-1d02e1e70b73"
+      ]
+    },
+    {
+      "reference": "U6",
+      "Reference": "U6",
+      "Value": "AH49E",
+      "Footprint": "Package_TO_SOT_SMD:SOT-23",
+      "Datasheet": "https://www.diodes.com/assets/Datasheets/AH49E.pdf",
+      "lib_id": [
+        "Sensor_Magnetic:AH49E"
+      ],
+      "uuid": [
+        "61d23884-f71a-4828-8ede-fd33557a563e"
+      ]
+    },
+    {
+      "reference": "J13",
+      "Reference": "J13",
+      "Value": "PQ_side_b",
+      "Footprint": "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Horizontal_SMD",
+      "Datasheet": "~",
+      "lib_id": [
+        "Connector_Generic:Conn_01x03"
+      ],
+      "uuid": [
+        "62ae8703-cbd0-4024-be53-0b20ebe8ab4d"
+      ]
+    },
+    {
+      "reference": "J3",
+      "Reference": "J3",
+      "Value": "Hall_top",
+      "Footprint": "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal_SMD",
+      "Datasheet": "~",
+      "lib_id": [
+        "Connector_Generic:Conn_01x02"
+      ],
+      "uuid": [
+        "737c1e04-efdd-439c-b694-386ab510a6a3"
+      ]
+    },
+    {
+      "reference": "C7",
+      "Reference": "C7",
+      "Value": "C104",
+      "Footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "Datasheet": "~",
+      "lib_id": [
+        "Device:C"
+      ],
+      "uuid": [
+        "738527cd-695a-4a78-9f83-b63071c9645d"
+      ]
+    },
+    {
+      "reference": "U19",
+      "Reference": "U19",
+      "Value": "AH49E",
+      "Footprint": "Package_TO_SOT_SMD:SOT-23",
+      "Datasheet": "https://www.diodes.com/assets/Datasheets/AH49E.pdf",
+      "lib_id": [
+        "Sensor_Magnetic:AH49E"
+      ],
+      "uuid": [
+        "73d5f9e7-120f-416c-93ae-4d5ff83ee229"
+      ]
+    },
+    {
+      "reference": "C17",
+      "Reference": "C17",
+      "Value": "C104",
+      "Footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "Datasheet": "~",
+      "lib_id": [
+        "Device:C"
+      ],
+      "uuid": [
+        "753f5e2f-90e1-40fc-ada7-d846584d6f5f"
+      ]
+    },
+    {
+      "reference": "J17",
+      "Reference": "J17",
+      "Value": "LedOut_side_b",
+      "Footprint": "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Horizontal_SMD",
+      "Datasheet": "~",
+      "lib_id": [
+        "Connector_Generic:Conn_01x03"
+      ],
+      "uuid": [
+        "7c4c95fd-4485-428e-98d5-1941239b47e1"
+      ]
+    },
+    {
+      "reference": "C14",
+      "Reference": "C14",
+      "Value": "C104",
+      "Footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "Datasheet": "~",
+      "lib_id": [
+        "Device:C"
+      ],
+      "uuid": [
+        "80c61772-0c08-42ed-a95c-b47a8a9cf3a2"
+      ]
+    },
+    {
+      "reference": "J14",
+      "Reference": "J14",
+      "Value": "Touch_side_a",
+      "Footprint": "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Horizontal_SMD",
+      "Datasheet": "~",
+      "lib_id": [
+        "Connector_Generic:Conn_01x02"
+      ],
+      "uuid": [
+        "80f3bfe5-eba6-4801-a4ec-31b1b984ea3d"
+      ]
+    },
+    {
+      "reference": "J21",
+      "Reference": "J21",
+      "Value": "Hall_side_b",
+      "Footprint": "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Horizontal_SMD",
+      "Datasheet": "~",
+      "lib_id": [
+        "Connector_Generic:Conn_01x02"
+      ],
+      "uuid": [
+        "82908df6-f37c-4b84-b0d1-9ac6559ae27e"
+      ]
+    },
+    {
+      "reference": "U18",
+      "Reference": "U18",
+      "Value": "AH49E",
+      "Footprint": "Package_TO_SOT_SMD:SOT-23",
+      "Datasheet": "https://www.diodes.com/assets/Datasheets/AH49E.pdf",
+      "lib_id": [
+        "Sensor_Magnetic:AH49E"
+      ],
+      "uuid": [
+        "83eae094-d65d-4c64-a9a3-caf242781ada"
+      ]
+    },
+    {
+      "reference": "D20",
+      "Reference": "D20",
+      "Value": "SKC6812RGBW-WS",
+      "Footprint": "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm",
+      "Datasheet": "https://datasheet.lcsc.com/datasheet/pdf/f73fcb028ddf7140b2dbd34804e8ce40.pdf?productCode=C5378724",
+      "Manufacturer": "OPSCO Optoelectronics",
+      "MPN": "SKC6812RGBW-WS",
+      "LCSC": "C5378724",
+      "AssemblyStatus": "HOLD - compatibility differences; see README.md",
+      "lib_id": [
+        "Saiboard_LED:SKC6812RGBW-WS"
+      ],
+      "uuid": [
+        "8b3652bb-31c8-4117-9b41-20429e9e6f73"
+      ]
+    },
+    {
+      "reference": "D22",
+      "Reference": "D22",
+      "Value": "SKC6812RGBW-WS",
+      "Footprint": "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm",
+      "Datasheet": "https://datasheet.lcsc.com/datasheet/pdf/f73fcb028ddf7140b2dbd34804e8ce40.pdf?productCode=C5378724",
+      "Manufacturer": "OPSCO Optoelectronics",
+      "MPN": "SKC6812RGBW-WS",
+      "LCSC": "C5378724",
+      "AssemblyStatus": "HOLD - compatibility differences; see README.md",
+      "lib_id": [
+        "Saiboard_LED:SKC6812RGBW-WS"
+      ],
+      "uuid": [
+        "8b96b73c-6124-4292-a7f9-6a56d60bfa1b"
+      ]
+    },
+    {
+      "reference": "U14",
+      "Reference": "U14",
+      "Value": "AH49E",
+      "Footprint": "Package_TO_SOT_SMD:SOT-23",
+      "Datasheet": "https://www.diodes.com/assets/Datasheets/AH49E.pdf",
+      "lib_id": [
+        "Sensor_Magnetic:AH49E"
+      ],
+      "uuid": [
+        "97817523-a0b7-4a61-8837-b8dafa84e039"
+      ]
+    },
+    {
+      "reference": "D17",
+      "Reference": "D17",
+      "Value": "SKC6812RGBW-WS",
+      "Footprint": "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm",
+      "Datasheet": "https://datasheet.lcsc.com/datasheet/pdf/f73fcb028ddf7140b2dbd34804e8ce40.pdf?productCode=C5378724",
+      "Manufacturer": "OPSCO Optoelectronics",
+      "MPN": "SKC6812RGBW-WS",
+      "LCSC": "C5378724",
+      "AssemblyStatus": "HOLD - compatibility differences; see README.md",
+      "lib_id": [
+        "Saiboard_LED:SKC6812RGBW-WS"
+      ],
+      "uuid": [
+        "9abe1969-3367-4cc5-9919-e1389ca644b7"
+      ]
+    },
+    {
+      "reference": "C20",
+      "Reference": "C20",
+      "Value": "C104",
+      "Footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "Datasheet": "~",
+      "lib_id": [
+        "Device:C"
+      ],
+      "uuid": [
+        "9b83a8a9-f099-4fff-abd8-29e730e062f9"
+      ]
+    },
+    {
+      "reference": "C12",
+      "Reference": "C12",
+      "Value": "C104",
+      "Footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "Datasheet": "~",
+      "lib_id": [
+        "Device:C"
+      ],
+      "uuid": [
+        "a1887d6a-afc2-42e1-a6eb-9c6f2e3c69fb"
+      ]
+    },
+    {
+      "reference": "U23",
+      "Reference": "U23",
+      "Value": "AH49E",
+      "Footprint": "Package_TO_SOT_SMD:SOT-23",
+      "Datasheet": "https://www.diodes.com/assets/Datasheets/AH49E.pdf",
+      "lib_id": [
+        "Sensor_Magnetic:AH49E"
+      ],
+      "uuid": [
+        "a29a982d-fcfa-4cbd-b882-4659f7cc9f29"
+      ]
+    },
+    {
+      "reference": "U13",
+      "Reference": "U13",
+      "Value": "AH49E",
+      "Footprint": "Package_TO_SOT_SMD:SOT-23",
+      "Datasheet": "https://www.diodes.com/assets/Datasheets/AH49E.pdf",
+      "lib_id": [
+        "Sensor_Magnetic:AH49E"
+      ],
+      "uuid": [
+        "a4b4b1d8-1ac4-4e96-83c1-20149ec0450f"
+      ]
+    },
+    {
+      "reference": "C21",
+      "Reference": "C21",
+      "Value": "C104",
+      "Footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "Datasheet": "~",
+      "lib_id": [
+        "Device:C"
+      ],
+      "uuid": [
+        "a6c247ad-4b4a-495f-94d5-9fde25d02f61"
+      ]
+    },
+    {
+      "reference": "C23",
+      "Reference": "C23",
+      "Value": "C104",
+      "Footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "Datasheet": "~",
+      "lib_id": [
+        "Device:C"
+      ],
+      "uuid": [
+        "aa444ca2-22a8-4050-b047-89e81494d7a0"
+      ]
+    },
+    {
+      "reference": "CI1",
+      "Reference": "CI1",
+      "Value": "C104",
+      "Footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "Datasheet": "~",
+      "lib_id": [
+        "Device:C"
+      ],
+      "uuid": [
+        "ae554615-cc21-4611-967b-37b718332957"
+      ]
+    },
+    {
+      "reference": "C1",
+      "Reference": "C1",
+      "Value": "C104",
+      "Footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "Datasheet": "~",
+      "lib_id": [
+        "Device:C"
+      ],
+      "uuid": [
+        "b03228e9-df67-4499-a84c-46589bf14c89"
+      ]
+    },
+    {
+      "reference": "J4",
+      "Reference": "J4",
+      "Value": "Hall_top",
+      "Footprint": "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal_SMD",
+      "Datasheet": "~",
+      "lib_id": [
+        "Connector_Generic:Conn_01x02"
+      ],
+      "uuid": [
+        "b40e9c65-cca8-4937-8b85-4ea678e0413d"
+      ]
+    },
+    {
+      "reference": "J20",
+      "Reference": "J20",
+      "Value": "Hall_side_a",
+      "Footprint": "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Horizontal_SMD",
+      "Datasheet": "~",
+      "lib_id": [
+        "Connector_Generic:Conn_01x02"
+      ],
+      "uuid": [
+        "bb3042dd-92d0-4bd6-806e-749d342fe13c"
+      ]
+    },
+    {
+      "reference": "U3",
+      "Reference": "U3",
+      "Value": "AH49E",
+      "Footprint": "Package_TO_SOT_SMD:SOT-23",
+      "Datasheet": "https://www.diodes.com/assets/Datasheets/AH49E.pdf",
+      "lib_id": [
+        "Sensor_Magnetic:AH49E"
+      ],
+      "uuid": [
+        "c008cca0-92ac-4c9c-996e-8984a38bc2a6"
+      ]
+    },
+    {
+      "reference": "J2",
+      "Reference": "J2",
+      "Value": "Hall_top",
+      "Footprint": "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal_SMD",
+      "Datasheet": "~",
+      "lib_id": [
+        "Connector_Generic:Conn_01x02"
+      ],
+      "uuid": [
+        "c344d4ae-ee79-4190-9d52-ae55932dd506"
+      ]
+    },
+    {
+      "reference": "C24",
+      "Reference": "C24",
+      "Value": "C104",
+      "Footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "Datasheet": "~",
+      "lib_id": [
+        "Device:C"
+      ],
+      "uuid": [
+        "c7d7c269-2b7f-47d2-9850-fdf50b05ba5d"
+      ]
+    },
+    {
+      "reference": "C9",
+      "Reference": "C9",
+      "Value": "C104",
+      "Footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "Datasheet": "~",
+      "lib_id": [
+        "Device:C"
+      ],
+      "uuid": [
+        "c8b15cd1-6a15-441f-8e6e-b3d11beee163"
+      ]
+    },
+    {
+      "reference": "U12",
+      "Reference": "U12",
+      "Value": "AH49E",
+      "Footprint": "Package_TO_SOT_SMD:SOT-23",
+      "Datasheet": "https://www.diodes.com/assets/Datasheets/AH49E.pdf",
+      "lib_id": [
+        "Sensor_Magnetic:AH49E"
+      ],
+      "uuid": [
+        "cc2c76f6-3bf9-4365-ab21-38208fffc488"
+      ]
+    },
+    {
+      "reference": "U9",
+      "Reference": "U9",
+      "Value": "AH49E",
+      "Footprint": "Package_TO_SOT_SMD:SOT-23",
+      "Datasheet": "https://www.diodes.com/assets/Datasheets/AH49E.pdf",
+      "lib_id": [
+        "Sensor_Magnetic:AH49E"
+      ],
+      "uuid": [
+        "d156ce2f-8cae-4bfa-9390-f5db8051d2c4"
+      ]
+    },
+    {
+      "reference": "C6",
+      "Reference": "C6",
+      "Value": "C104",
+      "Footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "Datasheet": "~",
+      "lib_id": [
+        "Device:C"
+      ],
+      "uuid": [
+        "d3229b19-736b-4a14-98f7-5fb61cbcc239"
+      ]
+    },
+    {
+      "reference": "D24",
+      "Reference": "D24",
+      "Value": "SKC6812RGBW-WS",
+      "Footprint": "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm",
+      "Datasheet": "https://datasheet.lcsc.com/datasheet/pdf/f73fcb028ddf7140b2dbd34804e8ce40.pdf?productCode=C5378724",
+      "Manufacturer": "OPSCO Optoelectronics",
+      "MPN": "SKC6812RGBW-WS",
+      "LCSC": "C5378724",
+      "AssemblyStatus": "HOLD - compatibility differences; see README.md",
+      "lib_id": [
+        "Saiboard_LED:SKC6812RGBW-WS"
+      ],
+      "uuid": [
+        "d38200b1-7d18-4872-a44c-732b5d296c2a"
+      ]
+    },
+    {
+      "reference": "D19",
+      "Reference": "D19",
+      "Value": "SKC6812RGBW-WS",
+      "Footprint": "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm",
+      "Datasheet": "https://datasheet.lcsc.com/datasheet/pdf/f73fcb028ddf7140b2dbd34804e8ce40.pdf?productCode=C5378724",
+      "Manufacturer": "OPSCO Optoelectronics",
+      "MPN": "SKC6812RGBW-WS",
+      "LCSC": "C5378724",
+      "AssemblyStatus": "HOLD - compatibility differences; see README.md",
+      "lib_id": [
+        "Saiboard_LED:SKC6812RGBW-WS"
+      ],
+      "uuid": [
+        "d47e37d8-798c-4aa4-b07a-4a5a906c1649"
+      ]
+    },
+    {
+      "reference": "U17",
+      "Reference": "U17",
+      "Value": "AH49E",
+      "Footprint": "Package_TO_SOT_SMD:SOT-23",
+      "Datasheet": "https://www.diodes.com/assets/Datasheets/AH49E.pdf",
+      "lib_id": [
+        "Sensor_Magnetic:AH49E"
+      ],
+      "uuid": [
+        "dd932eab-8363-435f-b072-e55c3da5dff7"
+      ]
+    },
+    {
+      "reference": "C5",
+      "Reference": "C5",
+      "Value": "C104",
+      "Footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "Datasheet": "~",
+      "lib_id": [
+        "Device:C"
+      ],
+      "uuid": [
+        "ddb79dbc-b805-40a1-9e57-de92104085db"
+      ]
+    },
+    {
+      "reference": "J18",
+      "Reference": "J18",
+      "Value": "IC_side_a",
+      "Footprint": "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Horizontal_SMD",
+      "Datasheet": "~",
+      "lib_id": [
+        "Connector_Generic:Conn_01x02"
+      ],
+      "uuid": [
+        "ddded68d-7bdb-4b5e-9604-a5945d9ddbf1"
+      ]
+    },
+    {
+      "reference": "C11",
+      "Reference": "C11",
+      "Value": "C104",
+      "Footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "Datasheet": "~",
+      "lib_id": [
+        "Device:C"
+      ],
+      "uuid": [
+        "e5251ace-e25f-4813-8660-f82371186243"
+      ]
+    },
+    {
+      "reference": "C4",
+      "Reference": "C4",
+      "Value": "C104",
+      "Footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "Datasheet": "~",
+      "lib_id": [
+        "Device:C"
+      ],
+      "uuid": [
+        "eb4ec244-af1d-453d-8532-8c6ad1a0631c"
+      ]
+    },
+    {
+      "reference": "U22",
+      "Reference": "U22",
+      "Value": "AH49E",
+      "Footprint": "Package_TO_SOT_SMD:SOT-23",
+      "Datasheet": "https://www.diodes.com/assets/Datasheets/AH49E.pdf",
+      "lib_id": [
+        "Sensor_Magnetic:AH49E"
+      ],
+      "uuid": [
+        "f0d5a9bb-c8b5-4cc8-a452-10b98ce75d3d"
+      ]
+    },
+    {
+      "reference": "D18",
+      "Reference": "D18",
+      "Value": "SKC6812RGBW-WS",
+      "Footprint": "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm",
+      "Datasheet": "https://datasheet.lcsc.com/datasheet/pdf/f73fcb028ddf7140b2dbd34804e8ce40.pdf?productCode=C5378724",
+      "Manufacturer": "OPSCO Optoelectronics",
+      "MPN": "SKC6812RGBW-WS",
+      "LCSC": "C5378724",
+      "AssemblyStatus": "HOLD - compatibility differences; see README.md",
+      "lib_id": [
+        "Saiboard_LED:SKC6812RGBW-WS"
+      ],
+      "uuid": [
+        "f1e1dfda-c129-4d5a-94b6-438f5f86f8ec"
+      ]
+    },
+    {
+      "reference": "J16",
+      "Reference": "J16",
+      "Value": "LedOut_side_a",
+      "Footprint": "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Horizontal_SMD",
+      "Datasheet": "~",
+      "lib_id": [
+        "Connector_Generic:Conn_01x03"
+      ],
+      "uuid": [
+        "f2fa0893-31ee-43de-850d-96fc2ea56d37"
+      ]
+    },
+    {
+      "reference": "U16",
+      "Reference": "U16",
+      "Value": "AH49E",
+      "Footprint": "Package_TO_SOT_SMD:SOT-23",
+      "Datasheet": "https://www.diodes.com/assets/Datasheets/AH49E.pdf",
+      "lib_id": [
+        "Sensor_Magnetic:AH49E"
+      ],
+      "uuid": [
+        "f318ff3d-4671-4578-a21a-a013deff3246"
+      ]
+    },
+    {
+      "reference": "J12",
+      "Reference": "J12",
+      "Value": "PQ_side_a",
+      "Footprint": "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Horizontal_SMD",
+      "Datasheet": "~",
+      "lib_id": [
+        "Connector_Generic:Conn_01x03"
+      ],
+      "uuid": [
+        "f56baf07-f363-4996-a88a-be462c4ae1b7"
+      ]
+    },
+    {
+      "reference": "C19",
+      "Reference": "C19",
+      "Value": "C104",
+      "Footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "Datasheet": "~",
+      "lib_id": [
+        "Device:C"
+      ],
+      "uuid": [
+        "f6064b8d-a3e1-40b8-b45e-e3c385da716c"
+      ]
+    },
+    {
+      "reference": "C13",
+      "Reference": "C13",
+      "Value": "C104",
+      "Footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "Datasheet": "~",
+      "lib_id": [
+        "Device:C"
+      ],
+      "uuid": [
+        "fa47273a-f50c-41b2-ba10-2b798bdb955a"
+      ]
+    },
+    {
+      "reference": "U11",
+      "Reference": "U11",
+      "Value": "AH49E",
+      "Footprint": "Package_TO_SOT_SMD:SOT-23",
+      "Datasheet": "https://www.diodes.com/assets/Datasheets/AH49E.pdf",
+      "lib_id": [
+        "Sensor_Magnetic:AH49E"
+      ],
+      "uuid": [
+        "fd277960-a06f-4691-9248-8125657916ff"
+      ]
+    }
+  ]
+}

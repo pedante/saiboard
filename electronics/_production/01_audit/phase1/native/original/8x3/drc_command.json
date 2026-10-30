@@ -1,0 +1,25 @@
+{
+  "family": "original",
+  "design": "8x3",
+  "kind": "drc",
+  "command": [
+    "/usr/bin/flatpak",
+    "run",
+    "--command=kicad-cli",
+    "org.kicad.KiCad",
+    "pcb",
+    "drc",
+    "--format",
+    "json",
+    "--severity-all",
+    "--schematic-parity",
+    "--exit-code-violations",
+    "-o",
+    "/home/pooo/Desktop/sailboard boards/saiboard-main/electronics/_production/01_audit/phase1/native/original/8x3/drc.json",
+    "/home/pooo/Desktop/sailboard boards/saiboard-main/electronics/_production/01_audit/phase1/copies/original/8x3/8x3.kicad_pcb"
+  ],
+  "returncode": 5,
+  "seconds": 3.27,
+  "stdout": "Found 114 violations\nFound 0 unconnected items\nFound 134 schematic parity issues\nSaved DRC Report to /home/pooo/Desktop/sailboard boards/saiboard-main/electronics/_production/01_audit/phase1/native/original/8x3/drc.json\n",
+  "stderr": ""
+}

@@ -1,0 +1,32 @@
+{
+  "original_files_checked": 117,
+  "snapshot_files_checked": 117,
+  "result": "PASS",
+  "approved_passive_values_and_footprints": "PASS;29 instances; no CAD edit this turn",
+  "LED_sensor_identity_and_land_consistency": {
+    "AH49E": {
+      "instances": 145,
+      "per_design": {
+        "11x3": 33,
+        "8x3": 24,
+        "3x8": 24,
+        "8x8": 64
+      },
+      "identity_variants": 1,
+      "land_variants": 1,
+      "deviations": []
+    },
+    "SKC6812RGBW-WS": {
+      "instances": 145,
+      "per_design": {
+        "11x3": 33,
+        "8x3": 24,
+        "3x8": 24,
+        "8x8": 64
+      },
+      "identity_variants": 1,
+      "land_variants": 1,
+      "deviations": []
+    }
+  }
+}

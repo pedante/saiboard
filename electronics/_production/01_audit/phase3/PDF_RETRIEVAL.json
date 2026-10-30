@@ -1,0 +1,24 @@
+[
+  {
+    "file": "TI_SN74HCT138_current.pdf",
+    "url": "https://www.ti.com/lit/ds/symlink/sn74hct138.pdf",
+    "date": "2026-10-29",
+    "bytes": 1770600,
+    "sha256": "792c1a1ac7106eb0ed52879fba64011a66b4da0ed2419783b4170e212374e87e"
+  },
+  {
+    "file": "Samsung_MLCC_current.pdf",
+    "url": "https://datasheet.lcsc.com/datasheet/pdf/02336ea48ea44ca18c72517dd3cb7b47.pdf?productCode=C24497",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "file": "AMS1117_current.pdf",
+    "url": "https://datasheet.lcsc.com/datasheet/pdf/e6935943fc6b1bbf350a1a0f3e90dc4a.pdf?productCode=C6186",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "file": "OPSCO_RGBW_current.pdf",
+    "url": "https://datasheet.lcsc.com/datasheet/pdf/f73fcb028ddf7140b2dbd34804e8ce40.pdf?productCode=C5378724",
+    "error": "HTTP Error 403: Forbidden"
+  }
+]

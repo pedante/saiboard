@@ -1,0 +1,666 @@
+                                                                                                    CD54HC154, CD74HC154,
+                                                                                                   CD54HCT154, CD74HCT154
+           Data sheet acquired from Harris Semiconductor
+           SCHS152D
+                                                                                                              High-Speed CMOS Logic
+           September 1997 - Revised June 2004                                                     4- to 16-Line Decoder/Demultiplexer
+
+              Features                                                                         A High on either enable input forces the output into the High
+                                                                                               state. The demultiplexing function is performed by using the
+              • Two Enable Inputs to Facilitate Demultiplexing and                             four input lines, A0 to A3, to select the output lines Y0 to
+                Cascading Functions                                                            Y15, and using one enable as the data input while holding
+[ /Title      • Fanout (Over Temperature Range)                                                the other enable low.
+(CD74           - Standard Outputs . . . . . . . . . . . . . . . 10 LSTTL Loads
+HC154           - Bus Driver Outputs . . . . . . . . . . . . . 15 LSTTL Loads                  Ordering Information
+,             • Wide Operating Temperature Range . . . -55oC to 125oC                                                            TEMP. RANGE
+CD74                                                                                             PART NUMBER                         (oC)        PACKAGE
+              • Balanced Propagation Delay and Transition Times
+HCT15
+                                                                                               CD54HC154F3A                       -55 to 125   24 Ld CERDIP
+4)            • Significant Power Reduction Compared to LSTTL
+                Logic ICs                                                                      CD54HCT154F3A                      -55 to 125   24 Ld CERDIP
+/Sub-
+ject          • HC Types                                                                       CD74HC154E                         -55 to 125   24 Ld PDIP
+(High           - 2V to 6V Operation
+                                                                                               CD74HC154EN                        -55 to 125   24 Ld PDIP
+Speed           - High Noise Immunity: NIL = 30%, NIH = 30%of VCC at
+                  VCC = 5V                                                                     CD74HC154M                         -55 to 125   24 Ld SOIC
+CMOS
+Logic         • HCT Types                                                                      CD74HC154M96                       -55 to 125   24 Ld SOIC
+                - 4.5V to 5.5V Operation
+4-to-16                                                                                        CD74HCT154E                        -55 to 125   24 Ld PDIP
+                - Direct LSTTL Input Logic Compatibility,
+Line              VIL= 0.8V (Max), VIH = 2V (Min)                                              CD74HCT154EN                       -55 to 125   24 Ld PDIP
+Decod           - CMOS Input Compatibility, Il ≤ 1µA at VOL, VOH
+er/Dem                                                                                         CD74HCT154M                        -55 to 125   24 Ld SOIC
+
+              Description                                                                      CD74HCT154M96                      -55 to 125   24 Ld SOIC
+
+              The ’HC154 and ’HCT154 are 4- to 16-line                                         NOTE: When ordering, use the entire part number. The suffix 96
+              decoders/demultiplexers with two enable inputs, E1 and E2.                       denotes tape and reel.
+
+
+              Pinout
+                                                                            CD54HC154, CD54HCT154
+                                                                                   (CERDIP)
+                                                                            CD74HC154, CD74HCT154
+                                                                                 (PDIP, SOIC)
+                                                                                  TOP VIEW
+
+                                                                            Y0 1                     24 VCC
+                                                                            Y1 2                     23 A0
+                                                                            Y2 3                     22 A1
+                                                                            Y3 4                     21 A2
+                                                                            Y4 5                     20 A3
+                                                                            Y5 6                     19 E2
+                                                                            Y6 7                     18 E1
+                                                                            Y7 8                     17 Y15
+                                                                            Y8 9                     16 Y14
+                                                                            Y9 10                    15 Y13
+                                                                           Y10 11                    14 Y12
+                                                                          GND 12                     13 Y11
+
+
+
+
+           CAUTION: These devices are sensitive to electrostatic discharge. Users should follow proper IC Handling Procedures.
+           Copyright © 2004, Texas Instruments Incorporated
+                                                                                           1
+                        CD54HC154, CD74HC154, CD54HCT154, CD74HCT154
+
+Functional Diagram
+                                                                             1
+                                                                                  Y0
+                                                                             2
+                                                                                  Y1
+                                                                             3
+                                                                                  Y2
+                                                                             4
+                                                                                  Y3
+                                                                             5
+                                                                                  Y4
+                                                                             6
+                                                                                  Y5
+                                                                             7
+                                                                                  Y6
+                                             A0 23                           8
+                                                                                  Y7
+                                             A1 22                           9
+                                                                                  Y8
+                                                  21                         10
+                                             A2                                   Y9
+                                                  20                         11
+                                             A3                                   Y10
+                                                                             13
+                                                                                  Y11
+                                                                             14
+                                                                                  Y12
+                                                                             15
+                                                                                  Y13
+                                                  18                         16
+                                             E1                                   Y14
+                                                  19                         17
+                                             E2                                   Y15 GND = 12
+                                                                                      VCC = 24
+
+
+                                                             TRUTH TABLE
+
+             INPUTS                                                                     OUTPUTS
+E1     E2    A3    A2    A1    A0    Y0     Y1    Y2    Y3      Y4       Y5       Y6    Y7   Y8   Y9   Y10   Y11   Y12   Y13   Y14   Y15
+ L     L     L      L     L     L     L     H     H     H       H        H        H     H    H    H    H     H     H     H     H     H
+ L     L     L      L     L     H     H     L     H     H       H        H        H     H    H    H    H     H     H     H     H     H
+ L     L     L      L     H     L     H     H      L    H       H        H        H     H    H    H    H     H     H     H     H     H
+ L     L     L      L     H     H     H     H     H      L      H        H        H     H    H    H    H     H     H     H     H     H
+ L     L     L     H      L     L     H     H     H     H       L        H        H     H    H    H    H     H     H     H     H     H
+ L     L     L     H      L     H     H     H     H     H       H        L        H     H    H    H    H     H     H     H     H     H
+ L     L     L     H      H     L     H     H     H     H       H        H         L    H    H    H    H     H     H     H     H     H
+ L     L     L     H      H     H     H     H     H     H       H        H        H      L   H    H    H     H     H     H     H     H
+ L     L     H      L     L     L     H     H     H     H       H        H        H     H    L    H    H     H     H     H     H     H
+ L     L     H      L     L     H     H     H     H     H       H        H        H     H    H    L    H     H     H     H     H     H
+ L     L     H      L     H     L     H     H     H     H       H        H        H     H    H    H     L    H     H     H     H     H
+ L     L     H      L     H     H     H     H     H     H       H        H        H     H    H    H    H      L    H     H     H     H
+ L     L     H     H      L     L     H     H     H     H       H        H        H     H    H    H    H     H      L    H     H     H
+ L     L     H     H      L     H     H     H     H     H       H        H        H     H    H    H    H     H     H      L    H     H
+ L     L     H     H      H     L     H     H     H     H       H        H        H     H    H    H    H     H     H     H      L    H
+ L     L     H     H      H     H     H     H     H     H       H        H        H     H    H    H    H     H     H     H     H      L
+ L     H     X     X      X     X     H     H     H     H       H        H        H     H    H    H    H     H     H     H     H     H
+ H     L     X     X      X     X     H     H     H     H       H        H        H     H    H    H    H     H     H     H     H     H
+ H     H     X     X      X     X     H     H     H     H       H        H        H     H    H    H    H     H     H     H     H     H
+H = High Voltage Level, L = Low Voltage Level, X = Don’t Care
+
+
+
+
+                                                                     2
+                                    CD54HC154, CD74HC154, CD54HCT154, CD74HCT154
+
+Absolute Maximum Ratings                                                                             Thermal Information
+DC Supply Voltage, VCC . . . . . . . . . . . . . . . . . . . . . . . . -0.5V to 7V                   Thermal Resistance (Typical)                                     θJA (oC/W)
+DC Input Diode Current, IIK                                                                            E (PDIP) Package (.600) (Note 1) . . . . . . . . . . . . . .            67
+ For VI < -0.5V or VI > VCC + 0.5V . . . . . . . . . . . . . . . . . . . . . .±20mA                    EN (PDIP) Package (.300) (Note 1). . . . . . . . . . . . .              67
+DC Output Diode Current, IOK                                                                           M (SOIC) Package (Note 2). . . . . . . . . . . . . . . . . . .          46
+ For VO < -0.5V or VO > VCC + 0.5V . . . . . . . . . . . . . . . . . . . .±20mA                      Maximum Junction Temperature . . . . . . . . . . . . . . . . . . . . . . . 150oC
+DC Output Source or Sink Current per Output Pin, IO                                                  Maximum Storage Temperature Range . . . . . . . . . .-65oC to 150oC
+ For VO > -0.5V or VO < VCC + 0.5V . . . . . . . . . . . . . . . . . . . .±25mA                      Maximum Lead Temperature (Soldering 10s) . . . . . . . . . . . . . 300oC
+DC VCC or Ground Current, ICC or IGND . . . . . . . . . . . . . . . . . .±50mA                         (SOIC - Lead Tips Only)
+
+Operating Conditions
+Temperature Range (TA) . . . . . . . . . . . . . . . . . . . . . -55oC to 125oC
+Supply Voltage Range, VCC
+  HC Types . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .2V to 6V
+  HCT Types . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .4.5V to 5.5V
+DC Input or Output Voltage, VI, VO . . . . . . . . . . . . . . . . . 0V to VCC
+Input Rise and Fall Time
+  2V . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1000ns (Max)
+  4.5V. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 500ns (Max)
+  6V . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 400ns (Max)
+CAUTION: Stresses above those listed in “Absolute Maximum Ratings” may cause permanent damage to the device. This is a stress only rating and operation
+of the device at these or any other conditions above those indicated in the operational sections of this specification is not implied.
+
+NOTES:
+ 1. The package thermal impedance is calculated in accordance with JESD 51-3.
+ 2. The package thermal impedance is calculated in accordance with JESD 51-7.
+
+
+DC Electrical Specifications
+                                                         TEST
+                                                      CONDITIONS                                            25oC               -40oC TO 85oC -55oC TO 125oC
+                                                                                   VCC
+      PARAMETER                   SYMBOL             VI (V)       IO (mA)           (V)          MIN         TYP      MAX        MIN       MAX         MIN       MAX       UNITS
+ HC TYPES
+ High Level Input                     VIH               -              -             2           1.5           -         -        1.5         -        1.5          -         V
+ Voltage
+                                                                                    4.5          3.15          -         -       3.15         -        3.15         -         V
+                                                                                     6           4.2           -         -        4.2         -        4.2          -         V
+ Low Level Input                      VIL               -              -             2               -         -       0.5         -        0.5          -        0.5         V
+ Voltage
+                                                                                    4.5              -         -       1.35        -        1.35         -        1.35        V
+                                                                                     6               -         -       1.8         -        1.8          -        1.8         V
+ High Level Output                    VOH         VIH or VIL        -0.02            2           1.9           -         -        1.9         -        1.9          -         V
+ Voltage
+                                                                    -0.02           4.5          4.4           -         -        4.4         -        4.4          -         V
+ CMOS Loads
+                                                                    -0.02            6           5.9           -         -        5.9         -        5.9          -         V
+ High Level Output                                                     -              -              -         -         -         -          -          -          -         V
+ Voltage
+                                                                       -4           4.5          3.98          -         -       3.84         -        3.7          -         V
+ TTL Loads
+                                                                     -5.2            6           5.48          -         -       5.34         -        5.2          -         V
+ Low Level Output                     VOL         VIH or VIL         0.02            2               -         -       0.1         -        0.1          -        0.1         V
+ Voltage
+                                                                     0.02           4.5              -         -       0.1         -        0.1          -        0.1         V
+ CMOS Loads
+                                                                     0.02            6               -         -       0.1         -        0.1          -        0.1         V
+ Low Level Output                                                      -              -              -         -         -         -          -          -          -         V
+ Voltage
+                                                                       4            4.5              -         -       0.26        -        0.33         -        0.4         V
+ TTL Loads
+                                                                      5.2            6               -         -       0.26        -        0.33         -        0.4         V
+ Input Leakage                          II          VCC or             -             6               -         -       ±0.1        -         ±1          -         ±1        µA
+ Current                                             GND
+ Quiescent Device                     ICC           VCC or             0             6               -         -        8          -         80          -        160        µA
+ Current                                             GND
+
+
+
+
+                                                                                                 3
+                          CD54HC154, CD74HC154, CD54HCT154, CD74HCT154
+
+DC Electrical Specifications             (Continued)
+
+                                            TEST
+                                         CONDITIONS                                        25oC                    -40oC TO 85oC -55oC TO 125oC
+                                                               VCC
+    PARAMETER            SYMBOL          VI (V)      IO (mA)    (V)           MIN          TYP         MAX          MIN       MAX      MIN      MAX      UNITS
+HCT TYPES
+High Level Input            VIH            -            -      4.5 to             2          -           -           2         -        2        -        V
+Voltage                                                         5.5
+Low Level Input             VIL            -            -      4.5 to             -          -          0.8          -        0.8       -       0.8       V
+Voltage                                                         5.5
+High Level Output           VOH        VIH or VIL     -0.02      4.5          4.4            -           -          4.4        -       4.4       -        V
+Voltage
+CMOS Loads
+High Level Output                                      -4        4.5          3.98           -           -         3.84        -       3.7       -        V
+Voltage
+TTL Loads
+Low Level Output            VOL        VIH or VIL     0.02       4.5              -          -          0.1          -        0.1       -       0.1       V
+Voltage
+CMOS Loads
+Low Level Output                                       4         4.5              -          -         0.26          -        0.33      -       0.4       V
+Voltage
+TTL Loads
+Input Leakage                II        VCC and         0         5.5              -                    ±0.1          -         ±1       -       ±1        µA
+Current                                 GND
+Quiescent Device            ICC         VCC or         0         5.5              -          -           8           -         80       -       160       µA
+Current                                  GND
+Additional Quiescent        ∆ICC         VCC            -      4.5 to             -         100         360          -        450       -       490       µA
+Device Current Per        (Note 3)       -2.1                   5.5
+Input Pin: 1 Unit Load
+NOTE:
+ 3. For dual-supply systems theoretical worst case (VI = 2.4V, VCC = 5.5V) specification is 1.8mA.
+
+HCT Input Loading Table
+             INPUT                              UNIT LOADS
+
+             A0 - A3                                 1.4
+
+             E1, E2                                  1.3
+
+NOTE: Unit Load is ∆ICC limit specified in DC Electrical Table, e.g.,
+360µA max at 25oC.
+
+Switching Specifications Input tr, tf = 6ns
+                                                                                                                          -40oC TO
+                                                                                                 25oC                       85oC       -55oC TO 125oC
+                                                       TEST
+         PARAMETER                   SYMBOL         CONDITIONS     VCC (V)            MIN        TYP         MAX     MIN       MAX      MIN     MAX      UNITS
+
+HC TYPES
+Propagation Delay (Figure 1)         tPLH, tPHL CL = 50pF               2              -          -          175          -    220          -   265       ns
+
+    Address to Output                                                   4.5            -          -           35          -     44          -    53       ns
+
+                                                  CL =15pF              5              -          14          -           -        -        -        -    ns
+
+                                                  CL = 50pF             6              -          -           30          -     37          -    45       ns
+
+
+
+
+                                                                              4
+                         CD54HC154, CD74HC154, CD54HCT154, CD74HCT154
+
+Switching Specifications Input tr, tf = 6ns (Continued)
+                                                                                                 -40oC TO
+                                                                                25oC               85oC       -55oC TO 125oC
+                                                TEST
+         PARAMETER               SYMBOL      CONDITIONS      VCC (V)      MIN   TYP    MAX     MIN     MAX     MIN    MAX      UNITS
+
+   E1 to Output                  tPLH, tPHL CL = 50pF           2          -     -     175       -     220      -      265      ns
+
+                                                                4.5        -     -      35       -      44      -      53       ns
+
+                                             CL =15pF           5          -     14      -       -       -      -       -       ns
+
+                                             CL = 50pF          6          -     -      30       -      37      -      45       ns
+
+   E2 to Output                  tPLH, tPHL CL = 50pF           2          -     -     175       -     220      -      265      ns
+
+                                                                4.5        -     -      35       -      44      -      53       ns
+
+                                             CL =15pF           5          -     14      -       -       -      -       -       ns
+
+                                             CL = 50pF          6          -     -      30       -      37      -      45       ns
+
+Output Transition Time           tTLH, tTHL CL = 50pF           2          -     -      75       -      95      -      110      ns
+(Figure 1)
+                                                                4.5        -     -      15       -      19      -      22       ns
+
+                                                                6          -     -      13       -      16      -      19       ns
+
+Input Capacitance                   CIN            -             -         -     -      10       -      10      -      10       pF
+
+Power Dissipation Capacitance      CPD             -            5          -     88      -       -       -      -       -       pF
+(Notes 4, 5)
+
+HCT TYPES
+Propagation Delay (Figure 2)    tPLH, tPHL
+   Address to Output                         CL = 50pF          4.5        -     -      35       -      44      -      53       ns
+
+                                             CL =15pF           5          -     14      -       -              -       -       ns
+
+   E1 to Output                  tPLH, tPHL CL = 50pF           4.5        -     -      34       -      43      -      51       ns
+
+                                             CL =15pF           5          -     14      -       -       -      -       -       ns
+
+   E2 to Output                  tPLH, tPHL CL = 50pF           4.5        -            34       -      43      -      51       ns
+
+                                             CL =15pF           5          -     14      -       -       -      -       -       ns
+
+Output Transition Time           tTLH, tTHL CL = 50pF           4.5        -     -      15       -      19      -      22       ns
+
+Input Capacitance                   CIN            -             -         -     -      10       -      10      -      10       pF
+
+Power Dissipation Capacitance      CPD             -            5                84      -       -       -      -       -       pF
+(Notes 4, 5)
+
+NOTES:
+ 4. CPD is used to determine the dynamic power consumption, per gate.
+ 5. PD = VCC2 fi (CPD + CL) where fi = input frequency, CL = output load capacitance, VCC = supply voltage.
+
+
+
+
+                                                                      5
+Test Circuits and Waveforms
+       tr = 6ns                              tf = 6ns                    tr = 6ns                           tf = 6ns
+                                                         VCC                                                            3V
+                                90%                                                           2.7V
+           INPUT                50%                                         INPUT             1.3V
+                                10%                      GND                                  0.3V                      GND
+
+                  tTHL                            tTLH                          tTHL                             tTLH
+
+                                                90%                                                            90%
+                                               50%                                                            1.3V
+      INVERTING                               10%                       INVERTING
+                                                                                                             10%
+        OUTPUT                                                            OUTPUT
+                         tPHL         tPLH                                             tPHL          tPLH
+
+
+ FIGURE 1. HC AND HCU TRANSITION TIMES AND PROPAGA-                FIGURE 2. HCT TRANSITION TIMES AND PROPAGATION
+           TION DELAY TIMES, COMBINATION LOGIC                               DELAY TIMES, COMBINATION LOGIC
+
+
+
+
+                                                               6
+                                                                                                                                           PACKAGE OPTION ADDENDUM
+
+www.ti.com                                                                                                                                                                            13-Jul-2022
+
+
+
+
+PACKAGING INFORMATION
+
+       Orderable Device            Status   Package Type Package Pins Package            Eco Plan          Lead finish/          MSL Peak Temp        Op Temp (°C)          Device Marking          Samples
+                                     (1)                 Drawing        Qty                  (2)           Ball material                 (3)                                      (4/5)
+                                                                                                                 (6)
+
+        5962-8670101JA            ACTIVE         CDIP           J       24      1      Non-RoHS &              Call TI           N / A for Pkg Type        -55 to 125   5962-8670101JA              Samples
+                                                                                        Non-Green                                                                       CD54HCT154F3A
+        5962-8682201JA            ACTIVE         CDIP           J       24      1      Non-RoHS &              Call TI           N / A for Pkg Type        -55 to 125   5962-8682201JA              Samples
+                                                                                        Non-Green                                                                       CD54HC154F3A
+        CD54HC154F3A              ACTIVE         CDIP           J       24      1      Non-RoHS &              Call TI           N / A for Pkg Type        -55 to 125   5962-8682201JA              Samples
+                                                                                        Non-Green                                                                       CD54HC154F3A
+       CD54HCT154F3A              ACTIVE         CDIP           J       24      1      Non-RoHS &              Call TI           N / A for Pkg Type        -55 to 125   5962-8670101JA              Samples
+                                                                                        Non-Green                                                                       CD54HCT154F3A
+         CD74HC154M               ACTIVE         SOIC          DW       24      25    RoHS & Green            NIPDAU           Level-1-260C-UNLIM          -55 to 125   HC154M                      Samples
+
+        CD74HC154M96              ACTIVE         SOIC          DW       24    2000    RoHS & Green         NIPDAU | SN         Level-1-260C-UNLIM          -55 to 125   HC154M                      Samples
+
+       CD74HC154M96E4             ACTIVE         SOIC          DW       24    2000    RoHS & Green            NIPDAU           Level-1-260C-UNLIM          -55 to 125   HC154M                      Samples
+
+       CD74HC154M96G4             ACTIVE         SOIC          DW       24    2000    RoHS & Green            NIPDAU           Level-1-260C-UNLIM          -55 to 125   HC154M                      Samples
+
+        CD74HC154ME4              ACTIVE         SOIC          DW       24      25    RoHS & Green            NIPDAU           Level-1-260C-UNLIM          -55 to 125   HC154M                      Samples
+
+        CD74HC154MG4              ACTIVE         SOIC          DW       24      25    RoHS & Green            NIPDAU           Level-1-260C-UNLIM          -55 to 125   HC154M                      Samples
+
+         CD74HCT154M              ACTIVE         SOIC          DW       24      25    RoHS & Green            NIPDAU           Level-1-260C-UNLIM          -55 to 125   HCT154M                     Samples
+
+       CD74HCT154M96              ACTIVE         SOIC          DW       24    2000    RoHS & Green            NIPDAU           Level-1-260C-UNLIM          -55 to 125   HCT154M                     Samples
+
+      CD74HCT154M96G4             ACTIVE         SOIC          DW       24    2000         TBD                 Call TI                Call TI              -55 to 125                               Samples
+
+       CD74HCT154MG4              ACTIVE         SOIC          DW       24      25         TBD                 Call TI                Call TI              -55 to 125                               Samples
+
+(1)
+  The marketing status values are defined as follows:
+ACTIVE: Product device recommended for new designs.
+LIFEBUY: TI has announced that the device will be discontinued, and a lifetime-buy period is in effect.
+NRND: Not recommended for new designs. Device is in production to support existing customers, but TI does not recommend using this part in a new design.
+PREVIEW: Device has been announced but is not in production. Samples may or may not be available.
+OBSOLETE: TI has discontinued the production of the device.
+
+
+
+
+                                                                                         Addendum-Page 1
+                                                                                                                                                     PACKAGE OPTION ADDENDUM
+
+www.ti.com                                                                                                                                                                                           13-Jul-2022
+
+
+
+
+(2)
+   RoHS: TI defines "RoHS" to mean semiconductor products that are compliant with the current EU RoHS requirements for all 10 RoHS substances, including the requirement that RoHS substance
+do not exceed 0.1% by weight in homogeneous materials. Where designed to be soldered at high temperatures, "RoHS" products are suitable for use in specified lead-free processes. TI may
+reference these types of products as "Pb-Free".
+RoHS Exempt: TI defines "RoHS Exempt" to mean products that contain lead but are compliant with EU RoHS pursuant to a specific EU RoHS exemption.
+Green: TI defines "Green" to mean the content of Chlorine (Cl) and Bromine (Br) based flame retardants meet JS709B low halogen requirements of <=1000ppm threshold. Antimony trioxide based
+flame retardants must also meet the <=1000ppm threshold requirement.
+
+(3)
+      MSL, Peak Temp. - The Moisture Sensitivity Level rating according to the JEDEC industry standard classifications, and peak solder temperature.
+
+(4)
+      There may be additional marking, which relates to the logo, the lot trace code information, or the environmental category on the device.
+
+(5)
+   Multiple Device Markings will be inside parentheses. Only one Device Marking contained in parentheses and separated by a "~" will appear on a device. If a line is indented then it is a continuation
+of the previous line and the two combined represent the entire Device Marking for that device.
+
+(6)
+   Lead finish/Ball material - Orderable Devices may have multiple material finish options. Finish options are separated by a vertical ruled line. Lead finish/Ball material values may wrap to two
+lines if the finish value exceeds the maximum column width.
+
+
+Important Information and Disclaimer:The information provided on this page represents TI's knowledge and belief as of the date that it is provided. TI bases its knowledge and belief on information
+provided by third parties, and makes no representation or warranty as to the accuracy of such information. Efforts are underway to better integrate information from third parties. TI has taken and
+continues to take reasonable steps to provide representative and accurate information but may not have conducted destructive testing or chemical analysis on incoming materials and chemicals.
+TI and TI suppliers consider certain information to be proprietary, and thus CAS numbers and other limited information may not be available for release.
+
+In no event shall TI's liability arising out of such information exceed the total purchase price of the TI part(s) at issue in this document sold by TI to Customer on an annual basis.
+
+
+OTHER QUALIFIED VERSIONS OF CD54HC154, CD54HCT154, CD74HC154, CD74HCT154 :
+
+• Catalog : CD74HC154, CD74HCT154
+• Military : CD54HC154, CD54HCT154
+
+NOTE: Qualified Version Definitions:
+
+           • Catalog - TI's standard catalog product
+           • Military - QML certified for Military and Defense Applications
+
+
+
+
+                                                                                                Addendum-Page 2
+                                                                               PACKAGE MATERIALS INFORMATION
+
+www.ti.com                                                                                                                                        9-Aug-2022
+
+
+
+TAPE AND REEL INFORMATION
+
+       REEL DIMENSIONS                                                                      TAPE DIMENSIONS
+                                                                                       K0       P1
+
+
+
+                                                                                                                       B0 W
+                                        Reel
+                                      Diameter
+                                                                                    Cavity            A0
+                                                                A0   Dimension designed to accommodate the component width
+                                                                B0   Dimension designed to accommodate the component length
+                                                                K0   Dimension designed to accommodate the component thickness
+                                                                W    Overall width of the carrier tape
+                                                                P1   Pitch between successive cavity centers
+
+
+                                       Reel Width (W1)
+                              QUADRANT ASSIGNMENTS FOR PIN 1 ORIENTATION IN TAPE
+
+                                                                                                      Sprocket Holes
+
+
+                                                 Q1        Q2          Q1    Q2
+
+                                                 Q3        Q4          Q3    Q4                  User Direction of Feed
+
+
+
+                                                            Pocket Quadrants
+
+
+*All dimensions are nominal
+             Device           Package Package Pins              SPQ       Reel   Reel   A0                    B0        K0     P1     W     Pin1
+                               Type Drawing                             Diameter Width (mm)                  (mm)      (mm)   (mm)   (mm) Quadrant
+                                                                          (mm) W1 (mm)
+     CD74HC154M96              SOIC      DW           24        2000        330.0        24.4        10.75   15.7      2.7    12.0   24.0    Q1
+   CD74HC154M96G4              SOIC      DW           24        2000        330.0        24.4        10.75   15.7      2.7    12.0   24.0    Q1
+    CD74HCT154M96              SOIC      DW           24        2000        330.0        24.4        10.75   15.7      2.7    12.0   24.0    Q1
+
+
+
+
+                                                                      Pack Materials-Page 1
+                                                                PACKAGE MATERIALS INFORMATION
+
+www.ti.com                                                                                                              9-Aug-2022
+
+
+
+ TAPE AND REEL BOX DIMENSIONS
+
+
+
+
+                                                               Width (mm)
+                                                                              H
+
+
+
+
+                      W                                   L
+
+
+
+
+*All dimensions are nominal
+             Device           Package Type   Package Drawing   Pins         SPQ    Length (mm)   Width (mm)   Height (mm)
+     CD74HC154M96                SOIC             DW           24           2000      364.0        361.0         36.0
+    CD74HC154M96G4               SOIC             DW           24           2000      350.0        350.0         43.0
+     CD74HCT154M96               SOIC             DW           24           2000      350.0        350.0         43.0
+
+
+
+
+                                                       Pack Materials-Page 2
+                                                               PACKAGE MATERIALS INFORMATION
+
+www.ti.com                                                                                                       9-Aug-2022
+
+
+
+TUBE
+
+       T - Tube
+        height                                                     L - Tube length
+
+
+                      W - Tube
+                       width
+
+
+         B - Alignment groove width
+
+*All dimensions are nominal
+             Device           Package Name   Package Type   Pins       SPQ     L (mm)   W (mm)   T (µm)   B (mm)
+       CD74HC154M                 DW            SOIC         24         25     506.98    12.7    4826      6.6
+     CD74HC154ME4                 DW            SOIC         24         25     506.98    12.7    4826      6.6
+     CD74HC154MG4                 DW            SOIC         24         25     506.98    12.7    4826      6.6
+      CD74HCT154M                 DW            SOIC         24         25     506.98    12.7    4826      6.6
+
+
+
+
+                                                       Pack Materials-Page 3
+                                                                                                                   MECHANICAL DATA
+
+                                                                                           MCDI004A – JANUARY 1995 – REVISED NOVEMBER 1997
+
+J (R-GDIP-T**)                                                                                      CERAMIC DUAL-IN-LINE PACKAGE
+24 PINS SHOWN
+
+
+                                     B
+
+         24                                                        13
+
+
+
+
+                                                                                   C
+
+
+
+
+         1                                                         12
+                           0.065 (1,65)
+                                                                                                   Lens Protrusion (Lens Optional)
+                           0.045 (1,14)                                                            0.010 (0.25) MAX
+
+                0.090 (2,29)                                       0.175 (4,45)
+                                                                                                                             A
+                0.060 (1,53)                                       0.140 (3,56)
+
+
+
+
+                                                                                            Seating Plane
+
+                                                                                       0.018 (0,46) MIN
+
+
+                                                    0.022 (0,56)                  0.125 (3,18) MIN
+                    0.100 (2,54)
+                                                    0.014 (0,36)                                                      0.012 (0,30)
+                                                                                                                      0.008 (0,20)
+
+
+              PINS **              24                              28                               32                           40
+  DIM                      NARR           WIDE          NARR               WIDE          NARR             WIDE        NARR            WIDE
+              MAX       0.624(15,85) 0.624(15,85) 0.624(15,85) 0.624(15,85) 0.624(15,85) 0.624(15,85) 0.624(15,85) 0.624(15,85)
+   ”A”
+              MIN       0.590(14,99) 0.590(14,99) 0.590(14,99) 0.590(14,99) 0.590(14,99) 0.590(14,99) 0.590(14,99) 0.590(14,99)
+              MAX       1.265(32,13) 1.265(32,13) 1.465(37,21) 1.465(37,21) 1.668(42,37) 1.668(42,37) 2.068(52,53) 2.068(52,53)
+   ”B”
+              MIN       1.235(31,37) 1.235(31,37) 1.435(36,45) 1.435(36,45) 1.632(41,45) 1.632(41,45) 2.032(51,61) 2.032(51,61)
+              MAX       0.541(13,74) 0.598(15,19) 0.541(13,74) 0.598(15,19) 0.541(13,74) 0.598(15,19) 0.541(13,74) 0.598(15,19)
+   ”C”
+              MIN       0.514(13,06) 0.571(14,50) 0.514(13,06) 0.571(14,50) 0.514(13,06) 0.571(14,50) 0.514(13,06) 0.571(14,50)
+
+                                                                                                                             4040084/C 10/97
+
+NOTES: A.     All linear dimensions are in inches (millimeters).
+       B.     This drawing is subject to change without notice.
+       C.     Window (lens) added to this group of packages (24-, 28-, 32-, 40-pin).
+       D.     This package can be hermetically sealed with a ceramic lid using glass frit.
+       E.     Index point is provided on cap for terminal identification.
+
+
+
+
+                                                  POST OFFICE BOX 655303   • DALLAS, TEXAS 75265
+                                       IMPORTANT NOTICE AND DISCLAIMER
+TI PROVIDES TECHNICAL AND RELIABILITY DATA (INCLUDING DATA SHEETS), DESIGN RESOURCES (INCLUDING REFERENCE
+DESIGNS), APPLICATION OR OTHER DESIGN ADVICE, WEB TOOLS, SAFETY INFORMATION, AND OTHER RESOURCES “AS IS”
+AND WITH ALL FAULTS, AND DISCLAIMS ALL WARRANTIES, EXPRESS AND IMPLIED, INCLUDING WITHOUT LIMITATION ANY
+IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE OR NON-INFRINGEMENT OF THIRD
+PARTY INTELLECTUAL PROPERTY RIGHTS.
+These resources are intended for skilled developers designing with TI products. You are solely responsible for (1) selecting the appropriate
+TI products for your application, (2) designing, validating and testing your application, and (3) ensuring your application meets applicable
+standards, and any other safety, security, regulatory or other requirements.
+These resources are subject to change without notice. TI grants you permission to use these resources only for development of an
+application that uses the TI products described in the resource. Other reproduction and display of these resources is prohibited. No license
+is granted to any other TI intellectual property right or to any third party intellectual property right. TI disclaims responsibility for, and you
+will fully indemnify TI and its representatives against, any claims, damages, costs, losses, and liabilities arising out of your use of these
+resources.
+TI’s products are provided subject to TI’s Terms of Sale or other applicable terms available either on ti.com or provided in conjunction with
+such TI products. TI’s provision of these resources does not expand or otherwise alter TI’s applicable warranties or warranty disclaimers for
+TI products.
+TI objects to and rejects any additional or different terms you may have proposed. IMPORTANT NOTICE
+
+                             Mailing Address: Texas Instruments, Post Office Box 655303, Dallas, Texas 75265
+                                            Copyright © 2022, Texas Instruments Incorporated
+

@@ -1,0 +1,82 @@
+  SMD-Leiterplattenklemmen mit Betätigungsdrückern 1,5 mm2                                                                                                                       !2
+                                                                                                                                                                                                                         215
+
+              Rastermaß 6 mm / 0.24 in                                                       Rastermaß 6 mm / 0.24 in
+
+
+        0,5 – 1,5 mm2                     AWG 20 – 16                                   0,5 – 1,5 mm2                    AWG 20 – 16
+ 320 V/4 kV/2 17,5 A                                                            320 V/4 kV/2 17,5 A
+
+
+                                                                                                                                                                                                                         2
+
+
+
+    <_______ 15,8 _______>                                                          <_______ 15,8 _______>
+    <_____ 15,2 _____>                   <___ L ___>                                <_____ 15,2 _____>                   <___ L ___>                 3,2        0,3
+                                                                                                                                                                                                     <
+                                                                     3,2
+
+5,2 <                                                                           5,2 <
+                                                                    <____                                                                           <____       __> <                                6,35
+                               < 5,6 >                                                                         < 5,6 >
+                                                                                                                                                                                                     >
+                                                                     >                                                                               >                                   R
+>                                                                               >       <____ 13,8 _____>                  <6>
+        <____ 13,8 _____>                  <6>
+
+ <_ 6,5 _>                           <_________ 17 _________>                    <_ 6,5 _>                           <_________ 17 _________>                                                        <
+
+                                                                                                                                                                                                              < 17,7 >
+                   0,55                                                                            0,55
+> 2,2 <            ____> <           <_ 6,5 _>       > 4,5 <                    > 2,2 <            ____> <           <_ 6,5 _>       > 4,5 <
+                                                                                                                                                                                                     24 __>
+
+
+                                                     < 6 > 2,4 <                                                                     < 6 > 2,4 <
+                             <                                                                               <
+                             1,6                                                                             1,6
+                             >                                                                               >                                                                                       > 10
+                                                           > 2,7 <                                                                         > 2,7 <
+                                                                                                                                > 2,1 <
+                                                                                                                                                       0,4
+                                                > 2,1 <
+                                                                       0,4                                                                                                                            <__
+                                                                       ___> <                                                                          ___> <
+                              <                                                                               <
+                                                                                                               1,8                                                                           < A >
+                               1,8
+                              )                                    0,4
+                                                                                                              )                                    0,4
+                                   > 4,6    <                      ___> <                                          > 4,6    <                      ___> <
+
+ L = (Polzahl x Rastermaß) – 0,3 mm                                                                                                                             R = Zuführungsrichtung
+                                                                                                                                                                A = 12 mm (1-polig)
+                                                                                                                                                                A = 16 mm (2-polig)
+                                                                                                                                                                A = 22 mm (3-polig)
+
+  Polzahl     Bestellnr.                                                VPE     Polzahl      Bestellnr.                                               VPE
+
+  SMD-Leiterplattenklemmen mit Betätigungsdrückern                              SMD-Leiterplattenklemmen mit Betätigungsdrückern
+  im Gurt, weiß*                                                                im Gurt, schwarz
+
+  1           2061-601/998-404                  8100 (9 x 900)                  1            2061-621/998-404                 8100 (9 x 900)
+  2           2061-602/998-404                  6300 (9 x 700)                  2            2061-622/998-404                 6300 (9 x 700)
+  3           2061-603/998-404                  4050 (9 x 450)                  3            2061-623/998-404                 4050 (9 x 450)
+
+
+  Spulendurchmesser 330 mm                                                      Spulendurchmesser 330 mm
+
+
+
+
+  Eindrähtige Leiter anschließen – direkt stecken.                               Feindrähtige Leiter anschließen und Leiter lösen –
+                                                                                 durch geringen Druck auf den Betätigungsdrücker,
+                                                                                 z.B. mit Betätigungswerkzeug 206-861.
+
+
+
+
+* Abhängig von den im Reflow-Prozess verwendeten Löttemperaturen und -zeiten ergeben sich beim
+weißen Material Farbabweichungen, die aber keinen Einfluss auf die Funktion haben.
+

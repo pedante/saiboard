@@ -1,0 +1,176 @@
+{
+  "11x3": [
+    {
+      "reference": "M6",
+      "uuid": "5a263ec0-78c9-4dd4-a61c-538664f8e843",
+      "attributes": [
+        "board_only",
+        "exclude_from_pos_files",
+        "exclude_from_bom"
+      ]
+    },
+    {
+      "reference": "M5",
+      "uuid": "5a83b7b3-903e-4cee-99c3-908642078fd2",
+      "attributes": [
+        "board_only",
+        "exclude_from_pos_files",
+        "exclude_from_bom"
+      ]
+    },
+    {
+      "reference": "M6",
+      "uuid": "8df76c33-41e8-48ae-abf1-5a0a0204664f",
+      "attributes": [
+        "board_only",
+        "exclude_from_pos_files",
+        "exclude_from_bom"
+      ]
+    },
+    {
+      "reference": "M1",
+      "uuid": "c366745f-f91e-4a6c-ac8b-83a83e72846a",
+      "attributes": [
+        "board_only",
+        "exclude_from_pos_files",
+        "exclude_from_bom"
+      ]
+    },
+    {
+      "reference": "M2",
+      "uuid": "d7b09413-3a9e-4309-8b13-8b107c33f401",
+      "attributes": [
+        "board_only",
+        "exclude_from_pos_files",
+        "exclude_from_bom"
+      ]
+    },
+    {
+      "reference": "M6",
+      "uuid": "d8d5d882-c0d5-4360-9630-c853688a3edd",
+      "attributes": [
+        "board_only",
+        "exclude_from_pos_files",
+        "exclude_from_bom"
+      ]
+    }
+  ],
+  "8x3": [
+    {
+      "reference": "M3",
+      "uuid": "50dc83fe-433d-4a0c-bc0d-2f553e15b36d",
+      "attributes": [
+        "exclude_from_pos_files",
+        "exclude_from_bom"
+      ]
+    },
+    {
+      "reference": "M2",
+      "uuid": "9cc67cfc-8b01-4f11-a3c4-2fab5c5920ec",
+      "attributes": [
+        "exclude_from_pos_files",
+        "exclude_from_bom"
+      ]
+    },
+    {
+      "reference": "M1",
+      "uuid": "e7b3ea34-df49-4730-9e9c-410cbc2e474c",
+      "attributes": [
+        "exclude_from_pos_files",
+        "exclude_from_bom"
+      ]
+    }
+  ],
+  "3x8": [
+    {
+      "reference": "M2",
+      "uuid": "129e04fe-8a35-4876-81d8-554f4c4e4910",
+      "attributes": [
+        "exclude_from_pos_files",
+        "exclude_from_bom"
+      ]
+    },
+    {
+      "reference": "M3",
+      "uuid": "5ba70561-5bd1-4478-a189-5032c140b4c3",
+      "attributes": [
+        "exclude_from_pos_files",
+        "exclude_from_bom"
+      ]
+    },
+    {
+      "reference": "M1",
+      "uuid": "f72e85ae-f3ca-4622-8d0a-98c53efb633b",
+      "attributes": [
+        "exclude_from_pos_files",
+        "exclude_from_bom"
+      ]
+    }
+  ],
+  "8x8": [
+    {
+      "reference": "m1",
+      "uuid": "06342833-3577-43e4-a051-900b40b44afa",
+      "attributes": [
+        "exclude_from_pos_files",
+        "exclude_from_bom"
+      ]
+    },
+    {
+      "reference": "m1",
+      "uuid": "54da0e29-cbcc-4b5c-9616-9239d520e211",
+      "attributes": [
+        "exclude_from_pos_files",
+        "exclude_from_bom"
+      ]
+    },
+    {
+      "reference": "m1",
+      "uuid": "572d9a4e-12bb-4e36-9012-8da344d65f94",
+      "attributes": [
+        "exclude_from_pos_files",
+        "exclude_from_bom"
+      ]
+    },
+    {
+      "reference": "m1",
+      "uuid": "6a6cfdb4-3c38-45ef-9842-f6b385cd7d44",
+      "attributes": [
+        "exclude_from_pos_files",
+        "exclude_from_bom"
+      ]
+    },
+    {
+      "reference": "m2",
+      "uuid": "91eabf70-ac3e-4314-8490-5854519b22e7",
+      "attributes": [
+        "exclude_from_pos_files",
+        "exclude_from_bom"
+      ]
+    },
+    {
+      "reference": "m1",
+      "uuid": "9365c7a3-3e23-4cc2-838a-b87dadc1a1e7",
+      "attributes": [
+        "exclude_from_pos_files",
+        "exclude_from_bom"
+      ]
+    },
+    {
+      "reference": "m1",
+      "uuid": "e1022fd7-4ca0-4cb0-8bcf-b8f8a4e2757e",
+      "attributes": [
+        "exclude_from_pos_files",
+        "exclude_from_bom"
+      ]
+    },
+    {
+      "reference": "m1",
+      "uuid": "f5853b39-37b6-482f-bcf1-d469fa06855f",
+      "attributes": [
+        "exclude_from_pos_files",
+        "exclude_from_bom"
+      ]
+    }
+  ]
+}

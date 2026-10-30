@@ -1,0 +1,829 @@
+[
+  {
+    "archive": "kicad_files/11x3/gerbers/gerber.zip",
+    "member": "gerber/",
+    "type": "directory",
+    "size_bytes": 0,
+    "zip_modified_local_unspecified_timezone": [
+      2023,
+      12,
+      2,
+      14,
+      16,
+      40
+    ],
+    "sha256": null
+  },
+  {
+    "archive": "kicad_files/11x3/gerbers/gerber.zip",
+    "member": "gerber/11x3-PTH.drl",
+    "type": "file",
+    "size_bytes": 4918,
+    "zip_modified_local_unspecified_timezone": [
+      2023,
+      12,
+      2,
+      14,
+      15,
+      38
+    ],
+    "sha256": "06df8933081d24538e7ef49fcde5cf6dfc974154f2b6c2199907b39c310f45c7"
+  },
+  {
+    "archive": "kicad_files/11x3/gerbers/gerber.zip",
+    "member": "gerber/11x3-B_Silkscreen.gbr",
+    "type": "file",
+    "size_bytes": 78997,
+    "zip_modified_local_unspecified_timezone": [
+      2023,
+      12,
+      2,
+      14,
+      15,
+      26
+    ],
+    "sha256": "ed3b418e439974e073114cc8e8af25f2b6ffe9bf65800a78e59465de128bcd08"
+  },
+  {
+    "archive": "kicad_files/11x3/gerbers/gerber.zip",
+    "member": "gerber/.DS_Store",
+    "type": "file",
+    "size_bytes": 6148,
+    "zip_modified_local_unspecified_timezone": [
+      2023,
+      12,
+      2,
+      14,
+      16,
+      40
+    ],
+    "sha256": "d65165279105ca6773180500688df4bdc69a2c7b771752f0a46ef120b7fd8ec3"
+  },
+  {
+    "archive": "kicad_files/11x3/gerbers/gerber.zip",
+    "member": "__MACOSX/gerber/._.DS_Store",
+    "type": "file",
+    "size_bytes": 120,
+    "zip_modified_local_unspecified_timezone": [
+      2023,
+      12,
+      2,
+      14,
+      16,
+      40
+    ],
+    "sha256": "2f380f4a3d05a8d90c2106f50da75064e9ce57a598599dc5404f8f69a0223aa9"
+  },
+  {
+    "archive": "kicad_files/11x3/gerbers/gerber.zip",
+    "member": "gerber/11x3-B_Mask.gbr",
+    "type": "file",
+    "size_bytes": 11514,
+    "zip_modified_local_unspecified_timezone": [
+      2023,
+      12,
+      2,
+      14,
+      15,
+      26
+    ],
+    "sha256": "ddb2a90dbd42d3c282183ae7ea13f96424bfa7a5d9335ea339a195a8a7a4d0e7"
+  },
+  {
+    "archive": "kicad_files/11x3/gerbers/gerber.zip",
+    "member": "gerber/11x3-NPTH.drl",
+    "type": "file",
+    "size_bytes": 452,
+    "zip_modified_local_unspecified_timezone": [
+      2023,
+      12,
+      2,
+      14,
+      15,
+      38
+    ],
+    "sha256": "d9379bcf11cbe4d801a52fba1940765e79dbff72025d76c3d2dfadd28bc32dc4"
+  },
+  {
+    "archive": "kicad_files/11x3/gerbers/gerber.zip",
+    "member": "gerber/11x3-B_Paste.gbr",
+    "type": "file",
+    "size_bytes": 10295,
+    "zip_modified_local_unspecified_timezone": [
+      2023,
+      12,
+      2,
+      14,
+      15,
+      26
+    ],
+    "sha256": "5c12f1aa93d8b79cdd71412ff703189dfa0c85d068a056287c22fbc58cb85950"
+  },
+  {
+    "archive": "kicad_files/11x3/gerbers/gerber.zip",
+    "member": "gerber/11x3-In1_Cu.gbr",
+    "type": "file",
+    "size_bytes": 774007,
+    "zip_modified_local_unspecified_timezone": [
+      2023,
+      12,
+      2,
+      14,
+      15,
+      26
+    ],
+    "sha256": "67514bf1fa3d30cd11286699d252899f37b3171dbc0774089c0c6700c2f9e8cc"
+  },
+  {
+    "archive": "kicad_files/11x3/gerbers/gerber.zip",
+    "member": "gerber/11x3-F_Silkscreen.gbr",
+    "type": "file",
+    "size_bytes": 107353,
+    "zip_modified_local_unspecified_timezone": [
+      2023,
+      12,
+      2,
+      14,
+      15,
+      26
+    ],
+    "sha256": "5a1710d1b56fc44c1e0e0f7d72b53ebc181a5ce5ac6db485b92732471b504284"
+  },
+  {
+    "archive": "kicad_files/11x3/gerbers/gerber.zip",
+    "member": "gerber/11x3-F_Mask.gbr",
+    "type": "file",
+    "size_bytes": 11270,
+    "zip_modified_local_unspecified_timezone": [
+      2023,
+      12,
+      2,
+      14,
+      15,
+      26
+    ],
+    "sha256": "78f22dbe9e98ab0c914fc8fcbb58137efdff11a1c866d87ab7465d3056627256"
+  },
+  {
+    "archive": "kicad_files/11x3/gerbers/gerber.zip",
+    "member": "gerber/11x3-Edge_Cuts.gbr",
+    "type": "file",
+    "size_bytes": 689,
+    "zip_modified_local_unspecified_timezone": [
+      2023,
+      12,
+      2,
+      14,
+      15,
+      26
+    ],
+    "sha256": "9334c3778b2d440b28a61cdaea1d178514e4b6485da7ced3e3a5accf6d98d086"
+  },
+  {
+    "archive": "kicad_files/11x3/gerbers/gerber.zip",
+    "member": "gerber/11x3-F_Cu.gbr",
+    "type": "file",
+    "size_bytes": 61445,
+    "zip_modified_local_unspecified_timezone": [
+      2023,
+      12,
+      2,
+      14,
+      15,
+      26
+    ],
+    "sha256": "d3d33e99dc7da40595b04201c5e66e7b6fb887ea6e46b606ec325e8a71973294"
+  },
+  {
+    "archive": "kicad_files/11x3/gerbers/gerber.zip",
+    "member": "gerber/11x3-job.gbrjob",
+    "type": "file",
+    "size_bytes": 3555,
+    "zip_modified_local_unspecified_timezone": [
+      2023,
+      12,
+      2,
+      14,
+      15,
+      26
+    ],
+    "sha256": "3ce597b140d3cb8a5ee66ad421b400dfc26ca5f99f05a9e936b9cf1fc332109b"
+  },
+  {
+    "archive": "kicad_files/11x3/gerbers/gerber.zip",
+    "member": "gerber/11x3-F_Paste.gbr",
+    "type": "file",
+    "size_bytes": 10678,
+    "zip_modified_local_unspecified_timezone": [
+      2023,
+      12,
+      2,
+      14,
+      15,
+      26
+    ],
+    "sha256": "1e961580003ac30bbf258231c2f7273c6411925591db37be76266b70bd79607a"
+  },
+  {
+    "archive": "kicad_files/11x3/gerbers/gerber.zip",
+    "member": "gerber/11x3-B_Cu.gbr",
+    "type": "file",
+    "size_bytes": 51972,
+    "zip_modified_local_unspecified_timezone": [
+      2023,
+      12,
+      2,
+      14,
+      15,
+      26
+    ],
+    "sha256": "271ee134bd2c4bf5250a7e1dd603d774d72d3f5ab7a957ce9e08482aab242727"
+  },
+  {
+    "archive": "kicad_files/11x3/gerbers/gerber.zip",
+    "member": "gerber/11x3-In2_Cu.gbr",
+    "type": "file",
+    "size_bytes": 794257,
+    "zip_modified_local_unspecified_timezone": [
+      2023,
+      12,
+      2,
+      14,
+      15,
+      26
+    ],
+    "sha256": "983df8ec332ff07d3d111abdc68079ce4db60208166c0986019e1cc279ad1e94"
+  },
+  {
+    "archive": "kicad_files/3x8/gerbers/gerber.zip",
+    "member": "3x8-job.gbrjob",
+    "type": "file",
+    "size_bytes": 2588,
+    "zip_modified_local_unspecified_timezone": [
+      2022,
+      12,
+      2,
+      15,
+      50,
+      46
+    ],
+    "sha256": "85894ce38937c9a8a8a00a89cfa270e5d6f192a087b57bc59b98b80637d2c372"
+  },
+  {
+    "archive": "kicad_files/3x8/gerbers/gerber.zip",
+    "member": "3x8-F_Cu.gbr",
+    "type": "file",
+    "size_bytes": 40692,
+    "zip_modified_local_unspecified_timezone": [
+      2022,
+      12,
+      2,
+      15,
+      50,
+      44
+    ],
+    "sha256": "224413ad57b2b9c8a219ab6dbca8f6c20ab6ab2d78342d080bb97b13c995c397"
+  },
+  {
+    "archive": "kicad_files/3x8/gerbers/gerber.zip",
+    "member": "3x8-F_Paste.gbr",
+    "type": "file",
+    "size_bytes": 7895,
+    "zip_modified_local_unspecified_timezone": [
+      2022,
+      12,
+      2,
+      15,
+      50,
+      44
+    ],
+    "sha256": "69b3e3a912c4dbb45fb93815a2c4fa26e42e86ec6dcf573ce0a620ee75d13187"
+  },
+  {
+    "archive": "kicad_files/3x8/gerbers/gerber.zip",
+    "member": "3x8-B_Cu.gbr",
+    "type": "file",
+    "size_bytes": 20800,
+    "zip_modified_local_unspecified_timezone": [
+      2022,
+      12,
+      2,
+      15,
+      50,
+      44
+    ],
+    "sha256": "34898c6b04a63ea72c10c6e46bee6a03ab55edb4f7e0104d41db901a9df966e2"
+  },
+  {
+    "archive": "kicad_files/3x8/gerbers/gerber.zip",
+    "member": "3x8-PTH.drl",
+    "type": "file",
+    "size_bytes": 2899,
+    "zip_modified_local_unspecified_timezone": [
+      2022,
+      12,
+      2,
+      15,
+      50,
+      48
+    ],
+    "sha256": "51751abd7cdd9e628105a07b06f0f7d9c4282b8d7cde4702862a7d71ca24b7f0"
+  },
+  {
+    "archive": "kicad_files/3x8/gerbers/gerber.zip",
+    "member": "3x8-F_Mask.gbr",
+    "type": "file",
+    "size_bytes": 8333,
+    "zip_modified_local_unspecified_timezone": [
+      2022,
+      12,
+      2,
+      15,
+      50,
+      46
+    ],
+    "sha256": "e7b30ee86d152a12b29eddd08ba6bb860479b198fc4fdfdbb6399593d0207f31"
+  },
+  {
+    "archive": "kicad_files/3x8/gerbers/gerber.zip",
+    "member": "3x8-F_Silkscreen.gbr",
+    "type": "file",
+    "size_bytes": 70116,
+    "zip_modified_local_unspecified_timezone": [
+      2022,
+      12,
+      2,
+      15,
+      50,
+      46
+    ],
+    "sha256": "21733f974a465ee61b8f7a26f04c84fcfbd6991421e3ec3f510014fe3afe5b49"
+  },
+  {
+    "archive": "kicad_files/3x8/gerbers/gerber.zip",
+    "member": "3x8-B_Paste.gbr",
+    "type": "file",
+    "size_bytes": 2908,
+    "zip_modified_local_unspecified_timezone": [
+      2022,
+      12,
+      2,
+      15,
+      50,
+      44
+    ],
+    "sha256": "72026f55bc8c3a845db5510c4ecf3ff5d01007110e0fbdb0a50bbd5f9dbc1900"
+  },
+  {
+    "archive": "kicad_files/3x8/gerbers/gerber.zip",
+    "member": "3x8-B_Mask.gbr",
+    "type": "file",
+    "size_bytes": 3336,
+    "zip_modified_local_unspecified_timezone": [
+      2022,
+      12,
+      2,
+      15,
+      50,
+      46
+    ],
+    "sha256": "8dee94b9e4052a8bc0f9d7abe166ccec70dca5879e2cc6cdda1f3100173c82c9"
+  },
+  {
+    "archive": "kicad_files/3x8/gerbers/gerber.zip",
+    "member": "3x8-Edge_Cuts.gbr",
+    "type": "file",
+    "size_bytes": 688,
+    "zip_modified_local_unspecified_timezone": [
+      2022,
+      12,
+      2,
+      15,
+      50,
+      46
+    ],
+    "sha256": "eed3a12e49c8b3d7c711c0f25dd6a12c8240150f683fffe1982cea96d7cf5008"
+  },
+  {
+    "archive": "kicad_files/3x8/gerbers/gerber.zip",
+    "member": "3x8-B_Silkscreen.gbr",
+    "type": "file",
+    "size_bytes": 15823,
+    "zip_modified_local_unspecified_timezone": [
+      2022,
+      12,
+      2,
+      15,
+      50,
+      46
+    ],
+    "sha256": "e6bad30b35a9fcedf33b3c5a2ee2aa779f32827f223f83e82a45b5de9bb8eb0a"
+  },
+  {
+    "archive": "kicad_files/3x8/gerbers/gerber.zip",
+    "member": "3x8-NPTH.drl",
+    "type": "file",
+    "size_bytes": 401,
+    "zip_modified_local_unspecified_timezone": [
+      2022,
+      12,
+      2,
+      15,
+      50,
+      48
+    ],
+    "sha256": "99dfc65eb01c5e44b853653e13f28f9c3860b25730145d76986ae3e333f8f73b"
+  },
+  {
+    "archive": "kicad_files/8x3/gerbers/gerber.zip",
+    "member": "8x3-PTH.drl",
+    "type": "file",
+    "size_bytes": 2583,
+    "zip_modified_local_unspecified_timezone": [
+      2022,
+      12,
+      2,
+      15,
+      44,
+      2
+    ],
+    "sha256": "fc88dd7169e6b079cb5e7346efb562277cf4ce8afa0e6f0388df74e80e6663d0"
+  },
+  {
+    "archive": "kicad_files/8x3/gerbers/gerber.zip",
+    "member": "8x3-NPTH.drl",
+    "type": "file",
+    "size_bytes": 401,
+    "zip_modified_local_unspecified_timezone": [
+      2022,
+      12,
+      2,
+      15,
+      44,
+      2
+    ],
+    "sha256": "58e26f8b0d0b51a08d7d3cc857c8ca15000956763a64fc314a416d27279350a7"
+  },
+  {
+    "archive": "kicad_files/8x3/gerbers/gerber.zip",
+    "member": "8x3-B_Mask.gbr",
+    "type": "file",
+    "size_bytes": 5917,
+    "zip_modified_local_unspecified_timezone": [
+      2022,
+      12,
+      2,
+      15,
+      43,
+      42
+    ],
+    "sha256": "58dbff54096b990d9605df82a2e7f5d0dc88009e47493c16a1279d984d8a246e"
+  },
+  {
+    "archive": "kicad_files/8x3/gerbers/gerber.zip",
+    "member": "8x3-F_Paste.gbr",
+    "type": "file",
+    "size_bytes": 7932,
+    "zip_modified_local_unspecified_timezone": [
+      2022,
+      12,
+      2,
+      15,
+      43,
+      42
+    ],
+    "sha256": "9dc9dc8a437fe5a3f9c4f988030cdd3c2db00454d23c52cc8e63a20665defbf6"
+  },
+  {
+    "archive": "kicad_files/8x3/gerbers/gerber.zip",
+    "member": "8x3-job.gbrjob",
+    "type": "file",
+    "size_bytes": 2588,
+    "zip_modified_local_unspecified_timezone": [
+      2022,
+      12,
+      2,
+      15,
+      43,
+      42
+    ],
+    "sha256": "c2cbe8b313ca67cedaa219f66ee449417bdcaa51405624ab3f6e29594169cc53"
+  },
+  {
+    "archive": "kicad_files/8x3/gerbers/gerber.zip",
+    "member": "8x3-B_Cu.gbr",
+    "type": "file",
+    "size_bytes": 28348,
+    "zip_modified_local_unspecified_timezone": [
+      2022,
+      12,
+      2,
+      15,
+      43,
+      42
+    ],
+    "sha256": "34a369f9b1cef18fe21f0538e2f7fb100b2e703a78fd33626ff27641d3eda029"
+  },
+  {
+    "archive": "kicad_files/8x3/gerbers/gerber.zip",
+    "member": "8x3-B_Silkscreen.gbr",
+    "type": "file",
+    "size_bytes": 38645,
+    "zip_modified_local_unspecified_timezone": [
+      2022,
+      12,
+      2,
+      15,
+      43,
+      42
+    ],
+    "sha256": "3192eefbed74bdd5195f92efb422761091eaa79f0612f54482e1774d955b9ae4"
+  },
+  {
+    "archive": "kicad_files/8x3/gerbers/gerber.zip",
+    "member": "8x3-Edge_Cuts.gbr",
+    "type": "file",
+    "size_bytes": 684,
+    "zip_modified_local_unspecified_timezone": [
+      2022,
+      12,
+      2,
+      15,
+      43,
+      42
+    ],
+    "sha256": "f1e57e7957e6fcec62e4b4b14b787dbe5a951f6b141dec6b32c2315ca3041d91"
+  },
+  {
+    "archive": "kicad_files/8x3/gerbers/gerber.zip",
+    "member": "8x3-B_Paste.gbr",
+    "type": "file",
+    "size_bytes": 5340,
+    "zip_modified_local_unspecified_timezone": [
+      2022,
+      12,
+      2,
+      15,
+      43,
+      42
+    ],
+    "sha256": "abc91e23515e2fd0c69ce6d1dd922844a1363ff81a0f1d9cf92d1f8a4b5d1481"
+  },
+  {
+    "archive": "kicad_files/8x3/gerbers/gerber.zip",
+    "member": "8x3-F_Silkscreen.gbr",
+    "type": "file",
+    "size_bytes": 70578,
+    "zip_modified_local_unspecified_timezone": [
+      2022,
+      12,
+      2,
+      15,
+      43,
+      42
+    ],
+    "sha256": "7b56c2075ef4d65876692cca7ece3dc899c60e5ec03b9862bc8b525203f1a3e8"
+  },
+  {
+    "archive": "kicad_files/8x3/gerbers/gerber.zip",
+    "member": "8x3-F_Mask.gbr",
+    "type": "file",
+    "size_bytes": 8390,
+    "zip_modified_local_unspecified_timezone": [
+      2022,
+      12,
+      2,
+      15,
+      43,
+      42
+    ],
+    "sha256": "86be5acdc1aa3f977ba4dbc91e330b0fbaf29e231dcc9b63557916c861bf7b9f"
+  },
+  {
+    "archive": "kicad_files/8x3/gerbers/gerber.zip",
+    "member": "8x3-F_Cu.gbr",
+    "type": "file",
+    "size_bytes": 41756,
+    "zip_modified_local_unspecified_timezone": [
+      2022,
+      12,
+      2,
+      15,
+      43,
+      42
+    ],
+    "sha256": "e5a71548984bbe90b1b56e7559f15b9cf21c4b4427a2f8c1cc640e253fe3d979"
+  },
+  {
+    "archive": "kicad_files/8x8/8x8.kicad_.zip",
+    "member": "8x8.kicad_sch",
+    "type": "file",
+    "size_bytes": 398391,
+    "zip_modified_local_unspecified_timezone": [
+      2025,
+      3,
+      8,
+      7,
+      47,
+      38
+    ],
+    "sha256": "af176b2fcd444973ed6e410f87a8ce444814d8e205dc4beab294df5f28bf7252",
+    "matches_loose_source_sha256": true
+  },
+  {
+    "archive": "kicad_files/8x8/8x8.kicad_.zip",
+    "member": "8x8.kicad_pcb",
+    "type": "file",
+    "size_bytes": 987044,
+    "zip_modified_local_unspecified_timezone": [
+      2025,
+      3,
+      8,
+      7,
+      47,
+      38
+    ],
+    "sha256": "05e5cf6438c95bd3023ca3eb69d23bb763279db6aa958c486b22ada554ba770b",
+    "matches_loose_source_sha256": true
+  },
+  {
+    "archive": "kicad_files/8x8/gerbers/gerber.zip",
+    "member": "8x8-B_Paste.gbr",
+    "type": "file",
+    "size_bytes": 2154,
+    "zip_modified_local_unspecified_timezone": [
+      2022,
+      12,
+      2,
+      15,
+      51,
+      38
+    ],
+    "sha256": "fe684d30862a9d98cb75a2029b7a3edc3447ddb36ec94558a2557db057346bba"
+  },
+  {
+    "archive": "kicad_files/8x8/gerbers/gerber.zip",
+    "member": "8x8-F_Mask.gbr",
+    "type": "file",
+    "size_bytes": 20026,
+    "zip_modified_local_unspecified_timezone": [
+      2022,
+      12,
+      2,
+      15,
+      51,
+      40
+    ],
+    "sha256": "bbfdb6bc7d30fafc0784fed02bd0fbcda5ba1ca4fddcd575b826ab057f84a5f6"
+  },
+  {
+    "archive": "kicad_files/8x8/gerbers/gerber.zip",
+    "member": "8x8-NPTH.drl",
+    "type": "file",
+    "size_bytes": 476,
+    "zip_modified_local_unspecified_timezone": [
+      2022,
+      12,
+      2,
+      15,
+      51,
+      44
+    ],
+    "sha256": "287c164fffc93c47e1d1cd500d2e65d89a95350d3b3f57f1e4f42ed2f1d510d7"
+  },
+  {
+    "archive": "kicad_files/8x8/gerbers/gerber.zip",
+    "member": "8x8-job.gbrjob",
+    "type": "file",
+    "size_bytes": 2589,
+    "zip_modified_local_unspecified_timezone": [
+      2022,
+      12,
+      2,
+      15,
+      51,
+      40
+    ],
+    "sha256": "392c6689054674ca870dae66a68e00dde0fe9ffe29743d357a64cb90d584b1de"
+  },
+  {
+    "archive": "kicad_files/8x8/gerbers/gerber.zip",
+    "member": "8x8-Edge_Cuts.gbr",
+    "type": "file",
+    "size_bytes": 688,
+    "zip_modified_local_unspecified_timezone": [
+      2022,
+      12,
+      2,
+      15,
+      51,
+      40
+    ],
+    "sha256": "2d75d7a179ca47ebf1377e853b4ae5fad2734fae952d630ce098902477ca961b"
+  },
+  {
+    "archive": "kicad_files/8x8/gerbers/gerber.zip",
+    "member": "8x8-PTH.drl",
+    "type": "file",
+    "size_bytes": 5953,
+    "zip_modified_local_unspecified_timezone": [
+      2022,
+      12,
+      2,
+      15,
+      51,
+      44
+    ],
+    "sha256": "4978dbd32fc18fe2bfd1a4c7912a253543c965b0d759bcc977e9af46dcba275c"
+  },
+  {
+    "archive": "kicad_files/8x8/gerbers/gerber.zip",
+    "member": "8x8-B_Cu.gbr",
+    "type": "file",
+    "size_bytes": 32674,
+    "zip_modified_local_unspecified_timezone": [
+      2022,
+      12,
+      2,
+      15,
+      51,
+      38
+    ],
+    "sha256": "d2332af936adba5327bff45061dde02d224482628368cc2306e4e23e53b68acf"
+  },
+  {
+    "archive": "kicad_files/8x8/gerbers/gerber.zip",
+    "member": "8x8-F_Paste.gbr",
+    "type": "file",
+    "size_bytes": 19320,
+    "zip_modified_local_unspecified_timezone": [
+      2022,
+      12,
+      2,
+      15,
+      51,
+      38
+    ],
+    "sha256": "cfd9e9d2208b792d9df5c9702383f380bb6ef7621fd4edce069fe7568084bc24"
+  },
+  {
+    "archive": "kicad_files/8x8/gerbers/gerber.zip",
+    "member": "8x8-B_Silkscreen.gbr",
+    "type": "file",
+    "size_bytes": 21071,
+    "zip_modified_local_unspecified_timezone": [
+      2022,
+      12,
+      2,
+      15,
+      51,
+      40
+    ],
+    "sha256": "a3f873281398f53844cfe50df4491d86f285e2af993e9af740621fd911821fc7"
+  },
+  {
+    "archive": "kicad_files/8x8/gerbers/gerber.zip",
+    "member": "8x8-B_Mask.gbr",
+    "type": "file",
+    "size_bytes": 3422,
+    "zip_modified_local_unspecified_timezone": [
+      2022,
+      12,
+      2,
+      15,
+      51,
+      40
+    ],
+    "sha256": "43a22ecd58c9f62df3d95ac163e067302c2ae5fb374a27f71c109dc630e95652"
+  },
+  {
+    "archive": "kicad_files/8x8/gerbers/gerber.zip",
+    "member": "8x8-F_Cu.gbr",
+    "type": "file",
+    "size_bytes": 97325,
+    "zip_modified_local_unspecified_timezone": [
+      2022,
+      12,
+      2,
+      15,
+      51,
+      38
+    ],
+    "sha256": "c0ae3ecb7acf79467f78d20b4342d57c9123c315c3d02f6b6fc4937da769c3ea"
+  },
+  {
+    "archive": "kicad_files/8x8/gerbers/gerber.zip",
+    "member": "8x8-F_Silkscreen.gbr",
+    "type": "file",
+    "size_bytes": 217395,
+    "zip_modified_local_unspecified_timezone": [
+      2022,
+      12,
+      2,
+      15,
+      51,
+      40
+    ],
+    "sha256": "a91e5bb13e4a62c2407f58084e6f25ef71cf19889dbd685b741eb0dc42f27eaa"
+  }
+]

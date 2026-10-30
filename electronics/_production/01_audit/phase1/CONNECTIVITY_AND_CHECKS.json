@@ -1,0 +1,5840 @@
+{
+  "11x3": {
+    "original": {
+      "checks": {
+        "erc": {
+          "total": 273,
+          "severity": {
+            "warning": 273
+          },
+          "types": {
+            "endpoint_off_grid": 182,
+            "lib_symbol_mismatch": 26,
+            "footprint_link_issues": 31,
+            "lib_symbol_issues": 34
+          }
+        },
+        "drc": {
+          "total": 166,
+          "severity": {
+            "error": 2,
+            "warning": 164
+          },
+          "types": {
+            "zones_intersect": 2,
+            "lib_footprint_mismatch": 133,
+            "lib_footprint_issues": 31
+          }
+        },
+        "unconnected": {
+          "total": 0,
+          "severity": {},
+          "types": {}
+        },
+        "parity": {
+          "total": 184,
+          "severity": {
+            "warning": 184
+          },
+          "types": {
+            "footprint_symbol_field_mismatch": 82,
+            "net_conflict": 102
+          }
+        }
+      },
+      "net_count": 128,
+      "shared_pin_count": 559,
+      "connectivity_mismatch_pins": [],
+      "schematic_net_nodes_missing_from_pcb_nets": [],
+      "pcb_net_nodes_missing_from_schematic_nets": [],
+      "same_membership_net_aliases": [
+        {
+          "schematic": "Net-(D12-DIN)",
+          "pcb": "Net-(D12-Pad2)",
+          "pins": [
+            [
+              "D12",
+              "2"
+            ],
+            [
+              "D15",
+              "4"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(Q10-B)",
+          "pcb": "Net-(Q10-Pad1)",
+          "pins": [
+            [
+              "Q10",
+              "1"
+            ],
+            [
+              "R10",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D1-DIN)",
+          "pcb": "Net-(D1-Pad2)",
+          "pins": [
+            [
+              "D1",
+              "2"
+            ],
+            [
+              "D4",
+              "4"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D7-DOUT)",
+          "pcb": "Net-(D7-Pad4)",
+          "pins": [
+            [
+              "D7",
+              "4"
+            ],
+            [
+              "D8",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "unconnected-(J19-Pin_2-Pad2)",
+          "pcb": "unconnected-(J19-Pad2)",
+          "pins": [
+            [
+              "J19",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D14-DOUT)",
+          "pcb": "Net-(D14-Pad4)",
+          "pins": [
+            [
+              "D14",
+              "4"
+            ],
+            [
+              "D15",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D5-DIN)",
+          "pcb": "Net-(D5-Pad2)",
+          "pins": [
+            [
+              "D5",
+              "2"
+            ],
+            [
+              "D6",
+              "4"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D28-DIN)",
+          "pcb": "Net-(D28-Pad2)",
+          "pins": [
+            [
+              "D28",
+              "2"
+            ],
+            [
+              "D29",
+              "4"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(Q6-B)",
+          "pcb": "Net-(Q6-Pad1)",
+          "pins": [
+            [
+              "Q6",
+              "1"
+            ],
+            [
+              "R6",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(Q8-B)",
+          "pcb": "Net-(Q8-Pad1)",
+          "pins": [
+            [
+              "Q8",
+              "1"
+            ],
+            [
+              "R8",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D24-DIN)",
+          "pcb": "Net-(D24-Pad2)",
+          "pins": [
+            [
+              "D24",
+              "2"
+            ],
+            [
+              "D27",
+              "4"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(Q2-B)",
+          "pcb": "Net-(Q2-Pad1)",
+          "pins": [
+            [
+              "Q2",
+              "1"
+            ],
+            [
+              "R2",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "unconnected-(J5-Pin_2-Pad2)",
+          "pcb": "unconnected-(J5-Pad2)",
+          "pins": [
+            [
+              "J5",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "unconnected-(UI1-Y12-Pad14)",
+          "pcb": "unconnected-(UI1-Pad14)",
+          "pins": [
+            [
+              "UI1",
+              "14"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D26-DOUT)",
+          "pcb": "Net-(D26-Pad4)",
+          "pins": [
+            [
+              "D26",
+              "4"
+            ],
+            [
+              "D27",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "unconnected-(J11-Pin_2-Pad2)",
+          "pcb": "unconnected-(J11-Pad2)",
+          "pins": [
+            [
+              "J11",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D18-DIN)",
+          "pcb": "Net-(D18-Pad2)",
+          "pins": [
+            [
+              "D18",
+              "2"
+            ],
+            [
+              "D21",
+              "4"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(Q11-B)",
+          "pcb": "Net-(Q11-Pad1)",
+          "pins": [
+            [
+              "Q11",
+              "1"
+            ],
+            [
+              "R11",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D16-DIN)",
+          "pcb": "Net-(D16-Pad2)",
+          "pins": [
+            [
+              "D16",
+              "2"
+            ],
+            [
+              "D17",
+              "4"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D32-DOUT)",
+          "pcb": "Net-(D32-Pad4)",
+          "pins": [
+            [
+              "D32",
+              "4"
+            ],
+            [
+              "D33",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "unconnected-(J14-Pin_1-Pad1)",
+          "pcb": "unconnected-(J14-Pad1)",
+          "pins": [
+            [
+              "J14",
+              "1"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D20-DOUT)",
+          "pcb": "Net-(D20-Pad4)",
+          "pins": [
+            [
+              "D20",
+              "4"
+            ],
+            [
+              "D21",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D6-DIN)",
+          "pcb": "Net-(D6-Pad2)",
+          "pins": [
+            [
+              "D6",
+              "2"
+            ],
+            [
+              "D9",
+              "4"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D30-DIN)",
+          "pcb": "Net-(D30-Pad2)",
+          "pins": [
+            [
+              "D30",
+              "2"
+            ],
+            [
+              "D33",
+              "4"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D2-DOUT)",
+          "pcb": "Net-(D2-Pad4)",
+          "pins": [
+            [
+              "D2",
+              "4"
+            ],
+            [
+              "D3",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D29-DIN)",
+          "pcb": "Net-(D29-Pad2)",
+          "pins": [
+            [
+              "D29",
+              "2"
+            ],
+            [
+              "D30",
+              "4"
+            ]
+          ]
+        },
+        {
+          "schematic": "unconnected-(UI1-Y13-Pad15)",
+          "pcb": "unconnected-(UI1-Pad15)",
+          "pins": [
+            [
+              "UI1",
+              "15"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(Q3-B)",
+          "pcb": "Net-(Q3-Pad1)",
+          "pins": [
+            [
+              "Q3",
+              "1"
+            ],
+            [
+              "R3",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D19-DOUT)",
+          "pcb": "Net-(D19-Pad4)",
+          "pins": [
+            [
+              "D19",
+              "4"
+            ],
+            [
+              "D20",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(Q5-B)",
+          "pcb": "Net-(Q5-Pad1)",
+          "pins": [
+            [
+              "Q5",
+              "1"
+            ],
+            [
+              "R5",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "unconnected-(J8-Pin_2-Pad2)",
+          "pcb": "unconnected-(J8-Pad2)",
+          "pins": [
+            [
+              "J8",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D10-DOUT)",
+          "pcb": "Net-(D10-Pad4)",
+          "pins": [
+            [
+              "D10",
+              "4"
+            ],
+            [
+              "D7",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "unconnected-(J25-Pin_2-Pad2)",
+          "pcb": "unconnected-(J25-Pad2)",
+          "pins": [
+            [
+              "J25",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "unconnected-(UI3-NC-Pad1)",
+          "pcb": "unconnected-(UI3-Pad1)",
+          "pins": [
+            [
+              "UI3",
+              "1"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D8-DOUT)",
+          "pcb": "Net-(D8-Pad4)",
+          "pins": [
+            [
+              "D8",
+              "4"
+            ],
+            [
+              "D9",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D25-DIN)",
+          "pcb": "Net-(D25-Pad2)",
+          "pins": [
+            [
+              "D25",
+              "2"
+            ],
+            [
+              "D28",
+              "4"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D13-DOUT)",
+          "pcb": "Net-(D13-Pad4)",
+          "pins": [
+            [
+              "D13",
+              "4"
+            ],
+            [
+              "D14",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D31-DOUT)",
+          "pcb": "Net-(D31-Pad4)",
+          "pins": [
+            [
+              "D31",
+              "4"
+            ],
+            [
+              "D32",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(Q7-B)",
+          "pcb": "Net-(Q7-Pad1)",
+          "pins": [
+            [
+              "Q7",
+              "1"
+            ],
+            [
+              "R7",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "unconnected-(UI1-Y11-Pad13)",
+          "pcb": "unconnected-(UI1-Pad13)",
+          "pins": [
+            [
+              "UI1",
+              "13"
+            ]
+          ]
+        },
+        {
+          "schematic": "unconnected-(UI1-Y14-Pad16)",
+          "pcb": "unconnected-(UI1-Pad16)",
+          "pins": [
+            [
+              "UI1",
+              "16"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(Q4-B)",
+          "pcb": "Net-(Q4-Pad1)",
+          "pins": [
+            [
+              "Q4",
+              "1"
+            ],
+            [
+              "R4",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "unconnected-(J29-Pin_2-Pad2)",
+          "pcb": "unconnected-(J29-Pad2)",
+          "pins": [
+            [
+              "J29",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D1-DOUT)",
+          "pcb": "Net-(D1-Pad4)",
+          "pins": [
+            [
+              "D1",
+              "4"
+            ],
+            [
+              "D2",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "unconnected-(J22-Pin_1-Pad1)",
+          "pcb": "unconnected-(J22-Pad1)",
+          "pins": [
+            [
+              "J22",
+              "1"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D25-DOUT)",
+          "pcb": "Net-(D25-Pad4)",
+          "pins": [
+            [
+              "D25",
+              "4"
+            ],
+            [
+              "D26",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(Q1-B)",
+          "pcb": "Net-(Q1-Pad1)",
+          "pins": [
+            [
+              "Q1",
+              "1"
+            ],
+            [
+              "R1",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(Q9-B)",
+          "pcb": "Net-(Q9-Pad1)",
+          "pins": [
+            [
+              "Q9",
+              "1"
+            ],
+            [
+              "R9",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D22-DIN)",
+          "pcb": "Net-(D22-Pad2)",
+          "pins": [
+            [
+              "D22",
+              "2"
+            ],
+            [
+              "D23",
+              "4"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D11-DIN)",
+          "pcb": "Net-(D11-Pad2)",
+          "pins": [
+            [
+              "D11",
+              "2"
+            ],
+            [
+              "D12",
+              "4"
+            ]
+          ]
+        },
+        {
+          "schematic": "unconnected-(UI1-Y15-Pad17)",
+          "pcb": "unconnected-(UI1-Pad17)",
+          "pins": [
+            [
+              "UI1",
+              "17"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D4-DIN)",
+          "pcb": "Net-(D4-Pad2)",
+          "pins": [
+            [
+              "D4",
+              "2"
+            ],
+            [
+              "D5",
+              "4"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D10-DIN)",
+          "pcb": "Net-(D10-Pad2)",
+          "pins": [
+            [
+              "D10",
+              "2"
+            ],
+            [
+              "D11",
+              "4"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D19-DIN)",
+          "pcb": "Net-(D19-Pad2)",
+          "pins": [
+            [
+              "D19",
+              "2"
+            ],
+            [
+              "D22",
+              "4"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(UI3-Y)",
+          "pcb": "Net-(RI1-Pad1)",
+          "pins": [
+            [
+              "RI1",
+              "1"
+            ],
+            [
+              "UI3",
+              "4"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D17-DIN)",
+          "pcb": "Net-(D17-Pad2)",
+          "pins": [
+            [
+              "D17",
+              "2"
+            ],
+            [
+              "D18",
+              "4"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D23-DIN)",
+          "pcb": "Net-(D23-Pad2)",
+          "pins": [
+            [
+              "D23",
+              "2"
+            ],
+            [
+              "D24",
+              "4"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D13-DIN)",
+          "pcb": "Net-(D13-Pad2)",
+          "pins": [
+            [
+              "D13",
+              "2"
+            ],
+            [
+              "D16",
+              "4"
+            ]
+          ]
+        }
+      ],
+      "led_symbol_pins": [
+        {
+          "number": "1",
+          "name": "VSS",
+          "type": "power_in",
+          "at": [
+            "0",
+            "-7.62",
+            "90"
+          ],
+          "length": [
+            "2.54"
+          ]
+        },
+        {
+          "number": "2",
+          "name": "DIN",
+          "type": "input",
+          "at": [
+            "-7.62",
+            "0",
+            "0"
+          ],
+          "length": [
+            "2.54"
+          ]
+        },
+        {
+          "number": "3",
+          "name": "VDD",
+          "type": "power_in",
+          "at": [
+            "0",
+            "7.62",
+            "270"
+          ],
+          "length": [
+            "2.54"
+          ]
+        },
+        {
+          "number": "4",
+          "name": "DOUT",
+          "type": "output",
+          "at": [
+            "7.62",
+            "0",
+            "180"
+          ],
+          "length": [
+            "2.54"
+          ]
+        }
+      ]
+    },
+    "updated": {
+      "checks": {
+        "erc": {
+          "total": 273,
+          "severity": {
+            "warning": 273
+          },
+          "types": {
+            "endpoint_off_grid": 182,
+            "lib_symbol_mismatch": 26,
+            "footprint_link_issues": 31,
+            "lib_symbol_issues": 34
+          }
+        },
+        "drc": {
+          "total": 166,
+          "severity": {
+            "error": 2,
+            "warning": 164
+          },
+          "types": {
+            "zones_intersect": 2,
+            "lib_footprint_mismatch": 133,
+            "lib_footprint_issues": 31
+          }
+        },
+        "unconnected": {
+          "total": 0,
+          "severity": {},
+          "types": {}
+        },
+        "parity": {
+          "total": 184,
+          "severity": {
+            "warning": 184
+          },
+          "types": {
+            "footprint_symbol_field_mismatch": 82,
+            "net_conflict": 102
+          }
+        }
+      },
+      "net_count": 128,
+      "shared_pin_count": 559,
+      "connectivity_mismatch_pins": [],
+      "schematic_net_nodes_missing_from_pcb_nets": [],
+      "pcb_net_nodes_missing_from_schematic_nets": [],
+      "same_membership_net_aliases": [
+        {
+          "schematic": "Net-(D12-DIN)",
+          "pcb": "Net-(D12-Pad2)",
+          "pins": [
+            [
+              "D12",
+              "2"
+            ],
+            [
+              "D15",
+              "4"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(Q10-B)",
+          "pcb": "Net-(Q10-Pad1)",
+          "pins": [
+            [
+              "Q10",
+              "1"
+            ],
+            [
+              "R10",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D1-DIN)",
+          "pcb": "Net-(D1-Pad2)",
+          "pins": [
+            [
+              "D1",
+              "2"
+            ],
+            [
+              "D4",
+              "4"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D7-DOUT)",
+          "pcb": "Net-(D7-Pad4)",
+          "pins": [
+            [
+              "D7",
+              "4"
+            ],
+            [
+              "D8",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "unconnected-(J19-Pin_2-Pad2)",
+          "pcb": "unconnected-(J19-Pad2)",
+          "pins": [
+            [
+              "J19",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D14-DOUT)",
+          "pcb": "Net-(D14-Pad4)",
+          "pins": [
+            [
+              "D14",
+              "4"
+            ],
+            [
+              "D15",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D5-DIN)",
+          "pcb": "Net-(D5-Pad2)",
+          "pins": [
+            [
+              "D5",
+              "2"
+            ],
+            [
+              "D6",
+              "4"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D28-DIN)",
+          "pcb": "Net-(D28-Pad2)",
+          "pins": [
+            [
+              "D28",
+              "2"
+            ],
+            [
+              "D29",
+              "4"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(Q6-B)",
+          "pcb": "Net-(Q6-Pad1)",
+          "pins": [
+            [
+              "Q6",
+              "1"
+            ],
+            [
+              "R6",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(Q8-B)",
+          "pcb": "Net-(Q8-Pad1)",
+          "pins": [
+            [
+              "Q8",
+              "1"
+            ],
+            [
+              "R8",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D24-DIN)",
+          "pcb": "Net-(D24-Pad2)",
+          "pins": [
+            [
+              "D24",
+              "2"
+            ],
+            [
+              "D27",
+              "4"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(Q2-B)",
+          "pcb": "Net-(Q2-Pad1)",
+          "pins": [
+            [
+              "Q2",
+              "1"
+            ],
+            [
+              "R2",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "unconnected-(J5-Pin_2-Pad2)",
+          "pcb": "unconnected-(J5-Pad2)",
+          "pins": [
+            [
+              "J5",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "unconnected-(UI1-Y12-Pad14)",
+          "pcb": "unconnected-(UI1-Pad14)",
+          "pins": [
+            [
+              "UI1",
+              "14"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D26-DOUT)",
+          "pcb": "Net-(D26-Pad4)",
+          "pins": [
+            [
+              "D26",
+              "4"
+            ],
+            [
+              "D27",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "unconnected-(J11-Pin_2-Pad2)",
+          "pcb": "unconnected-(J11-Pad2)",
+          "pins": [
+            [
+              "J11",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D18-DIN)",
+          "pcb": "Net-(D18-Pad2)",
+          "pins": [
+            [
+              "D18",
+              "2"
+            ],
+            [
+              "D21",
+              "4"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(Q11-B)",
+          "pcb": "Net-(Q11-Pad1)",
+          "pins": [
+            [
+              "Q11",
+              "1"
+            ],
+            [
+              "R11",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D16-DIN)",
+          "pcb": "Net-(D16-Pad2)",
+          "pins": [
+            [
+              "D16",
+              "2"
+            ],
+            [
+              "D17",
+              "4"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D32-DOUT)",
+          "pcb": "Net-(D32-Pad4)",
+          "pins": [
+            [
+              "D32",
+              "4"
+            ],
+            [
+              "D33",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "unconnected-(J14-Pin_1-Pad1)",
+          "pcb": "unconnected-(J14-Pad1)",
+          "pins": [
+            [
+              "J14",
+              "1"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D20-DOUT)",
+          "pcb": "Net-(D20-Pad4)",
+          "pins": [
+            [
+              "D20",
+              "4"
+            ],
+            [
+              "D21",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D6-DIN)",
+          "pcb": "Net-(D6-Pad2)",
+          "pins": [
+            [
+              "D6",
+              "2"
+            ],
+            [
+              "D9",
+              "4"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D30-DIN)",
+          "pcb": "Net-(D30-Pad2)",
+          "pins": [
+            [
+              "D30",
+              "2"
+            ],
+            [
+              "D33",
+              "4"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D2-DOUT)",
+          "pcb": "Net-(D2-Pad4)",
+          "pins": [
+            [
+              "D2",
+              "4"
+            ],
+            [
+              "D3",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D29-DIN)",
+          "pcb": "Net-(D29-Pad2)",
+          "pins": [
+            [
+              "D29",
+              "2"
+            ],
+            [
+              "D30",
+              "4"
+            ]
+          ]
+        },
+        {
+          "schematic": "unconnected-(UI1-Y13-Pad15)",
+          "pcb": "unconnected-(UI1-Pad15)",
+          "pins": [
+            [
+              "UI1",
+              "15"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(Q3-B)",
+          "pcb": "Net-(Q3-Pad1)",
+          "pins": [
+            [
+              "Q3",
+              "1"
+            ],
+            [
+              "R3",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D19-DOUT)",
+          "pcb": "Net-(D19-Pad4)",
+          "pins": [
+            [
+              "D19",
+              "4"
+            ],
+            [
+              "D20",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(Q5-B)",
+          "pcb": "Net-(Q5-Pad1)",
+          "pins": [
+            [
+              "Q5",
+              "1"
+            ],
+            [
+              "R5",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "unconnected-(J8-Pin_2-Pad2)",
+          "pcb": "unconnected-(J8-Pad2)",
+          "pins": [
+            [
+              "J8",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D10-DOUT)",
+          "pcb": "Net-(D10-Pad4)",
+          "pins": [
+            [
+              "D10",
+              "4"
+            ],
+            [
+              "D7",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "unconnected-(J25-Pin_2-Pad2)",
+          "pcb": "unconnected-(J25-Pad2)",
+          "pins": [
+            [
+              "J25",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "unconnected-(UI3-NC-Pad1)",
+          "pcb": "unconnected-(UI3-Pad1)",
+          "pins": [
+            [
+              "UI3",
+              "1"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D8-DOUT)",
+          "pcb": "Net-(D8-Pad4)",
+          "pins": [
+            [
+              "D8",
+              "4"
+            ],
+            [
+              "D9",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D25-DIN)",
+          "pcb": "Net-(D25-Pad2)",
+          "pins": [
+            [
+              "D25",
+              "2"
+            ],
+            [
+              "D28",
+              "4"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D13-DOUT)",
+          "pcb": "Net-(D13-Pad4)",
+          "pins": [
+            [
+              "D13",
+              "4"
+            ],
+            [
+              "D14",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D31-DOUT)",
+          "pcb": "Net-(D31-Pad4)",
+          "pins": [
+            [
+              "D31",
+              "4"
+            ],
+            [
+              "D32",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(Q7-B)",
+          "pcb": "Net-(Q7-Pad1)",
+          "pins": [
+            [
+              "Q7",
+              "1"
+            ],
+            [
+              "R7",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "unconnected-(UI1-Y11-Pad13)",
+          "pcb": "unconnected-(UI1-Pad13)",
+          "pins": [
+            [
+              "UI1",
+              "13"
+            ]
+          ]
+        },
+        {
+          "schematic": "unconnected-(UI1-Y14-Pad16)",
+          "pcb": "unconnected-(UI1-Pad16)",
+          "pins": [
+            [
+              "UI1",
+              "16"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(Q4-B)",
+          "pcb": "Net-(Q4-Pad1)",
+          "pins": [
+            [
+              "Q4",
+              "1"
+            ],
+            [
+              "R4",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "unconnected-(J29-Pin_2-Pad2)",
+          "pcb": "unconnected-(J29-Pad2)",
+          "pins": [
+            [
+              "J29",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D1-DOUT)",
+          "pcb": "Net-(D1-Pad4)",
+          "pins": [
+            [
+              "D1",
+              "4"
+            ],
+            [
+              "D2",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "unconnected-(J22-Pin_1-Pad1)",
+          "pcb": "unconnected-(J22-Pad1)",
+          "pins": [
+            [
+              "J22",
+              "1"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D25-DOUT)",
+          "pcb": "Net-(D25-Pad4)",
+          "pins": [
+            [
+              "D25",
+              "4"
+            ],
+            [
+              "D26",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(Q1-B)",
+          "pcb": "Net-(Q1-Pad1)",
+          "pins": [
+            [
+              "Q1",
+              "1"
+            ],
+            [
+              "R1",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(Q9-B)",
+          "pcb": "Net-(Q9-Pad1)",
+          "pins": [
+            [
+              "Q9",
+              "1"
+            ],
+            [
+              "R9",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D22-DIN)",
+          "pcb": "Net-(D22-Pad2)",
+          "pins": [
+            [
+              "D22",
+              "2"
+            ],
+            [
+              "D23",
+              "4"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D11-DIN)",
+          "pcb": "Net-(D11-Pad2)",
+          "pins": [
+            [
+              "D11",
+              "2"
+            ],
+            [
+              "D12",
+              "4"
+            ]
+          ]
+        },
+        {
+          "schematic": "unconnected-(UI1-Y15-Pad17)",
+          "pcb": "unconnected-(UI1-Pad17)",
+          "pins": [
+            [
+              "UI1",
+              "17"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D4-DIN)",
+          "pcb": "Net-(D4-Pad2)",
+          "pins": [
+            [
+              "D4",
+              "2"
+            ],
+            [
+              "D5",
+              "4"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D10-DIN)",
+          "pcb": "Net-(D10-Pad2)",
+          "pins": [
+            [
+              "D10",
+              "2"
+            ],
+            [
+              "D11",
+              "4"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D19-DIN)",
+          "pcb": "Net-(D19-Pad2)",
+          "pins": [
+            [
+              "D19",
+              "2"
+            ],
+            [
+              "D22",
+              "4"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(UI3-Y)",
+          "pcb": "Net-(RI1-Pad1)",
+          "pins": [
+            [
+              "RI1",
+              "1"
+            ],
+            [
+              "UI3",
+              "4"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D17-DIN)",
+          "pcb": "Net-(D17-Pad2)",
+          "pins": [
+            [
+              "D17",
+              "2"
+            ],
+            [
+              "D18",
+              "4"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D23-DIN)",
+          "pcb": "Net-(D23-Pad2)",
+          "pins": [
+            [
+              "D23",
+              "2"
+            ],
+            [
+              "D24",
+              "4"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D13-DIN)",
+          "pcb": "Net-(D13-Pad2)",
+          "pins": [
+            [
+              "D13",
+              "2"
+            ],
+            [
+              "D16",
+              "4"
+            ]
+          ]
+        }
+      ],
+      "led_symbol_pins": [
+        {
+          "number": "1",
+          "name": "VSS",
+          "type": "power_in",
+          "at": [
+            "0",
+            "-7.62",
+            "90"
+          ],
+          "length": [
+            "2.54"
+          ]
+        },
+        {
+          "number": "2",
+          "name": "DIN",
+          "type": "input",
+          "at": [
+            "-7.62",
+            "0",
+            "0"
+          ],
+          "length": [
+            "2.54"
+          ]
+        },
+        {
+          "number": "3",
+          "name": "VDD",
+          "type": "power_in",
+          "at": [
+            "0",
+            "7.62",
+            "270"
+          ],
+          "length": [
+            "2.54"
+          ]
+        },
+        {
+          "number": "4",
+          "name": "DOUT",
+          "type": "output",
+          "at": [
+            "7.62",
+            "0",
+            "180"
+          ],
+          "length": [
+            "2.54"
+          ]
+        }
+      ]
+    },
+    "pcb_equal_after_declared_identity_changes": true,
+    "sch_equal_after_declared_identity_changes": true,
+    "native_net_names_and_nodes_equal": true
+  },
+  "8x3": {
+    "original": {
+      "checks": {
+        "erc": {
+          "total": 230,
+          "severity": {
+            "warning": 230
+          },
+          "types": {
+            "endpoint_off_grid": 166,
+            "lib_symbol_mismatch": 21,
+            "footprint_link_issues": 19,
+            "lib_symbol_issues": 24
+          }
+        },
+        "drc": {
+          "total": 114,
+          "severity": {
+            "warning": 114
+          },
+          "types": {
+            "lib_footprint_mismatch": 95,
+            "lib_footprint_issues": 19
+          }
+        },
+        "unconnected": {
+          "total": 0,
+          "severity": {},
+          "types": {}
+        },
+        "parity": {
+          "total": 134,
+          "severity": {
+            "warning": 134
+          },
+          "types": {
+            "footprint_symbol_field_mismatch": 58,
+            "net_conflict": 65,
+            "footprint_symbol_mismatch": 8,
+            "extra_footprint": 3
+          }
+        }
+      },
+      "net_count": 68,
+      "shared_pin_count": 328,
+      "connectivity_mismatch_pins": [],
+      "schematic_net_nodes_missing_from_pcb_nets": [],
+      "pcb_net_nodes_missing_from_schematic_nets": [],
+      "same_membership_net_aliases": [
+        {
+          "schematic": "Net-(D12-DIN)",
+          "pcb": "Net-(D12-Pad2)",
+          "pins": [
+            [
+              "D12",
+              "2"
+            ],
+            [
+              "D15",
+              "4"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D22-DIN)",
+          "pcb": "Net-(D22-Pad2)",
+          "pins": [
+            [
+              "D22",
+              "2"
+            ],
+            [
+              "D23",
+              "4"
+            ]
+          ]
+        },
+        {
+          "schematic": "unconnected-(J10-Pin_1-Pad1)",
+          "pcb": "unconnected-(J10-Pad1)",
+          "pins": [
+            [
+              "J10",
+              "1"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D13-DOUT)",
+          "pcb": "Net-(D13-Pad4)",
+          "pins": [
+            [
+              "D13",
+              "4"
+            ],
+            [
+              "D14",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D20-DOUT)",
+          "pcb": "Net-(D20-Pad4)",
+          "pins": [
+            [
+              "D20",
+              "4"
+            ],
+            [
+              "D21",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D1-DIN)",
+          "pcb": "Net-(D1-Pad2)",
+          "pins": [
+            [
+              "D1",
+              "2"
+            ],
+            [
+              "D4",
+              "4"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D7-DOUT)",
+          "pcb": "Net-(D7-Pad4)",
+          "pins": [
+            [
+              "D7",
+              "4"
+            ],
+            [
+              "D8",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D11-DIN)",
+          "pcb": "Net-(D11-Pad2)",
+          "pins": [
+            [
+              "D11",
+              "2"
+            ],
+            [
+              "D12",
+              "4"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D6-DIN)",
+          "pcb": "Net-(D6-Pad2)",
+          "pins": [
+            [
+              "D6",
+              "2"
+            ],
+            [
+              "D9",
+              "4"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D14-DOUT)",
+          "pcb": "Net-(D14-Pad4)",
+          "pins": [
+            [
+              "D14",
+              "4"
+            ],
+            [
+              "D15",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(Q7-B)",
+          "pcb": "Net-(Q7-Pad1)",
+          "pins": [
+            [
+              "Q7",
+              "1"
+            ],
+            [
+              "R7",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D2-DOUT)",
+          "pcb": "Net-(D2-Pad4)",
+          "pins": [
+            [
+              "D2",
+              "4"
+            ],
+            [
+              "D3",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "unconnected-(J17-Pin_1-Pad1)",
+          "pcb": "unconnected-(J17-Pad1)",
+          "pins": [
+            [
+              "J17",
+              "1"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D5-DIN)",
+          "pcb": "Net-(D5-Pad2)",
+          "pins": [
+            [
+              "D5",
+              "2"
+            ],
+            [
+              "D6",
+              "4"
+            ]
+          ]
+        },
+        {
+          "schematic": "unconnected-(J4-Pin_2-Pad2)",
+          "pcb": "unconnected-(J4-Pad2)",
+          "pins": [
+            [
+              "J4",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(Q6-B)",
+          "pcb": "Net-(Q6-Pad1)",
+          "pins": [
+            [
+              "Q6",
+              "1"
+            ],
+            [
+              "R6",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(Q8-B)",
+          "pcb": "Net-(Q8-Pad1)",
+          "pins": [
+            [
+              "Q8",
+              "1"
+            ],
+            [
+              "R8",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(Q3-B)",
+          "pcb": "Net-(Q3-Pad1)",
+          "pins": [
+            [
+              "Q3",
+              "1"
+            ],
+            [
+              "R3",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D19-DOUT)",
+          "pcb": "Net-(D19-Pad4)",
+          "pins": [
+            [
+              "D19",
+              "4"
+            ],
+            [
+              "D20",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D4-DIN)",
+          "pcb": "Net-(D4-Pad2)",
+          "pins": [
+            [
+              "D4",
+              "2"
+            ],
+            [
+              "D5",
+              "4"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(Q2-B)",
+          "pcb": "Net-(Q2-Pad1)",
+          "pins": [
+            [
+              "Q2",
+              "1"
+            ],
+            [
+              "R2",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(Q4-B)",
+          "pcb": "Net-(Q4-Pad1)",
+          "pins": [
+            [
+              "Q4",
+              "1"
+            ],
+            [
+              "R4",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D10-DIN)",
+          "pcb": "Net-(D10-Pad2)",
+          "pins": [
+            [
+              "D10",
+              "2"
+            ],
+            [
+              "D11",
+              "4"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D19-DIN)",
+          "pcb": "Net-(D19-Pad2)",
+          "pins": [
+            [
+              "D19",
+              "2"
+            ],
+            [
+              "D22",
+              "4"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(Q5-B)",
+          "pcb": "Net-(Q5-Pad1)",
+          "pins": [
+            [
+              "Q5",
+              "1"
+            ],
+            [
+              "R5",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D10-DOUT)",
+          "pcb": "Net-(D10-Pad4)",
+          "pins": [
+            [
+              "D10",
+              "4"
+            ],
+            [
+              "D7",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D1-DOUT)",
+          "pcb": "Net-(D1-Pad4)",
+          "pins": [
+            [
+              "D1",
+              "4"
+            ],
+            [
+              "D2",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D18-DIN)",
+          "pcb": "Net-(D18-Pad2)",
+          "pins": [
+            [
+              "D18",
+              "2"
+            ],
+            [
+              "D21",
+              "4"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D23-DIN)",
+          "pcb": "Net-(D23-Pad2)",
+          "pins": [
+            [
+              "D23",
+              "2"
+            ],
+            [
+              "D24",
+              "4"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D8-DOUT)",
+          "pcb": "Net-(D8-Pad4)",
+          "pins": [
+            [
+              "D8",
+              "4"
+            ],
+            [
+              "D9",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D16-DIN)",
+          "pcb": "Net-(D16-Pad2)",
+          "pins": [
+            [
+              "D16",
+              "2"
+            ],
+            [
+              "D17",
+              "4"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D13-DIN)",
+          "pcb": "Net-(D13-Pad2)",
+          "pins": [
+            [
+              "D13",
+              "2"
+            ],
+            [
+              "D16",
+              "4"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(Q1-B)",
+          "pcb": "Net-(Q1-Pad1)",
+          "pins": [
+            [
+              "Q1",
+              "1"
+            ],
+            [
+              "R1",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D17-DIN)",
+          "pcb": "Net-(D17-Pad2)",
+          "pins": [
+            [
+              "D17",
+              "2"
+            ],
+            [
+              "D18",
+              "4"
+            ]
+          ]
+        }
+      ],
+      "led_symbol_pins": [
+        {
+          "number": "1",
+          "name": "VSS",
+          "type": "power_in",
+          "at": [
+            "0",
+            "-7.62",
+            "90"
+          ],
+          "length": [
+            "2.54"
+          ]
+        },
+        {
+          "number": "2",
+          "name": "DIN",
+          "type": "input",
+          "at": [
+            "-7.62",
+            "0",
+            "0"
+          ],
+          "length": [
+            "2.54"
+          ]
+        },
+        {
+          "number": "3",
+          "name": "VDD",
+          "type": "power_in",
+          "at": [
+            "0",
+            "7.62",
+            "270"
+          ],
+          "length": [
+            "2.54"
+          ]
+        },
+        {
+          "number": "4",
+          "name": "DOUT",
+          "type": "output",
+          "at": [
+            "7.62",
+            "0",
+            "180"
+          ],
+          "length": [
+            "2.54"
+          ]
+        }
+      ]
+    },
+    "updated": {
+      "checks": {
+        "erc": {
+          "total": 230,
+          "severity": {
+            "warning": 230
+          },
+          "types": {
+            "endpoint_off_grid": 166,
+            "lib_symbol_mismatch": 21,
+            "footprint_link_issues": 19,
+            "lib_symbol_issues": 24
+          }
+        },
+        "drc": {
+          "total": 114,
+          "severity": {
+            "warning": 114
+          },
+          "types": {
+            "lib_footprint_mismatch": 95,
+            "lib_footprint_issues": 19
+          }
+        },
+        "unconnected": {
+          "total": 0,
+          "severity": {},
+          "types": {}
+        },
+        "parity": {
+          "total": 134,
+          "severity": {
+            "warning": 134
+          },
+          "types": {
+            "footprint_symbol_field_mismatch": 58,
+            "net_conflict": 65,
+            "footprint_symbol_mismatch": 8,
+            "extra_footprint": 3
+          }
+        }
+      },
+      "net_count": 68,
+      "shared_pin_count": 328,
+      "connectivity_mismatch_pins": [],
+      "schematic_net_nodes_missing_from_pcb_nets": [],
+      "pcb_net_nodes_missing_from_schematic_nets": [],
+      "same_membership_net_aliases": [
+        {
+          "schematic": "Net-(D12-DIN)",
+          "pcb": "Net-(D12-Pad2)",
+          "pins": [
+            [
+              "D12",
+              "2"
+            ],
+            [
+              "D15",
+              "4"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D22-DIN)",
+          "pcb": "Net-(D22-Pad2)",
+          "pins": [
+            [
+              "D22",
+              "2"
+            ],
+            [
+              "D23",
+              "4"
+            ]
+          ]
+        },
+        {
+          "schematic": "unconnected-(J10-Pin_1-Pad1)",
+          "pcb": "unconnected-(J10-Pad1)",
+          "pins": [
+            [
+              "J10",
+              "1"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D13-DOUT)",
+          "pcb": "Net-(D13-Pad4)",
+          "pins": [
+            [
+              "D13",
+              "4"
+            ],
+            [
+              "D14",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D20-DOUT)",
+          "pcb": "Net-(D20-Pad4)",
+          "pins": [
+            [
+              "D20",
+              "4"
+            ],
+            [
+              "D21",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D1-DIN)",
+          "pcb": "Net-(D1-Pad2)",
+          "pins": [
+            [
+              "D1",
+              "2"
+            ],
+            [
+              "D4",
+              "4"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D7-DOUT)",
+          "pcb": "Net-(D7-Pad4)",
+          "pins": [
+            [
+              "D7",
+              "4"
+            ],
+            [
+              "D8",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D11-DIN)",
+          "pcb": "Net-(D11-Pad2)",
+          "pins": [
+            [
+              "D11",
+              "2"
+            ],
+            [
+              "D12",
+              "4"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D6-DIN)",
+          "pcb": "Net-(D6-Pad2)",
+          "pins": [
+            [
+              "D6",
+              "2"
+            ],
+            [
+              "D9",
+              "4"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D14-DOUT)",
+          "pcb": "Net-(D14-Pad4)",
+          "pins": [
+            [
+              "D14",
+              "4"
+            ],
+            [
+              "D15",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(Q7-B)",
+          "pcb": "Net-(Q7-Pad1)",
+          "pins": [
+            [
+              "Q7",
+              "1"
+            ],
+            [
+              "R7",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D2-DOUT)",
+          "pcb": "Net-(D2-Pad4)",
+          "pins": [
+            [
+              "D2",
+              "4"
+            ],
+            [
+              "D3",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "unconnected-(J17-Pin_1-Pad1)",
+          "pcb": "unconnected-(J17-Pad1)",
+          "pins": [
+            [
+              "J17",
+              "1"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D5-DIN)",
+          "pcb": "Net-(D5-Pad2)",
+          "pins": [
+            [
+              "D5",
+              "2"
+            ],
+            [
+              "D6",
+              "4"
+            ]
+          ]
+        },
+        {
+          "schematic": "unconnected-(J4-Pin_2-Pad2)",
+          "pcb": "unconnected-(J4-Pad2)",
+          "pins": [
+            [
+              "J4",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(Q6-B)",
+          "pcb": "Net-(Q6-Pad1)",
+          "pins": [
+            [
+              "Q6",
+              "1"
+            ],
+            [
+              "R6",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(Q8-B)",
+          "pcb": "Net-(Q8-Pad1)",
+          "pins": [
+            [
+              "Q8",
+              "1"
+            ],
+            [
+              "R8",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(Q3-B)",
+          "pcb": "Net-(Q3-Pad1)",
+          "pins": [
+            [
+              "Q3",
+              "1"
+            ],
+            [
+              "R3",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D19-DOUT)",
+          "pcb": "Net-(D19-Pad4)",
+          "pins": [
+            [
+              "D19",
+              "4"
+            ],
+            [
+              "D20",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D4-DIN)",
+          "pcb": "Net-(D4-Pad2)",
+          "pins": [
+            [
+              "D4",
+              "2"
+            ],
+            [
+              "D5",
+              "4"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(Q2-B)",
+          "pcb": "Net-(Q2-Pad1)",
+          "pins": [
+            [
+              "Q2",
+              "1"
+            ],
+            [
+              "R2",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(Q4-B)",
+          "pcb": "Net-(Q4-Pad1)",
+          "pins": [
+            [
+              "Q4",
+              "1"
+            ],
+            [
+              "R4",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D10-DIN)",
+          "pcb": "Net-(D10-Pad2)",
+          "pins": [
+            [
+              "D10",
+              "2"
+            ],
+            [
+              "D11",
+              "4"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D19-DIN)",
+          "pcb": "Net-(D19-Pad2)",
+          "pins": [
+            [
+              "D19",
+              "2"
+            ],
+            [
+              "D22",
+              "4"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(Q5-B)",
+          "pcb": "Net-(Q5-Pad1)",
+          "pins": [
+            [
+              "Q5",
+              "1"
+            ],
+            [
+              "R5",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D10-DOUT)",
+          "pcb": "Net-(D10-Pad4)",
+          "pins": [
+            [
+              "D10",
+              "4"
+            ],
+            [
+              "D7",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D1-DOUT)",
+          "pcb": "Net-(D1-Pad4)",
+          "pins": [
+            [
+              "D1",
+              "4"
+            ],
+            [
+              "D2",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D18-DIN)",
+          "pcb": "Net-(D18-Pad2)",
+          "pins": [
+            [
+              "D18",
+              "2"
+            ],
+            [
+              "D21",
+              "4"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D23-DIN)",
+          "pcb": "Net-(D23-Pad2)",
+          "pins": [
+            [
+              "D23",
+              "2"
+            ],
+            [
+              "D24",
+              "4"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D8-DOUT)",
+          "pcb": "Net-(D8-Pad4)",
+          "pins": [
+            [
+              "D8",
+              "4"
+            ],
+            [
+              "D9",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D16-DIN)",
+          "pcb": "Net-(D16-Pad2)",
+          "pins": [
+            [
+              "D16",
+              "2"
+            ],
+            [
+              "D17",
+              "4"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D13-DIN)",
+          "pcb": "Net-(D13-Pad2)",
+          "pins": [
+            [
+              "D13",
+              "2"
+            ],
+            [
+              "D16",
+              "4"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(Q1-B)",
+          "pcb": "Net-(Q1-Pad1)",
+          "pins": [
+            [
+              "Q1",
+              "1"
+            ],
+            [
+              "R1",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D17-DIN)",
+          "pcb": "Net-(D17-Pad2)",
+          "pins": [
+            [
+              "D17",
+              "2"
+            ],
+            [
+              "D18",
+              "4"
+            ]
+          ]
+        }
+      ],
+      "led_symbol_pins": [
+        {
+          "number": "1",
+          "name": "VSS",
+          "type": "power_in",
+          "at": [
+            "0",
+            "-7.62",
+            "90"
+          ],
+          "length": [
+            "2.54"
+          ]
+        },
+        {
+          "number": "2",
+          "name": "DIN",
+          "type": "input",
+          "at": [
+            "-7.62",
+            "0",
+            "0"
+          ],
+          "length": [
+            "2.54"
+          ]
+        },
+        {
+          "number": "3",
+          "name": "VDD",
+          "type": "power_in",
+          "at": [
+            "0",
+            "7.62",
+            "270"
+          ],
+          "length": [
+            "2.54"
+          ]
+        },
+        {
+          "number": "4",
+          "name": "DOUT",
+          "type": "output",
+          "at": [
+            "7.62",
+            "0",
+            "180"
+          ],
+          "length": [
+            "2.54"
+          ]
+        }
+      ]
+    },
+    "pcb_equal_after_declared_identity_changes": true,
+    "sch_equal_after_declared_identity_changes": true,
+    "native_net_names_and_nodes_equal": true
+  },
+  "3x8": {
+    "original": {
+      "checks": {
+        "erc": {
+          "total": 166,
+          "severity": {
+            "warning": 166
+          },
+          "types": {
+            "endpoint_off_grid": 121,
+            "lib_symbol_mismatch": 6,
+            "footprint_link_issues": 15,
+            "lib_symbol_issues": 24
+          }
+        },
+        "drc": {
+          "total": 89,
+          "severity": {
+            "warning": 89
+          },
+          "types": {
+            "lib_footprint_mismatch": 74,
+            "lib_footprint_issues": 15
+          }
+        },
+        "unconnected": {
+          "total": 0,
+          "severity": {},
+          "types": {}
+        },
+        "parity": {
+          "total": 101,
+          "severity": {
+            "warning": 101
+          },
+          "types": {
+            "footprint_symbol_field_mismatch": 49,
+            "net_conflict": 49,
+            "extra_footprint": 3
+          }
+        }
+      },
+      "net_count": 46,
+      "shared_pin_count": 268,
+      "connectivity_mismatch_pins": [],
+      "schematic_net_nodes_missing_from_pcb_nets": [],
+      "pcb_net_nodes_missing_from_schematic_nets": [],
+      "same_membership_net_aliases": [
+        {
+          "schematic": "Net-(D21-DOUT)",
+          "pcb": "Net-(D21-Pad4)",
+          "pins": [
+            [
+              "D21",
+              "4"
+            ],
+            [
+              "D22",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D18-DOUT)",
+          "pcb": "Net-(D18-Pad4)",
+          "pins": [
+            [
+              "D18",
+              "4"
+            ],
+            [
+              "D19",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D6-DOUT)",
+          "pcb": "Net-(D6-Pad4)",
+          "pins": [
+            [
+              "D6",
+              "4"
+            ],
+            [
+              "D7",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "unconnected-(J10-Pin_1-Pad1)",
+          "pcb": "unconnected-(J10-Pad1)",
+          "pins": [
+            [
+              "J10",
+              "1"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D20-DOUT)",
+          "pcb": "Net-(D20-Pad4)",
+          "pins": [
+            [
+              "D20",
+              "4"
+            ],
+            [
+              "D21",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D7-DOUT)",
+          "pcb": "Net-(D7-Pad4)",
+          "pins": [
+            [
+              "D7",
+              "4"
+            ],
+            [
+              "D8",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D11-DIN)",
+          "pcb": "Net-(D11-Pad2)",
+          "pins": [
+            [
+              "D11",
+              "2"
+            ],
+            [
+              "D12",
+              "4"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D2-DOUT)",
+          "pcb": "Net-(D2-Pad4)",
+          "pins": [
+            [
+              "D2",
+              "4"
+            ],
+            [
+              "D3",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D23-DOUT)",
+          "pcb": "Net-(D23-Pad4)",
+          "pins": [
+            [
+              "D23",
+              "4"
+            ],
+            [
+              "D24",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D22-DOUT)",
+          "pcb": "Net-(D22-Pad4)",
+          "pins": [
+            [
+              "D22",
+              "4"
+            ],
+            [
+              "D23",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D19-DOUT)",
+          "pcb": "Net-(D19-Pad4)",
+          "pins": [
+            [
+              "D19",
+              "4"
+            ],
+            [
+              "D20",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D3-DOUT)",
+          "pcb": "Net-(D3-Pad4)",
+          "pins": [
+            [
+              "D3",
+              "4"
+            ],
+            [
+              "D4",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D10-DIN)",
+          "pcb": "Net-(D10-Pad2)",
+          "pins": [
+            [
+              "D10",
+              "2"
+            ],
+            [
+              "D11",
+              "4"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D13-DIN)",
+          "pcb": "Net-(D13-Pad2)",
+          "pins": [
+            [
+              "D13",
+              "2"
+            ],
+            [
+              "D14",
+              "4"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D17-DIN)",
+          "pcb": "Net-(D17-Pad2)",
+          "pins": [
+            [
+              "D17",
+              "2"
+            ],
+            [
+              "D9",
+              "4"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D1-DOUT)",
+          "pcb": "Net-(D1-Pad4)",
+          "pins": [
+            [
+              "D1",
+              "4"
+            ],
+            [
+              "D2",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D14-DIN)",
+          "pcb": "Net-(D14-Pad2)",
+          "pins": [
+            [
+              "D14",
+              "2"
+            ],
+            [
+              "D15",
+              "4"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D12-DIN)",
+          "pcb": "Net-(D12-Pad2)",
+          "pins": [
+            [
+              "D12",
+              "2"
+            ],
+            [
+              "D13",
+              "4"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D17-DOUT)",
+          "pcb": "Net-(D17-Pad4)",
+          "pins": [
+            [
+              "D17",
+              "4"
+            ],
+            [
+              "D18",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D16-DIN)",
+          "pcb": "Net-(D16-Pad2)",
+          "pins": [
+            [
+              "D16",
+              "2"
+            ],
+            [
+              "D8",
+              "4"
+            ]
+          ]
+        },
+        {
+          "schematic": "unconnected-(J15-Pin_2-Pad2)",
+          "pcb": "unconnected-(J15-Pad2)",
+          "pins": [
+            [
+              "J15",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D5-DOUT)",
+          "pcb": "Net-(D5-Pad4)",
+          "pins": [
+            [
+              "D5",
+              "4"
+            ],
+            [
+              "D6",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D10-DOUT)",
+          "pcb": "Net-(D10-Pad4)",
+          "pins": [
+            [
+              "D10",
+              "4"
+            ],
+            [
+              "D9",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D4-DOUT)",
+          "pcb": "Net-(D4-Pad4)",
+          "pins": [
+            [
+              "D4",
+              "4"
+            ],
+            [
+              "D5",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "unconnected-(J14-Pin_1-Pad1)",
+          "pcb": "unconnected-(J14-Pad1)",
+          "pins": [
+            [
+              "J14",
+              "1"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D15-DIN)",
+          "pcb": "Net-(D15-Pad2)",
+          "pins": [
+            [
+              "D15",
+              "2"
+            ],
+            [
+              "D16",
+              "4"
+            ]
+          ]
+        }
+      ],
+      "led_symbol_pins": [
+        {
+          "number": "1",
+          "name": "VSS",
+          "type": "power_in",
+          "at": [
+            "0",
+            "-7.62",
+            "90"
+          ],
+          "length": [
+            "2.54"
+          ]
+        },
+        {
+          "number": "2",
+          "name": "DIN",
+          "type": "input",
+          "at": [
+            "-7.62",
+            "0",
+            "0"
+          ],
+          "length": [
+            "2.54"
+          ]
+        },
+        {
+          "number": "3",
+          "name": "VDD",
+          "type": "power_in",
+          "at": [
+            "0",
+            "7.62",
+            "270"
+          ],
+          "length": [
+            "2.54"
+          ]
+        },
+        {
+          "number": "4",
+          "name": "DOUT",
+          "type": "output",
+          "at": [
+            "7.62",
+            "0",
+            "180"
+          ],
+          "length": [
+            "2.54"
+          ]
+        }
+      ]
+    },
+    "updated": {
+      "checks": {
+        "erc": {
+          "total": 166,
+          "severity": {
+            "warning": 166
+          },
+          "types": {
+            "endpoint_off_grid": 121,
+            "lib_symbol_mismatch": 6,
+            "footprint_link_issues": 15,
+            "lib_symbol_issues": 24
+          }
+        },
+        "drc": {
+          "total": 89,
+          "severity": {
+            "warning": 89
+          },
+          "types": {
+            "lib_footprint_mismatch": 74,
+            "lib_footprint_issues": 15
+          }
+        },
+        "unconnected": {
+          "total": 0,
+          "severity": {},
+          "types": {}
+        },
+        "parity": {
+          "total": 101,
+          "severity": {
+            "warning": 101
+          },
+          "types": {
+            "footprint_symbol_field_mismatch": 49,
+            "net_conflict": 49,
+            "extra_footprint": 3
+          }
+        }
+      },
+      "net_count": 46,
+      "shared_pin_count": 268,
+      "connectivity_mismatch_pins": [],
+      "schematic_net_nodes_missing_from_pcb_nets": [],
+      "pcb_net_nodes_missing_from_schematic_nets": [],
+      "same_membership_net_aliases": [
+        {
+          "schematic": "Net-(D21-DOUT)",
+          "pcb": "Net-(D21-Pad4)",
+          "pins": [
+            [
+              "D21",
+              "4"
+            ],
+            [
+              "D22",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D18-DOUT)",
+          "pcb": "Net-(D18-Pad4)",
+          "pins": [
+            [
+              "D18",
+              "4"
+            ],
+            [
+              "D19",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D6-DOUT)",
+          "pcb": "Net-(D6-Pad4)",
+          "pins": [
+            [
+              "D6",
+              "4"
+            ],
+            [
+              "D7",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "unconnected-(J10-Pin_1-Pad1)",
+          "pcb": "unconnected-(J10-Pad1)",
+          "pins": [
+            [
+              "J10",
+              "1"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D20-DOUT)",
+          "pcb": "Net-(D20-Pad4)",
+          "pins": [
+            [
+              "D20",
+              "4"
+            ],
+            [
+              "D21",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D7-DOUT)",
+          "pcb": "Net-(D7-Pad4)",
+          "pins": [
+            [
+              "D7",
+              "4"
+            ],
+            [
+              "D8",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D11-DIN)",
+          "pcb": "Net-(D11-Pad2)",
+          "pins": [
+            [
+              "D11",
+              "2"
+            ],
+            [
+              "D12",
+              "4"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D2-DOUT)",
+          "pcb": "Net-(D2-Pad4)",
+          "pins": [
+            [
+              "D2",
+              "4"
+            ],
+            [
+              "D3",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D23-DOUT)",
+          "pcb": "Net-(D23-Pad4)",
+          "pins": [
+            [
+              "D23",
+              "4"
+            ],
+            [
+              "D24",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D22-DOUT)",
+          "pcb": "Net-(D22-Pad4)",
+          "pins": [
+            [
+              "D22",
+              "4"
+            ],
+            [
+              "D23",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D19-DOUT)",
+          "pcb": "Net-(D19-Pad4)",
+          "pins": [
+            [
+              "D19",
+              "4"
+            ],
+            [
+              "D20",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D3-DOUT)",
+          "pcb": "Net-(D3-Pad4)",
+          "pins": [
+            [
+              "D3",
+              "4"
+            ],
+            [
+              "D4",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D10-DIN)",
+          "pcb": "Net-(D10-Pad2)",
+          "pins": [
+            [
+              "D10",
+              "2"
+            ],
+            [
+              "D11",
+              "4"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D13-DIN)",
+          "pcb": "Net-(D13-Pad2)",
+          "pins": [
+            [
+              "D13",
+              "2"
+            ],
+            [
+              "D14",
+              "4"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D17-DIN)",
+          "pcb": "Net-(D17-Pad2)",
+          "pins": [
+            [
+              "D17",
+              "2"
+            ],
+            [
+              "D9",
+              "4"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D1-DOUT)",
+          "pcb": "Net-(D1-Pad4)",
+          "pins": [
+            [
+              "D1",
+              "4"
+            ],
+            [
+              "D2",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D14-DIN)",
+          "pcb": "Net-(D14-Pad2)",
+          "pins": [
+            [
+              "D14",
+              "2"
+            ],
+            [
+              "D15",
+              "4"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D12-DIN)",
+          "pcb": "Net-(D12-Pad2)",
+          "pins": [
+            [
+              "D12",
+              "2"
+            ],
+            [
+              "D13",
+              "4"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D17-DOUT)",
+          "pcb": "Net-(D17-Pad4)",
+          "pins": [
+            [
+              "D17",
+              "4"
+            ],
+            [
+              "D18",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D16-DIN)",
+          "pcb": "Net-(D16-Pad2)",
+          "pins": [
+            [
+              "D16",
+              "2"
+            ],
+            [
+              "D8",
+              "4"
+            ]
+          ]
+        },
+        {
+          "schematic": "unconnected-(J15-Pin_2-Pad2)",
+          "pcb": "unconnected-(J15-Pad2)",
+          "pins": [
+            [
+              "J15",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D5-DOUT)",
+          "pcb": "Net-(D5-Pad4)",
+          "pins": [
+            [
+              "D5",
+              "4"
+            ],
+            [
+              "D6",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D10-DOUT)",
+          "pcb": "Net-(D10-Pad4)",
+          "pins": [
+            [
+              "D10",
+              "4"
+            ],
+            [
+              "D9",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D4-DOUT)",
+          "pcb": "Net-(D4-Pad4)",
+          "pins": [
+            [
+              "D4",
+              "4"
+            ],
+            [
+              "D5",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "unconnected-(J14-Pin_1-Pad1)",
+          "pcb": "unconnected-(J14-Pad1)",
+          "pins": [
+            [
+              "J14",
+              "1"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D15-DIN)",
+          "pcb": "Net-(D15-Pad2)",
+          "pins": [
+            [
+              "D15",
+              "2"
+            ],
+            [
+              "D16",
+              "4"
+            ]
+          ]
+        }
+      ],
+      "led_symbol_pins": [
+        {
+          "number": "1",
+          "name": "VSS",
+          "type": "power_in",
+          "at": [
+            "0",
+            "-7.62",
+            "90"
+          ],
+          "length": [
+            "2.54"
+          ]
+        },
+        {
+          "number": "2",
+          "name": "DIN",
+          "type": "input",
+          "at": [
+            "-7.62",
+            "0",
+            "0"
+          ],
+          "length": [
+            "2.54"
+          ]
+        },
+        {
+          "number": "3",
+          "name": "VDD",
+          "type": "power_in",
+          "at": [
+            "0",
+            "7.62",
+            "270"
+          ],
+          "length": [
+            "2.54"
+          ]
+        },
+        {
+          "number": "4",
+          "name": "DOUT",
+          "type": "output",
+          "at": [
+            "7.62",
+            "0",
+            "180"
+          ],
+          "length": [
+            "2.54"
+          ]
+        }
+      ]
+    },
+    "pcb_equal_after_declared_identity_changes": true,
+    "sch_equal_after_declared_identity_changes": true,
+    "native_net_names_and_nodes_equal": true
+  },
+  "8x8": {
+    "original": {
+      "checks": {
+        "erc": {
+          "total": 399,
+          "severity": {
+            "warning": 399
+          },
+          "types": {
+            "endpoint_off_grid": 302,
+            "lib_symbol_mismatch": 11,
+            "footprint_link_issues": 22,
+            "lib_symbol_issues": 64
+          }
+        },
+        "drc": {
+          "total": 214,
+          "severity": {
+            "warning": 214
+          },
+          "types": {
+            "lib_footprint_mismatch": 192,
+            "lib_footprint_issues": 22
+          }
+        },
+        "unconnected": {
+          "total": 0,
+          "severity": {},
+          "types": {}
+        },
+        "parity": {
+          "total": 272,
+          "severity": {
+            "warning": 272
+          },
+          "types": {
+            "duplicate_footprints": 6,
+            "footprint_symbol_field_mismatch": 128,
+            "net_conflict": 130,
+            "extra_footprint": 8
+          }
+        }
+      },
+      "net_count": 88,
+      "shared_pin_count": 622,
+      "connectivity_mismatch_pins": [],
+      "schematic_net_nodes_missing_from_pcb_nets": [],
+      "pcb_net_nodes_missing_from_schematic_nets": [],
+      "same_membership_net_aliases": [
+        {
+          "schematic": "Net-(D44-DIN)",
+          "pcb": "Net-(D44-Pad2)",
+          "pins": [
+            [
+              "D44",
+              "2"
+            ],
+            [
+              "D45",
+              "4"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D60-DIN)",
+          "pcb": "Net-(D60-Pad2)",
+          "pins": [
+            [
+              "D60",
+              "2"
+            ],
+            [
+              "D61",
+              "4"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D51-DOUT)",
+          "pcb": "Net-(D51-Pad4)",
+          "pins": [
+            [
+              "D51",
+              "4"
+            ],
+            [
+              "D52",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D7-DOUT)",
+          "pcb": "Net-(D7-Pad4)",
+          "pins": [
+            [
+              "D7",
+              "4"
+            ],
+            [
+              "D8",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D45-DIN)",
+          "pcb": "Net-(D45-Pad2)",
+          "pins": [
+            [
+              "D45",
+              "2"
+            ],
+            [
+              "D46",
+              "4"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D62-DIN)",
+          "pcb": "Net-(D62-Pad2)",
+          "pins": [
+            [
+              "D62",
+              "2"
+            ],
+            [
+              "D63",
+              "4"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D53-DOUT)",
+          "pcb": "Net-(D53-Pad4)",
+          "pins": [
+            [
+              "D53",
+              "4"
+            ],
+            [
+              "D54",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D28-DIN)",
+          "pcb": "Net-(D28-Pad2)",
+          "pins": [
+            [
+              "D28",
+              "2"
+            ],
+            [
+              "D29",
+              "4"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D54-DOUT)",
+          "pcb": "Net-(D54-Pad4)",
+          "pins": [
+            [
+              "D54",
+              "4"
+            ],
+            [
+              "D55",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D30-DIN)",
+          "pcb": "Net-(D30-Pad2)",
+          "pins": [
+            [
+              "D30",
+              "2"
+            ],
+            [
+              "D31",
+              "4"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D22-DOUT)",
+          "pcb": "Net-(D22-Pad4)",
+          "pins": [
+            [
+              "D22",
+              "4"
+            ],
+            [
+              "D23",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D47-DIN)",
+          "pcb": "Net-(D47-Pad2)",
+          "pins": [
+            [
+              "D47",
+              "2"
+            ],
+            [
+              "D48",
+              "4"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D56-DOUT)",
+          "pcb": "Net-(D56-Pad4)",
+          "pins": [
+            [
+              "D56",
+              "4"
+            ],
+            [
+              "D64",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D63-DIN)",
+          "pcb": "Net-(D63-Pad2)",
+          "pins": [
+            [
+              "D63",
+              "2"
+            ],
+            [
+              "D64",
+              "4"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D13-DIN)",
+          "pcb": "Net-(D13-Pad2)",
+          "pins": [
+            [
+              "D13",
+              "2"
+            ],
+            [
+              "D14",
+              "4"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D38-DOUT)",
+          "pcb": "Net-(D38-Pad4)",
+          "pins": [
+            [
+              "D38",
+              "4"
+            ],
+            [
+              "D39",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D17-DOUT)",
+          "pcb": "Net-(D17-Pad4)",
+          "pins": [
+            [
+              "D17",
+              "4"
+            ],
+            [
+              "D18",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D35-DOUT)",
+          "pcb": "Net-(D35-Pad4)",
+          "pins": [
+            [
+              "D35",
+              "4"
+            ],
+            [
+              "D36",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D41-DIN)",
+          "pcb": "Net-(D41-Pad2)",
+          "pins": [
+            [
+              "D41",
+              "2"
+            ],
+            [
+              "D42",
+              "4"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D10-DOUT)",
+          "pcb": "Net-(D10-Pad4)",
+          "pins": [
+            [
+              "D10",
+              "4"
+            ],
+            [
+              "D9",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D43-DIN)",
+          "pcb": "Net-(D43-Pad2)",
+          "pins": [
+            [
+              "D43",
+              "2"
+            ],
+            [
+              "D44",
+              "4"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D25-DOUT)",
+          "pcb": "Net-(D25-Pad4)",
+          "pins": [
+            [
+              "D25",
+              "4"
+            ],
+            [
+              "D33",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D49-DOUT)",
+          "pcb": "Net-(D49-Pad4)",
+          "pins": [
+            [
+              "D49",
+              "4"
+            ],
+            [
+              "D50",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D21-DOUT)",
+          "pcb": "Net-(D21-Pad4)",
+          "pins": [
+            [
+              "D21",
+              "4"
+            ],
+            [
+              "D22",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D6-DOUT)",
+          "pcb": "Net-(D6-Pad4)",
+          "pins": [
+            [
+              "D6",
+              "4"
+            ],
+            [
+              "D7",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D20-DOUT)",
+          "pcb": "Net-(D20-Pad4)",
+          "pins": [
+            [
+              "D20",
+              "4"
+            ],
+            [
+              "D21",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D2-DOUT)",
+          "pcb": "Net-(D2-Pad4)",
+          "pins": [
+            [
+              "D2",
+              "4"
+            ],
+            [
+              "D3",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D23-DOUT)",
+          "pcb": "Net-(D23-Pad4)",
+          "pins": [
+            [
+              "D23",
+              "4"
+            ],
+            [
+              "D24",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D58-DIN)",
+          "pcb": "Net-(D58-Pad2)",
+          "pins": [
+            [
+              "D58",
+              "2"
+            ],
+            [
+              "D59",
+              "4"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D29-DIN)",
+          "pcb": "Net-(D29-Pad2)",
+          "pins": [
+            [
+              "D29",
+              "2"
+            ],
+            [
+              "D30",
+              "4"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D57-DIN)",
+          "pcb": "Net-(D57-Pad2)",
+          "pins": [
+            [
+              "D57",
+              "2"
+            ],
+            [
+              "D58",
+              "4"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D41-DOUT)",
+          "pcb": "Net-(D41-Pad4)",
+          "pins": [
+            [
+              "D41",
+              "4"
+            ],
+            [
+              "D49",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D19-DOUT)",
+          "pcb": "Net-(D19-Pad4)",
+          "pins": [
+            [
+              "D19",
+              "4"
+            ],
+            [
+              "D20",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "unconnected-(J22-Pin_2-Pad2)",
+          "pcb": "unconnected-(J22-Pad2)",
+          "pins": [
+            [
+              "J22",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D27-DIN)",
+          "pcb": "Net-(D27-Pad2)",
+          "pins": [
+            [
+              "D27",
+              "2"
+            ],
+            [
+              "D28",
+              "4"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D17-DIN)",
+          "pcb": "Net-(D17-Pad2)",
+          "pins": [
+            [
+              "D17",
+              "2"
+            ],
+            [
+              "D9",
+              "4"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D12-DIN)",
+          "pcb": "Net-(D12-Pad2)",
+          "pins": [
+            [
+              "D12",
+              "2"
+            ],
+            [
+              "D13",
+              "4"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D16-DIN)",
+          "pcb": "Net-(D16-Pad2)",
+          "pins": [
+            [
+              "D16",
+              "2"
+            ],
+            [
+              "D8",
+              "4"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D24-DOUT)",
+          "pcb": "Net-(D24-Pad4)",
+          "pins": [
+            [
+              "D24",
+              "4"
+            ],
+            [
+              "D32",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D46-DIN)",
+          "pcb": "Net-(D46-Pad2)",
+          "pins": [
+            [
+              "D46",
+              "2"
+            ],
+            [
+              "D47",
+              "4"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D39-DOUT)",
+          "pcb": "Net-(D39-Pad4)",
+          "pins": [
+            [
+              "D39",
+              "4"
+            ],
+            [
+              "D40",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "unconnected-(J20-Pin_2-Pad2)",
+          "pcb": "unconnected-(J20-Pad2)",
+          "pins": [
+            [
+              "J20",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D59-DIN)",
+          "pcb": "Net-(D59-Pad2)",
+          "pins": [
+            [
+              "D59",
+              "2"
+            ],
+            [
+              "D60",
+              "4"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D31-DIN)",
+          "pcb": "Net-(D31-Pad2)",
+          "pins": [
+            [
+              "D31",
+              "2"
+            ],
+            [
+              "D32",
+              "4"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D52-DOUT)",
+          "pcb": "Net-(D52-Pad4)",
+          "pins": [
+            [
+              "D52",
+              "4"
+            ],
+            [
+              "D53",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D33-DOUT)",
+          "pcb": "Net-(D33-Pad4)",
+          "pins": [
+            [
+              "D33",
+              "4"
+            ],
+            [
+              "D34",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D42-DIN)",
+          "pcb": "Net-(D42-Pad2)",
+          "pins": [
+            [
+              "D42",
+              "2"
+            ],
+            [
+              "D43",
+              "4"
+            ]
+          ]
+        },
+        {
+          "schematic": "unconnected-(J21-Pin_1-Pad1)",
+          "pcb": "unconnected-(J21-Pad1)",
+          "pins": [
+            [
+              "J21",
+              "1"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D36-DOUT)",
+          "pcb": "Net-(D36-Pad4)",
+          "pins": [
+            [
+              "D36",
+              "4"
+            ],
+            [
+              "D37",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D1-DOUT)",
+          "pcb": "Net-(D1-Pad4)",
+          "pins": [
+            [
+              "D1",
+              "4"
+            ],
+            [
+              "D2",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D34-DOUT)",
+          "pcb": "Net-(D34-Pad4)",
+          "pins": [
+            [
+              "D34",
+              "4"
+            ],
+            [
+              "D35",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D37-DOUT)",
+          "pcb": "Net-(D37-Pad4)",
+          "pins": [
+            [
+              "D37",
+              "4"
+            ],
+            [
+              "D38",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D18-DOUT)",
+          "pcb": "Net-(D18-Pad4)",
+          "pins": [
+            [
+              "D18",
+              "4"
+            ],
+            [
+              "D19",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D11-DIN)",
+          "pcb": "Net-(D11-Pad2)",
+          "pins": [
+            [
+              "D11",
+              "2"
+            ],
+            [
+              "D12",
+              "4"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D61-DIN)",
+          "pcb": "Net-(D61-Pad2)",
+          "pins": [
+            [
+              "D61",
+              "2"
+            ],
+            [
+              "D62",
+              "4"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D26-DIN)",
+          "pcb": "Net-(D26-Pad2)",
+          "pins": [
+            [
+              "D26",
+              "2"
+            ],
+            [
+              "D27",
+              "4"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D50-DOUT)",
+          "pcb": "Net-(D50-Pad4)",
+          "pins": [
+            [
+              "D50",
+              "4"
+            ],
+            [
+              "D51",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D3-DOUT)",
+          "pcb": "Net-(D3-Pad4)",
+          "pins": [
+            [
+              "D3",
+              "4"
+            ],
+            [
+              "D4",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D25-DIN)",
+          "pcb": "Net-(D25-Pad2)",
+          "pins": [
+            [
+              "D25",
+              "2"
+            ],
+            [
+              "D26",
+              "4"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D10-DIN)",
+          "pcb": "Net-(D10-Pad2)",
+          "pins": [
+            [
+              "D10",
+              "2"
+            ],
+            [
+              "D11",
+              "4"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D40-DOUT)",
+          "pcb": "Net-(D40-Pad4)",
+          "pins": [
+            [
+              "D40",
+              "4"
+            ],
+            [
+              "D48",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D55-DOUT)",
+          "pcb": "Net-(D55-Pad4)",
+          "pins": [
+            [
+              "D55",
+              "4"
+            ],
+            [
+              "D56",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "unconnected-(J23-Pin_1-Pad1)",
+          "pcb": "unconnected-(J23-Pad1)",
+          "pins": [
+            [
+              "J23",
+              "1"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D14-DIN)",
+          "pcb": "Net-(D14-Pad2)",
+          "pins": [
+            [
+              "D14",
+              "2"
+            ],
+            [
+              "D15",
+              "4"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D5-DOUT)",
+          "pcb": "Net-(D5-Pad4)",
+          "pins": [
+            [
+              "D5",
+              "4"
+            ],
+            [
+              "D6",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D4-DOUT)",
+          "pcb": "Net-(D4-Pad4)",
+          "pins": [
+            [
+              "D4",
+              "4"
+            ],
+            [
+              "D5",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D15-DIN)",
+          "pcb": "Net-(D15-Pad2)",
+          "pins": [
+            [
+              "D15",
+              "2"
+            ],
+            [
+              "D16",
+              "4"
+            ]
+          ]
+        }
+      ],
+      "led_symbol_pins": [
+        {
+          "number": "1",
+          "name": "VSS",
+          "type": "power_in",
+          "at": [
+            "0",
+            "-7.62",
+            "90"
+          ],
+          "length": [
+            "2.54"
+          ]
+        },
+        {
+          "number": "2",
+          "name": "DIN",
+          "type": "input",
+          "at": [
+            "-7.62",
+            "0",
+            "0"
+          ],
+          "length": [
+            "2.54"
+          ]
+        },
+        {
+          "number": "3",
+          "name": "VDD",
+          "type": "power_in",
+          "at": [
+            "0",
+            "7.62",
+            "270"
+          ],
+          "length": [
+            "2.54"
+          ]
+        },
+        {
+          "number": "4",
+          "name": "DOUT",
+          "type": "output",
+          "at": [
+            "7.62",
+            "0",
+            "180"
+          ],
+          "length": [
+            "2.54"
+          ]
+        }
+      ]
+    },
+    "updated": {
+      "checks": {
+        "erc": {
+          "total": 399,
+          "severity": {
+            "warning": 399
+          },
+          "types": {
+            "endpoint_off_grid": 302,
+            "lib_symbol_mismatch": 11,
+            "footprint_link_issues": 22,
+            "lib_symbol_issues": 64
+          }
+        },
+        "drc": {
+          "total": 214,
+          "severity": {
+            "warning": 214
+          },
+          "types": {
+            "lib_footprint_mismatch": 192,
+            "lib_footprint_issues": 22
+          }
+        },
+        "unconnected": {
+          "total": 0,
+          "severity": {},
+          "types": {}
+        },
+        "parity": {
+          "total": 272,
+          "severity": {
+            "warning": 272
+          },
+          "types": {
+            "duplicate_footprints": 6,
+            "footprint_symbol_field_mismatch": 128,
+            "net_conflict": 130,
+            "extra_footprint": 8
+          }
+        }
+      },
+      "net_count": 88,
+      "shared_pin_count": 622,
+      "connectivity_mismatch_pins": [],
+      "schematic_net_nodes_missing_from_pcb_nets": [],
+      "pcb_net_nodes_missing_from_schematic_nets": [],
+      "same_membership_net_aliases": [
+        {
+          "schematic": "Net-(D44-DIN)",
+          "pcb": "Net-(D44-Pad2)",
+          "pins": [
+            [
+              "D44",
+              "2"
+            ],
+            [
+              "D45",
+              "4"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D60-DIN)",
+          "pcb": "Net-(D60-Pad2)",
+          "pins": [
+            [
+              "D60",
+              "2"
+            ],
+            [
+              "D61",
+              "4"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D51-DOUT)",
+          "pcb": "Net-(D51-Pad4)",
+          "pins": [
+            [
+              "D51",
+              "4"
+            ],
+            [
+              "D52",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D7-DOUT)",
+          "pcb": "Net-(D7-Pad4)",
+          "pins": [
+            [
+              "D7",
+              "4"
+            ],
+            [
+              "D8",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D45-DIN)",
+          "pcb": "Net-(D45-Pad2)",
+          "pins": [
+            [
+              "D45",
+              "2"
+            ],
+            [
+              "D46",
+              "4"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D62-DIN)",
+          "pcb": "Net-(D62-Pad2)",
+          "pins": [
+            [
+              "D62",
+              "2"
+            ],
+            [
+              "D63",
+              "4"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D53-DOUT)",
+          "pcb": "Net-(D53-Pad4)",
+          "pins": [
+            [
+              "D53",
+              "4"
+            ],
+            [
+              "D54",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D28-DIN)",
+          "pcb": "Net-(D28-Pad2)",
+          "pins": [
+            [
+              "D28",
+              "2"
+            ],
+            [
+              "D29",
+              "4"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D54-DOUT)",
+          "pcb": "Net-(D54-Pad4)",
+          "pins": [
+            [
+              "D54",
+              "4"
+            ],
+            [
+              "D55",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D30-DIN)",
+          "pcb": "Net-(D30-Pad2)",
+          "pins": [
+            [
+              "D30",
+              "2"
+            ],
+            [
+              "D31",
+              "4"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D22-DOUT)",
+          "pcb": "Net-(D22-Pad4)",
+          "pins": [
+            [
+              "D22",
+              "4"
+            ],
+            [
+              "D23",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D47-DIN)",
+          "pcb": "Net-(D47-Pad2)",
+          "pins": [
+            [
+              "D47",
+              "2"
+            ],
+            [
+              "D48",
+              "4"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D56-DOUT)",
+          "pcb": "Net-(D56-Pad4)",
+          "pins": [
+            [
+              "D56",
+              "4"
+            ],
+            [
+              "D64",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D63-DIN)",
+          "pcb": "Net-(D63-Pad2)",
+          "pins": [
+            [
+              "D63",
+              "2"
+            ],
+            [
+              "D64",
+              "4"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D13-DIN)",
+          "pcb": "Net-(D13-Pad2)",
+          "pins": [
+            [
+              "D13",
+              "2"
+            ],
+            [
+              "D14",
+              "4"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D38-DOUT)",
+          "pcb": "Net-(D38-Pad4)",
+          "pins": [
+            [
+              "D38",
+              "4"
+            ],
+            [
+              "D39",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D17-DOUT)",
+          "pcb": "Net-(D17-Pad4)",
+          "pins": [
+            [
+              "D17",
+              "4"
+            ],
+            [
+              "D18",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D35-DOUT)",
+          "pcb": "Net-(D35-Pad4)",
+          "pins": [
+            [
+              "D35",
+              "4"
+            ],
+            [
+              "D36",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D41-DIN)",
+          "pcb": "Net-(D41-Pad2)",
+          "pins": [
+            [
+              "D41",
+              "2"
+            ],
+            [
+              "D42",
+              "4"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D10-DOUT)",
+          "pcb": "Net-(D10-Pad4)",
+          "pins": [
+            [
+              "D10",
+              "4"
+            ],
+            [
+              "D9",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D43-DIN)",
+          "pcb": "Net-(D43-Pad2)",
+          "pins": [
+            [
+              "D43",
+              "2"
+            ],
+            [
+              "D44",
+              "4"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D25-DOUT)",
+          "pcb": "Net-(D25-Pad4)",
+          "pins": [
+            [
+              "D25",
+              "4"
+            ],
+            [
+              "D33",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D49-DOUT)",
+          "pcb": "Net-(D49-Pad4)",
+          "pins": [
+            [
+              "D49",
+              "4"
+            ],
+            [
+              "D50",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D21-DOUT)",
+          "pcb": "Net-(D21-Pad4)",
+          "pins": [
+            [
+              "D21",
+              "4"
+            ],
+            [
+              "D22",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D6-DOUT)",
+          "pcb": "Net-(D6-Pad4)",
+          "pins": [
+            [
+              "D6",
+              "4"
+            ],
+            [
+              "D7",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D20-DOUT)",
+          "pcb": "Net-(D20-Pad4)",
+          "pins": [
+            [
+              "D20",
+              "4"
+            ],
+            [
+              "D21",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D2-DOUT)",
+          "pcb": "Net-(D2-Pad4)",
+          "pins": [
+            [
+              "D2",
+              "4"
+            ],
+            [
+              "D3",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D23-DOUT)",
+          "pcb": "Net-(D23-Pad4)",
+          "pins": [
+            [
+              "D23",
+              "4"
+            ],
+            [
+              "D24",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D58-DIN)",
+          "pcb": "Net-(D58-Pad2)",
+          "pins": [
+            [
+              "D58",
+              "2"
+            ],
+            [
+              "D59",
+              "4"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D29-DIN)",
+          "pcb": "Net-(D29-Pad2)",
+          "pins": [
+            [
+              "D29",
+              "2"
+            ],
+            [
+              "D30",
+              "4"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D57-DIN)",
+          "pcb": "Net-(D57-Pad2)",
+          "pins": [
+            [
+              "D57",
+              "2"
+            ],
+            [
+              "D58",
+              "4"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D41-DOUT)",
+          "pcb": "Net-(D41-Pad4)",
+          "pins": [
+            [
+              "D41",
+              "4"
+            ],
+            [
+              "D49",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D19-DOUT)",
+          "pcb": "Net-(D19-Pad4)",
+          "pins": [
+            [
+              "D19",
+              "4"
+            ],
+            [
+              "D20",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "unconnected-(J22-Pin_2-Pad2)",
+          "pcb": "unconnected-(J22-Pad2)",
+          "pins": [
+            [
+              "J22",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D27-DIN)",
+          "pcb": "Net-(D27-Pad2)",
+          "pins": [
+            [
+              "D27",
+              "2"
+            ],
+            [
+              "D28",
+              "4"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D17-DIN)",
+          "pcb": "Net-(D17-Pad2)",
+          "pins": [
+            [
+              "D17",
+              "2"
+            ],
+            [
+              "D9",
+              "4"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D12-DIN)",
+          "pcb": "Net-(D12-Pad2)",
+          "pins": [
+            [
+              "D12",
+              "2"
+            ],
+            [
+              "D13",
+              "4"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D16-DIN)",
+          "pcb": "Net-(D16-Pad2)",
+          "pins": [
+            [
+              "D16",
+              "2"
+            ],
+            [
+              "D8",
+              "4"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D24-DOUT)",
+          "pcb": "Net-(D24-Pad4)",
+          "pins": [
+            [
+              "D24",
+              "4"
+            ],
+            [
+              "D32",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D46-DIN)",
+          "pcb": "Net-(D46-Pad2)",
+          "pins": [
+            [
+              "D46",
+              "2"
+            ],
+            [
+              "D47",
+              "4"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D39-DOUT)",
+          "pcb": "Net-(D39-Pad4)",
+          "pins": [
+            [
+              "D39",
+              "4"
+            ],
+            [
+              "D40",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "unconnected-(J20-Pin_2-Pad2)",
+          "pcb": "unconnected-(J20-Pad2)",
+          "pins": [
+            [
+              "J20",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D59-DIN)",
+          "pcb": "Net-(D59-Pad2)",
+          "pins": [
+            [
+              "D59",
+              "2"
+            ],
+            [
+              "D60",
+              "4"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D31-DIN)",
+          "pcb": "Net-(D31-Pad2)",
+          "pins": [
+            [
+              "D31",
+              "2"
+            ],
+            [
+              "D32",
+              "4"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D52-DOUT)",
+          "pcb": "Net-(D52-Pad4)",
+          "pins": [
+            [
+              "D52",
+              "4"
+            ],
+            [
+              "D53",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D33-DOUT)",
+          "pcb": "Net-(D33-Pad4)",
+          "pins": [
+            [
+              "D33",
+              "4"
+            ],
+            [
+              "D34",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D42-DIN)",
+          "pcb": "Net-(D42-Pad2)",
+          "pins": [
+            [
+              "D42",
+              "2"
+            ],
+            [
+              "D43",
+              "4"
+            ]
+          ]
+        },
+        {
+          "schematic": "unconnected-(J21-Pin_1-Pad1)",
+          "pcb": "unconnected-(J21-Pad1)",
+          "pins": [
+            [
+              "J21",
+              "1"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D36-DOUT)",
+          "pcb": "Net-(D36-Pad4)",
+          "pins": [
+            [
+              "D36",
+              "4"
+            ],
+            [
+              "D37",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D1-DOUT)",
+          "pcb": "Net-(D1-Pad4)",
+          "pins": [
+            [
+              "D1",
+              "4"
+            ],
+            [
+              "D2",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D34-DOUT)",
+          "pcb": "Net-(D34-Pad4)",
+          "pins": [
+            [
+              "D34",
+              "4"
+            ],
+            [
+              "D35",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D37-DOUT)",
+          "pcb": "Net-(D37-Pad4)",
+          "pins": [
+            [
+              "D37",
+              "4"
+            ],
+            [
+              "D38",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D18-DOUT)",
+          "pcb": "Net-(D18-Pad4)",
+          "pins": [
+            [
+              "D18",
+              "4"
+            ],
+            [
+              "D19",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D11-DIN)",
+          "pcb": "Net-(D11-Pad2)",
+          "pins": [
+            [
+              "D11",
+              "2"
+            ],
+            [
+              "D12",
+              "4"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D61-DIN)",
+          "pcb": "Net-(D61-Pad2)",
+          "pins": [
+            [
+              "D61",
+              "2"
+            ],
+            [
+              "D62",
+              "4"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D26-DIN)",
+          "pcb": "Net-(D26-Pad2)",
+          "pins": [
+            [
+              "D26",
+              "2"
+            ],
+            [
+              "D27",
+              "4"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D50-DOUT)",
+          "pcb": "Net-(D50-Pad4)",
+          "pins": [
+            [
+              "D50",
+              "4"
+            ],
+            [
+              "D51",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D3-DOUT)",
+          "pcb": "Net-(D3-Pad4)",
+          "pins": [
+            [
+              "D3",
+              "4"
+            ],
+            [
+              "D4",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D25-DIN)",
+          "pcb": "Net-(D25-Pad2)",
+          "pins": [
+            [
+              "D25",
+              "2"
+            ],
+            [
+              "D26",
+              "4"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D10-DIN)",
+          "pcb": "Net-(D10-Pad2)",
+          "pins": [
+            [
+              "D10",
+              "2"
+            ],
+            [
+              "D11",
+              "4"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D40-DOUT)",
+          "pcb": "Net-(D40-Pad4)",
+          "pins": [
+            [
+              "D40",
+              "4"
+            ],
+            [
+              "D48",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D55-DOUT)",
+          "pcb": "Net-(D55-Pad4)",
+          "pins": [
+            [
+              "D55",
+              "4"
+            ],
+            [
+              "D56",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "unconnected-(J23-Pin_1-Pad1)",
+          "pcb": "unconnected-(J23-Pad1)",
+          "pins": [
+            [
+              "J23",
+              "1"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D14-DIN)",
+          "pcb": "Net-(D14-Pad2)",
+          "pins": [
+            [
+              "D14",
+              "2"
+            ],
+            [
+              "D15",
+              "4"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D5-DOUT)",
+          "pcb": "Net-(D5-Pad4)",
+          "pins": [
+            [
+              "D5",
+              "4"
+            ],
+            [
+              "D6",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D4-DOUT)",
+          "pcb": "Net-(D4-Pad4)",
+          "pins": [
+            [
+              "D4",
+              "4"
+            ],
+            [
+              "D5",
+              "2"
+            ]
+          ]
+        },
+        {
+          "schematic": "Net-(D15-DIN)",
+          "pcb": "Net-(D15-Pad2)",
+          "pins": [
+            [
+              "D15",
+              "2"
+            ],
+            [
+              "D16",
+              "4"
+            ]
+          ]
+        }
+      ],
+      "led_symbol_pins": [
+        {
+          "number": "1",
+          "name": "VSS",
+          "type": "power_in",
+          "at": [
+            "0",
+            "-7.62",
+            "90"
+          ],
+          "length": [
+            "2.54"
+          ]
+        },
+        {
+          "number": "2",
+          "name": "DIN",
+          "type": "input",
+          "at": [
+            "-7.62",
+            "0",
+            "0"
+          ],
+          "length": [
+            "2.54"
+          ]
+        },
+        {
+          "number": "3",
+          "name": "VDD",
+          "type": "power_in",
+          "at": [
+            "0",
+            "7.62",
+            "270"
+          ],
+          "length": [
+            "2.54"
+          ]
+        },
+        {
+          "number": "4",
+          "name": "DOUT",
+          "type": "output",
+          "at": [
+            "7.62",
+            "0",
+            "180"
+          ],
+          "length": [
+            "2.54"
+          ]
+        }
+      ]
+    },
+    "pcb_equal_after_declared_identity_changes": true,
+    "sch_equal_after_declared_identity_changes": true,
+    "native_net_names_and_nodes_equal": true
+  }
+}

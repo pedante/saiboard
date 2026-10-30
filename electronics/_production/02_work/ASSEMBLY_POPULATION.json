@@ -1,0 +1,810 @@
+{
+  "change": "CHG-016",
+  "status": "Applied: export population policy; CAD unchanged",
+  "approved": "2026-10-29",
+  "hand_population": [
+    {
+      "design": "11x3",
+      "reference": "J1",
+      "side": "B.Cu",
+      "bom_id": "BOM-03",
+      "population": "HAND",
+      "exclude_from_JLC_BOM": true,
+      "exclude_from_JLC_CPL": true
+    },
+    {
+      "design": "11x3",
+      "reference": "J6",
+      "side": "B.Cu",
+      "bom_id": "BOM-03",
+      "population": "HAND",
+      "exclude_from_JLC_BOM": true,
+      "exclude_from_JLC_CPL": true
+    },
+    {
+      "design": "11x3",
+      "reference": "J4",
+      "side": "B.Cu",
+      "bom_id": "BOM-03",
+      "population": "HAND",
+      "exclude_from_JLC_BOM": true,
+      "exclude_from_JLC_CPL": true
+    },
+    {
+      "design": "3x8",
+      "reference": "J13",
+      "side": "B.Cu",
+      "bom_id": "BOM-03",
+      "population": "HAND",
+      "exclude_from_JLC_BOM": true,
+      "exclude_from_JLC_CPL": true
+    },
+    {
+      "design": "3x8",
+      "reference": "J17",
+      "side": "B.Cu",
+      "bom_id": "BOM-03",
+      "population": "HAND",
+      "exclude_from_JLC_BOM": true,
+      "exclude_from_JLC_CPL": true
+    },
+    {
+      "design": "3x8",
+      "reference": "J16",
+      "side": "B.Cu",
+      "bom_id": "BOM-03",
+      "population": "HAND",
+      "exclude_from_JLC_BOM": true,
+      "exclude_from_JLC_CPL": true
+    },
+    {
+      "design": "3x8",
+      "reference": "J12",
+      "side": "B.Cu",
+      "bom_id": "BOM-03",
+      "population": "HAND",
+      "exclude_from_JLC_BOM": true,
+      "exclude_from_JLC_CPL": true
+    },
+    {
+      "design": "8x8",
+      "reference": "J18",
+      "side": "B.Cu",
+      "bom_id": "BOM-03",
+      "population": "HAND",
+      "exclude_from_JLC_BOM": true,
+      "exclude_from_JLC_CPL": true
+    },
+    {
+      "design": "8x8",
+      "reference": "J19",
+      "side": "B.Cu",
+      "bom_id": "BOM-03",
+      "population": "HAND",
+      "exclude_from_JLC_BOM": true,
+      "exclude_from_JLC_CPL": true
+    },
+    {
+      "design": "11x3",
+      "reference": "J30",
+      "side": "B.Cu",
+      "bom_id": "BOM-06",
+      "population": "HAND",
+      "exclude_from_JLC_BOM": true,
+      "exclude_from_JLC_CPL": true
+    },
+    {
+      "design": "11x3",
+      "reference": "J31",
+      "side": "B.Cu",
+      "bom_id": "BOM-06",
+      "population": "HAND",
+      "exclude_from_JLC_BOM": true,
+      "exclude_from_JLC_CPL": true
+    },
+    {
+      "design": "11x3",
+      "reference": "J12",
+      "side": "B.Cu",
+      "bom_id": "BOM-07",
+      "population": "HAND",
+      "exclude_from_JLC_BOM": true,
+      "exclude_from_JLC_CPL": true
+    },
+    {
+      "design": "11x3",
+      "reference": "J13",
+      "side": "B.Cu",
+      "bom_id": "BOM-07",
+      "population": "HAND",
+      "exclude_from_JLC_BOM": true,
+      "exclude_from_JLC_CPL": true
+    },
+    {
+      "design": "11x3",
+      "reference": "J9",
+      "side": "B.Cu",
+      "bom_id": "BOM-07",
+      "population": "HAND",
+      "exclude_from_JLC_BOM": true,
+      "exclude_from_JLC_CPL": true
+    },
+    {
+      "design": "11x3",
+      "reference": "J10",
+      "side": "B.Cu",
+      "bom_id": "BOM-07",
+      "population": "HAND",
+      "exclude_from_JLC_BOM": true,
+      "exclude_from_JLC_CPL": true
+    },
+    {
+      "design": "8x3",
+      "reference": "J5",
+      "side": "B.Cu",
+      "bom_id": "BOM-07",
+      "population": "HAND",
+      "exclude_from_JLC_BOM": true,
+      "exclude_from_JLC_CPL": true
+    },
+    {
+      "design": "8x3",
+      "reference": "J6",
+      "side": "B.Cu",
+      "bom_id": "BOM-07",
+      "population": "HAND",
+      "exclude_from_JLC_BOM": true,
+      "exclude_from_JLC_CPL": true
+    },
+    {
+      "design": "8x3",
+      "reference": "J2",
+      "side": "B.Cu",
+      "bom_id": "BOM-07",
+      "population": "HAND",
+      "exclude_from_JLC_BOM": true,
+      "exclude_from_JLC_CPL": true
+    },
+    {
+      "design": "8x3",
+      "reference": "J3",
+      "side": "B.Cu",
+      "bom_id": "BOM-07",
+      "population": "HAND",
+      "exclude_from_JLC_BOM": true,
+      "exclude_from_JLC_CPL": true
+    },
+    {
+      "design": "11x3",
+      "reference": "J25",
+      "side": "B.Cu",
+      "bom_id": "BOM-07",
+      "population": "HAND",
+      "exclude_from_JLC_BOM": true,
+      "exclude_from_JLC_CPL": true
+    },
+    {
+      "design": "11x3",
+      "reference": "J20",
+      "side": "B.Cu",
+      "bom_id": "BOM-07",
+      "population": "HAND",
+      "exclude_from_JLC_BOM": true,
+      "exclude_from_JLC_CPL": true
+    },
+    {
+      "design": "11x3",
+      "reference": "J24",
+      "side": "B.Cu",
+      "bom_id": "BOM-07",
+      "population": "HAND",
+      "exclude_from_JLC_BOM": true,
+      "exclude_from_JLC_CPL": true
+    },
+    {
+      "design": "11x3",
+      "reference": "J23",
+      "side": "B.Cu",
+      "bom_id": "BOM-07",
+      "population": "HAND",
+      "exclude_from_JLC_BOM": true,
+      "exclude_from_JLC_CPL": true
+    },
+    {
+      "design": "11x3",
+      "reference": "J21",
+      "side": "B.Cu",
+      "bom_id": "BOM-07",
+      "population": "HAND",
+      "exclude_from_JLC_BOM": true,
+      "exclude_from_JLC_CPL": true
+    },
+    {
+      "design": "8x3",
+      "reference": "J8",
+      "side": "B.Cu",
+      "bom_id": "BOM-07",
+      "population": "HAND",
+      "exclude_from_JLC_BOM": true,
+      "exclude_from_JLC_CPL": true
+    },
+    {
+      "design": "8x3",
+      "reference": "J12",
+      "side": "B.Cu",
+      "bom_id": "BOM-07",
+      "population": "HAND",
+      "exclude_from_JLC_BOM": true,
+      "exclude_from_JLC_CPL": true
+    },
+    {
+      "design": "8x3",
+      "reference": "J11",
+      "side": "B.Cu",
+      "bom_id": "BOM-07",
+      "population": "HAND",
+      "exclude_from_JLC_BOM": true,
+      "exclude_from_JLC_CPL": true
+    },
+    {
+      "design": "8x3",
+      "reference": "J9",
+      "side": "B.Cu",
+      "bom_id": "BOM-07",
+      "population": "HAND",
+      "exclude_from_JLC_BOM": true,
+      "exclude_from_JLC_CPL": true
+    },
+    {
+      "design": "11x3",
+      "reference": "J22",
+      "side": "B.Cu",
+      "bom_id": "BOM-07",
+      "population": "HAND",
+      "exclude_from_JLC_BOM": true,
+      "exclude_from_JLC_CPL": true
+    },
+    {
+      "design": "8x3",
+      "reference": "J10",
+      "side": "B.Cu",
+      "bom_id": "BOM-07",
+      "population": "HAND",
+      "exclude_from_JLC_BOM": true,
+      "exclude_from_JLC_CPL": true
+    },
+    {
+      "design": "11x3",
+      "reference": "J17",
+      "side": "B.Cu",
+      "bom_id": "BOM-07",
+      "population": "HAND",
+      "exclude_from_JLC_BOM": true,
+      "exclude_from_JLC_CPL": true
+    },
+    {
+      "design": "11x3",
+      "reference": "J28",
+      "side": "B.Cu",
+      "bom_id": "BOM-07",
+      "population": "HAND",
+      "exclude_from_JLC_BOM": true,
+      "exclude_from_JLC_CPL": true
+    },
+    {
+      "design": "11x3",
+      "reference": "J11",
+      "side": "B.Cu",
+      "bom_id": "BOM-07",
+      "population": "HAND",
+      "exclude_from_JLC_BOM": true,
+      "exclude_from_JLC_CPL": true
+    },
+    {
+      "design": "8x3",
+      "reference": "J4",
+      "side": "B.Cu",
+      "bom_id": "BOM-07",
+      "population": "HAND",
+      "exclude_from_JLC_BOM": true,
+      "exclude_from_JLC_CPL": true
+    },
+    {
+      "design": "11x3",
+      "reference": "J14",
+      "side": "B.Cu",
+      "bom_id": "BOM-07",
+      "population": "HAND",
+      "exclude_from_JLC_BOM": true,
+      "exclude_from_JLC_CPL": true
+    },
+    {
+      "design": "11x3",
+      "reference": "J16",
+      "side": "B.Cu",
+      "bom_id": "BOM-07",
+      "population": "HAND",
+      "exclude_from_JLC_BOM": true,
+      "exclude_from_JLC_CPL": true
+    },
+    {
+      "design": "11x3",
+      "reference": "J27",
+      "side": "B.Cu",
+      "bom_id": "BOM-07",
+      "population": "HAND",
+      "exclude_from_JLC_BOM": true,
+      "exclude_from_JLC_CPL": true
+    },
+    {
+      "design": "8x3",
+      "reference": "J19",
+      "side": "B.Cu",
+      "bom_id": "BOM-07",
+      "population": "HAND",
+      "exclude_from_JLC_BOM": true,
+      "exclude_from_JLC_CPL": true
+    },
+    {
+      "design": "8x3",
+      "reference": "J15",
+      "side": "B.Cu",
+      "bom_id": "BOM-07",
+      "population": "HAND",
+      "exclude_from_JLC_BOM": true,
+      "exclude_from_JLC_CPL": true
+    },
+    {
+      "design": "8x3",
+      "reference": "J14",
+      "side": "B.Cu",
+      "bom_id": "BOM-07",
+      "population": "HAND",
+      "exclude_from_JLC_BOM": true,
+      "exclude_from_JLC_CPL": true
+    },
+    {
+      "design": "8x3",
+      "reference": "J17",
+      "side": "B.Cu",
+      "bom_id": "BOM-07",
+      "population": "HAND",
+      "exclude_from_JLC_BOM": true,
+      "exclude_from_JLC_CPL": true
+    },
+    {
+      "design": "3x8",
+      "reference": "J5",
+      "side": "B.Cu",
+      "bom_id": "BOM-07",
+      "population": "HAND",
+      "exclude_from_JLC_BOM": true,
+      "exclude_from_JLC_CPL": true
+    },
+    {
+      "design": "3x8",
+      "reference": "J3",
+      "side": "B.Cu",
+      "bom_id": "BOM-07",
+      "population": "HAND",
+      "exclude_from_JLC_BOM": true,
+      "exclude_from_JLC_CPL": true
+    },
+    {
+      "design": "3x8",
+      "reference": "J4",
+      "side": "B.Cu",
+      "bom_id": "BOM-07",
+      "population": "HAND",
+      "exclude_from_JLC_BOM": true,
+      "exclude_from_JLC_CPL": true
+    },
+    {
+      "design": "3x8",
+      "reference": "J2",
+      "side": "B.Cu",
+      "bom_id": "BOM-07",
+      "population": "HAND",
+      "exclude_from_JLC_BOM": true,
+      "exclude_from_JLC_CPL": true
+    },
+    {
+      "design": "8x8",
+      "reference": "J5",
+      "side": "B.Cu",
+      "bom_id": "BOM-07",
+      "population": "HAND",
+      "exclude_from_JLC_BOM": true,
+      "exclude_from_JLC_CPL": true
+    },
+    {
+      "design": "8x8",
+      "reference": "J3",
+      "side": "B.Cu",
+      "bom_id": "BOM-07",
+      "population": "HAND",
+      "exclude_from_JLC_BOM": true,
+      "exclude_from_JLC_CPL": true
+    },
+    {
+      "design": "8x8",
+      "reference": "J4",
+      "side": "B.Cu",
+      "bom_id": "BOM-07",
+      "population": "HAND",
+      "exclude_from_JLC_BOM": true,
+      "exclude_from_JLC_CPL": true
+    },
+    {
+      "design": "8x8",
+      "reference": "J2",
+      "side": "B.Cu",
+      "bom_id": "BOM-07",
+      "population": "HAND",
+      "exclude_from_JLC_BOM": true,
+      "exclude_from_JLC_CPL": true
+    },
+    {
+      "design": "3x8",
+      "reference": "J10",
+      "side": "B.Cu",
+      "bom_id": "BOM-07",
+      "population": "HAND",
+      "exclude_from_JLC_BOM": true,
+      "exclude_from_JLC_CPL": true
+    },
+    {
+      "design": "8x8",
+      "reference": "J21",
+      "side": "B.Cu",
+      "bom_id": "BOM-07",
+      "population": "HAND",
+      "exclude_from_JLC_BOM": true,
+      "exclude_from_JLC_CPL": true
+    },
+    {
+      "design": "11x3",
+      "reference": "J26",
+      "side": "B.Cu",
+      "bom_id": "BOM-08",
+      "population": "HAND",
+      "exclude_from_JLC_BOM": true,
+      "exclude_from_JLC_CPL": true
+    },
+    {
+      "design": "11x3",
+      "reference": "J15",
+      "side": "B.Cu",
+      "bom_id": "BOM-08",
+      "population": "HAND",
+      "exclude_from_JLC_BOM": true,
+      "exclude_from_JLC_CPL": true
+    },
+    {
+      "design": "11x3",
+      "reference": "J18",
+      "side": "B.Cu",
+      "bom_id": "BOM-08",
+      "population": "HAND",
+      "exclude_from_JLC_BOM": true,
+      "exclude_from_JLC_CPL": true
+    },
+    {
+      "design": "11x3",
+      "reference": "J29",
+      "side": "B.Cu",
+      "bom_id": "BOM-08",
+      "population": "HAND",
+      "exclude_from_JLC_BOM": true,
+      "exclude_from_JLC_CPL": true
+    },
+    {
+      "design": "11x3",
+      "reference": "J8",
+      "side": "B.Cu",
+      "bom_id": "BOM-08",
+      "population": "HAND",
+      "exclude_from_JLC_BOM": true,
+      "exclude_from_JLC_CPL": true
+    },
+    {
+      "design": "11x3",
+      "reference": "J19",
+      "side": "B.Cu",
+      "bom_id": "BOM-08",
+      "population": "HAND",
+      "exclude_from_JLC_BOM": true,
+      "exclude_from_JLC_CPL": true
+    },
+    {
+      "design": "8x3",
+      "reference": "J13",
+      "side": "B.Cu",
+      "bom_id": "BOM-08",
+      "population": "HAND",
+      "exclude_from_JLC_BOM": true,
+      "exclude_from_JLC_CPL": true
+    },
+    {
+      "design": "8x3",
+      "reference": "J18",
+      "side": "B.Cu",
+      "bom_id": "BOM-08",
+      "population": "HAND",
+      "exclude_from_JLC_BOM": true,
+      "exclude_from_JLC_CPL": true
+    },
+    {
+      "design": "8x3",
+      "reference": "J16",
+      "side": "B.Cu",
+      "bom_id": "BOM-08",
+      "population": "HAND",
+      "exclude_from_JLC_BOM": true,
+      "exclude_from_JLC_CPL": true
+    },
+    {
+      "design": "8x3",
+      "reference": "J1",
+      "side": "B.Cu",
+      "bom_id": "BOM-08",
+      "population": "HAND",
+      "exclude_from_JLC_BOM": true,
+      "exclude_from_JLC_CPL": true
+    },
+    {
+      "design": "8x3",
+      "reference": "J7",
+      "side": "B.Cu",
+      "bom_id": "BOM-08",
+      "population": "HAND",
+      "exclude_from_JLC_BOM": true,
+      "exclude_from_JLC_CPL": true
+    },
+    {
+      "design": "11x3",
+      "reference": "J7",
+      "side": "B.Cu",
+      "bom_id": "BOM-10",
+      "population": "HAND",
+      "exclude_from_JLC_BOM": true,
+      "exclude_from_JLC_CPL": true
+    },
+    {
+      "design": "11x3",
+      "reference": "J3",
+      "side": "B.Cu",
+      "bom_id": "BOM-10",
+      "population": "HAND",
+      "exclude_from_JLC_BOM": true,
+      "exclude_from_JLC_CPL": true
+    },
+    {
+      "design": "11x3",
+      "reference": "J2",
+      "side": "B.Cu",
+      "bom_id": "BOM-10",
+      "population": "HAND",
+      "exclude_from_JLC_BOM": true,
+      "exclude_from_JLC_CPL": true
+    },
+    {
+      "design": "11x3",
+      "reference": "J5",
+      "side": "B.Cu",
+      "bom_id": "BOM-10",
+      "population": "HAND",
+      "exclude_from_JLC_BOM": true,
+      "exclude_from_JLC_CPL": true
+    },
+    {
+      "design": "3x8",
+      "reference": "J15",
+      "side": "B.Cu",
+      "bom_id": "BOM-10",
+      "population": "HAND",
+      "exclude_from_JLC_BOM": true,
+      "exclude_from_JLC_CPL": true
+    },
+    {
+      "design": "8x8",
+      "reference": "J23",
+      "side": "B.Cu",
+      "bom_id": "BOM-10",
+      "population": "HAND",
+      "exclude_from_JLC_BOM": true,
+      "exclude_from_JLC_CPL": true
+    },
+    {
+      "design": "3x8",
+      "reference": "J19",
+      "side": "B.Cu",
+      "bom_id": "BOM-10",
+      "population": "HAND",
+      "exclude_from_JLC_BOM": true,
+      "exclude_from_JLC_CPL": true
+    },
+    {
+      "design": "3x8",
+      "reference": "J14",
+      "side": "B.Cu",
+      "bom_id": "BOM-10",
+      "population": "HAND",
+      "exclude_from_JLC_BOM": true,
+      "exclude_from_JLC_CPL": true
+    },
+    {
+      "design": "8x8",
+      "reference": "J22",
+      "side": "B.Cu",
+      "bom_id": "BOM-10",
+      "population": "HAND",
+      "exclude_from_JLC_BOM": true,
+      "exclude_from_JLC_CPL": true
+    },
+    {
+      "design": "3x8",
+      "reference": "J21",
+      "side": "B.Cu",
+      "bom_id": "BOM-10",
+      "population": "HAND",
+      "exclude_from_JLC_BOM": true,
+      "exclude_from_JLC_CPL": true
+    },
+    {
+      "design": "3x8",
+      "reference": "J20",
+      "side": "B.Cu",
+      "bom_id": "BOM-10",
+      "population": "HAND",
+      "exclude_from_JLC_BOM": true,
+      "exclude_from_JLC_CPL": true
+    },
+    {
+      "design": "3x8",
+      "reference": "J18",
+      "side": "B.Cu",
+      "bom_id": "BOM-10",
+      "population": "HAND",
+      "exclude_from_JLC_BOM": true,
+      "exclude_from_JLC_CPL": true
+    },
+    {
+      "design": "8x8",
+      "reference": "J9",
+      "side": "B.Cu",
+      "bom_id": "BOM-10",
+      "population": "HAND",
+      "exclude_from_JLC_BOM": true,
+      "exclude_from_JLC_CPL": true
+    },
+    {
+      "design": "8x8",
+      "reference": "J6",
+      "side": "B.Cu",
+      "bom_id": "BOM-10",
+      "population": "HAND",
+      "exclude_from_JLC_BOM": true,
+      "exclude_from_JLC_CPL": true
+    },
+    {
+      "design": "8x8",
+      "reference": "J7",
+      "side": "B.Cu",
+      "bom_id": "BOM-10",
+      "population": "HAND",
+      "exclude_from_JLC_BOM": true,
+      "exclude_from_JLC_CPL": true
+    },
+    {
+      "design": "8x8",
+      "reference": "J8",
+      "side": "B.Cu",
+      "bom_id": "BOM-10",
+      "population": "HAND",
+      "exclude_from_JLC_BOM": true,
+      "exclude_from_JLC_CPL": true
+    },
+    {
+      "design": "8x8",
+      "reference": "J12",
+      "side": "B.Cu",
+      "bom_id": "BOM-10",
+      "population": "HAND",
+      "exclude_from_JLC_BOM": true,
+      "exclude_from_JLC_CPL": true
+    },
+    {
+      "design": "8x8",
+      "reference": "J13",
+      "side": "B.Cu",
+      "bom_id": "BOM-10",
+      "population": "HAND",
+      "exclude_from_JLC_BOM": true,
+      "exclude_from_JLC_CPL": true
+    },
+    {
+      "design": "8x8",
+      "reference": "J10",
+      "side": "B.Cu",
+      "bom_id": "BOM-10",
+      "population": "HAND",
+      "exclude_from_JLC_BOM": true,
+      "exclude_from_JLC_CPL": true
+    },
+    {
+      "design": "8x8",
+      "reference": "J11",
+      "side": "B.Cu",
+      "bom_id": "BOM-10",
+      "population": "HAND",
+      "exclude_from_JLC_BOM": true,
+      "exclude_from_JLC_CPL": true
+    },
+    {
+      "design": "8x8",
+      "reference": "J14",
+      "side": "B.Cu",
+      "bom_id": "BOM-10",
+      "population": "HAND",
+      "exclude_from_JLC_BOM": true,
+      "exclude_from_JLC_CPL": true
+    },
+    {
+      "design": "8x8",
+      "reference": "J17",
+      "side": "B.Cu",
+      "bom_id": "BOM-10",
+      "population": "HAND",
+      "exclude_from_JLC_BOM": true,
+      "exclude_from_JLC_CPL": true
+    },
+    {
+      "design": "8x8",
+      "reference": "J16",
+      "side": "B.Cu",
+      "bom_id": "BOM-10",
+      "population": "HAND",
+      "exclude_from_JLC_BOM": true,
+      "exclude_from_JLC_CPL": true
+    },
+    {
+      "design": "8x8",
+      "reference": "J15",
+      "side": "B.Cu",
+      "bom_id": "BOM-10",
+      "population": "HAND",
+      "exclude_from_JLC_BOM": true,
+      "exclude_from_JLC_CPL": true
+    },
+    {
+      "design": "8x8",
+      "reference": "J20",
+      "side": "B.Cu",
+      "bom_id": "BOM-10",
+      "population": "HAND",
+      "exclude_from_JLC_BOM": true,
+      "exclude_from_JLC_CPL": true
+    },
+    {
+      "design": "11x3",
+      "reference": "J32",
+      "side": "B.Cu",
+      "bom_id": "BOM-11",
+      "population": "HAND",
+      "exclude_from_JLC_BOM": true,
+      "exclude_from_JLC_CPL": true
+    },
+    {
+      "design": "11x3",
+      "reference": "J33",
+      "side": "B.Cu",
+      "bom_id": "BOM-11",
+      "population": "HAND",
+      "exclude_from_JLC_BOM": true,
+      "exclude_from_JLC_CPL": true
+    }
+  ],
+  "other_SMT": "JLC pending availability/individual decisions",
+  "LED": "HOLD: no assembly BOM assignment until user decides"
+}

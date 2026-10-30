@@ -1,0 +1,24 @@
+{
+  "family": "original",
+  "design": "8x8",
+  "kind": "erc",
+  "command": [
+    "/usr/bin/flatpak",
+    "run",
+    "--command=kicad-cli",
+    "org.kicad.KiCad",
+    "sch",
+    "erc",
+    "--format",
+    "json",
+    "--severity-all",
+    "--exit-code-violations",
+    "-o",
+    "/home/pooo/Desktop/sailboard boards/saiboard-main/electronics/_production/01_audit/phase1/native/original/8x8/erc.json",
+    "/home/pooo/Desktop/sailboard boards/saiboard-main/electronics/_production/01_audit/phase1/copies/original/8x8/8x8.kicad_sch"
+  ],
+  "returncode": 5,
+  "seconds": 2.69,
+  "stdout": "Found 399 violations\nSaved ERC Report to /home/pooo/Desktop/sailboard boards/saiboard-main/electronics/_production/01_audit/phase1/native/original/8x8/erc.json\n",
+  "stderr": ""
+}

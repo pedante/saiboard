@@ -1,0 +1,204 @@
+[
+  {
+    "path": "kicad_files/11x3/11x3.kicad_pcb",
+    "format_version": "20211014",
+    "generator": "pcbnew",
+    "exact_editor_build": "UNVERIFIED: not recorded in header"
+  },
+  {
+    "path": "kicad_files/11x3/11x3.kicad_pro",
+    "metadata": {
+      "filename": "11x3.kicad_pro",
+      "version": 1
+    }
+  },
+  {
+    "path": "kicad_files/11x3/11x3.kicad_sch",
+    "format_version": "20211123",
+    "generator": "eeschema",
+    "exact_editor_build": "UNVERIFIED: not recorded in header"
+  },
+  {
+    "path": "kicad_files/11x3/gerbers/11x3-job.gbrjob",
+    "metadata": {
+      "GenerationSoftware": {
+        "Vendor": "KiCad",
+        "Application": "Pcbnew",
+        "Version": "(6.0.7-1)-1"
+      },
+      "CreationDate": "2023-12-02T14:15:27+01:00"
+    }
+  },
+  {
+    "path": "kicad_files/3x8/3x8.kicad_pcb",
+    "format_version": "20211014",
+    "generator": "pcbnew",
+    "exact_editor_build": "UNVERIFIED: not recorded in header"
+  },
+  {
+    "path": "kicad_files/3x8/3x8.kicad_pro",
+    "metadata": {
+      "filename": "3x8.kicad_pro",
+      "version": 1
+    }
+  },
+  {
+    "path": "kicad_files/3x8/3x8.kicad_sch",
+    "format_version": "20211123",
+    "generator": "eeschema",
+    "exact_editor_build": "UNVERIFIED: not recorded in header"
+  },
+  {
+    "path": "kicad_files/3x8/gerbers/3x8-job.gbrjob",
+    "metadata": {
+      "GenerationSoftware": {
+        "Vendor": "KiCad",
+        "Application": "Pcbnew",
+        "Version": "(6.0.7-1)-1"
+      },
+      "CreationDate": "2022-12-02T15:50:45+01:00"
+    }
+  },
+  {
+    "path": "kicad_files/8x3/8x3.kicad_pcb",
+    "format_version": "20211014",
+    "generator": "pcbnew",
+    "exact_editor_build": "UNVERIFIED: not recorded in header"
+  },
+  {
+    "path": "kicad_files/8x3/8x3.kicad_pro",
+    "metadata": {
+      "filename": "8x3.kicad_pro",
+      "version": 3
+    }
+  },
+  {
+    "path": "kicad_files/8x3/8x3.kicad_sch",
+    "format_version": "20211123",
+    "generator": "eeschema",
+    "exact_editor_build": "UNVERIFIED: not recorded in header"
+  },
+  {
+    "path": "kicad_files/8x3/gerbers/8x3-job.gbrjob",
+    "metadata": {
+      "GenerationSoftware": {
+        "Vendor": "KiCad",
+        "Application": "Pcbnew",
+        "Version": "(6.0.7-1)-1"
+      },
+      "CreationDate": "2022-12-02T15:43:41+01:00"
+    }
+  },
+  {
+    "path": "kicad_files/8x8/8x8.kicad_pcb",
+    "format_version": "20211014",
+    "generator": "pcbnew",
+    "exact_editor_build": "UNVERIFIED: not recorded in header"
+  },
+  {
+    "path": "kicad_files/8x8/8x8.kicad_pro",
+    "metadata": {
+      "filename": "8x8.kicad_pro",
+      "version": 1
+    }
+  },
+  {
+    "path": "kicad_files/8x8/8x8.kicad_sch",
+    "format_version": "20211123",
+    "generator": "eeschema",
+    "exact_editor_build": "UNVERIFIED: not recorded in header"
+  },
+  {
+    "path": "kicad_files/8x8/gerbers/8x8-job.gbrjob",
+    "metadata": {
+      "GenerationSoftware": {
+        "Vendor": "KiCad",
+        "Application": "Pcbnew",
+        "Version": "(6.0.7-1)-1"
+      },
+      "CreationDate": "2022-12-02T15:51:39+01:00"
+    }
+  },
+  {
+    "path": "updated_components_SKC6812RGBW-WS/Saiboard_LED.kicad_sym",
+    "format_version": "20211014",
+    "generator": "kicad_symbol_editor",
+    "exact_editor_build": "UNVERIFIED: not recorded in header"
+  },
+  {
+    "path": "updated_components_SKC6812RGBW-WS/kicad_files/11x3/11x3.kicad_pcb",
+    "format_version": "20211014",
+    "generator": "pcbnew",
+    "exact_editor_build": "UNVERIFIED: not recorded in header"
+  },
+  {
+    "path": "updated_components_SKC6812RGBW-WS/kicad_files/11x3/11x3.kicad_pro",
+    "metadata": {
+      "filename": "11x3.kicad_pro",
+      "version": 1
+    }
+  },
+  {
+    "path": "updated_components_SKC6812RGBW-WS/kicad_files/11x3/11x3.kicad_sch",
+    "format_version": "20211123",
+    "generator": "eeschema",
+    "exact_editor_build": "UNVERIFIED: not recorded in header"
+  },
+  {
+    "path": "updated_components_SKC6812RGBW-WS/kicad_files/3x8/3x8.kicad_pcb",
+    "format_version": "20211014",
+    "generator": "pcbnew",
+    "exact_editor_build": "UNVERIFIED: not recorded in header"
+  },
+  {
+    "path": "updated_components_SKC6812RGBW-WS/kicad_files/3x8/3x8.kicad_pro",
+    "metadata": {
+      "filename": "3x8.kicad_pro",
+      "version": 1
+    }
+  },
+  {
+    "path": "updated_components_SKC6812RGBW-WS/kicad_files/3x8/3x8.kicad_sch",
+    "format_version": "20211123",
+    "generator": "eeschema",
+    "exact_editor_build": "UNVERIFIED: not recorded in header"
+  },
+  {
+    "path": "updated_components_SKC6812RGBW-WS/kicad_files/8x3/8x3.kicad_pcb",
+    "format_version": "20211014",
+    "generator": "pcbnew",
+    "exact_editor_build": "UNVERIFIED: not recorded in header"
+  },
+  {
+    "path": "updated_components_SKC6812RGBW-WS/kicad_files/8x3/8x3.kicad_pro",
+    "metadata": {
+      "filename": "8x3.kicad_pro",
+      "version": 3
+    }
+  },
+  {
+    "path": "updated_components_SKC6812RGBW-WS/kicad_files/8x3/8x3.kicad_sch",
+    "format_version": "20211123",
+    "generator": "eeschema",
+    "exact_editor_build": "UNVERIFIED: not recorded in header"
+  },
+  {
+    "path": "updated_components_SKC6812RGBW-WS/kicad_files/8x8/8x8.kicad_pcb",
+    "format_version": "20211014",
+    "generator": "pcbnew",
+    "exact_editor_build": "UNVERIFIED: not recorded in header"
+  },
+  {
+    "path": "updated_components_SKC6812RGBW-WS/kicad_files/8x8/8x8.kicad_pro",
+    "metadata": {
+      "filename": "8x8.kicad_pro",
+      "version": 1
+    }
+  },
+  {
+    "path": "updated_components_SKC6812RGBW-WS/kicad_files/8x8/8x8.kicad_sch",
+    "format_version": "20211123",
+    "generator": "eeschema",
+    "exact_editor_build": "UNVERIFIED: not recorded in header"
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "checked_at_utc": "2026-10-29T11:27:07.971164+00:00",
+  "original_and_snapshot_file_hashes_verified": 117,
+  "audit_copy_design_hashes_unchanged": true,
+  "native_check_and_netlist_runs": 24,
+  "native_design_checks_clean": false,
+  "component_identity_changes": 145,
+  "candidate_BOM_rows_verified": 4,
+  "candidate_pad_audit_rows_verified": 580,
+  "local_document_links_verified": 20,
+  "baseline_created": false,
+  "output_empty": true,
+  "CHG_004_status": "Proposed",
+  "phase_2_started": false
+}

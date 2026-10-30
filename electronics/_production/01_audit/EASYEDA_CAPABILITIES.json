@@ -1,0 +1,103 @@
+{
+  "server_name": "easyeda-mcp-pro",
+  "server_version": "1.6.0",
+  "protocol_version": "2025-11-25",
+  "profiles": [
+    {
+      "name": "core",
+      "label": "Core",
+      "description": "High-confidence tools: diagnostics, EasyEDA API inventory, schematic, BOM, DRC/ERC, board layers/stackup, Gerber export",
+      "is_default": true
+    },
+    {
+      "name": "pro",
+      "label": "Pro",
+      "description": "Adds pick-and-place, PDF, netlist export, compound transactional workflow tools, autorouting, route-context export, and offline SPICE verification for manufacturing workflows",
+      "is_default": false
+    },
+    {
+      "name": "full",
+      "label": "Full",
+      "description": "Adds controlled documented EasyEDA API method calls and CircuitIR-driven floorplanning for full runtime control without raw JavaScript execution",
+      "is_default": false
+    },
+    {
+      "name": "dev",
+      "label": "Dev",
+      "description": "Adds diagnostics probes for bridge methods and live component runtime shape inspection",
+      "is_default": false
+    },
+    {
+      "name": "experimental",
+      "label": "Experimental",
+      "description": "MCP Apps, Tasks, AI action plans",
+      "is_default": false
+    }
+  ],
+  "current_profile": "pro",
+  "feature_flags": {
+    "tasks_enabled": false,
+    "apps_enabled": false,
+    "v2_experimental": false,
+    "ordering_enabled": false
+  },
+  "feature_maturity": {
+    "mcp_tasks": {
+      "maturity": "reserved",
+      "configured": false,
+      "effective": false,
+      "note": "The setting is reserved; this server does not advertise or execute MCP Tasks."
+    },
+    "mcp_apps": {
+      "maturity": "experimental",
+      "configured": false,
+      "effective": false,
+      "note": "Optional sandboxed read-only project review UI; data uses existing policy-enforced MCP tools."
+    },
+    "mcp_skills": {
+      "maturity": "experimental",
+      "configured": false,
+      "effective": false,
+      "note": "Publishes two bundled read-oriented Skills using experimental SDK attachment; default off."
+    },
+    "mcp_v2": {
+      "maturity": "experimental",
+      "configured": false,
+      "effective": false,
+      "note": "Enables opt-in dual-era HTTP and stdio support for MCP 2026-07-28 while retaining legacy defaults."
+    },
+    "ai_provider": {
+      "maturity": "reserved",
+      "configured": false,
+      "effective": false,
+      "note": "Provider/model settings are reserved; no in-process AI provider is invoked."
+    },
+    "otel_export": {
+      "maturity": "reserved",
+      "configured": false,
+      "effective": false,
+      "note": "OTLP settings are reserved; the current observability path is local structured metrics."
+    },
+    "remote_relay": {
+      "maturity": "experimental",
+      "configured": false,
+      "effective": false,
+      "note": "The paired relay path is implemented behind explicit configuration and is not Beta."
+    },
+    "raw_execution": {
+      "maturity": "experimental",
+      "configured": false,
+      "effective": false,
+      "note": "Raw execution requires both development-only gates and remains quarantined."
+    },
+    "oauth": {
+      "maturity": "implemented",
+      "configured": false,
+      "effective": false,
+      "note": "OAuth/JWKS validation is implemented and mandatory for non-loopback HTTP."
+    }
+  },
+  "transports": [
+    "stdio"
+  ]
+}

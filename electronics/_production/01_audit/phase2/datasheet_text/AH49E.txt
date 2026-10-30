@@ -1,0 +1,605 @@
+                                                                                                   Data Sheet
+
+LINEAR HALL-EFFECT IC                                                                                 AH49E
+General Description                                            Features
+
+The AH49E is a small, versatile linear Hall-effect             ·   Miniature Construction
+device that is operated by the magnetic field from a           ·   Power Consumption of 3.5mA at VCC=5V for
+permanent magnet or an electromagnet. The output                   Energy Efficiency
+voltage is set by the supply voltage and varies in pro-
+                                                               ·   Single Current Sourcing Output
+portion to the strength of the magnetic field.
+                                                               ·   Linear Output for Circuit Design Flexibility
+The integrated circuitry features low noise output,            ·   Low Noise Output Virtually Eliminates the Need
+which makes it unnecessary to use external filtering. It           for Filtering
+also includes precision resistors to provide increased         ·   A Stable and Accurate Output
+temperature stability and accuracy. The operating tem-         ·   Temperature Range of -40oC to 85oC
+perature range of these linear Hall sensors is -40oC to        ·   Responds to Either Positive or Negative Gauss
+85oC, appropriate for commercial, consumer and
+industrial applications.
+                                                               Applications
+The AH49E is available in standard TO-92S and SOT-
+23-3 packages.
+                                                               ·   Current Sensing
+                                                               ·   Motor Control
+                                                               ·   Position Sensing
+                                                               ·   Magnetic Code Reading
+                                                               ·   Ferrous Metal Detector
+                                                               ·   Vibration Sensing
+                                                               ·   Liquid Level Sensing
+                                                               ·   Weight Sensing
+
+
+
+
+                                TO-92S                                  SOT-23-3
+
+
+
+
+                                      Figure 1. Package Types of AH49E
+
+
+
+
+Aug. 2010 Rev. 1. 3                                                     BCD Semiconductor Manufacturing Limited
+
+                                                           1
+                                                                                                    Data Sheet
+
+LINEAR HALL-EFFECT IC                                                                                 AH49E
+Pin Configuration
+
+
+                       Z3 Package                                                  N Package
+
+                           (TO-92S )                                               (SOT-23-3 )
+
+                                                                                        GND
+
+                                                                                         3
+                             3                       OUT
+
+                             2                       GND
+
+                             1                       VCC
+                                                                                  1            2
+
+                                                                                 VCC          OUT
+
+                           (Front View)                                               (Top View)
+
+
+
+
+                                          Figure 2. Pin Configuration of AH49E
+
+
+
+
+Pin Description
+
+          Pin Number
+   TO-92S       SOT-23-3         Pin Name                                    Function
+
+      1                1            VCC        Supply voltage
+      2                3            GND        Ground pin
+      3                2            OUT        Output
+
+
+
+
+Aug. 2010 Rev. 1. 3                                                      BCD Semiconductor Manufacturing Limited
+
+                                                            2
+                                                                                                          Data Sheet
+
+LINEAR HALL-EFFECT IC                                                                                          AH49E
+Functional Block Diagram
+
+
+
+
+                                                                                               1 (1)
+                                                                                                       VCC
+
+
+
+
+                              HALL                                                           3 (2)
+                                                   Amplifier                                           OUT
+                             Sensor
+                                                                                   65µA
+                                                                                   Typ.
+
+                                                                                             2 (3)
+                                                                                                       GND
+
+
+
+
+                     A (B)
+                     A for TO-92S
+                     B for SOT-23-3
+
+
+                                    Figure 3. Functional Block Diagram of AH49E
+
+
+Ordering Information
+                                              AH49E             -
+
+                         Circuit Type                                           E1: Lead Free
+                                                                                G1: Green
+
+                        Packages                                                Blank: Bulk
+                        Z3: TO-92S                                              TR: Tape and Reel
+                        N: SOT-23-3
+
+                 Temperature                  Part Number                         Marking ID
+  Package                                                                                                 Packing Type
+                   Range              Lead Free            Green           Lead Free           Green
+   TO-92S                          AH49EZ3-E1        AH49EZ3-G1          AH49E           AH49G                  Bulk
+                  -40 to 85oC
+  SOT-23-3                                           AH49ENTR-G1                         GJ1                 Tape & Reel
+
+BCD Semiconductor's Pb-free products, as designated with "E1" suffix in the part number, are RoHS compliant. Products with
+"G1" suffix are available in green package.
+
+
+Aug. 2010 Rev. 1. 3                                                       BCD Semiconductor Manufacturing Limited
+
+                                                           3
+                                                                                                                Data Sheet
+
+LINEAR HALL-EFFECT IC                                                                                              AH49E
+Absolute Maximum Ratings (Note 1)
+
+ Parameter                                                             Symbol                Value                  Unit
+
+ Supply Voltage                                                          VCC                    8                    V
+
+ Output Current                                                           IO                   10                   mA
+
+ Operating Temperature                                                   TA                -40 to 100                o
+                                                                                                                         C
+
+ Storage Temperature Range                                              TSTG               -50 to 150                oC
+
+
+ ESD (Human Body Model)                                                                       3000                   V
+
+Note 1: Stresses greater than those listed under "Absolute Maximum Ratings" may cause permanent damage to the
+device. These are stress ratings only, and functional operation of the device at these or any other conditions beyond those indi-
+cated under "Recommended Operating Conditions" is not implied. Exposure to "Absolute Maximum Ratings" for extended
+periods may affect device reliability.
+
+
+
+
+Recommended Operating Conditions
+ Parameter                                       Symbol                 Min                  Max                   Unit
+ Supply Voltage                                    VCC                  3.0                   6.5                    V
+ Operating Temperature                             TOP                   -40                   85                   oC
+
+
+
+
+Aug. 2010 Rev. 1. 3                                                            BCD Semiconductor Manufacturing Limited
+
+                                                              4
+                                                                                           Data Sheet
+
+LINEAR HALL-EFFECT IC                                                                        AH49E
+Electrical Characteristics
+(VCC=5V, TA=25oC, unless otherwise specified.)
+
+ Parameter                    Symbol      Conditions        Min         Typ        Max         Unit
+ Supply Current                ICC                                       3.5        4.5        mA
+ Quiescent Output Voltage     VNULL    @ B=0GS              2.25         2.5        2.75        V
+
+ Output Voltage Sensitivity            B=0GS to ±1000GS      1.1         1.6        2.1       mV/GS
+
+ Output Voltage Span           VOS                          1.0 to      0.8 to                  V
+                                                          (VCC-1.0)   (VCC-0.8)
+
+ Output Resistor               RO                                        60         120         Ω
+ Magnetic Field Range           B                           ±650       ±1000                   GS
+ Linearity of Span                                                       0.7                    %
+ Output Noise                          BW=10Hz to 10kHz                  90                    µV
+
+
+
+
+Aug. 2010 Rev. 1. 3                                            BCD Semiconductor Manufacturing Limited
+
+                                                    5
+                                                                                                        Data Sheet
+
+LINEAR HALL-EFFECT IC                                                                                         AH49E
+
+Transfer Characteristics (VCC=5V)
+
+When there is no outside magnetic field (B=0GS), the          boosting further if the changing frequency of the
+quiescent output voltage is one-half the supply voltage       magnetic field is high.
+in general.
+
+For TO-92S package, if a south magnetic pole
+approches to the front face (the side with marking ID)                            V
+of the Hall effect sensor, the circuit will drive the                                                             Typical
+                                                                                                                  Output
+output voltage higher. Contrary, a north magnetic pole                                                            Voltage
+will drive the output voltage lower. The variations of                                4.0 V
+voltage level up or down are symmetrical. Due to
+SOT-23-3 is reversed packaging with TO-92S, so the
+magnetic performance is also reversed. Therefor, if                                   2.5 V
+the reversed magnetic pole approches to the front face
+(the side with marking ID), the output is the same as
+TO-92S package.                                                                       1.0 V
+                                                                                                             B (Gauss)
+ .
+                                                              -1000    -500       0           500     1000
+Greatest magnetic sensitivity is obtained with a supply
+voltage of 6V, but at the cost of increased supply
+current and a slight loss of output symmetry. So, it is
+not recommended to work in such condition unless the            Figure 4. The Transfer Characteristics of AH49E
+output voltage magnitude is a main issue. The output
+signal can be capacitively coupled to an amplifier for
+
+
+
+
+                                   South Pole                                            North Pole
+
+
+
+
+                TO-92S Package                                                SOT-23-3 Package
+
+
+
+
+Aug. 2010 Rev. 1. 3                                                   BCD Semiconductor Manufacturing Limited
+
+                                                          6
+                                                                                                                              Data Sheet
+
+LINEAR HALL-EFFECT IC                                                                                                               AH49E
+Typical Performance Characteristics
+
+
+
+
+               5                                                                          5
+
+                         VCC=5V                                                                   B=0GS
+                         No load                                                                  No load
+               4                                                                          4
+
+
+
+
+               3                                                                          3
+
+     VOUT(V)                                                                    VOUT(V)
+               2                                                                          2
+
+
+
+
+               1                                                                          1
+
+
+
+
+               0                                                                          0
+                          -1000        -500    0        500    1000                           2         3   4     5      6      7      8
+                                              B(GS)                                                             VCC(V)
+
+
+
+
+         Figure 5. Output Voltage vs. Magnetic Field                                          Figure 6. Output Voltage vs. Supply Voltage
+
+
+
+
+               5
+
+                         VCC=5V
+                         B=0GS
+               4         No load
+
+
+               3
+
+    VOUT(V)
+               2
+
+
+
+
+               1
+
+
+
+
+               0
+                   -40             0           40         80          120
+                                                    O
+                                              TA( C)
+
+
+
+
+              Figure 7. Output Voltage vs. Ambient Temperature
+
+
+
+
+Aug. 2010 Rev. 1. 3                                                                                BCD Semiconductor Manufacturing Limited
+
+                                                                            7
+                                                                                                         Data Sheet
+
+LINEAR HALL-EFFECT IC                                                                                           AH49E
+Mechanical Dimensions
+
+
+                                                TO-92S                                           Unit: mm(inch)
+
+
+
+                                         0.710(0.028)
+                            °
+                           44
+                                         0.810(0.032)
+                            °
+                           46
+
+
+
+                                                                   1.480(0.058)
+                                                                   1.680(0.066)
+
+
+
+
+                                4.000(0.157)
+                                4.200(0.165)
+                                                              1.350(0.053)
+                                      2.200(0.087)            1.050(0.041)
+                                      1.900(0.075)
+
+
+
+
+          Package Sensor                                      3.080(0.121)
+             Location                                         3.280(0.129)
+
+
+
+
+                                                              2.200(0.087)
+            0.440(0.017)
+                                                              2.400(0.094)
+                TYP
+
+
+
+
+                                                                                              13.500(0.531)
+                                                                                              14.500(0.571)
+
+
+
+
+                                                        1.270(0.050)                             0.380(0.015)
+                                                            TYP                                      TYP
+
+
+
+
+Aug. 2010 Rev. 1. 3                                                          BCD Semiconductor Manufacturing Limited
+
+                                                         8
+                                                                                                                             Data Sheet
+
+LINEAR HALL-EFFECT IC                                                                                                          AH49E
+Mechanical Dimensions (Continued)
+
+
+                                                          SOT-23-3                                                  Unit: mm(inch)
+
+
+
+                                       2.820(0.111)
+                                       3.020(0.119)                                                                      0.100(0.004)
+                                                                                                                         0.200(0.008)
+
+                                                 1.300(0.051)
+                                                 1.600(0.063)
+
+                  Package Sensor Location
+                                                                                                     0.300(0.012)
+
+                                                                       1.500(0.059)                  0.600(0.024)
+                       (For Hall IC)
+
+
+2.650(0.104)
+                                                                       1.700(0.067)          0.200(0.008)
+2.950(0.116)
+
+
+                                                                     0.685(0.027)
+                                                                     0.985(0.039)
+        0.950(0.037)                                            0.300(0.012)                                         0   °
+            TYP                                                 0.500(0.020)                                         8   °
+                                       1.800(0.071)
+                                       2.000(0.079)
+
+
+
+
+1.450(0.057)                                                                          0.000(0.000)
+                                                                                      0.150(0.006)
+   MAX.
+
+
+
+                                                                      0.900(0.035)
+                                                                      1.300(0.051)
+
+
+
+
+Aug. 2010 Rev. 1. 3                                                                    BCD Semiconductor Manufacturing Limited
+
+                                                                9
+                                            BCD Semiconductor Manufacturing Limited
+
+
+
+
+                                                            http://www.bcdsemi.com
+
+
+
+
+                                                                        IMPORTANT NOTICE
+                                                                        IMPORTANT NOTICE
+
+BCD Semiconductor
+BCD   Semiconductor Manufacturing       Limited reserves
+                        Manufacturing Limited   reserves the
+                                                         the right
+                                                             right to
+                                                                   to make
+                                                                      make changes
+                                                                            changes without
+                                                                                     without further
+                                                                                              further notice
+                                                                                                        notice to
+                                                                                                                to any
+                                                                                                                   any products
+                                                                                                                        products oror specifi-
+                                                                                                                                      specifi-
+cations herein.
+cations  herein. BCD   Semiconductor Manufacturing
+                 BCD Semiconductor      Manufacturing Limited
+                                                      Limited does
+                                                                does not
+                                                                      not assume
+                                                                          assume any
+                                                                                  any responsibility
+                                                                                      responsibility for
+                                                                                                       for use
+                                                                                                            use of
+                                                                                                                of any
+                                                                                                                   any its
+                                                                                                                        its products
+                                                                                                                            products for
+                                                                                                                                       for any
+                                                                                                                                           any
+particular purpose,
+particular  purpose, nor  does BCD
+                      nor does  BCD Semiconductor
+                                     Semiconductor Manufacturing
+                                                    Manufacturing Limited
+                                                                     Limited assume
+                                                                              assume any
+                                                                                      any liability
+                                                                                           liability arising
+                                                                                                     arising out
+                                                                                                              out of
+                                                                                                                   of the
+                                                                                                                      the application
+                                                                                                                           application or
+                                                                                                                                        or use
+                                                                                                                                           use
+of any
+of any its  products or
+        its products     circuits. BCD
+                      or circuits. BCD Semiconductor
+                                        Semiconductor Manufacturing
+                                                      Manufacturing Limited
+                                                                        Limited does
+                                                                                does not
+                                                                                      not convey
+                                                                                          convey anyany license
+                                                                                                         license under
+                                                                                                                  under its
+                                                                                                                          its patent
+                                                                                                                              patent rights
+                                                                                                                                     rights or
+                                                                                                                                            or
+other rights
+other rights nor
+              nor the
+                  the rights
+                      rights of
+                             of others.
+                                others.
+
+MAIN SITE
+MAIN   SITE
+- Headquarters
+BCD   Semiconductor Manufacturing Limited                                                  - Wafer
+                                                                                                BCD FabSemiconductor Manufacturing Limited
+BCD   Semiconductor
+- Wafer  Fab          Manufacturing Limited                                                Shanghai   SIM-BCD
+                                                                                                - IC Design GroupSemiconductor Manufacturing Co., Ltd.
+No.  1600, Zi Xing
+Shanghai   SIM-BCD Road, Shanghai
+                     SemiconductorZiZhu Science-basedLimited
+                                     Manufacturing    Industrial Park, 200241, China       800 Yi Shan
+                                                                                                AdvancedRoad, Shanghai
+                                                                                                           Analog       200233,
+                                                                                                                   Circuits     China Corporation
+                                                                                                                            (Shanghai)
+Tel: +86-21-24162266,
+800, Yi Shan           Fax: 200233,
+              Road, Shanghai+86-21-24162277
+                                     China                                                 Tel: 8F,
+                                                                                               +86-21-6485  1491,YiFax:
+                                                                                                    Zone B, 900,        +86-21-5450
+                                                                                                                    Shan Road,      0008200233, China
+                                                                                                                                Shanghai
+Tel: +86-21-6485 1491, Fax: +86-21-5450 0008                                                    Tel: +86-21-6495 9539, Fax: +86-21-6485 9673
+REGIONAL SALES OFFICE
+Shenzhen
+REGIONAL OfficeSALES OFFICE                                                               Taiwan Office                                               USA Office
+Shenzhen SIM-BCD
+Shanghai  Office    Semiconductor Manufacturing Co., Ltd., Shenzhen Office                BCD Taiwan
+                                                                                                Semiconductor
+                                                                                                        Office (Taiwan) Company Limited               BCD Office
+                                                                                                                                                      USA    Semiconductor Corp.
+Unit A Room
+Shanghai     1203, Skyworth
+          SIM-BCD           Bldg., Gaoxin
+                    Semiconductor   Manufacturing        Ltd.District,
+                                                    Nanshan
+                                          Ave.1.S., Co.,      Shenzhen Shenzhen,
+                                                                          Office          4F, 298-1,
+                                                                                                BCDRui Guang
+                                                                                                      Semiconductor  (Taiwan)District,
+                                                                                                                Road, Nei-Hu  Company  Taipei,
+                                                                                                                                          Limited     30920 Huntwood
+                                                                                                                                                      BCD               Ave. Hayward,
+                                                                                                                                                            Semiconductor  Corporation
+China
+Advanced Analog Circuits (Shanghai) Corporation Shenzhen Office                           Taiwan4F, 298-1, Rui Guang Road, Nei-Hu District, Taipei,   CA
+                                                                                                                                                      3092094544, USA Ave. Hayward,
+                                                                                                                                                              Huntwood
+Tel: +86-755-8826
+Room E, 5F, Noble 7951                                                                    Tel: Taiwan
+                  Center, No.1006, 3rd Fuzhong Road, Futian District, Shenzhen 518026, China   +886-2-2656 2808                                       Tel :94544,
+                                                                                                                                                      CA    +1-510-324-2988
+                                                                                                                                                                  U.S.A
+Fax: +86-755-88267951
+Tel: +86-755-8826 7865                                                                    Fax: +886-2-2656   28062808
+                                                                                                Tel: +886-2-2656                                      Fax: +1-510-324-2988
+                                                                                                                                                      Tel   +1-510-324-2788
+Fax: +86-755-8826 7865                                                                          Fax: +886-2-2656 2806                                 Fax: +1-510-324-2788
+

@@ -1,0 +1,28 @@
+{
+  "status": "Verified",
+  "date": "2026-10-29",
+  "changed_files": [
+    "kicad_files/8x3/8x3.kicad_pcb",
+    "kicad_files/8x3/8x3.kicad_sch"
+  ],
+  "only_value_fields_changed": true,
+  "other_baseline_files_unchanged": true,
+  "originals_snapshot_unchanged": true,
+  "nets_geometry_unchanged_by_full_tree_reversal": true,
+  "native_checks": {
+    "erc": {
+      "violations": {
+        "warning": 230
+      }
+    },
+    "drc": {
+      "schematic_parity": {
+        "warning": 126
+      },
+      "violations": {
+        "warning": 114
+      }
+    }
+  },
+  "backup": "/home/pooo/Desktop/sailboard boards/saiboard-main/electronics/_production/02_work/baseline_before_CHG009"
+}

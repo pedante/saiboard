@@ -1,0 +1,3902 @@
+[
+  {
+    "source_values": [
+      "SKC6812RGBW-WS"
+    ],
+    "footprint": "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm",
+    "instances": [
+      {
+        "design": "11x3",
+        "reference": "D6",
+        "side": "F.Cu"
+      },
+      {
+        "design": "11x3",
+        "reference": "D5",
+        "side": "F.Cu"
+      },
+      {
+        "design": "11x3",
+        "reference": "D4",
+        "side": "F.Cu"
+      },
+      {
+        "design": "11x3",
+        "reference": "D1",
+        "side": "F.Cu"
+      },
+      {
+        "design": "11x3",
+        "reference": "D2",
+        "side": "F.Cu"
+      },
+      {
+        "design": "11x3",
+        "reference": "D3",
+        "side": "F.Cu"
+      },
+      {
+        "design": "11x3",
+        "reference": "D22",
+        "side": "F.Cu"
+      },
+      {
+        "design": "11x3",
+        "reference": "D12",
+        "side": "F.Cu"
+      },
+      {
+        "design": "11x3",
+        "reference": "D27",
+        "side": "F.Cu"
+      },
+      {
+        "design": "11x3",
+        "reference": "D32",
+        "side": "F.Cu"
+      },
+      {
+        "design": "11x3",
+        "reference": "D30",
+        "side": "F.Cu"
+      },
+      {
+        "design": "11x3",
+        "reference": "D31",
+        "side": "F.Cu"
+      },
+      {
+        "design": "11x3",
+        "reference": "D11",
+        "side": "F.Cu"
+      },
+      {
+        "design": "11x3",
+        "reference": "D21",
+        "side": "F.Cu"
+      },
+      {
+        "design": "11x3",
+        "reference": "D13",
+        "side": "F.Cu"
+      },
+      {
+        "design": "11x3",
+        "reference": "D14",
+        "side": "F.Cu"
+      },
+      {
+        "design": "11x3",
+        "reference": "D10",
+        "side": "F.Cu"
+      },
+      {
+        "design": "11x3",
+        "reference": "D19",
+        "side": "F.Cu"
+      },
+      {
+        "design": "11x3",
+        "reference": "D20",
+        "side": "F.Cu"
+      },
+      {
+        "design": "11x3",
+        "reference": "D7",
+        "side": "F.Cu"
+      },
+      {
+        "design": "11x3",
+        "reference": "D24",
+        "side": "F.Cu"
+      },
+      {
+        "design": "11x3",
+        "reference": "D18",
+        "side": "F.Cu"
+      },
+      {
+        "design": "11x3",
+        "reference": "D25",
+        "side": "F.Cu"
+      },
+      {
+        "design": "11x3",
+        "reference": "D17",
+        "side": "F.Cu"
+      },
+      {
+        "design": "11x3",
+        "reference": "D29",
+        "side": "F.Cu"
+      },
+      {
+        "design": "11x3",
+        "reference": "D33",
+        "side": "F.Cu"
+      },
+      {
+        "design": "11x3",
+        "reference": "D28",
+        "side": "F.Cu"
+      },
+      {
+        "design": "11x3",
+        "reference": "D9",
+        "side": "F.Cu"
+      },
+      {
+        "design": "11x3",
+        "reference": "D26",
+        "side": "F.Cu"
+      },
+      {
+        "design": "11x3",
+        "reference": "D15",
+        "side": "F.Cu"
+      },
+      {
+        "design": "11x3",
+        "reference": "D16",
+        "side": "F.Cu"
+      },
+      {
+        "design": "11x3",
+        "reference": "D8",
+        "side": "F.Cu"
+      },
+      {
+        "design": "11x3",
+        "reference": "D23",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x3",
+        "reference": "D6",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x3",
+        "reference": "D5",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x3",
+        "reference": "D4",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x3",
+        "reference": "D1",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x3",
+        "reference": "D2",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x3",
+        "reference": "D3",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x3",
+        "reference": "D22",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x3",
+        "reference": "D12",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x3",
+        "reference": "D11",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x3",
+        "reference": "D21",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x3",
+        "reference": "D13",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x3",
+        "reference": "D14",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x3",
+        "reference": "D10",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x3",
+        "reference": "D19",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x3",
+        "reference": "D20",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x3",
+        "reference": "D7",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x3",
+        "reference": "D24",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x3",
+        "reference": "D18",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x3",
+        "reference": "D17",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x3",
+        "reference": "D9",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x3",
+        "reference": "D15",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x3",
+        "reference": "D16",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x3",
+        "reference": "D8",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x3",
+        "reference": "D23",
+        "side": "F.Cu"
+      },
+      {
+        "design": "3x8",
+        "reference": "D16",
+        "side": "F.Cu"
+      },
+      {
+        "design": "3x8",
+        "reference": "D15",
+        "side": "F.Cu"
+      },
+      {
+        "design": "3x8",
+        "reference": "D14",
+        "side": "F.Cu"
+      },
+      {
+        "design": "3x8",
+        "reference": "D13",
+        "side": "F.Cu"
+      },
+      {
+        "design": "3x8",
+        "reference": "D12",
+        "side": "F.Cu"
+      },
+      {
+        "design": "3x8",
+        "reference": "D11",
+        "side": "F.Cu"
+      },
+      {
+        "design": "3x8",
+        "reference": "D10",
+        "side": "F.Cu"
+      },
+      {
+        "design": "3x8",
+        "reference": "D9",
+        "side": "F.Cu"
+      },
+      {
+        "design": "3x8",
+        "reference": "D1",
+        "side": "F.Cu"
+      },
+      {
+        "design": "3x8",
+        "reference": "D2",
+        "side": "F.Cu"
+      },
+      {
+        "design": "3x8",
+        "reference": "D3",
+        "side": "F.Cu"
+      },
+      {
+        "design": "3x8",
+        "reference": "D4",
+        "side": "F.Cu"
+      },
+      {
+        "design": "3x8",
+        "reference": "D5",
+        "side": "F.Cu"
+      },
+      {
+        "design": "3x8",
+        "reference": "D6",
+        "side": "F.Cu"
+      },
+      {
+        "design": "3x8",
+        "reference": "D7",
+        "side": "F.Cu"
+      },
+      {
+        "design": "3x8",
+        "reference": "D8",
+        "side": "F.Cu"
+      },
+      {
+        "design": "3x8",
+        "reference": "D23",
+        "side": "F.Cu"
+      },
+      {
+        "design": "3x8",
+        "reference": "D21",
+        "side": "F.Cu"
+      },
+      {
+        "design": "3x8",
+        "reference": "D20",
+        "side": "F.Cu"
+      },
+      {
+        "design": "3x8",
+        "reference": "D22",
+        "side": "F.Cu"
+      },
+      {
+        "design": "3x8",
+        "reference": "D17",
+        "side": "F.Cu"
+      },
+      {
+        "design": "3x8",
+        "reference": "D24",
+        "side": "F.Cu"
+      },
+      {
+        "design": "3x8",
+        "reference": "D19",
+        "side": "F.Cu"
+      },
+      {
+        "design": "3x8",
+        "reference": "D18",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "D16",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "D15",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "D14",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "D13",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "D12",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "D11",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "D10",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "D9",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "D1",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "D2",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "D3",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "D4",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "D5",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "D6",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "D7",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "D8",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "D38",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "D23",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "D45",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "D29",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "D32",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "D57",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "D27",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "D44",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "D39",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "D63",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "D60",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "D36",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "D21",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "D26",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "D51",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "D33",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "D61",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "D34",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "D25",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "D49",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "D50",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "D20",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "D22",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "D55",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "D54",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "D47",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "D17",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "D59",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "D43",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "D28",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "D53",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "D48",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "D37",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "D42",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "D64",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "D24",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "D19",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "D62",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "D35",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "D56",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "D41",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "D18",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "D40",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "D30",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "D46",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "D52",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "D31",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "D58",
+        "side": "F.Cu"
+      }
+    ],
+    "id": "BOM-01",
+    "quantity": 145,
+    "designators": {
+      "11x3": [
+        "D1",
+        "D2",
+        "D3",
+        "D4",
+        "D5",
+        "D6",
+        "D7",
+        "D8",
+        "D9",
+        "D10",
+        "D11",
+        "D12",
+        "D13",
+        "D14",
+        "D15",
+        "D16",
+        "D17",
+        "D18",
+        "D19",
+        "D20",
+        "D21",
+        "D22",
+        "D23",
+        "D24",
+        "D25",
+        "D26",
+        "D27",
+        "D28",
+        "D29",
+        "D30",
+        "D31",
+        "D32",
+        "D33"
+      ],
+      "8x3": [
+        "D1",
+        "D2",
+        "D3",
+        "D4",
+        "D5",
+        "D6",
+        "D7",
+        "D8",
+        "D9",
+        "D10",
+        "D11",
+        "D12",
+        "D13",
+        "D14",
+        "D15",
+        "D16",
+        "D17",
+        "D18",
+        "D19",
+        "D20",
+        "D21",
+        "D22",
+        "D23",
+        "D24"
+      ],
+      "3x8": [
+        "D1",
+        "D2",
+        "D3",
+        "D4",
+        "D5",
+        "D6",
+        "D7",
+        "D8",
+        "D9",
+        "D10",
+        "D11",
+        "D12",
+        "D13",
+        "D14",
+        "D15",
+        "D16",
+        "D17",
+        "D18",
+        "D19",
+        "D20",
+        "D21",
+        "D22",
+        "D23",
+        "D24"
+      ],
+      "8x8": [
+        "D1",
+        "D2",
+        "D3",
+        "D4",
+        "D5",
+        "D6",
+        "D7",
+        "D8",
+        "D9",
+        "D10",
+        "D11",
+        "D12",
+        "D13",
+        "D14",
+        "D15",
+        "D16",
+        "D17",
+        "D18",
+        "D19",
+        "D20",
+        "D21",
+        "D22",
+        "D23",
+        "D24",
+        "D25",
+        "D26",
+        "D27",
+        "D28",
+        "D29",
+        "D30",
+        "D31",
+        "D32",
+        "D33",
+        "D34",
+        "D35",
+        "D36",
+        "D37",
+        "D38",
+        "D39",
+        "D40",
+        "D41",
+        "D42",
+        "D43",
+        "D44",
+        "D45",
+        "D46",
+        "D47",
+        "D48",
+        "D49",
+        "D50",
+        "D51",
+        "D52",
+        "D53",
+        "D54",
+        "D55",
+        "D56",
+        "D57",
+        "D58",
+        "D59",
+        "D60",
+        "D61",
+        "D62",
+        "D63",
+        "D64"
+      ]
+    }
+  },
+  {
+    "source_values": [
+      "AH49E"
+    ],
+    "footprint": "Package_TO_SOT_SMD:SOT-23",
+    "instances": [
+      {
+        "design": "11x3",
+        "reference": "U1",
+        "side": "F.Cu"
+      },
+      {
+        "design": "11x3",
+        "reference": "U21",
+        "side": "F.Cu"
+      },
+      {
+        "design": "11x3",
+        "reference": "U10",
+        "side": "F.Cu"
+      },
+      {
+        "design": "11x3",
+        "reference": "U2",
+        "side": "F.Cu"
+      },
+      {
+        "design": "11x3",
+        "reference": "U20",
+        "side": "F.Cu"
+      },
+      {
+        "design": "11x3",
+        "reference": "U17",
+        "side": "F.Cu"
+      },
+      {
+        "design": "11x3",
+        "reference": "U15",
+        "side": "F.Cu"
+      },
+      {
+        "design": "11x3",
+        "reference": "U5",
+        "side": "F.Cu"
+      },
+      {
+        "design": "11x3",
+        "reference": "U30",
+        "side": "F.Cu"
+      },
+      {
+        "design": "11x3",
+        "reference": "U25",
+        "side": "F.Cu"
+      },
+      {
+        "design": "11x3",
+        "reference": "U23",
+        "side": "F.Cu"
+      },
+      {
+        "design": "11x3",
+        "reference": "U18",
+        "side": "F.Cu"
+      },
+      {
+        "design": "11x3",
+        "reference": "U9",
+        "side": "F.Cu"
+      },
+      {
+        "design": "11x3",
+        "reference": "U8",
+        "side": "F.Cu"
+      },
+      {
+        "design": "11x3",
+        "reference": "U22",
+        "side": "F.Cu"
+      },
+      {
+        "design": "11x3",
+        "reference": "U13",
+        "side": "F.Cu"
+      },
+      {
+        "design": "11x3",
+        "reference": "U24",
+        "side": "F.Cu"
+      },
+      {
+        "design": "11x3",
+        "reference": "U28",
+        "side": "F.Cu"
+      },
+      {
+        "design": "11x3",
+        "reference": "U16",
+        "side": "F.Cu"
+      },
+      {
+        "design": "11x3",
+        "reference": "U19",
+        "side": "F.Cu"
+      },
+      {
+        "design": "11x3",
+        "reference": "U31",
+        "side": "F.Cu"
+      },
+      {
+        "design": "11x3",
+        "reference": "U3",
+        "side": "F.Cu"
+      },
+      {
+        "design": "11x3",
+        "reference": "U33",
+        "side": "F.Cu"
+      },
+      {
+        "design": "11x3",
+        "reference": "U12",
+        "side": "F.Cu"
+      },
+      {
+        "design": "11x3",
+        "reference": "U11",
+        "side": "F.Cu"
+      },
+      {
+        "design": "11x3",
+        "reference": "U14",
+        "side": "F.Cu"
+      },
+      {
+        "design": "11x3",
+        "reference": "U4",
+        "side": "F.Cu"
+      },
+      {
+        "design": "11x3",
+        "reference": "U32",
+        "side": "F.Cu"
+      },
+      {
+        "design": "11x3",
+        "reference": "U7",
+        "side": "F.Cu"
+      },
+      {
+        "design": "11x3",
+        "reference": "U29",
+        "side": "F.Cu"
+      },
+      {
+        "design": "11x3",
+        "reference": "U26",
+        "side": "F.Cu"
+      },
+      {
+        "design": "11x3",
+        "reference": "U6",
+        "side": "F.Cu"
+      },
+      {
+        "design": "11x3",
+        "reference": "U27",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x3",
+        "reference": "U1",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x3",
+        "reference": "U21",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x3",
+        "reference": "U10",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x3",
+        "reference": "U2",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x3",
+        "reference": "U20",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x3",
+        "reference": "U17",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x3",
+        "reference": "U15",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x3",
+        "reference": "U5",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x3",
+        "reference": "U23",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x3",
+        "reference": "U18",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x3",
+        "reference": "U9",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x3",
+        "reference": "U8",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x3",
+        "reference": "U22",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x3",
+        "reference": "U13",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x3",
+        "reference": "U24",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x3",
+        "reference": "U16",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x3",
+        "reference": "U19",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x3",
+        "reference": "U3",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x3",
+        "reference": "U12",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x3",
+        "reference": "U11",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x3",
+        "reference": "U14",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x3",
+        "reference": "U4",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x3",
+        "reference": "U7",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x3",
+        "reference": "U6",
+        "side": "F.Cu"
+      },
+      {
+        "design": "3x8",
+        "reference": "U1",
+        "side": "F.Cu"
+      },
+      {
+        "design": "3x8",
+        "reference": "U8",
+        "side": "F.Cu"
+      },
+      {
+        "design": "3x8",
+        "reference": "U2",
+        "side": "F.Cu"
+      },
+      {
+        "design": "3x8",
+        "reference": "U15",
+        "side": "F.Cu"
+      },
+      {
+        "design": "3x8",
+        "reference": "U7",
+        "side": "F.Cu"
+      },
+      {
+        "design": "3x8",
+        "reference": "U4",
+        "side": "F.Cu"
+      },
+      {
+        "design": "3x8",
+        "reference": "U5",
+        "side": "F.Cu"
+      },
+      {
+        "design": "3x8",
+        "reference": "U20",
+        "side": "F.Cu"
+      },
+      {
+        "design": "3x8",
+        "reference": "U10",
+        "side": "F.Cu"
+      },
+      {
+        "design": "3x8",
+        "reference": "U21",
+        "side": "F.Cu"
+      },
+      {
+        "design": "3x8",
+        "reference": "U24",
+        "side": "F.Cu"
+      },
+      {
+        "design": "3x8",
+        "reference": "U6",
+        "side": "F.Cu"
+      },
+      {
+        "design": "3x8",
+        "reference": "U19",
+        "side": "F.Cu"
+      },
+      {
+        "design": "3x8",
+        "reference": "U18",
+        "side": "F.Cu"
+      },
+      {
+        "design": "3x8",
+        "reference": "U14",
+        "side": "F.Cu"
+      },
+      {
+        "design": "3x8",
+        "reference": "U23",
+        "side": "F.Cu"
+      },
+      {
+        "design": "3x8",
+        "reference": "U13",
+        "side": "F.Cu"
+      },
+      {
+        "design": "3x8",
+        "reference": "U3",
+        "side": "F.Cu"
+      },
+      {
+        "design": "3x8",
+        "reference": "U12",
+        "side": "F.Cu"
+      },
+      {
+        "design": "3x8",
+        "reference": "U9",
+        "side": "F.Cu"
+      },
+      {
+        "design": "3x8",
+        "reference": "U17",
+        "side": "F.Cu"
+      },
+      {
+        "design": "3x8",
+        "reference": "U22",
+        "side": "F.Cu"
+      },
+      {
+        "design": "3x8",
+        "reference": "U16",
+        "side": "F.Cu"
+      },
+      {
+        "design": "3x8",
+        "reference": "U11",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "U1",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "U8",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "U51",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "U25",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "U2",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "U50",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "U48",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "U15",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "U36",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "U7",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "U32",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "U54",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "U42",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "U4",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "U55",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "U31",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "U5",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "U35",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "U20",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "U10",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "U21",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "U60",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "U52",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "U61",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "U24",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "U38",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "U47",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "U6",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "U58",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "U53",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "U30",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "U39",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "U43",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "U19",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "U56",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "U18",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "U57",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "U63",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "U64",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "U45",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "U33",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "U14",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "U59",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "U23",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "U13",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "U44",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "U41",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "U49",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "U62",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "U3",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "U37",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "U27",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "U26",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "U34",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "U12",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "U9",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "U29",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "U17",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "U28",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "U22",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "U16",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "U40",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "U46",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "U11",
+        "side": "F.Cu"
+      }
+    ],
+    "id": "BOM-02",
+    "quantity": 145,
+    "designators": {
+      "11x3": [
+        "U1",
+        "U2",
+        "U3",
+        "U4",
+        "U5",
+        "U6",
+        "U7",
+        "U8",
+        "U9",
+        "U10",
+        "U11",
+        "U12",
+        "U13",
+        "U14",
+        "U15",
+        "U16",
+        "U17",
+        "U18",
+        "U19",
+        "U20",
+        "U21",
+        "U22",
+        "U23",
+        "U24",
+        "U25",
+        "U26",
+        "U27",
+        "U28",
+        "U29",
+        "U30",
+        "U31",
+        "U32",
+        "U33"
+      ],
+      "8x3": [
+        "U1",
+        "U2",
+        "U3",
+        "U4",
+        "U5",
+        "U6",
+        "U7",
+        "U8",
+        "U9",
+        "U10",
+        "U11",
+        "U12",
+        "U13",
+        "U14",
+        "U15",
+        "U16",
+        "U17",
+        "U18",
+        "U19",
+        "U20",
+        "U21",
+        "U22",
+        "U23",
+        "U24"
+      ],
+      "3x8": [
+        "U1",
+        "U2",
+        "U3",
+        "U4",
+        "U5",
+        "U6",
+        "U7",
+        "U8",
+        "U9",
+        "U10",
+        "U11",
+        "U12",
+        "U13",
+        "U14",
+        "U15",
+        "U16",
+        "U17",
+        "U18",
+        "U19",
+        "U20",
+        "U21",
+        "U22",
+        "U23",
+        "U24"
+      ],
+      "8x8": [
+        "U1",
+        "U2",
+        "U3",
+        "U4",
+        "U5",
+        "U6",
+        "U7",
+        "U8",
+        "U9",
+        "U10",
+        "U11",
+        "U12",
+        "U13",
+        "U14",
+        "U15",
+        "U16",
+        "U17",
+        "U18",
+        "U19",
+        "U20",
+        "U21",
+        "U22",
+        "U23",
+        "U24",
+        "U25",
+        "U26",
+        "U27",
+        "U28",
+        "U29",
+        "U30",
+        "U31",
+        "U32",
+        "U33",
+        "U34",
+        "U35",
+        "U36",
+        "U37",
+        "U38",
+        "U39",
+        "U40",
+        "U41",
+        "U42",
+        "U43",
+        "U44",
+        "U45",
+        "U46",
+        "U47",
+        "U48",
+        "U49",
+        "U50",
+        "U51",
+        "U52",
+        "U53",
+        "U54",
+        "U55",
+        "U56",
+        "U57",
+        "U58",
+        "U59",
+        "U60",
+        "U61",
+        "U62",
+        "U63",
+        "U64"
+      ]
+    }
+  },
+  {
+    "source_values": [
+      "Power_top_side_a",
+      "Power_top",
+      "Hall_top",
+      "PQ_side_b",
+      "LedOut_side_b",
+      "LedOut_side_a",
+      "PQ_side_a",
+      "LedIn_side_a",
+      "LedIn_side_b"
+    ],
+    "footprint": "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Horizontal_SMD",
+    "instances": [
+      {
+        "design": "11x3",
+        "reference": "J1",
+        "side": "B.Cu"
+      },
+      {
+        "design": "11x3",
+        "reference": "J6",
+        "side": "B.Cu"
+      },
+      {
+        "design": "11x3",
+        "reference": "J4",
+        "side": "B.Cu"
+      },
+      {
+        "design": "3x8",
+        "reference": "J13",
+        "side": "B.Cu"
+      },
+      {
+        "design": "3x8",
+        "reference": "J17",
+        "side": "B.Cu"
+      },
+      {
+        "design": "3x8",
+        "reference": "J16",
+        "side": "B.Cu"
+      },
+      {
+        "design": "3x8",
+        "reference": "J12",
+        "side": "B.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "J18",
+        "side": "B.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "J19",
+        "side": "B.Cu"
+      }
+    ],
+    "id": "BOM-03",
+    "quantity": 9,
+    "designators": {
+      "11x3": [
+        "J1",
+        "J4",
+        "J6"
+      ],
+      "8x3": [],
+      "3x8": [
+        "J12",
+        "J13",
+        "J16",
+        "J17"
+      ],
+      "8x8": [
+        "J18",
+        "J19"
+      ]
+    }
+  },
+  {
+    "source_values": [
+      "2N3906"
+    ],
+    "footprint": "Package_TO_SOT_SMD:SOT-23",
+    "instances": [
+      {
+        "design": "11x3",
+        "reference": "Q11",
+        "side": "B.Cu"
+      },
+      {
+        "design": "11x3",
+        "reference": "Q5",
+        "side": "B.Cu"
+      },
+      {
+        "design": "11x3",
+        "reference": "Q9",
+        "side": "B.Cu"
+      },
+      {
+        "design": "11x3",
+        "reference": "Q8",
+        "side": "B.Cu"
+      },
+      {
+        "design": "11x3",
+        "reference": "Q10",
+        "side": "B.Cu"
+      },
+      {
+        "design": "11x3",
+        "reference": "Q3",
+        "side": "B.Cu"
+      },
+      {
+        "design": "11x3",
+        "reference": "Q7",
+        "side": "B.Cu"
+      },
+      {
+        "design": "11x3",
+        "reference": "Q4",
+        "side": "B.Cu"
+      },
+      {
+        "design": "11x3",
+        "reference": "Q2",
+        "side": "B.Cu"
+      },
+      {
+        "design": "11x3",
+        "reference": "Q6",
+        "side": "B.Cu"
+      },
+      {
+        "design": "11x3",
+        "reference": "Q1",
+        "side": "B.Cu"
+      },
+      {
+        "design": "8x3",
+        "reference": "Q5",
+        "side": "B.Cu"
+      },
+      {
+        "design": "8x3",
+        "reference": "Q8",
+        "side": "B.Cu"
+      },
+      {
+        "design": "8x3",
+        "reference": "Q3",
+        "side": "B.Cu"
+      },
+      {
+        "design": "8x3",
+        "reference": "Q7",
+        "side": "B.Cu"
+      },
+      {
+        "design": "8x3",
+        "reference": "Q4",
+        "side": "B.Cu"
+      },
+      {
+        "design": "8x3",
+        "reference": "Q2",
+        "side": "B.Cu"
+      },
+      {
+        "design": "8x3",
+        "reference": "Q6",
+        "side": "B.Cu"
+      },
+      {
+        "design": "8x3",
+        "reference": "Q1",
+        "side": "B.Cu"
+      }
+    ],
+    "id": "BOM-04",
+    "quantity": 19,
+    "designators": {
+      "11x3": [
+        "Q1",
+        "Q2",
+        "Q3",
+        "Q4",
+        "Q5",
+        "Q6",
+        "Q7",
+        "Q8",
+        "Q9",
+        "Q10",
+        "Q11"
+      ],
+      "8x3": [
+        "Q1",
+        "Q2",
+        "Q3",
+        "Q4",
+        "Q5",
+        "Q6",
+        "Q7",
+        "Q8"
+      ],
+      "3x8": [],
+      "8x8": []
+    }
+  },
+  {
+    "source_values": [
+      "C104"
+    ],
+    "footprint": "Capacitor_SMD:C_1206_3216Metric",
+    "instances": [
+      {
+        "design": "11x3",
+        "reference": "CI3",
+        "side": "B.Cu"
+      },
+      {
+        "design": "11x3",
+        "reference": "C5",
+        "side": "F.Cu"
+      },
+      {
+        "design": "11x3",
+        "reference": "CI6",
+        "side": "B.Cu"
+      },
+      {
+        "design": "11x3",
+        "reference": "C33",
+        "side": "F.Cu"
+      },
+      {
+        "design": "11x3",
+        "reference": "C3",
+        "side": "F.Cu"
+      },
+      {
+        "design": "11x3",
+        "reference": "C28",
+        "side": "F.Cu"
+      },
+      {
+        "design": "11x3",
+        "reference": "C14",
+        "side": "F.Cu"
+      },
+      {
+        "design": "11x3",
+        "reference": "CI1",
+        "side": "B.Cu"
+      },
+      {
+        "design": "11x3",
+        "reference": "C2",
+        "side": "F.Cu"
+      },
+      {
+        "design": "11x3",
+        "reference": "C8",
+        "side": "F.Cu"
+      },
+      {
+        "design": "11x3",
+        "reference": "C29",
+        "side": "F.Cu"
+      },
+      {
+        "design": "11x3",
+        "reference": "C25",
+        "side": "F.Cu"
+      },
+      {
+        "design": "11x3",
+        "reference": "C18",
+        "side": "F.Cu"
+      },
+      {
+        "design": "11x3",
+        "reference": "C10",
+        "side": "F.Cu"
+      },
+      {
+        "design": "11x3",
+        "reference": "C7",
+        "side": "F.Cu"
+      },
+      {
+        "design": "11x3",
+        "reference": "C30",
+        "side": "F.Cu"
+      },
+      {
+        "design": "11x3",
+        "reference": "C27",
+        "side": "F.Cu"
+      },
+      {
+        "design": "11x3",
+        "reference": "CI4",
+        "side": "B.Cu"
+      },
+      {
+        "design": "11x3",
+        "reference": "C32",
+        "side": "F.Cu"
+      },
+      {
+        "design": "11x3",
+        "reference": "C12",
+        "side": "F.Cu"
+      },
+      {
+        "design": "11x3",
+        "reference": "C24",
+        "side": "F.Cu"
+      },
+      {
+        "design": "11x3",
+        "reference": "C23",
+        "side": "F.Cu"
+      },
+      {
+        "design": "11x3",
+        "reference": "C1",
+        "side": "F.Cu"
+      },
+      {
+        "design": "11x3",
+        "reference": "C21",
+        "side": "F.Cu"
+      },
+      {
+        "design": "11x3",
+        "reference": "C16",
+        "side": "F.Cu"
+      },
+      {
+        "design": "11x3",
+        "reference": "C4",
+        "side": "F.Cu"
+      },
+      {
+        "design": "11x3",
+        "reference": "C17",
+        "side": "F.Cu"
+      },
+      {
+        "design": "11x3",
+        "reference": "C31",
+        "side": "F.Cu"
+      },
+      {
+        "design": "11x3",
+        "reference": "C11",
+        "side": "F.Cu"
+      },
+      {
+        "design": "11x3",
+        "reference": "C13",
+        "side": "F.Cu"
+      },
+      {
+        "design": "11x3",
+        "reference": "C26",
+        "side": "F.Cu"
+      },
+      {
+        "design": "11x3",
+        "reference": "C15",
+        "side": "F.Cu"
+      },
+      {
+        "design": "11x3",
+        "reference": "C20",
+        "side": "F.Cu"
+      },
+      {
+        "design": "11x3",
+        "reference": "C6",
+        "side": "F.Cu"
+      },
+      {
+        "design": "11x3",
+        "reference": "C19",
+        "side": "F.Cu"
+      },
+      {
+        "design": "11x3",
+        "reference": "C22",
+        "side": "F.Cu"
+      },
+      {
+        "design": "11x3",
+        "reference": "C9",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x3",
+        "reference": "CI3",
+        "side": "B.Cu"
+      },
+      {
+        "design": "8x3",
+        "reference": "C5",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x3",
+        "reference": "C3",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x3",
+        "reference": "CI5",
+        "side": "B.Cu"
+      },
+      {
+        "design": "8x3",
+        "reference": "C14",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x3",
+        "reference": "C2",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x3",
+        "reference": "C8",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x3",
+        "reference": "C18",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x3",
+        "reference": "C10",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x3",
+        "reference": "C7",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x3",
+        "reference": "C12",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x3",
+        "reference": "C24",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x3",
+        "reference": "C23",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x3",
+        "reference": "C1",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x3",
+        "reference": "CI1",
+        "side": "B.Cu"
+      },
+      {
+        "design": "8x3",
+        "reference": "C21",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x3",
+        "reference": "C16",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x3",
+        "reference": "C4",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x3",
+        "reference": "C17",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x3",
+        "reference": "C11",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x3",
+        "reference": "C13",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x3",
+        "reference": "C15",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x3",
+        "reference": "C20",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x3",
+        "reference": "C6",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x3",
+        "reference": "C19",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x3",
+        "reference": "C22",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x3",
+        "reference": "C9",
+        "side": "F.Cu"
+      },
+      {
+        "design": "3x8",
+        "reference": "C8",
+        "side": "F.Cu"
+      },
+      {
+        "design": "3x8",
+        "reference": "C10",
+        "side": "F.Cu"
+      },
+      {
+        "design": "3x8",
+        "reference": "C3",
+        "side": "F.Cu"
+      },
+      {
+        "design": "3x8",
+        "reference": "C22",
+        "side": "F.Cu"
+      },
+      {
+        "design": "3x8",
+        "reference": "C15",
+        "side": "F.Cu"
+      },
+      {
+        "design": "3x8",
+        "reference": "C2",
+        "side": "F.Cu"
+      },
+      {
+        "design": "3x8",
+        "reference": "C16",
+        "side": "F.Cu"
+      },
+      {
+        "design": "3x8",
+        "reference": "C18",
+        "side": "F.Cu"
+      },
+      {
+        "design": "3x8",
+        "reference": "C7",
+        "side": "F.Cu"
+      },
+      {
+        "design": "3x8",
+        "reference": "C17",
+        "side": "F.Cu"
+      },
+      {
+        "design": "3x8",
+        "reference": "C14",
+        "side": "F.Cu"
+      },
+      {
+        "design": "3x8",
+        "reference": "C20",
+        "side": "F.Cu"
+      },
+      {
+        "design": "3x8",
+        "reference": "C12",
+        "side": "F.Cu"
+      },
+      {
+        "design": "3x8",
+        "reference": "C21",
+        "side": "F.Cu"
+      },
+      {
+        "design": "3x8",
+        "reference": "C23",
+        "side": "F.Cu"
+      },
+      {
+        "design": "3x8",
+        "reference": "CI1",
+        "side": "B.Cu"
+      },
+      {
+        "design": "3x8",
+        "reference": "C1",
+        "side": "F.Cu"
+      },
+      {
+        "design": "3x8",
+        "reference": "C24",
+        "side": "F.Cu"
+      },
+      {
+        "design": "3x8",
+        "reference": "C9",
+        "side": "F.Cu"
+      },
+      {
+        "design": "3x8",
+        "reference": "C6",
+        "side": "F.Cu"
+      },
+      {
+        "design": "3x8",
+        "reference": "C5",
+        "side": "F.Cu"
+      },
+      {
+        "design": "3x8",
+        "reference": "C11",
+        "side": "F.Cu"
+      },
+      {
+        "design": "3x8",
+        "reference": "C4",
+        "side": "F.Cu"
+      },
+      {
+        "design": "3x8",
+        "reference": "C19",
+        "side": "F.Cu"
+      },
+      {
+        "design": "3x8",
+        "reference": "C13",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "C28",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "C8",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "C10",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "C45",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "C29",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "C48",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "C39",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "C3",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "C54",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "C22",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "C38",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "C15",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "C56",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "C34",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "C64",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "C2",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "C62",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "C16",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "C47",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "C18",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "C55",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "C43",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "C25",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "C7",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "C17",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "C61",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "C40",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "C14",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "C63",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "C60",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "C46",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "C27",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "C20",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "C12",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "C44",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "C21",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "C23",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "C59",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "C58",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "C1",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "C51",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "C41",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "C24",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "C9",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "C42",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "C26",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "C33",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "C36",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "C6",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "C53",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "C32",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "C52",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "C35",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "C50",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "C5",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "C30",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "C11",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "C49",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "C37",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "C31",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "C57",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "C4",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "C19",
+        "side": "F.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "C13",
+        "side": "F.Cu"
+      }
+    ],
+    "id": "BOM-05",
+    "quantity": 153,
+    "designators": {
+      "11x3": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "C6",
+        "C7",
+        "C8",
+        "C9",
+        "C10",
+        "C11",
+        "C12",
+        "C13",
+        "C14",
+        "C15",
+        "C16",
+        "C17",
+        "C18",
+        "C19",
+        "C20",
+        "C21",
+        "C22",
+        "C23",
+        "C24",
+        "C25",
+        "C26",
+        "C27",
+        "C28",
+        "C29",
+        "C30",
+        "C31",
+        "C32",
+        "C33",
+        "CI1",
+        "CI3",
+        "CI4",
+        "CI6"
+      ],
+      "8x3": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "C6",
+        "C7",
+        "C8",
+        "C9",
+        "C10",
+        "C11",
+        "C12",
+        "C13",
+        "C14",
+        "C15",
+        "C16",
+        "C17",
+        "C18",
+        "C19",
+        "C20",
+        "C21",
+        "C22",
+        "C23",
+        "C24",
+        "CI1",
+        "CI3",
+        "CI5"
+      ],
+      "3x8": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "C6",
+        "C7",
+        "C8",
+        "C9",
+        "C10",
+        "C11",
+        "C12",
+        "C13",
+        "C14",
+        "C15",
+        "C16",
+        "C17",
+        "C18",
+        "C19",
+        "C20",
+        "C21",
+        "C22",
+        "C23",
+        "C24",
+        "CI1"
+      ],
+      "8x8": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "C6",
+        "C7",
+        "C8",
+        "C9",
+        "C10",
+        "C11",
+        "C12",
+        "C13",
+        "C14",
+        "C15",
+        "C16",
+        "C17",
+        "C18",
+        "C19",
+        "C20",
+        "C21",
+        "C22",
+        "C23",
+        "C24",
+        "C25",
+        "C26",
+        "C27",
+        "C28",
+        "C29",
+        "C30",
+        "C31",
+        "C32",
+        "C33",
+        "C34",
+        "C35",
+        "C36",
+        "C37",
+        "C38",
+        "C39",
+        "C40",
+        "C41",
+        "C42",
+        "C43",
+        "C44",
+        "C45",
+        "C46",
+        "C47",
+        "C48",
+        "C49",
+        "C50",
+        "C51",
+        "C52",
+        "C53",
+        "C54",
+        "C55",
+        "C56",
+        "C57",
+        "C58",
+        "C59",
+        "C60",
+        "C61",
+        "C62",
+        "C63",
+        "C64"
+      ]
+    }
+  },
+  {
+    "source_values": [
+      "esp32s3left",
+      "esp32s3right"
+    ],
+    "footprint": "Connector_PinSocket_2.54mm:PinSocket_2x22_P2.54mm_Vertical_SMD",
+    "instances": [
+      {
+        "design": "11x3",
+        "reference": "J30",
+        "side": "B.Cu"
+      },
+      {
+        "design": "11x3",
+        "reference": "J31",
+        "side": "B.Cu"
+      }
+    ],
+    "id": "BOM-06",
+    "quantity": 2,
+    "designators": {
+      "11x3": [
+        "J30",
+        "J31"
+      ],
+      "8x3": [],
+      "3x8": [],
+      "8x8": []
+    }
+  },
+  {
+    "source_values": [
+      "PQ_side_a",
+      "Touch_bottom_side_b",
+      "PQ_side_b",
+      "Touch_side_b",
+      "IC_bottom_side_a",
+      "IC_bottom_side_b",
+      "Touch_side_a",
+      "Touch_bottom_side_a",
+      "Hall_bottom_side_a",
+      "Hall_bottom_side_b",
+      "Conn_side_b",
+      "IC",
+      "Touch",
+      "Hall_top",
+      "LedIn",
+      "LedIn_top"
+    ],
+    "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal_SMD",
+    "instances": [
+      {
+        "design": "11x3",
+        "reference": "J12",
+        "side": "B.Cu"
+      },
+      {
+        "design": "11x3",
+        "reference": "J13",
+        "side": "B.Cu"
+      },
+      {
+        "design": "11x3",
+        "reference": "J9",
+        "side": "B.Cu"
+      },
+      {
+        "design": "11x3",
+        "reference": "J10",
+        "side": "B.Cu"
+      },
+      {
+        "design": "8x3",
+        "reference": "J5",
+        "side": "B.Cu"
+      },
+      {
+        "design": "8x3",
+        "reference": "J6",
+        "side": "B.Cu"
+      },
+      {
+        "design": "8x3",
+        "reference": "J2",
+        "side": "B.Cu"
+      },
+      {
+        "design": "8x3",
+        "reference": "J3",
+        "side": "B.Cu"
+      },
+      {
+        "design": "11x3",
+        "reference": "J25",
+        "side": "B.Cu"
+      },
+      {
+        "design": "11x3",
+        "reference": "J20",
+        "side": "B.Cu"
+      },
+      {
+        "design": "11x3",
+        "reference": "J24",
+        "side": "B.Cu"
+      },
+      {
+        "design": "11x3",
+        "reference": "J23",
+        "side": "B.Cu"
+      },
+      {
+        "design": "11x3",
+        "reference": "J21",
+        "side": "B.Cu"
+      },
+      {
+        "design": "8x3",
+        "reference": "J8",
+        "side": "B.Cu"
+      },
+      {
+        "design": "8x3",
+        "reference": "J12",
+        "side": "B.Cu"
+      },
+      {
+        "design": "8x3",
+        "reference": "J11",
+        "side": "B.Cu"
+      },
+      {
+        "design": "8x3",
+        "reference": "J9",
+        "side": "B.Cu"
+      },
+      {
+        "design": "11x3",
+        "reference": "J22",
+        "side": "B.Cu"
+      },
+      {
+        "design": "8x3",
+        "reference": "J10",
+        "side": "B.Cu"
+      },
+      {
+        "design": "11x3",
+        "reference": "J17",
+        "side": "B.Cu"
+      },
+      {
+        "design": "11x3",
+        "reference": "J28",
+        "side": "B.Cu"
+      },
+      {
+        "design": "11x3",
+        "reference": "J11",
+        "side": "B.Cu"
+      },
+      {
+        "design": "8x3",
+        "reference": "J4",
+        "side": "B.Cu"
+      },
+      {
+        "design": "11x3",
+        "reference": "J14",
+        "side": "B.Cu"
+      },
+      {
+        "design": "11x3",
+        "reference": "J16",
+        "side": "B.Cu"
+      },
+      {
+        "design": "11x3",
+        "reference": "J27",
+        "side": "B.Cu"
+      },
+      {
+        "design": "8x3",
+        "reference": "J19",
+        "side": "B.Cu"
+      },
+      {
+        "design": "8x3",
+        "reference": "J15",
+        "side": "B.Cu"
+      },
+      {
+        "design": "8x3",
+        "reference": "J14",
+        "side": "B.Cu"
+      },
+      {
+        "design": "8x3",
+        "reference": "J17",
+        "side": "B.Cu"
+      },
+      {
+        "design": "3x8",
+        "reference": "J5",
+        "side": "B.Cu"
+      },
+      {
+        "design": "3x8",
+        "reference": "J3",
+        "side": "B.Cu"
+      },
+      {
+        "design": "3x8",
+        "reference": "J4",
+        "side": "B.Cu"
+      },
+      {
+        "design": "3x8",
+        "reference": "J2",
+        "side": "B.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "J5",
+        "side": "B.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "J3",
+        "side": "B.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "J4",
+        "side": "B.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "J2",
+        "side": "B.Cu"
+      },
+      {
+        "design": "3x8",
+        "reference": "J10",
+        "side": "B.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "J21",
+        "side": "B.Cu"
+      }
+    ],
+    "id": "BOM-07",
+    "quantity": 40,
+    "designators": {
+      "11x3": [
+        "J9",
+        "J10",
+        "J11",
+        "J12",
+        "J13",
+        "J14",
+        "J16",
+        "J17",
+        "J20",
+        "J21",
+        "J22",
+        "J23",
+        "J24",
+        "J25",
+        "J27",
+        "J28"
+      ],
+      "8x3": [
+        "J2",
+        "J3",
+        "J4",
+        "J5",
+        "J6",
+        "J8",
+        "J9",
+        "J10",
+        "J11",
+        "J12",
+        "J14",
+        "J15",
+        "J17",
+        "J19"
+      ],
+      "3x8": [
+        "J2",
+        "J3",
+        "J4",
+        "J5",
+        "J10"
+      ],
+      "8x8": [
+        "J2",
+        "J3",
+        "J4",
+        "J5",
+        "J21"
+      ]
+    }
+  },
+  {
+    "source_values": [
+      "PQ_bottom_side_b",
+      "PQ_bottom_side_a",
+      "Power_bottom_side_a",
+      "Power_bottom_side_b",
+      "Power_side_a",
+      "Power_side_b",
+      "Conn_side_a",
+      "Led",
+      "Hall",
+      "LedIn_side_a",
+      "LedIn_side_b"
+    ],
+    "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal_SMD",
+    "instances": [
+      {
+        "design": "11x3",
+        "reference": "J26",
+        "side": "B.Cu"
+      },
+      {
+        "design": "11x3",
+        "reference": "J15",
+        "side": "B.Cu"
+      },
+      {
+        "design": "11x3",
+        "reference": "J18",
+        "side": "B.Cu"
+      },
+      {
+        "design": "11x3",
+        "reference": "J29",
+        "side": "B.Cu"
+      },
+      {
+        "design": "11x3",
+        "reference": "J8",
+        "side": "B.Cu"
+      },
+      {
+        "design": "11x3",
+        "reference": "J19",
+        "side": "B.Cu"
+      },
+      {
+        "design": "8x3",
+        "reference": "J13",
+        "side": "B.Cu"
+      },
+      {
+        "design": "8x3",
+        "reference": "J18",
+        "side": "B.Cu"
+      },
+      {
+        "design": "8x3",
+        "reference": "J16",
+        "side": "B.Cu"
+      },
+      {
+        "design": "8x3",
+        "reference": "J1",
+        "side": "B.Cu"
+      },
+      {
+        "design": "8x3",
+        "reference": "J7",
+        "side": "B.Cu"
+      }
+    ],
+    "id": "BOM-08",
+    "quantity": 11,
+    "designators": {
+      "11x3": [
+        "J8",
+        "J15",
+        "J18",
+        "J19",
+        "J26",
+        "J29"
+      ],
+      "8x3": [
+        "J1",
+        "J7",
+        "J13",
+        "J16",
+        "J18"
+      ],
+      "3x8": [],
+      "8x8": []
+    }
+  },
+  {
+    "source_values": [
+      "C106"
+    ],
+    "footprint": "Capacitor_SMD:C_1206_3216Metric",
+    "instances": [
+      {
+        "design": "11x3",
+        "reference": "CI5",
+        "side": "B.Cu"
+      },
+      {
+        "design": "11x3",
+        "reference": "CI2",
+        "side": "B.Cu"
+      },
+      {
+        "design": "8x3",
+        "reference": "CI2",
+        "side": "B.Cu"
+      },
+      {
+        "design": "8x3",
+        "reference": "CI4",
+        "side": "B.Cu"
+      }
+    ],
+    "id": "BOM-09",
+    "quantity": 4,
+    "designators": {
+      "11x3": [
+        "CI2",
+        "CI5"
+      ],
+      "8x3": [
+        "CI2",
+        "CI4"
+      ],
+      "3x8": [],
+      "8x8": []
+    }
+  },
+  {
+    "source_values": [
+      "Power_top_side_b",
+      "IC_top_2",
+      "IC_top_1",
+      "Touch_top",
+      "Touch_side_b",
+      "IC_side_b",
+      "Touch_side_a",
+      "Hall_side_b",
+      "Hall_side_a",
+      "IC_side_a",
+      "Hall_bottom",
+      "PQ_side_a",
+      "PQ_side_b",
+      "LedOut_bottom"
+    ],
+    "footprint": "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Horizontal_SMD",
+    "instances": [
+      {
+        "design": "11x3",
+        "reference": "J7",
+        "side": "B.Cu"
+      },
+      {
+        "design": "11x3",
+        "reference": "J3",
+        "side": "B.Cu"
+      },
+      {
+        "design": "11x3",
+        "reference": "J2",
+        "side": "B.Cu"
+      },
+      {
+        "design": "11x3",
+        "reference": "J5",
+        "side": "B.Cu"
+      },
+      {
+        "design": "3x8",
+        "reference": "J15",
+        "side": "B.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "J23",
+        "side": "B.Cu"
+      },
+      {
+        "design": "3x8",
+        "reference": "J19",
+        "side": "B.Cu"
+      },
+      {
+        "design": "3x8",
+        "reference": "J14",
+        "side": "B.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "J22",
+        "side": "B.Cu"
+      },
+      {
+        "design": "3x8",
+        "reference": "J21",
+        "side": "B.Cu"
+      },
+      {
+        "design": "3x8",
+        "reference": "J20",
+        "side": "B.Cu"
+      },
+      {
+        "design": "3x8",
+        "reference": "J18",
+        "side": "B.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "J9",
+        "side": "B.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "J6",
+        "side": "B.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "J7",
+        "side": "B.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "J8",
+        "side": "B.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "J12",
+        "side": "B.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "J13",
+        "side": "B.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "J10",
+        "side": "B.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "J11",
+        "side": "B.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "J14",
+        "side": "B.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "J17",
+        "side": "B.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "J16",
+        "side": "B.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "J15",
+        "side": "B.Cu"
+      },
+      {
+        "design": "8x8",
+        "reference": "J20",
+        "side": "B.Cu"
+      }
+    ],
+    "id": "BOM-10",
+    "quantity": 25,
+    "designators": {
+      "11x3": [
+        "J2",
+        "J3",
+        "J5",
+        "J7"
+      ],
+      "8x3": [],
+      "3x8": [
+        "J14",
+        "J15",
+        "J18",
+        "J19",
+        "J20",
+        "J21"
+      ],
+      "8x8": [
+        "J6",
+        "J7",
+        "J8",
+        "J9",
+        "J10",
+        "J11",
+        "J12",
+        "J13",
+        "J14",
+        "J15",
+        "J16",
+        "J17",
+        "J20",
+        "J22",
+        "J23"
+      ]
+    }
+  },
+  {
+    "source_values": [
+      "Power_Terminal",
+      "Power_RaspberryPi"
+    ],
+    "footprint": "TerminalBlock_WAGO:Wago_2601-602",
+    "instances": [
+      {
+        "design": "11x3",
+        "reference": "J32",
+        "side": "B.Cu"
+      },
+      {
+        "design": "11x3",
+        "reference": "J33",
+        "side": "B.Cu"
+      }
+    ],
+    "id": "BOM-11",
+    "quantity": 2,
+    "designators": {
+      "11x3": [
+        "J32",
+        "J33"
+      ],
+      "8x3": [],
+      "3x8": [],
+      "8x8": []
+    }
+  },
+  {
+    "source_values": [
+      "330"
+    ],
+    "footprint": "Resistor_SMD:R_1206_3216Metric",
+    "instances": [
+      {
+        "design": "11x3",
+        "reference": "R10",
+        "side": "B.Cu"
+      },
+      {
+        "design": "11x3",
+        "reference": "R9",
+        "side": "B.Cu"
+      },
+      {
+        "design": "11x3",
+        "reference": "R7",
+        "side": "B.Cu"
+      },
+      {
+        "design": "11x3",
+        "reference": "R1",
+        "side": "B.Cu"
+      },
+      {
+        "design": "11x3",
+        "reference": "R8",
+        "side": "B.Cu"
+      },
+      {
+        "design": "11x3",
+        "reference": "R3",
+        "side": "B.Cu"
+      },
+      {
+        "design": "11x3",
+        "reference": "R2",
+        "side": "B.Cu"
+      },
+      {
+        "design": "11x3",
+        "reference": "R5",
+        "side": "B.Cu"
+      },
+      {
+        "design": "11x3",
+        "reference": "R11",
+        "side": "B.Cu"
+      },
+      {
+        "design": "11x3",
+        "reference": "R4",
+        "side": "B.Cu"
+      },
+      {
+        "design": "11x3",
+        "reference": "R6",
+        "side": "B.Cu"
+      }
+    ],
+    "id": "BOM-12",
+    "quantity": 11,
+    "designators": {
+      "11x3": [
+        "R1",
+        "R2",
+        "R3",
+        "R4",
+        "R5",
+        "R6",
+        "R7",
+        "R8",
+        "R9",
+        "R10",
+        "R11"
+      ],
+      "8x3": [],
+      "3x8": [],
+      "8x8": []
+    }
+  },
+  {
+    "source_values": [
+      "SN74LV1T34"
+    ],
+    "footprint": "Package_TO_SOT_SMD:SOT-23-5",
+    "instances": [
+      {
+        "design": "11x3",
+        "reference": "UI3",
+        "side": "B.Cu"
+      }
+    ],
+    "id": "BOM-13",
+    "quantity": 1,
+    "designators": {
+      "11x3": [
+        "UI3"
+      ],
+      "8x3": [],
+      "3x8": [],
+      "8x8": []
+    }
+  },
+  {
+    "source_values": [
+      "AMS1117-3.3"
+    ],
+    "footprint": "Package_TO_SOT_SMD:SOT-223",
+    "instances": [
+      {
+        "design": "11x3",
+        "reference": "UI2",
+        "side": "B.Cu"
+      },
+      {
+        "design": "8x3",
+        "reference": "UI2",
+        "side": "B.Cu"
+      }
+    ],
+    "id": "BOM-14",
+    "quantity": 2,
+    "designators": {
+      "11x3": [
+        "UI2"
+      ],
+      "8x3": [
+        "UI2"
+      ],
+      "3x8": [],
+      "8x8": []
+    }
+  },
+  {
+    "source_values": [
+      "74HCT154D"
+    ],
+    "footprint": "Package_SO:SOP-24_7.5x15.4mm_P1.27mm",
+    "instances": [
+      {
+        "design": "11x3",
+        "reference": "UI1",
+        "side": "B.Cu"
+      }
+    ],
+    "id": "BOM-15",
+    "quantity": 1,
+    "designators": {
+      "11x3": [
+        "UI1"
+      ],
+      "8x3": [],
+      "3x8": [],
+      "8x8": []
+    }
+  },
+  {
+    "source_values": [
+      "220"
+    ],
+    "footprint": "Resistor_SMD:R_1206_3216Metric",
+    "instances": [
+      {
+        "design": "11x3",
+        "reference": "RI1",
+        "side": "B.Cu"
+      }
+    ],
+    "id": "BOM-16",
+    "quantity": 1,
+    "designators": {
+      "11x3": [
+        "RI1"
+      ],
+      "8x3": [],
+      "3x8": [],
+      "8x8": []
+    }
+  },
+  {
+    "source_values": [
+      "1000 µF"
+    ],
+    "footprint": "Capacitor_SMD:CP_Elec_10x10.5",
+    "instances": [
+      {
+        "design": "11x3",
+        "reference": "CP1",
+        "side": "B.Cu"
+      }
+    ],
+    "id": "BOM-17",
+    "quantity": 1,
+    "designators": {
+      "11x3": [
+        "CP1"
+      ],
+      "8x3": [],
+      "3x8": [],
+      "8x8": []
+    }
+  },
+  {
+    "source_values": [
+      "74HCT138"
+    ],
+    "footprint": "Package_SO:SO-16_5.3x10.2mm_P1.27mm",
+    "instances": [
+      {
+        "design": "8x3",
+        "reference": "UI1",
+        "side": "B.Cu"
+      }
+    ],
+    "id": "BOM-18",
+    "quantity": 1,
+    "designators": {
+      "11x3": [],
+      "8x3": [
+        "UI1"
+      ],
+      "3x8": [],
+      "8x8": []
+    }
+  },
+  {
+    "source_values": [
+      "R330"
+    ],
+    "footprint": "Resistor_SMD:R_1206_3216Metric",
+    "instances": [
+      {
+        "design": "8x3",
+        "reference": "R7",
+        "side": "B.Cu"
+      },
+      {
+        "design": "8x3",
+        "reference": "R1",
+        "side": "B.Cu"
+      },
+      {
+        "design": "8x3",
+        "reference": "R8",
+        "side": "B.Cu"
+      },
+      {
+        "design": "8x3",
+        "reference": "R3",
+        "side": "B.Cu"
+      },
+      {
+        "design": "8x3",
+        "reference": "R2",
+        "side": "B.Cu"
+      },
+      {
+        "design": "8x3",
+        "reference": "R5",
+        "side": "B.Cu"
+      },
+      {
+        "design": "8x3",
+        "reference": "R4",
+        "side": "B.Cu"
+      },
+      {
+        "design": "8x3",
+        "reference": "R6",
+        "side": "B.Cu"
+      }
+    ],
+    "id": "BOM-19",
+    "quantity": 8,
+    "designators": {
+      "11x3": [],
+      "8x3": [
+        "R1",
+        "R2",
+        "R3",
+        "R4",
+        "R5",
+        "R6",
+        "R7",
+        "R8"
+      ],
+      "3x8": [],
+      "8x8": []
+    }
+  },
+  {
+    "source_values": [
+      "74hc4052D"
+    ],
+    "footprint": "Package_SO:SO-16_3.9x9.9mm_P1.27mm",
+    "instances": [
+      {
+        "design": "3x8",
+        "reference": "UI1",
+        "side": "B.Cu"
+      }
+    ],
+    "id": "BOM-20",
+    "quantity": 1,
+    "designators": {
+      "11x3": [],
+      "8x3": [],
+      "3x8": [
+        "UI1"
+      ],
+      "8x8": []
+    }
+  }
+]

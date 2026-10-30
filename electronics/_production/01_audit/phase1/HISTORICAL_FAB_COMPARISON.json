@@ -1,0 +1,284 @@
+{
+  "11x3": {
+    "generator": {
+      "GenerationSoftware": {
+        "Vendor": "KiCad",
+        "Application": "Pcbnew",
+        "Version": "(6.0.7-1)-1"
+      },
+      "CreationDate": "2023-12-02T14:15:27+01:00"
+    },
+    "project_id": {
+      "Name": "11x3",
+      "GUID": "31317833-2e6b-4696-9361-645f70636258",
+      "Revision": "rev?"
+    },
+    "gerber_outline_bbox_mm": [
+      48.54,
+      24.51,
+      114.54,
+      285.21
+    ],
+    "gerber_outline_size_mm": [
+      66.0,
+      260.7
+    ],
+    "source_outline_bbox_mm": [
+      48.54,
+      24.51,
+      114.54,
+      285.21
+    ],
+    "outline_matches": true,
+    "job_size_mm": {
+      "X": 66.1,
+      "Y": 260.8
+    },
+    "layer_count": 4,
+    "source_layer_count": 4,
+    "drills": {
+      "PTH": 296,
+      "NPTH": 6
+    },
+    "source_drill_count": 302,
+    "drill_geometry_matches_0_001mm": false,
+    "historical_only_holes": [
+      [
+        61.634,
+        223.774,
+        0.4,
+        "PTH"
+      ]
+    ],
+    "source_only_holes": [
+      [
+        61.635,
+        223.774,
+        0.4,
+        "PTH"
+      ]
+    ],
+    "zip_loose_matches": {
+      "gerber/11x3-PTH.drl": true,
+      "gerber/11x3-B_Silkscreen.gbr": true,
+      "gerber/11x3-B_Mask.gbr": true,
+      "gerber/11x3-NPTH.drl": true,
+      "gerber/11x3-B_Paste.gbr": true,
+      "gerber/11x3-In1_Cu.gbr": true,
+      "gerber/11x3-F_Silkscreen.gbr": true,
+      "gerber/11x3-F_Mask.gbr": true,
+      "gerber/11x3-Edge_Cuts.gbr": true,
+      "gerber/11x3-F_Cu.gbr": true,
+      "gerber/11x3-job.gbrjob": true,
+      "gerber/11x3-F_Paste.gbr": true,
+      "gerber/11x3-B_Cu.gbr": true,
+      "gerber/11x3-In2_Cu.gbr": true
+    },
+    "revision_attribution": "UNVERIFIED exact revision: ProjectId.Revision is rev?; outline/layer/drill evidence does not identify an electrical revision. Original and update have identical physical geometry.",
+    "max_hole_coordinate_distance_mm": 0.0006807672142719481,
+    "holes_match_within_0_001mm": true
+  },
+  "8x3": {
+    "generator": {
+      "GenerationSoftware": {
+        "Vendor": "KiCad",
+        "Application": "Pcbnew",
+        "Version": "(6.0.7-1)-1"
+      },
+      "CreationDate": "2022-12-02T15:43:41+01:00"
+    },
+    "project_id": {
+      "Name": "8x3",
+      "GUID": "3878332e-6b69-4636-9164-5f7063625858",
+      "Revision": "rev?"
+    },
+    "gerber_outline_bbox_mm": [
+      17.0,
+      29.5,
+      83.0,
+      219.1
+    ],
+    "gerber_outline_size_mm": [
+      66.0,
+      189.6
+    ],
+    "source_outline_bbox_mm": [
+      17.0,
+      29.5,
+      83.0,
+      219.1
+    ],
+    "outline_matches": true,
+    "job_size_mm": {
+      "X": 66.1,
+      "Y": 189.7
+    },
+    "layer_count": 2,
+    "source_layer_count": 2,
+    "drills": {
+      "PTH": 148,
+      "NPTH": 3
+    },
+    "source_drill_count": 151,
+    "drill_geometry_matches_0_001mm": false,
+    "historical_only_holes": [
+      [
+        69.87,
+        112.55,
+        0.4,
+        "PTH"
+      ]
+    ],
+    "source_only_holes": [
+      [
+        69.871,
+        112.55,
+        0.4,
+        "PTH"
+      ]
+    ],
+    "zip_loose_matches": {
+      "8x3-PTH.drl": true,
+      "8x3-NPTH.drl": true,
+      "8x3-B_Mask.gbr": true,
+      "8x3-F_Paste.gbr": true,
+      "8x3-job.gbrjob": true,
+      "8x3-B_Cu.gbr": true,
+      "8x3-B_Silkscreen.gbr": true,
+      "8x3-Edge_Cuts.gbr": true,
+      "8x3-B_Paste.gbr": true,
+      "8x3-F_Silkscreen.gbr": true,
+      "8x3-F_Mask.gbr": true,
+      "8x3-F_Cu.gbr": true
+    },
+    "revision_attribution": "UNVERIFIED exact revision: ProjectId.Revision is rev?; outline/layer/drill evidence does not identify an electrical revision. Original and update have identical physical geometry.",
+    "max_hole_coordinate_distance_mm": 0.0005685138520805976,
+    "holes_match_within_0_001mm": true
+  },
+  "3x8": {
+    "generator": {
+      "GenerationSoftware": {
+        "Vendor": "KiCad",
+        "Application": "Pcbnew",
+        "Version": "(6.0.7-1)-1"
+      },
+      "CreationDate": "2022-12-02T15:50:45+01:00"
+    },
+    "project_id": {
+      "Name": "3x8",
+      "GUID": "3378382e-6b69-4636-9164-5f7063625858",
+      "Revision": "rev?"
+    },
+    "gerber_outline_bbox_mm": [
+      17.0,
+      29.5,
+      193.0,
+      100.6
+    ],
+    "gerber_outline_size_mm": [
+      176.0,
+      71.1
+    ],
+    "source_outline_bbox_mm": [
+      17.0,
+      29.5,
+      193.0,
+      100.6
+    ],
+    "outline_matches": true,
+    "job_size_mm": {
+      "X": 176.1,
+      "Y": 71.2
+    },
+    "layer_count": 2,
+    "source_layer_count": 2,
+    "drills": {
+      "PTH": 169,
+      "NPTH": 3
+    },
+    "source_drill_count": 172,
+    "drill_geometry_matches_0_001mm": true,
+    "historical_only_holes": [],
+    "source_only_holes": [],
+    "zip_loose_matches": {
+      "3x8-job.gbrjob": true,
+      "3x8-F_Cu.gbr": true,
+      "3x8-F_Paste.gbr": true,
+      "3x8-B_Cu.gbr": true,
+      "3x8-PTH.drl": true,
+      "3x8-F_Mask.gbr": true,
+      "3x8-F_Silkscreen.gbr": true,
+      "3x8-B_Paste.gbr": true,
+      "3x8-B_Mask.gbr": true,
+      "3x8-Edge_Cuts.gbr": true,
+      "3x8-B_Silkscreen.gbr": true,
+      "3x8-NPTH.drl": true
+    },
+    "revision_attribution": "UNVERIFIED exact revision: ProjectId.Revision is rev?; outline/layer/drill evidence does not identify an electrical revision. Original and update have identical physical geometry.",
+    "max_hole_coordinate_distance_mm": 0.0005685138520805976,
+    "holes_match_within_0_001mm": true
+  },
+  "8x8": {
+    "generator": {
+      "GenerationSoftware": {
+        "Vendor": "KiCad",
+        "Application": "Pcbnew",
+        "Version": "(6.0.7-1)-1"
+      },
+      "CreationDate": "2022-12-02T15:51:39+01:00"
+    },
+    "project_id": {
+      "Name": "8x8",
+      "GUID": "3878382e-6b69-4636-9164-5f7063625858",
+      "Revision": "rev?"
+    },
+    "gerber_outline_bbox_mm": [
+      17.0,
+      29.5,
+      193.0,
+      219.1
+    ],
+    "gerber_outline_size_mm": [
+      176.0,
+      189.6
+    ],
+    "source_outline_bbox_mm": [
+      17.0,
+      29.5,
+      193.0,
+      219.1
+    ],
+    "outline_matches": true,
+    "job_size_mm": {
+      "X": 176.1,
+      "Y": 189.7
+    },
+    "layer_count": 2,
+    "source_layer_count": 2,
+    "drills": {
+      "PTH": 350,
+      "NPTH": 8
+    },
+    "source_drill_count": 358,
+    "drill_geometry_matches_0_001mm": true,
+    "historical_only_holes": [],
+    "source_only_holes": [],
+    "zip_loose_matches": {
+      "8x8-B_Paste.gbr": true,
+      "8x8-F_Mask.gbr": true,
+      "8x8-NPTH.drl": true,
+      "8x8-job.gbrjob": true,
+      "8x8-Edge_Cuts.gbr": true,
+      "8x8-PTH.drl": true,
+      "8x8-B_Cu.gbr": true,
+      "8x8-F_Paste.gbr": true,
+      "8x8-B_Silkscreen.gbr": true,
+      "8x8-B_Mask.gbr": true,
+      "8x8-F_Cu.gbr": true,
+      "8x8-F_Silkscreen.gbr": true
+    },
+    "revision_attribution": "UNVERIFIED exact revision: ProjectId.Revision is rev?; outline/layer/drill evidence does not identify an electrical revision. Original and update have identical physical geometry.",
+    "max_hole_coordinate_distance_mm": 0.0005685138520805976,
+    "holes_match_within_0_001mm": true
+  }
+}

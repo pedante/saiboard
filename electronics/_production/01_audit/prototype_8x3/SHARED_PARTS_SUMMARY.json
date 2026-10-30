@@ -1,0 +1,26 @@
+{
+  "AH49E": {
+    "instances": 145,
+    "per_design": {
+      "11x3": 33,
+      "8x3": 24,
+      "3x8": 24,
+      "8x8": 64
+    },
+    "identity_variants": 1,
+    "land_variants": 1,
+    "deviations": []
+  },
+  "SKC6812RGBW-WS": {
+    "instances": 145,
+    "per_design": {
+      "11x3": 33,
+      "8x3": 24,
+      "3x8": 24,
+      "8x8": 64
+    },
+    "identity_variants": 1,
+    "land_variants": 1,
+    "deviations": []
+  }
+}

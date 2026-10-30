@@ -1,0 +1,153 @@
+{
+  "11x3": {
+    "geometry": {
+      "outline_bbox_mm": [
+        48.54,
+        24.51,
+        114.54,
+        285.21
+      ],
+      "outline_size_mm": [
+        66.0,
+        260.7
+      ],
+      "layers": [
+        "F.Cu",
+        "In1.Cu",
+        "In2.Cu",
+        "B.Cu"
+      ],
+      "layer_count": 4,
+      "outline_segments": 1,
+      "drill_count": 302,
+      "thickness_field": [
+        "1.6"
+      ]
+    },
+    "SMT_components": 132,
+    "SMT_pad_count": 401,
+    "sides": {
+      "F.Cu": 99,
+      "B.Cu": 33
+    }
+  },
+  "8x3": {
+    "geometry": {
+      "outline_bbox_mm": [
+        17.0,
+        29.5,
+        83.0,
+        219.1
+      ],
+      "outline_size_mm": [
+        66.0,
+        189.6
+      ],
+      "layers": [
+        "F.Cu",
+        "B.Cu"
+      ],
+      "layer_count": 2,
+      "outline_segments": 1,
+      "drill_count": 151,
+      "thickness_field": [
+        "0.582"
+      ]
+    },
+    "SMT_components": 95,
+    "SMT_pad_count": 286,
+    "sides": {
+      "F.Cu": 72,
+      "B.Cu": 23
+    },
+    "capacitor_connections": {
+      "CI2": {
+        "1": [
+          "GND"
+        ],
+        "2": [
+          "P"
+        ]
+      },
+      "CI4": {
+        "1": [
+          "GND"
+        ],
+        "2": [
+          "P3.3"
+        ]
+      },
+      "UI2": {
+        "1": [
+          "GND"
+        ],
+        "2": [
+          "P3.3"
+        ],
+        "3": [
+          "P"
+        ],
+        "4": []
+      }
+    }
+  },
+  "3x8": {
+    "geometry": {
+      "outline_bbox_mm": [
+        17.0,
+        29.5,
+        193.0,
+        100.6
+      ],
+      "outline_size_mm": [
+        176.0,
+        71.1
+      ],
+      "layers": [
+        "F.Cu",
+        "B.Cu"
+      ],
+      "layer_count": 2,
+      "outline_segments": 1,
+      "drill_count": 172,
+      "thickness_field": [
+        "0.582"
+      ]
+    },
+    "SMT_components": 74,
+    "SMT_pad_count": 234,
+    "sides": {
+      "F.Cu": 72,
+      "B.Cu": 2
+    }
+  },
+  "8x8": {
+    "geometry": {
+      "outline_bbox_mm": [
+        17.0,
+        29.5,
+        193.0,
+        219.1
+      ],
+      "outline_size_mm": [
+        176.0,
+        189.6
+      ],
+      "layers": [
+        "F.Cu",
+        "B.Cu"
+      ],
+      "layer_count": 2,
+      "outline_segments": 1,
+      "drill_count": 358,
+      "thickness_field": [
+        "0.582"
+      ]
+    },
+    "SMT_components": 192,
+    "SMT_pad_count": 576,
+    "sides": {
+      "F.Cu": 192
+    }
+  }
+}

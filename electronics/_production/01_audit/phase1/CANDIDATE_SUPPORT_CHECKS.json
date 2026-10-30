@@ -1,0 +1,13 @@
+{
+  "local_embedded_LED_symbol_equal": {
+    "11x3": true,
+    "8x3": true,
+    "3x8": true,
+    "8x8": true
+  },
+  "Original_SK6812_pdf_matches_original": true,
+  "LED_BOM_rows_verified": 4,
+  "LED_instances_verified": 145,
+  "LED_PIN_AUDIT_rows_verified": 580,
+  "CSV_values_match_candidate_PCB": true
+}

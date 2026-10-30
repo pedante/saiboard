@@ -1,0 +1,84 @@
+{
+  "checked": "2026-10-29",
+  "note": "Illustrative estimates only; temperature-rise criterion has not been approved.",
+  "rows": [
+    {
+      "width_mm": 0.5,
+      "copperWeightOz": 1,
+      "layer": "external",
+      "temperatureRiseC": 10,
+      "result": {
+        "topic": "max-current",
+        "maxCurrent": {
+          "maxCurrentA": 1.447,
+          "source": "IPC-2221 (formerly MIL-STD-275): I = k·ΔT^0.44·A^0.725",
+          "caveat": "Estimate only — does not model adjacent-trace heating, via/plane proximity, or airflow. Verify against your fabricator process; cross-check with IPC-2152 for dense or high-reliability boards."
+        }
+      }
+    },
+    {
+      "width_mm": 1.2,
+      "copperWeightOz": 1,
+      "layer": "external",
+      "temperatureRiseC": 10,
+      "result": {
+        "topic": "max-current",
+        "maxCurrent": {
+          "maxCurrentA": 2.73,
+          "source": "IPC-2221 (formerly MIL-STD-275): I = k·ΔT^0.44·A^0.725",
+          "caveat": "Estimate only — does not model adjacent-trace heating, via/plane proximity, or airflow. Verify against your fabricator process; cross-check with IPC-2152 for dense or high-reliability boards."
+        }
+      }
+    },
+    {
+      "width_mm": 3,
+      "copperWeightOz": 1,
+      "layer": "external",
+      "temperatureRiseC": 10,
+      "result": {
+        "topic": "max-current",
+        "maxCurrent": {
+          "maxCurrentA": 5.304,
+          "source": "IPC-2221 (formerly MIL-STD-275): I = k·ΔT^0.44·A^0.725",
+          "caveat": "Estimate only — does not model adjacent-trace heating, via/plane proximity, or airflow. Verify against your fabricator process; cross-check with IPC-2152 for dense or high-reliability boards."
+        }
+      }
+    },
+    {
+      "width_mm": 4,
+      "copperWeightOz": 1,
+      "layer": "external",
+      "temperatureRiseC": 10,
+      "result": {
+        "topic": "max-current",
+        "maxCurrent": {
+          "maxCurrentA": 6.534,
+          "source": "IPC-2221 (formerly MIL-STD-275): I = k·ΔT^0.44·A^0.725",
+          "caveat": "Estimate only — does not model adjacent-trace heating, via/plane proximity, or airflow. Verify against your fabricator process; cross-check with IPC-2152 for dense or high-reliability boards."
+        }
+      }
+    },
+    {
+      "width_mm": 0.5,
+      "copperWeightOz": 0.5,
+      "layer": "internal",
+      "temperatureRiseC": 10,
+      "result": {
+        "topic": "max-current",
+        "maxCurrent": {
+          "maxCurrentA": 0.438,
+          "source": "IPC-2221 (formerly MIL-STD-275): I = k·ΔT^0.44·A^0.725",
+          "caveat": "Estimate only — does not model adjacent-trace heating, via/plane proximity, or airflow. Verify against your fabricator process; cross-check with IPC-2152 for dense or high-reliability boards."
+        }
+      }
+    }
+  ],
+  "external_0_5mm_at20C": {
+    "topic": "max-current",
+    "maxCurrent": {
+      "maxCurrentA": 1.963,
+      "source": "IPC-2221 (formerly MIL-STD-275): I = k·ΔT^0.44·A^0.725",
+      "caveat": "Estimate only — does not model adjacent-trace heating, via/plane proximity, or airflow. Verify against your fabricator process; cross-check with IPC-2152 for dense or high-reliability boards."
+    }
+  }
+}

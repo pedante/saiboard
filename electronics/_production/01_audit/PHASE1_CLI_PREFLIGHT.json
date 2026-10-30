@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-29",
+  "flatpak_application": "org.kicad.KiCad",
+  "flatpak_installation": "system",
+  "command": "/usr/bin/flatpak run --command=kicad-cli org.kicad.KiCad version",
+  "exit_code": 0,
+  "version": "10.0.7",
+  "execution": "outside sandbox; sandbox attempt failed to allocate instance id",
+  "native_pacman_package_installed": false,
+  "native_cli_on_path": false,
+  "mcp_configured_cli": "/usr/bin/kicad-cli",
+  "mcp_cli_available": false,
+  "mcp_ipc_available": false,
+  "installation_or_uninstallation_performed": false,
+  "design_files_opened_or_saved": false
+}

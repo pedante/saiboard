@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-29",
+  "phase": 2,
+  "CHG-004_status": "Applied-provisional",
+  "original_files_checked": 117,
+  "original_and_snapshot_hashes_unchanged": true,
+  "baseline_files_checked": 27,
+  "backup_exact_and_read_only": true,
+  "changed_files": [
+    "kicad_files/11x3/11x3.kicad_pcb",
+    "kicad_files/11x3/11x3.kicad_sch",
+    "kicad_files/3x8/3x8.kicad_pcb",
+    "kicad_files/3x8/3x8.kicad_sch",
+    "kicad_files/8x3/8x3.kicad_pcb",
+    "kicad_files/8x3/8x3.kicad_sch",
+    "kicad_files/8x8/8x8.kicad_pcb",
+    "kicad_files/8x8/8x8.kicad_sch"
+  ],
+  "only_CHG004_fields_differ_from_originals": true,
+  "baseline_hashes_unchanged_during_Phase2": true,
+  "original_LEDs": 145,
+  "updated_LEDs": 145,
+  "uncovered_LEDs": [],
+  "native_command_count": 16,
+  "native_net_names_and_pin_membership_unchanged": true,
+  "production_output_empty": true,
+  "report_local_links_verified": 21,
+  "no_design_fix_applied_in_phase2": true,
+  "no_refill_save_or_upgrade": true,
+  "unverified_and_blocked_items": "See Phase 2 audit; no manufacturing release."
+}

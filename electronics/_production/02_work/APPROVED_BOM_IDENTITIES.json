@@ -1,0 +1,57 @@
+{
+  "change": "CHG-014",
+  "approved_on": "2026-10-30",
+  "scope": "8x3 prototype only",
+  "status": "Approved identities recorded; CAD and ordering BOM assignment pending import/export",
+  "preserve_value_fields": true,
+  "entries": [
+    {
+      "bom_id": "BOM-05",
+      "designators": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "C6",
+        "C7",
+        "C8",
+        "C9",
+        "C10",
+        "C11",
+        "C12",
+        "C13",
+        "C14",
+        "C15",
+        "C16",
+        "C17",
+        "C18",
+        "C19",
+        "C20",
+        "C21",
+        "C22",
+        "C23",
+        "C24",
+        "CI1",
+        "CI3",
+        "CI5"
+      ],
+      "MPN": "CL31B104KBCNNNC",
+      "LCSC": "C24497",
+      "value_before_after": "C104",
+      "class": "Basic"
+    },
+    {
+      "bom_id": "BOM-09",
+      "designators": [
+        "CI2",
+        "CI4"
+      ],
+      "MPN": "CL31A106KBHNNNE",
+      "LCSC": "C13585",
+      "value_before_after": "C106",
+      "class": "Basic",
+      "bench_note": "Scope 3.3 V rail at CI4/UI2 output under load; CHG-027 stays parked."
+    }
+  ]
+}

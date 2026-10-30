@@ -1,0 +1,21 @@
+{
+  "family": "updated",
+  "design": "8x8",
+  "kind": "netlist",
+  "command": [
+    "/usr/bin/flatpak",
+    "run",
+    "--command=kicad-cli",
+    "org.kicad.KiCad",
+    "sch",
+    "export",
+    "netlist",
+    "-o",
+    "/home/pooo/Desktop/sailboard boards/saiboard-main/electronics/_production/01_audit/phase1/native/updated/8x8/netlist.net",
+    "/home/pooo/Desktop/sailboard boards/saiboard-main/electronics/_production/01_audit/phase1/copies/updated/kicad_files/8x8/8x8.kicad_sch"
+  ],
+  "returncode": 0,
+  "seconds": 0.42,
+  "stdout": "",
+  "stderr": ""
+}

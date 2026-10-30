@@ -1,0 +1,110 @@
+--- original/README.md
++++ updated/README.md
+@@ -1,30 +1,83 @@
+-# Electronics
+-The electronics consists of one touch plate, an array of 19x19 hall sensors (for detecting magnets) and LEDs. \
+-The touch plate is used to detect when a move is finished, so that sliding the stone in position is possible. \
+-It is controlled by an ESP32S3 microcontroller.\
+-To make the manufacturing process easier, the board is divided into several smaller PCBs. \
+-There is a power connection for a raspberry pi.
++# OPSCO SKC6812RGBW-WS component update
+ 
+-## How to build
+-### PCBs
++**CANDIDATE ONLY - NOT RELEASED FOR FABRICATION.** The pin numbering and nominal 5 V supply are compatible. Identical current, specifications, and unchanged-firmware operation are **not** established. The checks below found differences that prevent approving a direct substitution under those requirements.
+ 
+-- [Order](https://jlcpcb.com/) PCB/ Stencil
+-- [Solderpaste](https://www.mouser.de/ProductDetail/Chip-Quik/TS391AX50?qs=1mbolxNpo8c66lK8U%252Bbg8g%3D%3D)
+-- Solder led side first
+-- [Reflow oven](https://www.ninjakitchen.de/produkte/ninja-foodi-8-in-1-multifunktionsofen-sp101eu-zidSP101EU?gclid=CjwKCAiAg6yRBhBNEiwAeVyL0K_J3ElNVxI_Z_oyhJKBGCfaiXaV0-DiEXvF-BnwtabYrZho8xsRyhoCo1UQAvD_BwE): Bake 3 min, 0-90s: 125° C, 90-180s: 230° C, then open door
+-<img src="pcb.jpg" width="600" height="600" />
++## Files and scope
+ 
+-- Print [plastic parts](/electronics/3d_prints/)
+-- Place pcb mask on first side, apply paste to the second side. Then remove pcb mask and bake pcb while placed on e.g. nuts
++The four copied KiCad projects identify the LEDs as **OPSCO SKC6812RGBW-WS**, supplier code **C5378724**. Each LED has Manufacturer, MPN, LCSC, and AssemblyStatus fields. The local `Saiboard_LED.kicad_sym` supplies the RGBW symbol; each project has a relative symbol-library table. Existing PCB footprints, pads, tracks, vias, zones, nets, placement, and all other components are preserved.
+ 
+-  <img src="paste.jpg" width="600" height="600" />
++| Project | Updated references | LEDs per PCB |
++| --- | --- | ---: |
++| 11x3 | D1-D33 | 33 |
++| 3x8 | D1-D24 | 24 |
++| 8x3 | D1-D24 | 24 |
++| 8x8 | D1-D64 | 64 |
+ 
+-### Touch plate
+-Put copper foil on printed pcb-masks, remove foil from holes. Eletrical and physical connect all pcb masks. Glue non copper side to pcb first side with double sided tape. Solder connection to copper side and connect to touch pin of microcontroller.
++This is 145 instances across four **unique** board designs, not the quantity for an assembled 19x19 board. `LED_BOM_CANDIDATE.csv` covers only these LEDs and is not a complete assembly BOM. `LED_PIN_AUDIT.csv` records all 580 LED pads. No firmware, other components, or original files were changed. Gerbers and assembly placement files are intentionally not included in this unreleased candidate.
+ 
+-### Mounting
+-- Press [esp32s3](https://docs.espressif.com/projects/esp-idf/en/latest/esp32s3/hw-reference/esp32s3/user-guide-devkitc-1.html#getting-started) in socket
+-- Use [screws](https://www.amazon.de/gp/product/B00XPJG1OC/ref=ppx_yo_dt_b_asin_title_o05_s00?ie=UTF8&psc=1) out of **stainless steel**.
+-- Enlarge mount holes of raspberry pi 4 to 3mm and fix it with the plastic mount. Connect power pins to board.
+-- Connect board power out to [adapter](https://www.amazon.de/Delock-Terminalblock-2pin-5mm-65421/dp/B009PH1J5Y/ref=pe_27091401_487027711_rtpb_2/259-0379054-1449235/ref=rtpb?_encoding=UTF8&pd_rd_i=B009PH1J5Y&pd_rd_w=x8W3O&content-id=amzn1.sym.474647f1-64c1-44ba-87f5-6213cf212586&pf_rd_p=474647f1-64c1-44ba-87f5-6213cf212586&pf_rd_r=0J4VFHEDP0EWMRD7EHXF&pd_rd_wg=oGq6l&pd_rd_r=6c2ec190-8354-4455-b1a1-8aa1fa129738&th=1). Glue adapter into hole on the side of the board.
+-- Use a 5V/ 10A, 50W [power supply](https://www.amazon.de/LEICKE-Netzteil-Adapter-WS2812B-LED8806/dp/B07YVBHH6K?pd_rd_w=0m35S&content-id=amzn1.sym.5a3fbeeb-1af1-4617-a0f9-8268dbe71de3&pf_rd_p=5a3fbeeb-1af1-4617-a0f9-8268dbe71de3&pf_rd_r=37PZ5YX5WHR4K52V4X9C&pd_rd_wg=4ZrhK&pd_rd_r=1ae78b2e-2f51-4e24-866a-adc47f1cd7c7&pd_rd_i=B07YVBHH6K&psc=1&ref_=pd_basp_d_rpt_ba_s_3_t)
++## Evidence
++
++- Original: the repository's `electronics/datasheets/SK6812.pdf`, copied to `datasheets/Original_SK6812.pdf`; LED COLOR, SPC/SK6812, revision 01, seven pages.
++- Replacement: OPSCO `SKC6812RGBW-XX-X-00X`, **revision B/1, 2025-07-31**, downloaded through the exact [C5378724 supplier listing](https://www.lcsc.com/product-detail/RGB-LEDs-Built-in-IC_OPSCO-Optoelectronics-SKC6812RGBW-WS_C5378724.html). The [supplier-linked manufacturer PDF](https://datasheet.lcsc.com/datasheet/pdf/f73fcb028ddf7140b2dbd34804e8ce40.pdf?productCode=C5378724) is retained in `datasheets/OPSCO_SKC6812RGBW_RevB1_2025-07-31.pdf`.
++- Reference date: 2026-10-29. The publicly mirrored B/0 revision was also examined, but **B/1 governs this comparison**. B/1 changes voltage, logic thresholds, temperature limits, and timing details; distributor summary fields may still reflect older revisions. OPSCO's download page did not provide a directly accessible newer specification.
++
++The original PDF describes a **24-bit RGB** LED, while `software/esp32s3/main/main.c` already selects `.is_rgbw = true`. The original hardware's exact RGBW manufacturer part number, current version, and white bin are therefore not established by the supplied design files. The generic name SK6812 alone cannot prove equivalence.
++
++## Pinout and footprint
++
++Original PDF page 3, replacement PDF pages 5-7, embedded schematic symbols, and every PCB LED pad agree:
++
++| Pin | Original | Replacement | Existing PCB connection |
++| --- | --- | --- | --- |
++| 1 | VSS | GND | GND |
++| 2 | DIN | DIN | Incoming serial data |
++| 3 | VDD | VDD | P, the board's power rail |
++| 4 | DOUT | DOUT | Outgoing serial data |
++
++In the unrotated **top view**, pin 1 is lower right at the chamfer, pin 2 upper right, pin 3 upper left, and pin 4 lower left. Preserve the existing placement rotations; do not use the bottom-view drawing as a placement orientation.
++
++The replacement's nominal package is 5.0 x 4.85 x 1.6 mm, with 3.2 mm vertical terminal pitch. The existing footprint uses 1.5 x 1.0 mm pads centered at X = +/-2.45 mm, Y = +/-1.60 mm. OPSCO page 7 recommends **1.8 x 1.2 mm** pads, 3.3 mm horizontal inner gap and 2.0 mm vertical inner gap (derived centers X = +/-2.55 mm, Y = +/-1.60 mm). The existing pads nominally overlap the replacement terminals, but they are **not the recommended land pattern**. Assembly acceptance of the retained footprint, or a verified footprint revision, is required before fabrication. Pinout compatibility does not itself establish solder-joint suitability.
++
++## Electrical and optical comparison
++
++Source pages: original 3-5; replacement 7-8.
++
++| Parameter | Original supplied SK6812 PDF | OPSCO revision B/1 | Result |
++| --- | --- | --- | --- |
++| Supply | Nominal 5 V; electrical table references 4.5-5.5 V | 3.7-5.5 V | Nominal 5 V compatible |
++| RGB channel drive current | Not specified | 8 mA typical per channel | Equal current cannot be verified |
++| White channel | Not documented | 16.5 mA typical; 2800-3200 K | Different documented function |
++| Idle current | 1 mA typical | 0.29 mA typical | Different |
++| PWM frequency | 1.2 kHz typical | 4 kHz typical | Different |
++| Input thresholds at 5 V | 3.4/1.6 V typical switching thresholds | VIH >= 3.25 V; VIL <= 1.75 V | Different specifications |
++| RGB intensity, mcd | R 700-1000; G 1500-2200; B 700-1000 | R 200-385; G 515-932.5; B 160-320 | Same brightness is not established |
++| Operating temperature | -40 to +85 C | -40 to +80 C | Reduced upper limit |
++| Storage temperature | -50 to +150 C | -40 to +80 C | Different |
++| ESD rating | 4 kV listed | 2 kV HBM | Not an equivalent rating |
++
++The original's 49/-50 mA figures describe **DOUT pin drive**, not LED-channel or package current. They cannot be used to claim equal power consumption. The original optical table omits test current, preventing a controlled brightness comparison.
++
++At full-scale R+G+B+W, an estimate from the replacement's typical channel and idle currents is `3*8 + 16.5 + 0.29 = 40.79 mA` per LED. For the firmware's 361 pixels this is approximately **14.73 A at 5 V (73.6 W)**, before the Raspberry Pi and other electronics. That exceeds the original electronics README's 5 V / 10 A supply. This is a typical-current estimate, not a guaranteed maximum. Existing brightness restrictions and actual operating loads must be established before accepting the original power budget; no supply or brightness settings were changed here.
++
++## Control compatibility
++
++Replacement pages 9-10 specify GRBW, MSB first, 32 bits per pixel. The existing `led_strip.c` already emits that order when `is_rgbw` is true. Frame format therefore matches the current firmware, despite the original RGB-only PDF.
++
++Timing does **not** fully match:
++
++| Timing | Existing firmware | Replacement B/1 requirement |
++| --- | ---: | ---: |
++| T0H | 300 ns | 250-400 ns |
++| T0L | 900 ns | >=800 ns |
++| T1H | **600 ns** | **650-1000 ns** |
++| T1L | 600 ns | >=200 ns |
++| Bit period | 1200 ns | >=1200 ns |
++| Guaranteed reset delay | **50 us** | **>200 us** |
++
++Application/network delays may lengthen the observed reset, but do not guarantee the required minimum in the driver. A minimal future timing adaptation could use T1H = 750 ns, T1L = 500 ns and reset = 300 us, retaining the current zero-bit timings. This is a recommendation only: firmware edits and flashing are outside this component-only deliverable. Verify real pulse widths, first/last-pixel behavior, and rail voltage with the selected production lot.
++
++## Validation and remaining limits
++
++`validation.json` records successful structural comparisons: all 145 schematic/PCB reference pairs match; all 580 pad numbers/functions match the datasheet; all pad geometry and nets are preserved; only LED identity/documentation and the RGBW symbol label changed. Original project files and software were checked unchanged by SHA-256.
++
++The KiCad connector was bound to a different workspace, and a native KiCad CLI was unavailable when final validation was attempted. Native DRC/ERC, schematic rendering, assembly-process approval, firmware build, and real-hardware measurements were not performed. Structural checks are not substitutes for those checks. This folder cannot honestly be described as an identical-spec or fabrication-approved replacement.

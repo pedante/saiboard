@@ -1,0 +1,14 @@
+{
+  "status": "ok",
+  "version": "1.6.0",
+  "node_version": "v24.22.1",
+  "profile": "pro",
+  "transport": "stdio",
+  "bridge_connected": true,
+  "extension_version": "1.6.0",
+  "extension_version_mismatch": false,
+  "registry_mismatch": false,
+  "keyless_sourcing_enabled": true,
+  "catalog_device_count": 14,
+  "ups": 175.793727271
+}

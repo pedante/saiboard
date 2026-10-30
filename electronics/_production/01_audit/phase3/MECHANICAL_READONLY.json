@@ -1,0 +1,233 @@
+[
+  {
+    "path": "board/3d_prints/pen_part1.f3d",
+    "bytes": 46019,
+    "sha256": "4efad435babbd38294eec92caa973e55340daaaa99322b3c595b061ba5aed1d4",
+    "archive_members": 15,
+    "note": "Archive inspected read-only; native binary dimensions/dependencies not decoded. UNVERIFIED."
+  },
+  {
+    "path": "board/3d_prints/pen_part2.f3d",
+    "bytes": 44037,
+    "sha256": "f4e6ce3e7128cc85f30d324547fc0b869f62ed1fc95f32bb5e58eb00b732c4c5",
+    "archive_members": 15,
+    "note": "Archive inspected read-only; native binary dimensions/dependencies not decoded. UNVERIFIED."
+  },
+  {
+    "path": "board/README.md",
+    "bytes": 1973,
+    "sha256": "da47d3b6caa305c4205bf0818127b64b47ddf2e02dc9f818bb9c306485a786b9"
+  },
+  {
+    "path": "board/board.jpg",
+    "bytes": 2333900,
+    "sha256": "4e5cf1c7865a4aacb977fb8e5a75985f12177994301655031f91e25a0dc10e8c"
+  },
+  {
+    "path": "board/cnc_files/Top.f3d",
+    "bytes": 349840,
+    "sha256": "144df2173f67de145875615ef4e8f8bbfb11f8b713b266d5a6cf8251d2c11742",
+    "archive_members": 15,
+    "note": "Archive inspected read-only; native binary dimensions/dependencies not decoded. UNVERIFIED."
+  },
+  {
+    "path": "board/cnc_files/bottom.dxf",
+    "bytes": 1875,
+    "sha256": "1e9d6ae0ce77eec72c4158f222773a373414a1a328ca86368a180b9e343973a1",
+    "entities": {
+      "LWPOLYLINE": 1
+    },
+    "z_coordinates": [],
+    "header_units_code": "4",
+    "note": "Planar drawing; no machining depths or PCB-thickness parameter established."
+  },
+  {
+    "path": "board/cnc_files/bottom.f3d",
+    "bytes": 39290,
+    "sha256": "56a667ba42f48c5c48aa11635a182303f08460f1acdaccf3f853fba0b1a2bc40",
+    "archive_members": 15,
+    "note": "Archive inspected read-only; native binary dimensions/dependencies not decoded. UNVERIFIED."
+  },
+  {
+    "path": "board/cnc_files/grid.dxf",
+    "bytes": 5812,
+    "sha256": "274701b523a0f094d2930b3688e02d0c48eb36201de35cab0c36e54eb112f800",
+    "entities": {
+      "LINE": 38,
+      "CIRCLE": 1
+    },
+    "z_coordinates": [
+      0.0
+    ],
+    "header_units_code": "4",
+    "note": "Planar drawing; no machining depths or PCB-thickness parameter established."
+  },
+  {
+    "path": "board/cnc_files/grid.f3d",
+    "bytes": 158707,
+    "sha256": "980d6ee0eae675a560e086e277f3a1eaf91067a5d6a1a8fad3133e44793b227b",
+    "archive_members": 14,
+    "note": "Archive inspected read-only; native binary dimensions/dependencies not decoded. UNVERIFIED."
+  },
+  {
+    "path": "board/cnc_files/side.dxf",
+    "bytes": 2520,
+    "sha256": "1d428f3b4be6c1c2f28f5d995f46da1a8e3718d1988650b6869e80c8b08a1f9f",
+    "entities": {
+      "LWPOLYLINE": 4,
+      "CIRCLE": 1,
+      "LINE": 2
+    },
+    "z_coordinates": [
+      0.0
+    ],
+    "header_units_code": "4",
+    "note": "Planar drawing; no machining depths or PCB-thickness parameter established."
+  },
+  {
+    "path": "board/cnc_files/side.f3d",
+    "bytes": 70221,
+    "sha256": "5df2b0a3bb386ec1afcb5a3cf97a1872d675291dc29201c0399fbbc8b0c5a1e2",
+    "archive_members": 15,
+    "note": "Archive inspected read-only; native binary dimensions/dependencies not decoded. UNVERIFIED."
+  },
+  {
+    "path": "board/cnc_files/top.dxf",
+    "bytes": 48259,
+    "sha256": "5371483c0f91178831a7c29ec6c82f3ee02a728cd2fcfcb9ccb80654aa67a613",
+    "entities": {
+      "CIRCLE": 361,
+      "LWPOLYLINE": 2
+    },
+    "z_coordinates": [
+      0.0
+    ],
+    "header_units_code": "4",
+    "note": "Planar drawing; no machining depths or PCB-thickness parameter established."
+  },
+  {
+    "path": "electronics/3d_prints/11x3_0.26mm_PETG_MK3S_2h1m.gcode",
+    "bytes": 3034775,
+    "sha256": "513b431fb64bcfa1470126b95106a0f6d44b5172ba9d541a6f21350f7a57f002",
+    "print_layer_z_mm": [
+      0.26,
+      0.52,
+      0.78,
+      1.04,
+      1.3,
+      1.56,
+      1.82,
+      2.08
+    ]
+  },
+  {
+    "path": "electronics/3d_prints/11x3_pcb_mask.f3d",
+    "bytes": 98933,
+    "sha256": "31195cc301ec9fdef8f2853525bf6a93ae7ab9637f306e3dc918d644d72d4fe2",
+    "archive_members": 15,
+    "note": "Archive inspected read-only; native binary dimensions/dependencies not decoded. UNVERIFIED."
+  },
+  {
+    "path": "electronics/3d_prints/3x8_0.26mm_PETG_MK3S_2h54m.gcode",
+    "bytes": 4055771,
+    "sha256": "dbdf9bb5a526f5ba24ee4c1e57fbb3d58a63a3ecd0d99873019e2cb00c85fce6",
+    "print_layer_z_mm": [
+      0.26,
+      0.52,
+      0.78,
+      1.04,
+      1.3,
+      1.56,
+      1.82,
+      2.08
+    ]
+  },
+  {
+    "path": "electronics/3d_prints/3x8_pcb_mask.f3d",
+    "bytes": 75893,
+    "sha256": "ea1229f37705de647c37af65b9267a517950fa1c3c53a0154b39368cb06c6bc6",
+    "archive_members": 15,
+    "note": "Archive inspected read-only; native binary dimensions/dependencies not decoded. UNVERIFIED."
+  },
+  {
+    "path": "electronics/3d_prints/8x3_0.26mm_PETG_MK3S_1h27m.gcode",
+    "bytes": 1969866,
+    "sha256": "1fd86245456ce1d5e2fe81565bcbde283897de6ac338b1d4d0b8174b7531117a",
+    "print_layer_z_mm": [
+      0.26,
+      0.52,
+      0.78,
+      1.04,
+      1.3,
+      1.56,
+      1.82,
+      2.08
+    ]
+  },
+  {
+    "path": "electronics/3d_prints/8x3_pcb_mask.f3d",
+    "bytes": 76109,
+    "sha256": "af824950e055dd075b770a35077bb54fe6b016fc617610b3d03b5f0da64fa951",
+    "archive_members": 15,
+    "note": "Archive inspected read-only; native binary dimensions/dependencies not decoded. UNVERIFIED."
+  },
+  {
+    "path": "electronics/3d_prints/8x8_0.26mm_PETG_MK3S_3h42m.gcode",
+    "bytes": 8776551,
+    "sha256": "ad428fc389f5eca6f30e86d97baebbc2f37792e42e4029154cf524866a67409d",
+    "print_layer_z_mm": [
+      0.26,
+      0.52,
+      0.78,
+      1.04,
+      1.3,
+      1.56,
+      1.82,
+      2.08
+    ]
+  },
+  {
+    "path": "electronics/3d_prints/8x8_pcb_mask.f3d",
+    "bytes": 9748575,
+    "sha256": "386567905cd80e9796c5996bc3a9bf3da7380166faca495facc7f2afa3e23196",
+    "archive_members": 15,
+    "note": "Archive inspected read-only; native binary dimensions/dependencies not decoded. UNVERIFIED."
+  },
+  {
+    "path": "electronics/3d_prints/raspberry_pi_mount.f3d",
+    "bytes": 57518,
+    "sha256": "212f8461d80922d9271f4230e1045ffa321af37c02befbe608d6e81aadfb3bfb",
+    "archive_members": 15,
+    "note": "Archive inspected read-only; native binary dimensions/dependencies not decoded. UNVERIFIED."
+  },
+  {
+    "path": "electronics/3d_prints/raspberry_pi_mount_0.26mm_PETG_MK3S_20m.gcode",
+    "bytes": 748144,
+    "sha256": "fa9ae983a3f51ba26d1f3baff1a5edc5ec1a9290a548c25bcd0cd91bc2250e5e",
+    "print_layer_z_mm": [
+      0.26,
+      0.52,
+      0.78,
+      1.04,
+      1.3,
+      1.56,
+      1.82,
+      2.08,
+      2.34,
+      2.6,
+      2.86,
+      3.12,
+      3.38,
+      3.64,
+      3.9,
+      4.16,
+      4.42,
+      4.68,
+      4.94,
+      5.2,
+      5.46,
+      5.72,
+      5.98
+    ]
+  }
+]

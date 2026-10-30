@@ -1,0 +1,24 @@
+{
+  "mode": "baseline",
+  "design": "8x3",
+  "kind": "erc",
+  "command": [
+    "/usr/bin/flatpak",
+    "run",
+    "--command=kicad-cli",
+    "org.kicad.KiCad",
+    "sch",
+    "erc",
+    "--format",
+    "json",
+    "--severity-all",
+    "--exit-code-violations",
+    "-o",
+    "/home/pooo/Desktop/sailboard boards/saiboard-main/electronics/_production/01_audit/phase2/native/baseline/8x3/erc.json",
+    "/home/pooo/Desktop/sailboard boards/saiboard-main/electronics/_production/01_audit/phase2/copies/baseline/8x3/8x3.kicad_sch"
+  ],
+  "returncode": 5,
+  "seconds": 2.49,
+  "stdout": "Found 230 violations\nSaved ERC Report to /home/pooo/Desktop/sailboard boards/saiboard-main/electronics/_production/01_audit/phase2/native/baseline/8x3/erc.json\n",
+  "stderr": ""
+}

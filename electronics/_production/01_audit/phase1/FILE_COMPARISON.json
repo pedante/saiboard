@@ -1,0 +1,186 @@
+[
+  {
+    "candidate_path": "LED_BOM_CANDIDATE.csv",
+    "original_path": null,
+    "status": "added",
+    "classification": "a: intentional component update/supporting evidence; not compatibility approval",
+    "original_sha256": null,
+    "candidate_sha256": "49d15e2623468550d39834b7bb7131afb56e5b52225e5148aa8c22575f55cdd1"
+  },
+  {
+    "candidate_path": "LED_PIN_AUDIT.csv",
+    "original_path": null,
+    "status": "added",
+    "classification": "a: intentional component update/supporting evidence; not compatibility approval",
+    "original_sha256": null,
+    "candidate_sha256": "2518186196662e9e4153f341851b486a214ccce221f32cb82381f726f824f5e3"
+  },
+  {
+    "candidate_path": "README.md",
+    "original_path": "README.md",
+    "status": "modified",
+    "classification": "a: intentional component update/supporting evidence; not compatibility approval",
+    "original_sha256": "8b20e51f699863e3ed0e370a02afa6049b24f03f8459e75574ba24b3688aa572",
+    "candidate_sha256": "23ac682bd832a0c4ef14e2d0ef1ae8f603ee34bd8fa72e3de53c515a380f68a4"
+  },
+  {
+    "candidate_path": "Saiboard_LED.kicad_sym",
+    "original_path": null,
+    "status": "added",
+    "classification": "a: intentional component update/supporting evidence; not compatibility approval",
+    "original_sha256": null,
+    "candidate_sha256": "28925fdf85934a06fa4f8a219aa24c078cb3483dbb78235584655b71d743ddb3"
+  },
+  {
+    "candidate_path": "datasheets/OPSCO_SKC6812RGBW_RevB1_2025-07-31.pdf",
+    "original_path": null,
+    "status": "added",
+    "classification": "a: intentional component update/supporting evidence; not compatibility approval",
+    "original_sha256": null,
+    "candidate_sha256": "0149a932083ae404d9b52f5c15452e9a04b13a4bd09c1a449b6abc4d3df9fca0"
+  },
+  {
+    "candidate_path": "datasheets/Original_SK6812.pdf",
+    "original_path": null,
+    "status": "added",
+    "classification": "a: intentional component update/supporting evidence; not compatibility approval",
+    "original_sha256": null,
+    "candidate_sha256": "6ef959baa1ec3ab761bf8a64a5b4ab385419b1b3d3209053a88acc8ef21bd04a"
+  },
+  {
+    "candidate_path": "kicad_files/11x3/11x3.kicad_pcb",
+    "original_path": "kicad_files/11x3/11x3.kicad_pcb",
+    "status": "modified",
+    "classification": "a: intentional component update/supporting evidence; not compatibility approval",
+    "original_sha256": "ad1ff0d914ed7d6e1b7b0ab89dc56e422dd41ce3f8b27295fe39c49e46646942",
+    "candidate_sha256": "9d8c77893eacfe448c94d99d4ba3581ebd59f48f8326b87256eeade1dcda5f73"
+  },
+  {
+    "candidate_path": "kicad_files/11x3/11x3.kicad_pro",
+    "original_path": "kicad_files/11x3/11x3.kicad_pro",
+    "status": "identical",
+    "classification": "unchanged",
+    "original_sha256": "24d9068f4d6e8d42fd6a1475dc370c868de02682fbe0bfedb3ee91c81133df67",
+    "candidate_sha256": "24d9068f4d6e8d42fd6a1475dc370c868de02682fbe0bfedb3ee91c81133df67"
+  },
+  {
+    "candidate_path": "kicad_files/11x3/11x3.kicad_sch",
+    "original_path": "kicad_files/11x3/11x3.kicad_sch",
+    "status": "modified",
+    "classification": "a: intentional component update/supporting evidence; not compatibility approval",
+    "original_sha256": "331e9f19037a819f77d3946dc38c98a0e47cdb32d69218051f607a87a34787d0",
+    "candidate_sha256": "77941c943ac235f4f412dd91d6b15adbb867de51c9ee2f090d87822c5cf9a8c3"
+  },
+  {
+    "candidate_path": "kicad_files/11x3/sym-lib-table",
+    "original_path": null,
+    "status": "added",
+    "classification": "a: intentional component update/supporting evidence; not compatibility approval",
+    "original_sha256": null,
+    "candidate_sha256": "e931da6413716b6990e7b9a19df99ed3d3d4f6e420fc7dc3ab1d5c9cd95f2bd0"
+  },
+  {
+    "candidate_path": "kicad_files/3x8/3x8.kicad_pcb",
+    "original_path": "kicad_files/3x8/3x8.kicad_pcb",
+    "status": "modified",
+    "classification": "a: intentional component update/supporting evidence; not compatibility approval",
+    "original_sha256": "579a176ff9c5d0333dd5a25d07ac0de2008c1786b70c34fc11bb03e82abd93ca",
+    "candidate_sha256": "36982c5081da679a3a6300dc0c5d492e2268d036caf8e9632df9534b420bc080"
+  },
+  {
+    "candidate_path": "kicad_files/3x8/3x8.kicad_pro",
+    "original_path": "kicad_files/3x8/3x8.kicad_pro",
+    "status": "identical",
+    "classification": "unchanged",
+    "original_sha256": "e03684fb671465f7b80e7f5870a4021deae83140ca2276e100bb1c953a65a3df",
+    "candidate_sha256": "e03684fb671465f7b80e7f5870a4021deae83140ca2276e100bb1c953a65a3df"
+  },
+  {
+    "candidate_path": "kicad_files/3x8/3x8.kicad_sch",
+    "original_path": "kicad_files/3x8/3x8.kicad_sch",
+    "status": "modified",
+    "classification": "a: intentional component update/supporting evidence; not compatibility approval",
+    "original_sha256": "11666551505a62a763f5004b64f32fbfb276c08c9ba7c5d851217512f0fa6680",
+    "candidate_sha256": "da816e5c9f0f2242266da013c990cc39d4621a6e759c57d4abe17e838690f639"
+  },
+  {
+    "candidate_path": "kicad_files/3x8/sym-lib-table",
+    "original_path": null,
+    "status": "added",
+    "classification": "a: intentional component update/supporting evidence; not compatibility approval",
+    "original_sha256": null,
+    "candidate_sha256": "e931da6413716b6990e7b9a19df99ed3d3d4f6e420fc7dc3ab1d5c9cd95f2bd0"
+  },
+  {
+    "candidate_path": "kicad_files/8x3/8x3.kicad_pcb",
+    "original_path": "kicad_files/8x3/8x3.kicad_pcb",
+    "status": "modified",
+    "classification": "a: intentional component update/supporting evidence; not compatibility approval",
+    "original_sha256": "8dc14928005c5f09fbceb28e73559ee589bc24ec8f4e57b4347acca5b5dd402f",
+    "candidate_sha256": "79138441ef7d917347a7acac4858829dce8b9b882a509ebed25343c2912e1c26"
+  },
+  {
+    "candidate_path": "kicad_files/8x3/8x3.kicad_pro",
+    "original_path": "kicad_files/8x3/8x3.kicad_pro",
+    "status": "identical",
+    "classification": "unchanged",
+    "original_sha256": "671100676f42c7be872d23fbf6f526be6aada726dd587530841bae0587c16106",
+    "candidate_sha256": "671100676f42c7be872d23fbf6f526be6aada726dd587530841bae0587c16106"
+  },
+  {
+    "candidate_path": "kicad_files/8x3/8x3.kicad_sch",
+    "original_path": "kicad_files/8x3/8x3.kicad_sch",
+    "status": "modified",
+    "classification": "a: intentional component update/supporting evidence; not compatibility approval",
+    "original_sha256": "556067fad66c5b16d5b67214a4231e0c2edfe5d0ecc812b367b5a328a5a1b0ea",
+    "candidate_sha256": "b38772fcf1ce2467bf25e6f172bc288f1f5e9b791d614dd93b1cc2c4afc1ca04"
+  },
+  {
+    "candidate_path": "kicad_files/8x3/sym-lib-table",
+    "original_path": null,
+    "status": "added",
+    "classification": "a: intentional component update/supporting evidence; not compatibility approval",
+    "original_sha256": null,
+    "candidate_sha256": "e931da6413716b6990e7b9a19df99ed3d3d4f6e420fc7dc3ab1d5c9cd95f2bd0"
+  },
+  {
+    "candidate_path": "kicad_files/8x8/8x8.kicad_pcb",
+    "original_path": "kicad_files/8x8/8x8.kicad_pcb",
+    "status": "modified",
+    "classification": "a: intentional component update/supporting evidence; not compatibility approval",
+    "original_sha256": "05e5cf6438c95bd3023ca3eb69d23bb763279db6aa958c486b22ada554ba770b",
+    "candidate_sha256": "3273cac4f5be6bace299e23be4615bc75232f4c7dfa223c08d0a1fb466e8f79d"
+  },
+  {
+    "candidate_path": "kicad_files/8x8/8x8.kicad_pro",
+    "original_path": "kicad_files/8x8/8x8.kicad_pro",
+    "status": "identical",
+    "classification": "unchanged",
+    "original_sha256": "88c651a81144b6d0612bb9b387093c02a22c019b7e3b2226708ad33984a3d307",
+    "candidate_sha256": "88c651a81144b6d0612bb9b387093c02a22c019b7e3b2226708ad33984a3d307"
+  },
+  {
+    "candidate_path": "kicad_files/8x8/8x8.kicad_sch",
+    "original_path": "kicad_files/8x8/8x8.kicad_sch",
+    "status": "modified",
+    "classification": "a: intentional component update/supporting evidence; not compatibility approval",
+    "original_sha256": "af176b2fcd444973ed6e410f87a8ce444814d8e205dc4beab294df5f28bf7252",
+    "candidate_sha256": "d8c17b453cfbdcee6edce4d947865017b2ddd9fe2b61b1c3ffb672bacda04986"
+  },
+  {
+    "candidate_path": "kicad_files/8x8/sym-lib-table",
+    "original_path": null,
+    "status": "added",
+    "classification": "a: intentional component update/supporting evidence; not compatibility approval",
+    "original_sha256": null,
+    "candidate_sha256": "e931da6413716b6990e7b9a19df99ed3d3d4f6e420fc7dc3ab1d5c9cd95f2bd0"
+  },
+  {
+    "candidate_path": "validation.json",
+    "original_path": null,
+    "status": "added",
+    "classification": "a: intentional component update/supporting evidence; not compatibility approval",
+    "original_sha256": null,
+    "candidate_sha256": "c7e34c741b8e8f3f9d665c841f2757a917a4dd3fc0389aa0eb05a1cc201ce617"
+  }
+]

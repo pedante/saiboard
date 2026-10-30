@@ -1,0 +1,26 @@
+{
+  "mode": "jlc_screen",
+  "design": "11x3",
+  "kind": "drc",
+  "command": [
+    "/usr/bin/flatpak",
+    "run",
+    "--command=kicad-cli",
+    "org.kicad.KiCad",
+    "pcb",
+    "drc",
+    "--format",
+    "json",
+    "--severity-all",
+    "--all-track-errors",
+    "--schematic-parity",
+    "--exit-code-violations",
+    "-o",
+    "/home/pooo/Desktop/sailboard boards/saiboard-main/electronics/_production/01_audit/phase2/native/jlc_screen/11x3/drc.json",
+    "/home/pooo/Desktop/sailboard boards/saiboard-main/electronics/_production/01_audit/phase2/copies/jlc_screen/11x3/11x3.kicad_pcb"
+  ],
+  "returncode": 5,
+  "seconds": 3.51,
+  "stdout": "Found 188 violations\nFound 0 unconnected items\nFound 184 schematic parity issues\nSaved DRC Report to /home/pooo/Desktop/sailboard boards/saiboard-main/electronics/_production/01_audit/phase2/native/jlc_screen/11x3/drc.json\n",
+  "stderr": ""
+}
